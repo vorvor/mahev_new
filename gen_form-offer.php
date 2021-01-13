@@ -32,6 +32,7 @@
                 <li><span>Külső szín</span><span>Vörös metál</span></li>
                 <li><span>Belső szín</span><span>Gyémánt metál</span></li>
                 <li><span>Felni</span><span>18’ Aero könnyűfém</span></li>
+                <li><span>Ülések</span><span>4</span></li>
                 <li><span>Téli gumi</span><span></span></li>
                 <li><span>Extra</span><span></span></li>
               </ul>
@@ -101,11 +102,9 @@
             </div><!--checkbox-->
 
             <!-- Konstrukció -->
-            <div class="sm:col-span-6">            
-                <div class="finance-form webform-component--financial-construction">
+            <div class="sm:col-span-6 finance-form hidden">            
               <label for="edit-submitted-financial-construction" class="block text-sm font-medium leading-5 text-gray-500">Konstrukció</label>
              <select class="order-financial-construction order-funding  form-select required" id="financial-construction" name="submitted[financial_construction]" required=""><option value="" selected="selected">Kérem válassszon!</option><option value="close-end">zártvégű pénzügyi lízing</option><option value="open-end">nyíltvégű pénzügyi lízing</option><option value="rental">tartós bérlet</option></select>
-            </div>
             </div>
 
             
@@ -128,7 +127,7 @@
             </div>
 
             <!-- Futamidő -->
-            <div class="sm:col-span-6">
+            <div class="sm:col-span-6 finance-form hidden">
               <label for="edit-submitted-duration" class="block text-sm font-medium leading-5 text-gray-500">Futamidő</label>
              <select class="order-duration order-funding  form-select required" id="duration" name="submitted[duration]" required=""><option value="0" selected="selected">Kérem válasszon!</option><option value="12">12</option><option value="18">18</option><option value="24">24</option><option value="30">30</option><option value="36">36</option><option value="42">42</option><option value="48">48</option><option value="54">54</option><option value="60">60</option><option value="66">66</option><option value="72">72</option><option value="78">78</option><option value="84">84</option></select>
             </div>

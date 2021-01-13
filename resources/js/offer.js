@@ -4,8 +4,9 @@ $(function(){
 	$('._config-summary li:nth-child(2) span:nth-child(2)').html(getCookie('mahev_exterior'));
 	$('._config-summary li:nth-child(3) span:nth-child(2)').html(getCookie('mahev_interior'));
 	$('._config-summary li:nth-child(4) span:nth-child(2)').html(getCookie('mahev_rim'));
-	$('._config-summary li:nth-child(5) span:nth-child(2)').html(getCookie('mahev_wtire'));
-	$('._config-summary li:nth-child(6) span:nth-child(2)').html(getCookie('mahev_extra'));
+	$('._config-summary li:nth-child(5) span:nth-child(2)').html(getCookie('mahev_seats'));
+	$('._config-summary li:nth-child(6) span:nth-child(2)').html(getCookie('mahev_wtire'));
+	$('._config-summary li:nth-child(7) span:nth-child(2)').html(getCookie('mahev_extra'));
 
 	function getCookie(cname) {
 	  var name = cname + "=";

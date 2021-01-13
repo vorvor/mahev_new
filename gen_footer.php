@@ -55,8 +55,8 @@
             <a href= "tel:0036306668888" class= "w-full mx-auto mb-8 bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">+36 30 666 8888</a>
             <a href= "/gen_form-message.php" class= "w-full mx-auto mb-8 bg-gray-300  hover:bg-gray-400  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Üzenetet küldök</a>
             <ul class="grid grid-cols-3 gap-8 justify-items-center items-center w-full">
-                <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150 link-overlay extend-a">
-                    <a href="#" class="text-white">
+                <!--<li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150 link-overlay extend-a">
+                    <a href="" class="text-white">
                         
     <svg class="svg-icon ">
         <use xlink:href="#i-whatsup"></use>
@@ -70,9 +70,9 @@
         <use xlink:href="#i-viber"></use>
     </svg>
                     </a>
-                </li>
+                </li>-->
                 <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150 link-overlay extend-a">
-                    <a href="#" class="text-white">
+                    <a href="https://m.me/MagyarAutokereskedohazZrt" class="text-white">
                         
     <svg class="svg-icon ">
         <use xlink:href="#i-messenger"></use>
@@ -80,15 +80,7 @@
                     </a>
                 </li>
                 <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150 link-overlay extend-a">
-                    <a href="#" class="text-white">
-                        
-    <svg class="svg-icon ">
-        <use xlink:href="#i-phone"></use>
-    </svg>
-                    </a>
-                </li>
-                <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150 link-overlay extend-a">
-                    <a href="#" class="text-white">
+                    <a href="mailto:info@mahzrt.hu" class="text-white">
                         
     <svg class="svg-icon ">
         <use xlink:href="#i-mail"></use>
@@ -96,7 +88,7 @@
                     </a>
                 </li>
                 <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150 link-overlay extend-a">
-                    <a href="#" class="text-white">
+                    <a href="https://www.facebook.com/MagyarAutokereskedohazZrt" class="text-white">
                         
     <svg class="svg-icon ">
         <use xlink:href="#i-facebook"></use>
