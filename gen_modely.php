@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
+    <script src="resources/js/config-my.js"></script>
   </head>
   <body class="debug-screens bg-white model"> 
 
@@ -388,13 +389,19 @@
             <a class='select-none inline-block text-center flex-grow border-b-2 text-gray-300 leading-none hover:text-gray-500 border-gray-100 px-2 pb-2' href="#conf-tab-2">Szín</a>
             <a class='select-none inline-block text-center flex-grow border-b-2 text-gray-300 leading-none hover:text-gray-500 border-gray-100 px-2 pb-2' href="#conf-tab-3">Felni</a>
             <a class='select-none inline-block text-center flex-grow border-b-2 text-gray-300 leading-none hover:text-gray-500 border-gray-100 px-2 pb-2' href="#conf-tab-4">Belső</a>
+            <a class='select-none inline-block text-center flex-grow border-b-2 text-gray-300 leading-none hover:text-gray-500 border-gray-100 px-2 pb-2' href="#conf-tab-6">Önvezetés</a>
             <a class='select-none inline-block text-center flex-grow border-b-2 text-gray-300 leading-none hover:text-gray-500 border-gray-100 px-2 pb-2' href="#conf-tab-5">Extra</a>
+            
         </nav>
+
+
+
+<!-- Kivitel -->        
         <div class="_tab-content pb-4 radiogroup" id="conf-tab-1"> 
             
 
 
-<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
+<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4 on">
     <div class="flex items-center space-x-3 col-span-2">
         <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
             <!-- On: "scale-100", Off: "scale-0" -->
@@ -403,15 +410,15 @@
         <span id="toggle-label10" class="leading-5 flex">
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Standard-White Plus (Rwd)</span>
+                <span class="w-full block text-sm font-semibold">Long range (AWD)</span>
                 
-                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 3.4 mp | Hatótáv: 610 km | Végsebesség 250 km/h</span>
+                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 5.1 mp | Hatótáv: 505 km | Végsebesség 217 km/h</span>
                 
             </div>
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
+        <div>66 999 €</div>
     </div>
 </div>
             
@@ -426,64 +433,24 @@
         <span id="toggle-label10" class="leading-5 flex">
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Long range (Awd)</span>
+                <span class="w-full block text-sm font-semibold">Performance (AWD)</span>
                 
-                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 3.4 mp | Hatótáv: 610 km | Végsebesség 250 km/h</span>
-                
-            </div>
-        </span>
-    </div>
-    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
-    </div>
-</div>
-            
-
-
-<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
-    <div class="flex items-center space-x-3 col-span-2">
-        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "scale-100", Off: "scale-0" -->
-            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
-        </span>
-        <span id="toggle-label10" class="leading-5 flex">
-            
-            <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Standard-White Plus (Rwd)</span>
-                
-                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 3.4 mp | Hatótáv: 610 km | Végsebesség 250 km/h</span>
+                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 3.7 mp | Hatótáv: 480 km | Végsebesség 241 km/h</span>
                 
             </div>
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
+        <div>74 490 €</div>
     </div>
 </div>
             
-
-
-<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
-    <div class="flex items-center space-x-3 col-span-2">
-        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "scale-100", Off: "scale-0" -->
-            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
-        </span>
-        <span id="toggle-label10" class="leading-5 flex">
             
-            <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Long range (Awd)</span>
-                
-                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 3.4 mp | Hatótáv: 610 km | Végsebesség 250 km/h</span>
-                
-            </div>
-        </span>
-    </div>
-    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
-    </div>
-</div>
+
         </div>
+
+
+<!-- Külső -->        
         <div class="_tab-content pb-4 radiogroup" id="conf-tab-2">
             
 
@@ -510,7 +477,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
+        <div>0 €</div>
     </div>
 </div>
             
@@ -538,7 +505,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
+        <div>1 150 €</div>
     </div>
 </div>
             
@@ -566,7 +533,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
+        <div>1 150 €</div>
     </div>
 </div>
             
@@ -594,7 +561,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
+        <div>1 150 €</div>
     </div>
 </div>
             
@@ -622,10 +589,12 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
+        <div>2 300 €</div>
     </div>
 </div>
         </div>
+
+<!-- Felni -->        
         <div class="_tab-content pb-4 radiogroup" id="conf-tab-3">
             
 
@@ -644,7 +613,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Hitvány felni</span>
+                <span class="w-full block text-sm font-semibold">18' aero könnyűfém felni</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -652,7 +621,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>1000 €</div>
+        <div>0 €</div>
     </div>
 </div>
             
@@ -672,7 +641,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Átlagos felni</span>
+                <span class="w-full block text-sm font-semibold">19' sport könnyűfém felni</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -680,7 +649,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>2000 €</div>
+        <div>1 750 €</div>
     </div>
 </div>
             
@@ -700,7 +669,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Remek felni</span>
+                <span class="w-full block text-sm font-semibold">20' performance szürke könnyűfém felni</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -708,7 +677,39 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>4000 €</div>
+        <div>1 750 €</div>
+    </div>
+</div>
+            
+
+</div>
+
+<!-- Belső -->        
+<div class="_tab-content pb-4 radiogroup" id="conf-tab-4">
+            
+
+
+<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
+
+    <div class="flex items-center space-x-3 col-span-2">
+        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+            <!-- On: "scale-100", Off: "scale-0" -->
+            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
+        </span>
+        <span id="toggle-label10" class="leading-5 flex">
+            
+            <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
+                <svg class="svg-icon "><use xlink:href="#i-color-black"></use></svg>
+            </div>
+            
+            <div class="flex-shrink">
+                <span class="w-full block text-sm font-semibold">Fekete</span>
+                <span class="hidden sm:inline w-full block text-xs"></span>
+            </div>
+        </span>
+    </div>
+    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
+        <div>0 €</div>
     </div>
 </div>
             
@@ -723,12 +724,11 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-    <svg class="svg-icon ">
-        <use xlink:href="#i-felni1"></use>
-    </svg></div>
+    <img src="./resources/img/radio-bw-icon.png">
+    </div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Csodás felni</span>
+                <span class="w-full block text-sm font-semibold">Fekete-fehér</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -736,15 +736,22 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>8000 €</div>
+        <div>1 150 €</div>
     </div>
 </div>
+            
+
+
+            
+
         </div>
-        <div class="_tab-content pb-4 radiogroup" id="conf-tab-4">
+
+        <!-- Önvezetés -->
+<div class="_tab-content pb-4 radiogroup" id="conf-tab-5">
             
 
-
 <div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
+
     <div class="flex items-center space-x-3 col-span-2">
         <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
             <!-- On: "scale-100", Off: "scale-0" -->
@@ -752,21 +759,16 @@
         </span>
         <span id="toggle-label10" class="leading-5 flex">
             
-                <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-    <svg class="svg-icon ">
-        <use xlink:href="#i-color-diamond"></use>
-    </svg></div>
+           
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Gyémánt metál</span>
-                
-                    <span class="hidden sm:inline w-full block text-xs"></span>
-                
+                <span class="w-full block text-sm font-semibold">Autopilot</span>
+                <span class="hidden sm:inline w-full block text-xs"></span>
             </div>
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
+        <div>0 €</div>
     </div>
 </div>
             
@@ -780,13 +782,9 @@
         </span>
         <span id="toggle-label10" class="leading-5 flex">
             
-                <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-    <svg class="svg-icon ">
-        <use xlink:href="#i-color-black"></use>
-    </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Fekete metál</span>
+                <span class="w-full block text-sm font-semibold">Full self driving</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -794,95 +792,16 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
+        <div>7 999 €</div>
     </div>
 </div>
-            
+ </div>
+<!-- Önvezetés -->
+
+<!-- Extra -->
 
 
-<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
-    <div class="flex items-center space-x-3 col-span-2">
-        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "scale-100", Off: "scale-0" -->
-            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
-        </span>
-        <span id="toggle-label10" class="leading-5 flex">
-            
-                <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-    <svg class="svg-icon ">
-        <use xlink:href="#i-color-gray"></use>
-    </svg></div>
-            
-            <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Sötétszürke metál</span>
-                
-                    <span class="hidden sm:inline w-full block text-xs"></span>
-                
-            </div>
-        </span>
-    </div>
-    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
-    </div>
-</div>
-            
-
-
-<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
-    <div class="flex items-center space-x-3 col-span-2">
-        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "scale-100", Off: "scale-0" -->
-            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
-        </span>
-        <span id="toggle-label10" class="leading-5 flex">
-            
-                <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-    <svg class="svg-icon ">
-        <use xlink:href="#i-color-blue"></use>
-    </svg></div>
-            
-            <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Mélykék metál</span>
-                
-                    <span class="hidden sm:inline w-full block text-xs"></span>
-                
-            </div>
-        </span>
-    </div>
-    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
-    </div>
-</div>
-            
-
-
-<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
-    <div class="flex items-center space-x-3 col-span-2">
-        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "scale-100", Off: "scale-0" -->
-            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
-        </span>
-        <span id="toggle-label10" class="leading-5 flex">
-            
-                <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-    <svg class="svg-icon ">
-        <use xlink:href="#i-color-red"></use>
-    </svg></div>
-            
-            <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Vörös metál</span>
-                
-                    <span class="hidden sm:inline w-full block text-xs"></span>
-                
-            </div>
-        </span>
-    </div>
-    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>51550 €</div>
-    </div>
-</div>
-        </div>
-        <div class="_tab-content pb-4" id="conf-tab-5">
+        <div class="_tab-content pb-4" id="conf-tab-6">
             
 
 <div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label1" class="_toggle-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
@@ -893,136 +812,85 @@
             <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
         </span>
         <span id="toggle-label1" class="leading-5">
-            <span class="w-full block text-sm font-semibold">Kábel nélküli telefontöltő</span>
+            <span class="w-full block text-sm font-semibold">Vonóhorog</span>
             
                 <span class="hidden sm:inline w-full block text-xs"></span>
             
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>170 €</div>
+        <div>1 160 €</div>
     </div>
 </div> 
-            
 
-<div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label2" class="_toggle-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
+<h3 class="font-semibold text-gray-500" style="padding-top:20px">Téli garnitúra pirelli gumival</h3>
+
+<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
+
     <div class="flex items-center space-x-3 col-span-2">
-        <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
-        <span class="switch bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "translate-x-5", Off: "translate-x-0" -->
-            <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
+        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+            <!-- On: "scale-100", Off: "scale-0" -->
+            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
         </span>
-        <span id="toggle-label2" class="leading-5">
-            <span class="w-full block text-sm font-semibold">Lángszóró</span>
+        <span id="toggle-label10" class="leading-5 flex">
             
-                <span class="hidden sm:inline w-full block text-xs">Neheztelsz a mosómedvékre? Most megkapják a kis mocskok.</span>
+           
             
+            <div class="flex-shrink">
+                <span class="w-full block text-sm font-semibold">18' aero könnyűfém felni</span>
+                <span class="hidden sm:inline w-full block text-xs"></span>
+            </div>
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>4300 €</div>
+        <div>2190 €</div>
     </div>
 </div>
-            
 
-<div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label3" class="_toggle-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
+<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
+
     <div class="flex items-center space-x-3 col-span-2">
-        <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
-        <span class="switch bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "translate-x-5", Off: "translate-x-0" -->
-            <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
+        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+            <!-- On: "scale-100", Off: "scale-0" -->
+            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
         </span>
-        <span id="toggle-label3" class="leading-5">
-            <span class="w-full block text-sm font-semibold">Még egy Tesla</span>
+        <span id="toggle-label10" class="leading-5 flex">
             
-                <span class="hidden sm:inline w-full block text-xs">Tudtad, hogy az extra Teslába kérhetsz extraként egy extra Teslát?</span>
+           
             
+            <div class="flex-shrink">
+                <span class="w-full block text-sm font-semibold">19' sport könnyűfém felni</span>
+                <span class="hidden sm:inline w-full block text-xs"></span>
+            </div>
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>63567 €</div>
+        <div>3 750 €</div>
     </div>
 </div>
-            
 
-<div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label4" class="_toggle-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
+<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
+
     <div class="flex items-center space-x-3 col-span-2">
-        <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
-        <span class="switch bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "translate-x-5", Off: "translate-x-0" -->
-            <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
+        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+            <!-- On: "scale-100", Off: "scale-0" -->
+            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
         </span>
-        <span id="toggle-label4" class="leading-5">
-            <span class="w-full block text-sm font-semibold">Mahagóni fa elsősegély doboz</span>
+        <span id="toggle-label10" class="leading-5 flex">
             
-                <span class="hidden sm:inline w-full block text-xs">A stílus mindig számít.</span>
+           
             
+            <div class="flex-shrink">
+                <span class="w-full block text-sm font-semibold">20' performance könnyűfém felni</span>
+                <span class="hidden sm:inline w-full block text-xs"></span>
+            </div>
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>500 €</div>
+        <div>4 290 €</div>
     </div>
 </div>
-            
 
-<div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label5" class="_toggle-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
-    <div class="flex items-center space-x-3 col-span-2">
-        <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
-        <span class="switch bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "translate-x-5", Off: "translate-x-0" -->
-            <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
-        </span>
-        <span id="toggle-label5" class="leading-5">
-            <span class="w-full block text-sm font-semibold">Kormány</span>
-            
-                <span class="hidden sm:inline w-full block text-xs">A hagyományok kedvelőinek.</span>
-            
-        </span>
-    </div>
-    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>950 €</div>
-    </div>
-</div> 
-            
-
-<div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label5" class="_toggle-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
-    <div class="flex items-center space-x-3 col-span-2">
-        <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
-        <span class="switch bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "translate-x-5", Off: "translate-x-0" -->
-            <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
-        </span>
-        <span id="toggle-label5" class="leading-5">
-            <span class="w-full block text-sm font-semibold">Még extra</span>
-            
-                <span class="hidden sm:inline w-full block text-xs">Extra leírása</span>
-            
-        </span>
-    </div>
-    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>950 €</div>
-    </div>
-</div> 
-            
-
-<div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label5" class="_toggle-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
-    <div class="flex items-center space-x-3 col-span-2">
-        <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
-        <span class="switch bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "translate-x-5", Off: "translate-x-0" -->
-            <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
-        </span>
-        <span id="toggle-label5" class="leading-5">
-            <span class="w-full block text-sm font-semibold">Még még extra</span>
-            
-                <span class="hidden sm:inline w-full block text-xs">Extra leírása</span>
-            
-        </span>
-    </div>
-    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>950 €</div>
-    </div>
-</div> 
         </div>
     </div>
     <div class="product min-h-16 lg:col-span-2">
@@ -1084,60 +952,78 @@
     <div class="offer min-h-4 bg-emerald-500 text-gray-500 w-full bottom-8 z-10 shadow-md hidden xl:block">
         <div class="hidden xl:block p-4">
             <div class="content">
-                <h3 class="text-2xl"><span class="text-white">Áttekintés</span> Model Y</h3>
+                <h3 class="text-2xl"><span class="text-white">Áttekintés</span> Model 3</h3>
                 <div aria-hidden="true" class="border-b-2 border-white"></div>
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Kivitel</span>
-                        <span class="block">Standard Range Plus (RWD)</span>
+                        <span class="block facility">Standard Plus (Rwd)</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right">48000 €</div>
+                    <div class="w-1/4 mt-auto text-right price facility-price">50 250 €</div>
                 </div><!-- offer -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Külső szín</span>
-                        <span class="block">Vörös metál</span>
+                        <span class="block exterior">Gyémánt metál</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right">4000 €</div>
+                    <div class="w-1/4 mt-auto text-right price exterior-price">0 €</div>
                 </div><!-- offer -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Belső szín</span>
-                        <span class="block">Gyémánt metál</span>
+                        <span class="block interior">Fehér</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right">3200 €</div>
+                    <div class="w-1/4 mt-auto text-right price interior-price">0 €</div>
                 </div><!-- offer -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Felni</span>
-                        <span class="block">18’ Aero könnyűfém</span>
+                        <span class="block rim">18’ Aero könnyűfém</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right">4900 €</div>
+                    <div class="w-1/4 mt-auto text-right price rim-price">0 €</div>
+                </div><!-- offer -->
+                <div class="flex text-sm my-4 font-semibold">
+                    <div class="w-3/4 pr-2">
+                        <span class="block text-white">Téli gumi</span>
+                        <span class="block winter-tire"></span>
+                    </div>
+                    <div class="w-1/4 mt-auto text-right price winter-tire-price">0 €</div>
                 </div><!-- offer -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Extrák</span>
-                        <span class="block">Vonóhorog</span>
-                        <span class="block">Enhanced Anti-theft</span>
-                        <span class="block">Wireless Phone Charger</span>
+                        <span class="block extra">Vonóhorog</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right">8700 €</div>
+                    <div class="w-1/4 mt-auto text-right price extra-price">0 €</div>
+                </div><!-- offer -->
+                <div class="flex text-sm my-4 font-semibold">
+                    <div class="w-3/4 pr-2">
+                        <span class="block text-white">Önvezetés</span>
+                        <span class="block self-driving">Autopilot</span>
+                    </div>
+                    <div class="w-1/4 mt-auto text-right price self-driving-price">0 €</div>
                 </div><!-- offer -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Szállítás</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right">8700 €</div>
+                    <div class="w-1/4 mt-auto price text-right">990 €</div>
+                </div><!-- offer --> 
+                 <div class="flex text-sm my-4 font-semibold">
+                    <div class="w-3/4 pr-2">
+                        <span class="block text-white">Forgalomba helyezés</span>
+                    </div>
+                    <div class="w-1/4 mt-auto text-right">0 €</div>
                 </div><!-- offer --> 
                 <div aria-hidden="true" class="border-b-2 border-white"></div>
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-1/2 pr-2 mt-auto">
                         <span class="block">Bruttó vételár</span>
                     </div>
-                    <div class="w-1/2 mt-auto text-right text-white text-xl sm:text-4xl leading-none">65 310 €</div>
+                    <div class="w-1/2 mt-auto text-right text-white text-xl sm:text-4xl leading-none sum-price">65 310 €</div>
                 </div>
                 <div class="text-center mt-4 sm:mt-8">
-                    <a href= "/form-offer.html" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">ajánlatot kérek</a>
+                    <a href= "/gen_form-offer.php" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">ajánlatot kérek</a>
                 </div>
             </div>
         </div> 
