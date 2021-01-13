@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <?php include('./gen_header.php'); ?>
+  </head>
+  <body class="debug-screens bg-white fooldal"> 
+
+
+    
+    <div id="sitewrapper">
+      <?php include('./gen_svg.php'); ?>
+      <?php include('./gen_header_menu.php'); ?>
+          <section class="swiper-big swiper-container w-full">
+    <div class="swiper-wrapper h-screen50 md:h-screen80 min-h-56 flex">
+        
+        <div class="swiper-slide relative flex items-stretch overflow-hidden">
+            <div class="innerwrapper py-4 md:py-12 w-full relative flex flex-wrap items-start mx-auto container">
+                <h2 class="ani-delay-5 ani-slidein-l text-3xl  text-white   md:text-5xl pl-4 sm:pl-8 md:pl-16 border-l-2 border-emerald-500 relative">
+                    <span class="hidden sm:inline">Tesla</span> Model S
+                </h2>
+                <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
+                    <div class="bg-emerald-500 duration-200 ease-out h-16 icon mx-auto overflow-hidden rounded-full transition-colors w-16 md:h-20 md:w-20">
+                        <a class="block rounded-full h-full" href="/gen_models.php">
+                            
+    <svg class="svg-icon p-4 text-white">
+        <use xlink:href="#i-details"></use>
+    </svg>
+                        </a>
+                    </div>
+                    <div class="icon-label text-sm text-center hidden">
+                        részletek
+                    </div>
+                </div>
+                <ul class="highlights self-end w-full flex justify-between md:justify-end items-center">
+                    <li class="ani-delay-10 w-24 ani-slidein-b">
+                        <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
+                            <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
+                                3.4
+                            </div>
+                            <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
+                                mp
+                            </div>
+                        </div>
+                        <div class="label text-sm text-center text-white">
+                            gyorsulás
+                        </div>
+                    </li>
+                    <li class="ani-delay-11 separator block sm:mx-4 bg-white h-px w-5 ani-slidein-b"></li>
+                    <li class="ani-delay-11 w-24 ani-slidein-b">
+                        <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
+                            <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
+                                250
+                            </div>
+                            <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
+                                km/h
+                            </div>
+                        </div>
+                        <div class="label text-sm text-center text-white">
+                            végsebesség
+                        </div>
+                    </li>
+                    <li class="ani-delay-12 separator block sm:mx-4 bg-white h-px w-5 ani-slidein-b"></li>
+                    <li class="ani-delay-12 w-24 ani-slidein-b">
+                        <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
+                            <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
+                                550
+                            </div>
+                            <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
+                                km
+                            </div>
+                        </div>
+                        <div class="label text-sm text-center text-white">
+                            hatótáv
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--innerwrapper-->
+            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
+                <img class="block object-cover object-center w-full h-full" src="resources/img/home__model-s.jpg" alt="">
+            </div>
+        </div><!--swiper-slide -->
+        
+        
+           
+        
+        <div class="swiper-slide relative flex items-stretch overflow-hidden">
+            <div class="innerwrapper py-4 md:py-12 w-full relative flex flex-wrap items-start mx-auto container">
+                <h2 class="ani-delay-5 ani-slidein-l text-3xl  text-white   md:text-5xl pl-4 sm:pl-8 md:pl-16 border-l-2 border-emerald-500 relative">
+                    <span class="hidden sm:inline">Tesla</span> Model 3
+                </h2>
+                <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
+                    <div class="bg-emerald-500 duration-200 ease-out h-16 icon mx-auto overflow-hidden rounded-full transition-colors w-16 md:h-20 md:w-20">
+                        <a class="block rounded-full h-full" href="/gen_model3.php">
+                            
+    <svg class="svg-icon p-4 text-white">
+        <use xlink:href="#i-details"></use>
+    </svg>
+                        </a>
+                    </div>
+                    <div class="icon-label text-sm text-center hidden">
+                        részletek
+                    </div>
+                </div>
+                <ul class="highlights self-end w-full flex justify-between md:justify-end items-center">
+                    <li class="ani-delay-10 w-24 ani-slidein-b">
+                        <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
+                            <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
+                                3.5
+                            </div>
+                            <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
+                                mp
+                            </div>
+                        </div>
+                        <div class="label text-sm text-center text-white">
+                            gyorsulás
+                        </div>
+                    </li>
+                    <li class="ani-delay-11 separator block sm:mx-4 bg-white h-px w-5 ani-slidein-b"></li>
+                    <li class="ani-delay-11 w-24 ani-slidein-b">
+                        <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
+                            <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
+                                260
+                            </div>
+                            <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
+                                km/h
+                            </div>
+                        </div>
+                        <div class="label text-sm text-center text-white">
+                            végsebesség
+                        </div>
+                    </li>
+                    <li class="ani-delay-12 separator block sm:mx-4 bg-white h-px w-5 ani-slidein-b"></li>
+                    <li class="ani-delay-12 w-24 ani-slidein-b">
+                        <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
+                            <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
+                                590
+                            </div>
+                            <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
+                                km
+                            </div>
+                        </div>
+                        <div class="label text-sm text-center text-white">
+                            hatótáv
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--innerwrapper-->
+            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
+                <img class="block object-cover object-center w-full h-full" src="resources/img/home__model-3.jpg" alt="">
+            </div>
+        </div><!--swiper-slide -->
+        
+        
+           
+        
+        <div class="swiper-slide relative flex items-stretch overflow-hidden">
+            <div class="innerwrapper py-4 md:py-12 w-full relative flex flex-wrap items-start mx-auto container">
+                <h2 class="ani-delay-5 ani-slidein-l text-3xl  text-white   md:text-5xl pl-4 sm:pl-8 md:pl-16 border-l-2 border-emerald-500 relative">
+                    <span class="hidden sm:inline">Tesla</span> Model X
+                </h2>
+                <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
+                    <div class="bg-emerald-500 duration-200 ease-out h-16 icon mx-auto overflow-hidden rounded-full transition-colors w-16 md:h-20 md:w-20">
+                        <a class="block rounded-full h-full" href="/gen_modelx.php">
+                            
+    <svg class="svg-icon p-4 text-white">
+        <use xlink:href="#i-details"></use>
+    </svg>
+                        </a>
+                    </div>
+                    <div class="icon-label text-sm text-center hidden">
+                        részletek
+                    </div>
+                </div>
+                <ul class="highlights self-end w-full flex justify-between md:justify-end items-center">
+                    <li class="ani-delay-10 w-24 ani-slidein-b">
+                        <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
+                            <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
+                                3.9
+                            </div>
+                            <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
+                                mp
+                            </div>
+                        </div>
+                        <div class="label text-sm text-center text-white">
+                            gyorsulás
+                        </div>
+                    </li>
+                    <li class="ani-delay-11 separator block sm:mx-4 bg-white h-px w-5 ani-slidein-b"></li>
+                    <li class="ani-delay-11 w-24 ani-slidein-b">
+                        <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
+                            <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
+                                320
+                            </div>
+                            <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
+                                km/h
+                            </div>
+                        </div>
+                        <div class="label text-sm text-center text-white">
+                            végsebesség
+                        </div>
+                    </li>
+                    <li class="ani-delay-12 separator block sm:mx-4 bg-white h-px w-5 ani-slidein-b"></li>
+                    <li class="ani-delay-12 w-24 ani-slidein-b">
+                        <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
+                            <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
+                                650
+                            </div>
+                            <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
+                                km
+                            </div>
+                        </div>
+                        <div class="label text-sm text-center text-white">
+                            hatótáv
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--innerwrapper-->
+            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
+                <img class="block object-cover object-center w-full h-full" src="resources/img/home__model-x.jpg" alt="">
+            </div>
+        </div><!--swiper-slide -->
+        
+        
+           
+        
+        <div class="swiper-slide relative flex items-stretch overflow-hidden">
+            <div class="innerwrapper py-4 md:py-12 w-full relative flex flex-wrap items-start mx-auto container">
+                <h2 class="ani-delay-5 ani-slidein-l text-3xl  text-white   md:text-5xl pl-4 sm:pl-8 md:pl-16 border-l-2 border-emerald-500 relative">
+                    <span class="hidden sm:inline">Tesla</span> Model Y
+                </h2>
+                <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
+                    <div class="bg-emerald-500 duration-200 ease-out h-16 icon mx-auto overflow-hidden rounded-full transition-colors w-16 md:h-20 md:w-20">
+                        <a class="block rounded-full h-full" href="/gen_modely.php">
+                            
+    <svg class="svg-icon p-4 text-white">
+        <use xlink:href="#i-details"></use>
+    </svg>
+                        </a>
+                    </div>
+                    <div class="icon-label text-sm text-center hidden">
+                        részletek
+                    </div>
+                </div>
+                <ul class="highlights self-end w-full flex justify-between md:justify-end items-center">
+                    <li class="ani-delay-10 w-24 ani-slidein-b">
+                        <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
+                            <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
+                                3.8
+                            </div>
+                            <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
+                                mp
+                            </div>
+                        </div>
+                        <div class="label text-sm text-center text-white">
+                            gyorsulás
+                        </div>
+                    </li>
+                    <li class="ani-delay-11 separator block sm:mx-4 bg-white h-px w-5 ani-slidein-b"></li>
+                    <li class="ani-delay-11 w-24 ani-slidein-b">
+                        <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
+                            <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
+                                290
+                            </div>
+                            <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
+                                km/h
+                            </div>
+                        </div>
+                        <div class="label text-sm text-center text-white">
+                            végsebesség
+                        </div>
+                    </li>
+                    <li class="ani-delay-12 separator block sm:mx-4 bg-white h-px w-5 ani-slidein-b"></li>
+                    <li class="ani-delay-12 w-24 ani-slidein-b">
+                        <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
+                            <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
+                                700
+                            </div>
+                            <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
+                                km
+                            </div>
+                        </div>
+                        <div class="label text-sm text-center text-white">
+                            hatótáv
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--innerwrapper-->
+            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
+                <img class="block object-cover object-center w-full h-full" src="resources/img/home__model-y.jpg" alt="">
+            </div>
+        </div><!--swiper-slide -->
+        
+
+
+
+    </div>
+    <div class="swiper-button-prev hidden xl:flex text-white"></div>
+    <div class="swiper-button-next hidden xl:flex text-white"></div>
+    <div class="swiper-pagination py-4 bg-gray-50 static"></div>
+</section><!-- swiper-big --> 
+
+
+
+    <section class="container py-16 focus:outline-none" id="starthere">
+        <div class="innerwrapper relative grid md:grid-cols-2">
+            
+                <div class="_card-car border border-gray-100 py-8 sm:p-8">
+    <div class="_card-car__title">
+        <h2 class="text-center text-gray-500 text-3xl">Model S </h2>
+        <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
+    </div>
+    <div class="img w-full h-56 OFFmd:h-56 lg:h-64 flex mb-8 -mt-8">
+        <img class="object-cover object-center block" src="resources/img/select__model-s.jpg" alt="">
+    </div>
+    <div class="_card-car__controlls flex justify-around sm:px-16 md:px-0 lg:px-16 overflow-hidden">
+        <div class="_io extend-a flex flex-col items-center group">
+            <div class="icon rounded-full w-16 h-16 lg:w-20 lg:h-20 border-2 border-emerald-500 bg-emerald-500 group-hover:bg-emerald-600 group-hover:border-emerald-600 text-white p-3 lg:p-4 ease-in-out duration-150">
+                
+    <svg class="svg-icon ">
+        <use xlink:href="#i-configurator"></use>
+    </svg>
+            </div>
+            <div class="label text-xs pt-2"><a href="/gen_models.php#configurator">konfigurátor</a></div>
+        </div>
+        <div class="_io extend-a flex flex-col items-center group">
+            <div class="icon rounded-full  w-16 h-16 lg:w-20 lg:h-20 border-2 border-emerald-500 text-gray-400 p-3 lg:p-4 group-hover:border-emerald-600 group-hover:text-gray-500 ease-in-out duration-150">
+                
+    <svg class="svg-icon ">
+        <use xlink:href="#i-details"></use>
+    </svg>
+            </div>
+            <div class="label text-xs pt-2"><a href="/gen_models.php">részletek</a></div>
+        </div>
+    </div>
+</div>
+            
+                <div class="_card-car border border-gray-100 py-8 sm:p-8">
+    <div class="_card-car__title">
+        <h2 class="text-center text-gray-500 text-3xl">Model 3 </h2>
+        <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
+    </div>
+    <div class="img w-full h-56 OFFmd:h-56 lg:h-64 flex mb-8 -mt-8">
+        <img class="object-cover object-center block" src="resources/img/select__model-3.jpg" alt="">
+    </div>
+    <div class="_card-car__controlls flex justify-around sm:px-16 md:px-0 lg:px-16 overflow-hidden">
+        <div class="_io extend-a flex flex-col items-center group">
+            <div class="icon rounded-full w-16 h-16 lg:w-20 lg:h-20 border-2 border-emerald-500 bg-emerald-500 group-hover:bg-emerald-600 group-hover:border-emerald-600 text-white p-3 lg:p-4 ease-in-out duration-150">
+                
+    <svg class="svg-icon ">
+        <use xlink:href="#i-configurator"></use>
+    </svg>
+            </div>
+            <div class="label text-xs pt-2"><a href="/gen_model3.php#configurator">konfigurátor</a></div>
+        </div>
+        <div class="_io extend-a flex flex-col items-center group">
+            <div class="icon rounded-full  w-16 h-16 lg:w-20 lg:h-20 border-2 border-emerald-500 text-gray-400 p-3 lg:p-4 group-hover:border-emerald-600 group-hover:text-gray-500 ease-in-out duration-150">
+                
+    <svg class="svg-icon ">
+        <use xlink:href="#i-details"></use>
+    </svg>
+            </div>
+            <div class="label text-xs pt-2"><a href="/gen_model3.php">részletek</a></div>
+        </div>
+    </div>
+</div>
+            
+                <div class="_card-car border border-gray-100 py-8 sm:p-8">
+    <div class="_card-car__title">
+        <h2 class="text-center text-gray-500 text-3xl">Model X </h2>
+        <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
+    </div>
+    <div class="img w-full h-56 OFFmd:h-56 lg:h-64 flex mb-8 -mt-8">
+        <img class="object-cover object-center block" src="resources/img/select__model-x.jpg" alt="">
+    </div>
+    <div class="_card-car__controlls flex justify-around sm:px-16 md:px-0 lg:px-16 overflow-hidden">
+        <div class="_io extend-a flex flex-col items-center group">
+            <div class="icon rounded-full w-16 h-16 lg:w-20 lg:h-20 border-2 border-emerald-500 bg-emerald-500 group-hover:bg-emerald-600 group-hover:border-emerald-600 text-white p-3 lg:p-4 ease-in-out duration-150">
+                
+    <svg class="svg-icon ">
+        <use xlink:href="#i-configurator"></use>
+    </svg>
+            </div>
+            <div class="label text-xs pt-2"><a href="/gen_modelx.php#configurator">konfigurátor</a></div>
+        </div>
+        <div class="_io extend-a flex flex-col items-center group">
+            <div class="icon rounded-full  w-16 h-16 lg:w-20 lg:h-20 border-2 border-emerald-500 text-gray-400 p-3 lg:p-4 group-hover:border-emerald-600 group-hover:text-gray-500 ease-in-out duration-150">
+                
+    <svg class="svg-icon ">
+        <use xlink:href="#i-details"></use>
+    </svg>
+            </div>
+            <div class="label text-xs pt-2"><a href="/gen_modelx.php">részletek</a></div>
+        </div>
+    </div>
+</div>
+            
+                <div class="_card-car border border-gray-100 py-8 sm:p-8">
+    <div class="_card-car__title">
+        <h2 class="text-center text-gray-500 text-3xl">Model Y </h2>
+        <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
+    </div>
+    <div class="img w-full h-56 OFFmd:h-56 lg:h-64 flex mb-8 -mt-8">
+        <img class="object-cover object-center block" src="resources/img/select__model-y.jpg" alt="">
+    </div>
+    <div class="_card-car__controlls flex justify-around sm:px-16 md:px-0 lg:px-16 overflow-hidden">
+        <div class="_io extend-a flex flex-col items-center group">
+            <div class="icon rounded-full w-16 h-16 lg:w-20 lg:h-20 border-2 border-emerald-500 bg-emerald-500 group-hover:bg-emerald-600 group-hover:border-emerald-600 text-white p-3 lg:p-4 ease-in-out duration-150">
+                
+    <svg class="svg-icon ">
+        <use xlink:href="#i-configurator"></use>
+    </svg>
+            </div>
+            <div class="label text-xs pt-2"><a href="/gen_modely.php#configurator">konfigurátor</a></div>
+        </div>
+        <div class="_io extend-a flex flex-col items-center group">
+            <div class="icon rounded-full  w-16 h-16 lg:w-20 lg:h-20 border-2 border-emerald-500 text-gray-400 p-3 lg:p-4 group-hover:border-emerald-600 group-hover:text-gray-500 ease-in-out duration-150">
+                
+    <svg class="svg-icon ">
+        <use xlink:href="#i-details"></use>
+    </svg>
+            </div>
+            <div class="label text-xs pt-2"><a href="/gen_modely.php">részletek</a></div>
+        </div>
+    </div>
+</div>
+            
+            <div class="absolute border-2 border-white inset-0 pointer-events-none"></div>
+        </div>
+    </section>
+    <!--tesla models-->
+
+
+
+    <section class="py-16 bg-gray-50">
+        <div class="container innerwrapper grid md:grid-cols-3 gap-8">
+            <div class="_section-title _io col-span-full relative mb-8 md:mb-12">
+    <h2 class="text-gray-500 text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Szolgáltatásaink</h2>
+    <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
+
+
+    </div>
+</div>
+            
+
+
+<div class="_io _card-sevice mx-auto max-w-xs flex flex-col flex-wrap">
+    <div class=" flex flex-col items-center w-full">
+        <div class="icon rounded-full w-24 h-24 lg:w-32 lg:h-32 border-2 border-emerald-500 text-gray-500 p-6 lg:p-8">
+            
+    <svg class="svg-icon ">
+        <use xlink:href="#i-transparency"></use>
+    </svg>
+        </div>
+    </div>
+    <h2 class="text-center text-2xl text-gray-600 font-semibold pt-8 w-full">
+        Transzparencia
+    </h2>
+    <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
+    <div class="text-center leading-8 text-gray-600 w-full">
+        Átlátható és szabályozott folyamatokon keresztül, stabil háttérrel és sok év tapasztaltával intézzük autójának importját.
+    </div>
+    <div class="text-center pt-8 mt-auto w-full">
+        <a href= "gen_services.php#transparency" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
+    </div>
+</div>
+            
+
+
+<div class="_io _card-sevice mx-auto max-w-xs flex flex-col flex-wrap">
+    <div class=" flex flex-col items-center w-full">
+        <div class="icon rounded-full w-24 h-24 lg:w-32 lg:h-32 border-2 border-emerald-500 text-gray-500 p-6 lg:p-8">
+            
+    <svg class="svg-icon ">
+        <use xlink:href="#i-financial"></use>
+    </svg>
+        </div>
+    </div>
+    <h2 class="text-center text-2xl text-gray-600 font-semibold pt-8 w-full">
+        Finanszírozás
+    </h2>
+    <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
+    <div class="text-center leading-8 text-gray-600 w-full">
+        A piacon elérhető egyik legalacsonyabb kamatszintet tudjuk biztosítani ügyfeleinknek, a ügyintézési folyamat  összes terhét átvállalva.
+    </div>
+    <div class="text-center pt-8 mt-auto w-full">
+        <a href= "gen_services.php#finance" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
+    </div>
+</div>
+            
+
+
+<div class="_io _card-sevice mx-auto max-w-xs flex flex-col flex-wrap">
+    <div class=" flex flex-col items-center w-full">
+        <div class="icon rounded-full w-24 h-24 lg:w-32 lg:h-32 border-2 border-emerald-500 text-gray-500 p-6 lg:p-8">
+            
+    <svg class="svg-icon ">
+        <use xlink:href="#i-insurnce"></use>
+    </svg>
+        </div>
+    </div>
+    <h2 class="text-center text-2xl text-gray-600 font-semibold pt-8 w-full">
+        Biztosítás
+    </h2>
+    <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
+    <div class="text-center leading-8 text-gray-600 w-full">
+        Számos biztosító társaság termékét tudjuk ügyfeleinknek ajánlani, melyek jelenleg a piacon elérhető egyik legkedvezőbb termékek.
+    </div>
+    <div class="text-center pt-8 mt-auto w-full">
+        <a href= "gen_services.php#insurance" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
+    </div>
+</div>
+        </div>
+    </section>
+    <!--services-->
+
+
+
+    <section class="py-16">
+        <div class="container grid md:grid-cols-2 lg:grid-cols-3 gap-x-8  gap-y-12">
+            <div class="_section-title _io col-span-full relative mb-8 md:mb-12">
+    <h2 class="text-gray-500 text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">6 lépésre a saját Tesládtól</h2>
+    <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
+
+
+    </div>
+</div>
+
+
+            
+                
+
+<div class="_card-step _io flex">
+    <div class="flex flex-col items-center mr-4">
+        <div class="icon rounded-full w-24 h-24 lg:w-32 lg:h-32 border-2 border-emerald-500 text-gray-500 p-6 lg:p-8">
+            
+    <svg class="svg-icon ">
+        <use xlink:href="#i-step-1"></use>
+    </svg>
+        </div>
+        <!-- <div class="label text-xs pt-2">Típus kiválasztása</div> -->
+    </div>
+    <div class="flex content-center flex-wrap">
+        <h2 class="text-gray-500 font-semibold flex items-center w-full">
+            <span class="mr-4 text-6xl leading-none font-normal text-emerald-500">1</span>
+            <span class="leading-snug">Típus kiválasztása</span>
+        </h2>
+        <div class="leading-5 text-sm text-gray-600">
+            Válassza ki kedvenc modelljét
+        </div>
+    </div>  
+</div>
+            
+                
+
+<div class="_card-step _io flex">
+    <div class="flex flex-col items-center mr-4">
+        <div class="icon rounded-full w-24 h-24 lg:w-32 lg:h-32 border-2 border-emerald-500 text-gray-500 p-6 lg:p-8">
+            
+    <svg class="svg-icon ">
+        <use xlink:href="#i-step-2"></use>
+    </svg>
+        </div>
+        <!-- <div class="label text-xs pt-2">Konfigurátor</div> -->
+    </div>
+    <div class="flex content-center flex-wrap">
+        <h2 class="text-gray-500 font-semibold flex items-center w-full">
+            <span class="mr-4 text-6xl leading-none font-normal text-emerald-500">2</span>
+            <span class="leading-snug">Konfigurátor</span>
+        </h2>
+        <div class="leading-5 text-sm text-gray-600">
+            Szabja testre a 3D-s konfigurátorral
+        </div>
+    </div>  
+</div>
+            
+                
+
+<div class="_card-step _io flex">
+    <div class="flex flex-col items-center mr-4">
+        <div class="icon rounded-full w-24 h-24 lg:w-32 lg:h-32 border-2 border-emerald-500 text-gray-500 p-6 lg:p-8">
+            
+    <svg class="svg-icon ">
+        <use xlink:href="#i-step-3"></use>
+    </svg>
+        </div>
+        <!-- <div class="label text-xs pt-2">Ajánlat</div> -->
+    </div>
+    <div class="flex content-center flex-wrap">
+        <h2 class="text-gray-500 font-semibold flex items-center w-full">
+            <span class="mr-4 text-6xl leading-none font-normal text-emerald-500">3</span>
+            <span class="leading-snug">Ajánlat</span>
+        </h2>
+        <div class="leading-5 text-sm text-gray-600">
+            Részletes árajánaltot készítünk
+        </div>
+    </div>  
+</div>
+            
+                
+
+<div class="_card-step _io flex">
+    <div class="flex flex-col items-center mr-4">
+        <div class="icon rounded-full w-24 h-24 lg:w-32 lg:h-32 border-2 border-emerald-500 text-gray-500 p-6 lg:p-8">
+            
+    <svg class="svg-icon ">
+        <use xlink:href="#i-step-4"></use>
+    </svg>
+        </div>
+        <!-- <div class="label text-xs pt-2">Finanszírozás és biztosítás</div> -->
+    </div>
+    <div class="flex content-center flex-wrap">
+        <h2 class="text-gray-500 font-semibold flex items-center w-full">
+            <span class="mr-4 text-6xl leading-none font-normal text-emerald-500">4</span>
+            <span class="leading-snug">Finanszírozás és biztosítás</span>
+        </h2>
+        <div class="leading-5 text-sm text-gray-600">
+            Mutatjuk a legjobb konstrukciókat
+        </div>
+    </div>  
+</div>
+            
+                
+
+<div class="_card-step _io flex">
+    <div class="flex flex-col items-center mr-4">
+        <div class="icon rounded-full w-24 h-24 lg:w-32 lg:h-32 border-2 border-emerald-500 text-gray-500 p-6 lg:p-8">
+            
+    <svg class="svg-icon ">
+        <use xlink:href="#i-step-5"></use>
+    </svg>
+        </div>
+        <!-- <div class="label text-xs pt-2">Megrendelés</div> -->
+    </div>
+    <div class="flex content-center flex-wrap">
+        <h2 class="text-gray-500 font-semibold flex items-center w-full">
+            <span class="mr-4 text-6xl leading-none font-normal text-emerald-500">5</span>
+            <span class="leading-snug">Megrendelés</span>
+        </h2>
+        <div class="leading-5 text-sm text-gray-600">
+            Az összes papírmunkát intézzük
+        </div>
+    </div>  
+</div>
+            
+                
+
+<div class="_card-step _io flex">
+    <div class="flex flex-col items-center mr-4">
+        <div class="icon rounded-full w-24 h-24 lg:w-32 lg:h-32 border-2 border-emerald-500 text-gray-500 p-6 lg:p-8">
+            
+    <svg class="svg-icon ">
+        <use xlink:href="#i-step-6"></use>
+    </svg>
+        </div>
+        <!-- <div class="label text-xs pt-2">Kulcsátadás</div> -->
+    </div>
+    <div class="flex content-center flex-wrap">
+        <h2 class="text-gray-500 font-semibold flex items-center w-full">
+            <span class="mr-4 text-6xl leading-none font-normal text-emerald-500">6</span>
+            <span class="leading-snug">Kulcsátadás</span>
+        </h2>
+        <div class="leading-5 text-sm text-gray-600">
+            Gratulálunk az új Teslájához
+        </div>
+    </div>  
+</div>
+            
+
+            <div class="cta col-span-full text-center mt-8"><a href= "#starthere" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">kezdjük el</a></div>
+        </div>
+    </section>
+    <!--steps-->
+
+
+
+    <?php include('./gen_contact_block_1.php'); ?>
+
+
+
+    <section class="py-16">
+        <div class="container grid md:grid-cols-2 gap-8">
+            <div class="_section-title _io col-span-full relative mb-8 md:mb-12">
+    <h2 class="text-gray-500 text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Hírek</h2>
+    <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
+
+
+    </div>
+</div>
+
+            
+                <div class="card-news">
+    <a href="/article.html">
+        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
+            <img class="object-cover object-center block h-full w-full" src="resources/img/news1.jpg" alt="">
+        </div>
+        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
+        <h2 class="text-xl py-4 text-gray-500">A Tesla Model 3 három év alatt alig veszített az értékéből</h2>
+        <p class="text-gray-500">Betekintést kapunk a klikkvadász cím mögött rejlő valódi tartalomviharsarok</p>
+    </a>
+</div>
+            
+                <div class="card-news">
+    <a href="/article.html">
+        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
+            <img class="object-cover object-center block h-full w-full" src="resources/img/news2.jpg" alt="">
+        </div>
+        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
+        <h2 class="text-xl py-4 text-gray-500">Bruce Wayne Teslákat vett</h2>
+        <p class="text-gray-500">22 darab fekete teslát vásárolt Gotham város leggazdagabb embere.</p>
+    </a>
+</div>
+            
+                <div class="card-news">
+    <a href="/article.html">
+        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
+            <img class="object-cover object-center block h-full w-full" src="resources/img/news3.jpg" alt="">
+        </div>
+        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
+        <h2 class="text-xl py-4 text-gray-500">Az új Knight Rider rebootban egy Tesláé lesz a főszerep</h2>
+        <p class="text-gray-500">David Hasselhoffot is majd viszontláthatjuk</p>
+    </a>
+</div>
+            
+                <div class="card-news">
+    <a href="/article.html">
+        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
+            <img class="object-cover object-center block h-full w-full" src="resources/img/news4.jpg" alt="">
+        </div>
+        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
+        <h2 class="text-xl py-4 text-gray-500">Egy porszívó elkötött egy Teslát</h2>
+        <p class="text-gray-500">Több tanú is állítja, hogy a Roomba fegyverrel fenyegetőzött</p>
+    </a>
+</div>
+            
+            <div class="col-span-full text-center mt-8">
+                <a href= "" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Összes hír</a>
+            </div>
+        </div>
+    </section>
+    <!-- news -->
+
+    <?php include('./gen_contact_block_3.php'); ?>
+
+    <?php include('./gen_footer.php'); ?>
+
+      
+    </div>
+      
+  </body>
+</html>
+
