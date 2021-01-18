@@ -20,7 +20,7 @@
     <div class="flex content-center items-center">
         <ul class="grid grid-cols-3 gap-8 justify-items-center items-center w-full max-w-xs mx-auto">
             <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="#" class="text-white">
+                <a href="mailto:info@mahzrt.hu" target="_blank" class="text-white">
                     
     <svg class="svg-icon ">
         <use xlink:href="#i-mail"></use>
@@ -28,39 +28,17 @@
                 </a>
             </li>
             <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="#" class="text-white">
+                <a href="https://m.me/MagyarAutokereskedohazZrt" class="text-white">
                     
     <svg class="svg-icon ">
         <use xlink:href="#i-messenger"></use>
     </svg>
                 </a>
             </li>
+           
+            
             <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="#" class="text-white">
-                    
-    <svg class="svg-icon ">
-        <use xlink:href="#i-whatsup"></use>
-    </svg>
-                </a>
-            </li>
-            <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="#" class="text-white">
-                    
-    <svg class="svg-icon ">
-        <use xlink:href="#i-viber"></use>
-    </svg>
-                </a>
-            </li>
-            <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="#" class="text-white">
-                    
-    <svg class="svg-icon ">
-        <use xlink:href="#i-phone"></use>
-    </svg>
-                </a>
-            </li>
-            <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="#" class="text-white">
+                <a href="https://www.facebook.com/MagyarAutokereskedohazZrt" target="_blank" class="text-white">
                     
     <svg class="svg-icon ">
         <use xlink:href="#i-facebook"></use>

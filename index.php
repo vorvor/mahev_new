@@ -35,7 +35,7 @@
                     <li class="ani-delay-10 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                3.4
+                                2.5
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 mp
@@ -49,7 +49,7 @@
                     <li class="ani-delay-11 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                250
+                                261
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 km/h
@@ -63,7 +63,7 @@
                     <li class="ani-delay-12 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                550
+                                639
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 km
@@ -106,7 +106,7 @@
                     <li class="ani-delay-10 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                3.5
+                                3.3
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 mp
@@ -120,7 +120,7 @@
                     <li class="ani-delay-11 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                260
+                                261
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 km/h
@@ -134,7 +134,7 @@
                     <li class="ani-delay-12 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                590
+                                580
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 km
@@ -177,7 +177,7 @@
                     <li class="ani-delay-10 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                3.9
+                                2.8
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 mp
@@ -191,7 +191,7 @@
                     <li class="ani-delay-11 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                320
+                                261
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 km/h
@@ -205,7 +205,7 @@
                     <li class="ani-delay-12 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                650
+                                561
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 km
@@ -248,7 +248,7 @@
                     <li class="ani-delay-10 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                3.8
+                                3.7
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 mp
@@ -262,7 +262,7 @@
                     <li class="ani-delay-11 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                290
+                                241
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 km/h
@@ -276,7 +276,7 @@
                     <li class="ani-delay-12 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                700
+                                505
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 km
@@ -436,35 +436,12 @@
 
 
     <section class="py-16 bg-gray-50">
-        <div class="container innerwrapper grid md:grid-cols-3 gap-8">
+        <div class="container innerwrapper grid md:grid-cols-4 gap-8">
             <div class="_section-title _io col-span-full relative mb-8 md:mb-12">
     <h2 class="text-gray-500 text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Szolgáltatásaink</h2>
     <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
 
 
-    </div>
-</div>
-            
-
-
-<div class="_io _card-sevice mx-auto max-w-xs flex flex-col flex-wrap">
-    <div class=" flex flex-col items-center w-full">
-        <div class="icon rounded-full w-24 h-24 lg:w-32 lg:h-32 border-2 border-emerald-500 text-gray-500 p-6 lg:p-8">
-            
-    <svg class="svg-icon ">
-        <use xlink:href="#i-transparency"></use>
-    </svg>
-        </div>
-    </div>
-    <h2 class="text-center text-2xl text-gray-600 font-semibold pt-8 w-full">
-        Transzparencia
-    </h2>
-    <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
-    <div class="text-center leading-8 text-gray-600 w-full">
-        Átlátható és szabályozott folyamatokon keresztül, stabil háttérrel és sok év tapasztaltával intézzük autójának importját.
-    </div>
-    <div class="text-center pt-8 mt-auto w-full">
-        <a href= "gen_services.php#transparency" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
     </div>
 </div>
             
@@ -507,12 +484,59 @@
     </h2>
     <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
     <div class="text-center leading-8 text-gray-600 w-full">
-        Számos biztosító társaság termékét tudjuk ügyfeleinknek ajánlani, melyek jelenleg a piacon elérhető egyik legkedvezőbb termékek.
+        Számos biztosító társaság termékét kínáljuk ügyfeleinknek ajánlani, melyek jelenleg a piacon elérhető egyik legkedvezőbb termékek.
     </div>
     <div class="text-center pt-8 mt-auto w-full">
         <a href= "gen_services.php#insurance" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
     </div>
 </div>
+
+<div class="_io _card-sevice mx-auto max-w-xs flex flex-col flex-wrap">
+    <div class=" flex flex-col items-center w-full">
+        <div class="icon rounded-full w-24 h-24 lg:w-32 lg:h-32 border-2 border-emerald-500 text-gray-500 p-6 lg:p-8">
+            
+    <svg class="svg-icon ">
+        <use xlink:href="#i-transparency"></use>
+    </svg>
+        </div>
+    </div>
+    <h2 class="text-center text-2xl text-gray-600 font-semibold pt-8 w-full">
+        Transzparencia
+    </h2>
+    <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
+    <div class="text-center leading-8 text-gray-600 w-full">
+        Átlátható és szabályozott folyamatokon keresztül, stabil háttérrel és sok év tapasztalatával kezeljük érdeklődését és megrendelését.
+    </div>
+    <div class="text-center pt-8 mt-auto w-full">
+        <a href= "gen_services.php#transparency" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
+    </div>
+</div>
+
+<div class="_io _card-sevice mx-auto max-w-xs flex flex-col flex-wrap">
+    <div class=" flex flex-col items-center w-full">
+        <div class="icon rounded-full w-24 h-24 lg:w-32 lg:h-32 border-2 border-emerald-500 text-gray-500 p-6 lg:p-8">
+            
+    <svg class="svg-icon ">
+        <use xlink:href="#i-carrental"></use>
+    </svg>
+        </div>
+    </div>
+    <h2 class="text-center text-2xl text-gray-600 font-semibold pt-8 w-full">
+        Bérautó
+    </h2>
+    <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
+    <div class="text-center leading-8 text-gray-600 w-full">
+        Béreljen tőlünk Teslát és élje át az elektromos autózás csúcsát Ön is! Ha pedig vásárol is, a bérlet költése nem kerül felszámításra Önnek.
+    </div>
+    <div class="text-center pt-8 mt-auto w-full">
+        <a href= "gen_services.php#transparency" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
+    </div>
+</div>
+
+
+
+
+
         </div>
     </section>
     <!--services-->
@@ -641,7 +665,7 @@
             <span class="leading-snug">Megrendelés</span>
         </h2>
         <div class="leading-5 text-sm text-gray-600">
-            Az összes papírmunkát intézzük
+            az összes folyamatot bonyolítjuk
         </div>
     </div>  
 </div>
@@ -679,68 +703,9 @@
 
     <?php include('./gen_contact_block_1.php'); ?>
 
+    <?php include('./gen_news.php'); ?>
 
 
-    <section class="py-16">
-        <div class="container grid md:grid-cols-2 gap-8">
-            <div class="_section-title _io col-span-full relative mb-8 md:mb-12">
-    <h2 class="text-gray-500 text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Hírek</h2>
-    <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
-
-
-    </div>
-</div>
-
-            
-                <div class="card-news">
-    <a href="/article.html">
-        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
-            <img class="object-cover object-center block h-full w-full" src="resources/img/news1.jpg" alt="">
-        </div>
-        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
-        <h2 class="text-xl py-4 text-gray-500">A Tesla Model 3 három év alatt alig veszített az értékéből</h2>
-        <p class="text-gray-500">Betekintést kapunk a klikkvadász cím mögött rejlő valódi tartalomviharsarok</p>
-    </a>
-</div>
-            
-                <div class="card-news">
-    <a href="/article.html">
-        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
-            <img class="object-cover object-center block h-full w-full" src="resources/img/news2.jpg" alt="">
-        </div>
-        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
-        <h2 class="text-xl py-4 text-gray-500">Bruce Wayne Teslákat vett</h2>
-        <p class="text-gray-500">22 darab fekete teslát vásárolt Gotham város leggazdagabb embere.</p>
-    </a>
-</div>
-            
-                <div class="card-news">
-    <a href="/article.html">
-        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
-            <img class="object-cover object-center block h-full w-full" src="resources/img/news3.jpg" alt="">
-        </div>
-        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
-        <h2 class="text-xl py-4 text-gray-500">Az új Knight Rider rebootban egy Tesláé lesz a főszerep</h2>
-        <p class="text-gray-500">David Hasselhoffot is majd viszontláthatjuk</p>
-    </a>
-</div>
-            
-                <div class="card-news">
-    <a href="/article.html">
-        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
-            <img class="object-cover object-center block h-full w-full" src="resources/img/news4.jpg" alt="">
-        </div>
-        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
-        <h2 class="text-xl py-4 text-gray-500">Egy porszívó elkötött egy Teslát</h2>
-        <p class="text-gray-500">Több tanú is állítja, hogy a Roomba fegyverrel fenyegetőzött</p>
-    </a>
-</div>
-            
-            <div class="col-span-full text-center mt-8">
-                <a href= "" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Összes hír</a>
-            </div>
-        </div>
-    </section>
     <!-- news -->
 
     <?php include('./gen_contact_block_3.php'); ?>

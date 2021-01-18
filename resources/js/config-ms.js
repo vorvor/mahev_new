@@ -27,6 +27,8 @@ $(function(){
 					}
 				})
 
+				
+
 			}
 
 			if (text.toLowerCase().includes('performance')) {
@@ -38,6 +40,14 @@ $(function(){
 					}
 				})
 			}
+
+			// Under 3D rotate data.
+			var regex = /[+-]?\d+(\.\d+)?/g;
+			var str = $('.text-xs', this).html();
+			var floats = str.match(regex).map(function(v) { return parseFloat(v); });
+			$('.highlights li:nth-child(1) .circle .number').html(floats[0]);
+			$('.highlights li:nth-child(3) .circle .number').html(floats[2]);
+			$('.highlights li:nth-child(5) .circle .number').html(floats[1]);
 
 			$('#conf-tab-4 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
 
@@ -176,7 +186,7 @@ $(function(){
 			console.log(price);
 		})
 		
-		$('.offer .sum-price').html(priceFormat(price) + ' €');
+		$('.sum-price').html(priceFormat(price) + ' €');
 	}
 
 	function priceFormat(nStr) {

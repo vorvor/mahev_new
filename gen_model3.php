@@ -112,7 +112,7 @@
     </svg>
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            250
+                            261
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             km/h
@@ -131,7 +131,7 @@
     </svg>
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            3.4
+                            3.3
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             mp
@@ -150,7 +150,7 @@
     </svg>
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            550
+                            580
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             km
@@ -169,7 +169,7 @@
     </svg>
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            80
+                            82
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             kw/h
@@ -274,99 +274,6 @@
 <!-- gallery -->
 
 
-
-<section class="py-16 soft-gradient">
-
-    <div class="container flex content-start flex-wrap OFFmd:flex-no-wrap z-10 relative">
-        <div class=" _section-title2 _io flex-grow text-gray-500 leading-loose text-center mx-auto md:text-left md:mx-0 max-w-md">
-    
-        <h3 class="font-semibold">Tesla Model 3</h3>
-    
-    <h2 class="text-2xl md:text-3xl leading-snug">Felszereltség</h2>
-    <div class="w-16 border-t-2 border-emerald-500 mx-auto md:ml-0 my-4 md:my-8"></div>
-</div> 
-
-        <div class="w-full py-8 xl:py-32">
-            <img class="w-full lg:w-4/6 mx-auto" src="/resources/img/car.svg" alt="">
-        </div>
-        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 w-5/6 mx-auto">
-            <div class="_badge-01 _pin-down flex flex-col justify-start items-center xl:absolute">
-                <div class="circle flex flex-column flex-wrap content-center mx-auto items-center border-2 border-emerald-500 w-24 h-24 rounded-full text-gray-500">
-                    <div class="w-16 h-16 mx-auto">
-                        
-    <svg class="svg-icon ">
-        <use xlink:href="#i-sun-roof"></use>
-    </svg>
-                    </div>
-                </div>
-                <div class="label text-sm text-center ">
-                    napfénytető
-                </div>
-            </div>
-            <div class="_badge-02 _pin-down flex flex-col justify-start items-center xl:absolute">
-                <div class="circle flex flex-column flex-wrap content-center mx-auto items-center border-2 border-emerald-500 w-24 h-24 rounded-full text-gray-500">
-                    <div class="w-16 h-16 mx-auto">
-                        
-    <svg class="svg-icon ">
-        <use xlink:href="#i-speed-tolto"></use>
-    </svg>
-                    </div>
-                </div>
-                <div class="label text-sm text-center ">
-                    gyorstöltő
-                </div>
-            </div>
-            <div  class="_badge-03 _pin-up flex flex-col justify-start items-center xl:absolute">
-                <div class="circle flex flex-column flex-wrap content-center mx-auto items-center border-2 border-emerald-500 w-24 h-24 rounded-full text-gray-500">
-                    <div class="w-16 h-16 mx-auto">
-                        
-    <svg class="svg-icon ">
-        <use xlink:href="#i-felni"></use>
-    </svg>
-                    </div>
-                </div>
-                <div class="label text-sm text-center ">
-                    választható felni
-                </div>
-            </div>
-            <div class="_badge-04 _pin-up flex flex-col justify-start items-center xl:absolute">
-                <div class="circle flex flex-column flex-wrap content-center mx-auto items-center border-2 border-emerald-500 w-24 h-24 rounded-full text-gray-500">
-                    <div class="w-16 h-16 mx-auto">
-                        
-    <svg class="svg-icon ">
-        <use xlink:href="#i-camera"></use>
-    </svg>
-                    </div>
-                </div>
-                <div class="label text-sm text-center ">
-                    kamera
-                </div>
-            </div>
-        
-        
-            <div class="_badge-06 lg:_last-col flex flex-col justify-start items-center xl:absolute" data-pushbar-target="pushbardata">
-                <div class="extend-a group">
-                    <div class="circle flex flex-column flex-wrap content-center items-center mx-auto  border-2 border-emerald-500 bg-emerald-500 group-hover:border-emerald-600 group-hover:bg-emerald-600 ease-in-out duration-150 w-24 h-24 rounded-full text-gray-500">
-                        <div class="text-white w-16 h-16 mx-auto">
-                            
-    <svg class="svg-icon ">
-        <use xlink:href="#i-plus"></use>
-    </svg>
-                        </div> 
-                    </div>
-                    <div class="label text-sm text-center ">
-                        <a href="#">információk</a> 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-<!-- equipment -->
-
-
-
 <section id="configurator" class="container py-16 grid grid-cols-1 xl:grid-cols-3 gap-8 focus:outline-none"> 
 
     <div class="title min-h-16 flex content-start xl:flex-wrap">
@@ -390,8 +297,8 @@
             <a class='select-none inline-block text-center flex-grow border-b-2 text-gray-300 leading-none hover:text-gray-500 border-gray-100 px-2 pb-2' href="#conf-tab-2">Szín</a>
             <a class='select-none inline-block text-center flex-grow border-b-2 text-gray-300 leading-none hover:text-gray-500 border-gray-100 px-2 pb-2' href="#conf-tab-3">Felni</a>
             <a class='select-none inline-block text-center flex-grow border-b-2 text-gray-300 leading-none hover:text-gray-500 border-gray-100 px-2 pb-2' href="#conf-tab-4">Belső</a>
-            <a class='select-none inline-block text-center flex-grow border-b-2 text-gray-300 leading-none hover:text-gray-500 border-gray-100 px-2 pb-2' href="#conf-tab-6">Önvezetés</a>
-            <a class='select-none inline-block text-center flex-grow border-b-2 text-gray-300 leading-none hover:text-gray-500 border-gray-100 px-2 pb-2' href="#conf-tab-5">Extra</a>
+            <a class='select-none inline-block text-center flex-grow border-b-2 text-gray-300 leading-none hover:text-gray-500 border-gray-100 px-2 pb-2' href="#conf-tab-5">Önvezetés</a>
+            <a class='select-none inline-block text-center flex-grow border-b-2 text-gray-300 leading-none hover:text-gray-500 border-gray-100 px-2 pb-2' href="#conf-tab-6">Extra</a>
             
         </nav>
 
@@ -943,7 +850,7 @@
                 <li class="w-24">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-emerald-500 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl md:text-2xl font-semibold text-center leading-tight mx-auto w-full">
-                            3.5
+                            5.6
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             mp
@@ -957,7 +864,7 @@
                 <li class="w-24">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-emerald-500 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl md:text-2xl font-semibold text-center leading-tight mx-auto w-full">
-                            260
+                            225
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             km/h
@@ -971,7 +878,7 @@
                 <li class="w-24">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-emerald-500 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl md:text-2xl font-semibold text-center leading-tight mx-auto w-full">
-                            550
+                            430
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             km
@@ -1094,7 +1001,7 @@
 
 
 
-<?php include('./gen_model_contact_block.php'); ?>
+<?php include('./gen_contact_block_1.php'); ?>
 
 
 
@@ -1163,109 +1070,7 @@
 
 
 
-<!-- section.py-16.bg-gray-50>.container.grid.md:grid-cols-3.gap8>.section-title.col-span-full>h2{Csapatunk}^div{tag$}*3+.col-span-full.flex.justify-center>button.mx-auto{mindenki} -->
-<section class="py-16 bg-gray-50">
-    <div class="container grid md:grid-cols-3 gap-8">
-        <div class="_section-title _io col-span-full relative mb-8 md:mb-12">
-    <h2 class="text-gray-500 text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Csapatunk</h2>
-    <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
-
-
-    </div>
-</div>
-        
-            <div class="_card-person-short text-center flex flex-col flex-wrap max-w-xs mx-auto">
-    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-        <img class="_image-scale block w-full h-full object-cover object-center"
-             src="/resources/img/borka.jpg" alt="">
-    </div>
-    <div
-         class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
-        Borka J. Balázs</div>
-    <div class="text-gray-500 w-full leading-snug">
-        Vezérigazgató</div>
-    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
-    </div>
-    <div class="text-gray-500">A korrekt autókereskedelem megszállottja</div>
-</div>
-
-
-
-
-        
-            <div class="_card-person-short text-center flex flex-col flex-wrap max-w-xs mx-auto">
-    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-        <img class="_image-scale block w-full h-full object-cover object-center"
-             src="/resources/img/mudri.jpg" alt="">
-    </div>
-    <div
-         class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
-        Mudri Dániel</div>
-    <div class="text-gray-500 w-full leading-snug">
-        Vezető értékesítő</div>
-    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
-    </div>
-    <div class="text-gray-500">Nemo enim ipsam voluptatem quia.</div>
-</div>
-
-
-
-
-        
-            <div class="_card-person-short text-center flex flex-col flex-wrap max-w-xs mx-auto">
-    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-        <img class="_image-scale block w-full h-full object-cover object-center"
-             src="/resources/img/persona-m-03.jpg" alt="">
-    </div>
-    <div
-         class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
-        Král Ádám</div>
-    <div class="text-gray-500 w-full leading-snug">
-        Értékesítő</div>
-    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
-    </div>
-    <div class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-</div>
-
-
-
-
-        
-        <div class="col-span-full text-center mt-8">
-            <a href= "/services.html#team" class= " bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Mindenki</a>
-        </div>
-    </div>  
-</section>
-<!-- team -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <?php include('./gen_contact_block_3.php'); ?>
 
       <?php include('./gen_footer.php'); ?>
 
@@ -1313,11 +1118,6 @@
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Extrák</span>
                         <span class="block">Vonóhorog</span>
-                        <span class="block">Enhanced Anti-theft</span>
-                        <span class="block">Wireless Phone Charger</span>
-                        <span class="block">Vonóhorog</span>
-                        <span class="block">Enhanced Anti-theft</span>
-                        <span class="block">Wireless Phone Charger</span>
                     </div>
                     <div class="w-1/4 mt-auto text-right">8700 €</div>
                 </div><!-- item -->
@@ -1325,7 +1125,7 @@
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Szállítás</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right">8700 €</div>
+                    <div class="w-1/4 mt-auto text-right">900 €</div>
                 </div><!-- item -->
             </div>
         </div><!--items-->
@@ -1369,10 +1169,11 @@
 </div>
                     <ul class="font-bold text-gray-500 text-sm uppercase">
                         
+    
     <li>0,23 körüli CW érték</li>
-    <li>Maximális gyorsulás: 3,4 mp 0-100 km/h (Performance)</li>
-    <li>Maximális hatótávolság: 560 km (Long Range)</li>
-    <li>Maximális sebesség: 260 km/h (Performance)</li>
+    <li>Maximális gyorsulás: 3,3&nbsp;mp 0-100 km/h (Performance)</li>
+    <li>Maximális hatótávolság: 580 km (Long Range)</li>
+    <li>Maximális sebesség: 261&nbsp;km/h (Performance)</li>
     <li>20 perc alatt, akár 250 km-re elengendő energia töltése Supercharger töltőről</li>
     <li>4 év | 80 000 km általános garancia</li>
     <li>Long Range és Performance esetében 8 év | 192 000 km garancia az akkumulátorra</li>
@@ -1386,6 +1187,7 @@
     <li>Elektromosan állítható első ülések&nbsp;</li>
     <li>Fűthető első ülések</li>
     <li>Fűthető hátsó ülések (kiv. Standard Range)</li>
+
 
                     </ul>
                 </div><!--Technikai adatok-->
@@ -1401,20 +1203,22 @@
 </div>
                     <ul class="font-bold text-gray-500 text-sm uppercase">
 
-                    <li>Prémium hangrendszer 14 hangszóró, 1 mélysugárzó, 2 erősítő (kiv. standard)</li>
-                    <li>Kétzónás légkondícionáló rendszer, állóhelyzeti hűtés / fűtés</li>
-                    <li>Bluetooth és USB audio bemenet</li>
-                    <li>15"-os&nbsp;érintőképernyő, navigációs rendszer</li>
-                    <li>Hőszivattyús fűtési rendszer</li>
-                    <li>Fűthető külső tükrök</li>
-                    <li>Internet, zene- és médiastreaming&nbsp;(kiv. standard)</li>
-                    <li>UV védett, sötétített üvegtető</li>
-                    <li>Elektromos ablakok és fűthető külső tükrök</li>
-                    <li>Központi zár, szervókormány</li>
-                    <li>Távolságtartó tempomat</li>
-                    <li>Elektromos csomagtérajtó nyitás / zárás</li>
-                    <li>Prémium internetes kapcsolat 1 évig, valós idejű&nbsp;forgalom megjelenítéssel&nbsp;(kiv. standard)</li>
-                    <li>Dupla üvegezés</li>
+
+    <li>Prémium hangrendszer 14 hangszóró, 1 mélysugárzó, 2 erősítő (kiv. standard)</li>
+    <li>Kétzónás légkondícionáló rendszer, állóhelyzeti hűtés / fűtés</li>
+    <li>Bluetooth és USB audio bemenet</li>
+    <li>15"-os&nbsp;érintőképernyő, navigációs rendszer</li>
+    <li>Hőszivattyús fűtési rendszer</li>
+    <li>Fűthető külső tükrök</li>
+    <li>Internet, zene- és médiastreaming&nbsp;(kiv. standard)</li>
+    <li>UV védett, sötétített üvegtető</li>
+    <li>Elektromos ablakok és fűthető külső tükrök</li>
+    <li>Központi zár, szervókormány</li>
+    <li>Távolságtartó tempomat</li>
+    <li>Elektromos csomagtérajtó nyitás / zárás</li>
+    <li>Prémium internetes kapcsolat 1 évig, valós idejű&nbsp;forgalom megjelenítéssel&nbsp;(kiv. standard)</li>
+    <li>Dupla üvegezés</li>
+
 
                     </ul>
                 </div><!--Felszereltség-->

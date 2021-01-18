@@ -53,6 +53,14 @@ $(function(){
 				})
 			}
 
+			// Under 3D rotate data.
+			var regex = /[+-]?\d+(\.\d+)?/g;
+			var str = $('.text-xs', this).html();
+			var floats = str.match(regex).map(function(v) { return parseFloat(v); });
+			$('.highlights li:nth-child(1) .circle .number').html(floats[0]);
+			$('.highlights li:nth-child(3) .circle .number').html(floats[2]);
+			$('.highlights li:nth-child(5) .circle .number').html(floats[1]);
+
 			$('#conf-tab-3 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
 
 			calcOfferPrice();
@@ -166,6 +174,9 @@ $(function(){
 	document.cookie = 'mahev_extra=';
 	$('#conf-tab-6 ._toggle-extras').each(function() {
 		$(this).click(function() {
+			price = $('.price div', this).html();
+			$('.offer .extra-price').html(price);
+
 			$('.offer .block.extra').addClass('hidden');
 			$('.offer .extra-price').addClass('hidden');
 			if ($(this).hasClass('on')) {

@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^model-s$ gen_models.php [L]
+RewriteRule ^model-3$ gen_model3.php [L]
+RewriteRule ^model-x$ gen_modelx.php [L]
+RewriteRule ^model-y$ gen_modely.php [L]
