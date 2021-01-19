@@ -26,6 +26,7 @@ $(document).ready(function() {
 		'MS_PE_ExWh_IntBkDrkAsh_19cSilv', 
 		'MS_PE_ExWh_IntBkDrkAsh_21cCarb'];
 
+
 	extcolors = ['ExBk', 'ExBl', 'ExGr', 'ExRd', 'ExWh'];
 	intcolors = ['IntBkDrkAsh', 'IntWhBkAsh', 'IntBeigLbOak'];
 	rims = ['19cSilv', '21cCarb'];
@@ -67,6 +68,8 @@ $(document).ready(function() {
 
 	// Color or rim option button selected.
 	$('._configurator-tabs ._radio-extras').click(function() {
+
+		console.log('INT' + $(this).data('val'));
 		
 		prop = $(this).data('prop');
 		// Set neccessary color or rim variable to the selected.
@@ -211,10 +214,11 @@ $(document).ready(function() {
 
 	// Prepare zoomin animation.
 	innerProject = 'MS_LRP_ExBk_IntBeigLbOak_19cSilv';
-	innerProjectPattern = 'MS_LRP_extcolor_intcolor_rim';
+	innerProjectPattern = 'MS_facility_extcolor_intcolor_rim';
 
 	function currentInnerProject() {
 		return innerProjectPattern
+		.replace('facility', facility)
 		.replace('model', model)
 		.replace('extcolor', extColor)
 		.replace('intcolor', intColor)

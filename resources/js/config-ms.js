@@ -46,7 +46,7 @@ $(function(){
 			$('.highlights li:nth-child(3) .circle .number').html(floats[2]);
 			$('.highlights li:nth-child(5) .circle .number').html(floats[1]);
 
-			$('#conf-tab-4 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
+			$('#conf-tab-4 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on').click();
 
 			calcOfferPrice();
 		})
