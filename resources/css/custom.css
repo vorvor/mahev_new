@@ -9,3 +9,23 @@ body.brand-page h2 {
 .rtecenter img {
 	margin: 0 auto;
 }
+
+#progress-bar-3d {
+	width: 100%;
+    height: 1px;
+    background: #0acf83;
+    color: #0acf83;
+    top: 0;
+    position: absolute;
+    z-index: 10000;
+    animation: blinking 1s infinite;
+}
+
+
+@keyframes blinking{
+0%{   color: #0acf83;   }
+47%{   color: #0acf83; }
+62%{   color: transparent; }
+97%{   color:transparent; }
+100%{  color: #0acf83;   }
+}

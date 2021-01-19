@@ -26,9 +26,6 @@ $(function(){
 						$(this).removeClass('hidden');
 					}
 				})
-
-				
-
 			}
 
 			if (text.toLowerCase().includes('performance')) {
@@ -177,13 +174,10 @@ $(function(){
 		
 	})
 
-	
-
 	function calcOfferPrice() {
 		price = 0;
 		$('.offer .price').not('.hidden').each(function() {
 			price += parseInt($(this).html().replace(/\s+/g, ''));
-			console.log(price);
 		})
 		
 		$('.sum-price').html(priceFormat(price) + ' €');
