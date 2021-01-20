@@ -75,11 +75,7 @@ $(function(){
 
 	// Rim
 	$('#conf-tab-3 ._radio-extras').each(function() {
-		if ($('.text-sm', this).html().includes('20')) {
-			$(this).addClass('hidden');
-		} else {
-			$(this).removeClass('hidden');
-		}
+		
 	})
 	$('#conf-tab-3 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
 	document.cookie = 'mahev_rim=' + $('#conf-tab-3 ._radio-extras:nth-child(1) .text-sm').html();

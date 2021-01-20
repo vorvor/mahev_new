@@ -27,6 +27,8 @@ $(document).ready(function() {
 		'MS_PE_ExWh_IntBkDrkAsh_21cCarb'];
 
 
+	whichAnim = 'outer';
+
 	extcolors = ['ExBk', 'ExBl', 'ExGr', 'ExRd', 'ExWh'];
 	intcolors = ['IntBkDrkAsh', 'IntWhBkAsh', 'IntBeigLbOak'];
 	rims = ['19cSilv', '21cCarb'];
@@ -68,8 +70,6 @@ $(document).ready(function() {
 
 	// Color or rim option button selected.
 	$('._configurator-tabs ._radio-extras').click(function() {
-
-		console.log('INT' + $(this).data('val'));
 		
 		prop = $(this).data('prop');
 		// Set neccessary color or rim variable to the selected.
@@ -93,8 +93,14 @@ $(document).ready(function() {
 	})
 
 	// Slider change makes model rotate - set image based on slider value.
-	$('#slide').change(function(event) {
+	/*$('#slide').change(function(event) {
 		setPic();
+	})*/
+	rangesliderJs.create(
+		document.getElementById('slider'), {
+		onSlide: (value, percent, position) => {
+			setPic();
+		},
 	})
 
 	// Current project changes as user changes color, rim or inner.
@@ -123,14 +129,16 @@ $(document).ready(function() {
 		picnumstring = ('00000' + picnum).slice(-5);
 		picstring = path + '/' + project +'/' + project + '_' + picnumstring + '.jpg';
 		//$('#configurator img').attr('src', picstring);
-		clearAnim();
-		$('#configurator .' + project + '-' + picnumstring).removeClass('hidden');
-		console.log('#configurator .' + project + '-' + picnumstring + ' is active');
+
+		// Only show picture if already loaded. Dont show empty showplace.
+		if ($('#configurator .' + project + '-' + picnumstring).length > 0) {
+			clearAnim();
+			$('#configurator .' + project + '-' + picnumstring).removeClass('hidden');
+			console.log('#configurator .' + project + '-' + picnumstring + ' is active');
+		}
 	}
 
 	function setInnerPic() {
-
-		console.log('INTCOLOR' + intColor);
 		
 		picnum = 77;
 		innerProject = currentInnerProject();
@@ -139,7 +147,7 @@ $(document).ready(function() {
 		picstring = path + '/' + innerProject +'/' + project + '_' + picnumstring + '.jpg';
 
 		picstring = './sequences/rotate/ZOOMIN/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
-		$('#configurator .inset-0').prepend('<img class="hidden sequence-image ' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
+		//$('#configurator .inset-0').prepend('<img class="hidden sequence-image ' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
 
 		clearAnim();
 		$('#configurator .' + innerProject + '-' + picnumstring).removeClass('hidden');
@@ -187,11 +195,6 @@ $(document).ready(function() {
 	// Because of direction of rotating.
 	function playInit(to) {
 		picnum = $('#slider').val() * 4;
-		/*if (picnum < to) {
-			step = 4;
-		} else {
-			step = -4;
-		}*/
 		step = 4;
 		play(step, to, picnum);
 	}
@@ -208,7 +211,7 @@ $(document).ready(function() {
 			setTimeout(function() { play(step, to, currentState) }, animSpeed);
 		} else {
 			// Animation finished. Start next animation.
-			playZoomin(0);
+			playZoomIn(0);
 		}
 	}
 
@@ -226,32 +229,75 @@ $(document).ready(function() {
 	}
 
 	// Load zoomin animation images to the background.
-	function loadZoominImages(i) {
+	function loadZoomInImages(i) {
 		if (i < 77) {
 			picnumstring = ('00000' + i).slice(-5);
 			innerProject = currentInnerProject();
 			picstring = './sequences/rotate/ZOOMIN/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
 			$('#configurator .inset-0').prepend('<img class="hidden sequence-image inner-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
-			setTimeout(function(){ loadZoominImages(i + 1) }, 50);
-		} 
+
+
+			console.log('PIC' + picstring);
+			setTimeout(function(){ loadZoomInImages(i + 1) }, 50);
+
+			
+		} else {
+			loadedProjects.push(innerProject);
+		}
 
 	}
 
-
-	function playZoomin(i) {
+	function playZoomIn(i) {
 		if (i < 77) {
 			picnumstring = ('00000' + i).slice(-5);
 			clearAnim();
 			$('#configurator .inset-0 .inner-' + innerProject + '-' + picnumstring).removeClass('hidden');
-			console.log('#configurator .inset-0 .inner-' + innerProject + '-' + picnumstring + 'IS ACTIVE');
-			setTimeout(function(){ playZoomin(i + 1) }, 50);
+
+			setTimeout(function(){ playZoomIn(i + 1) }, 50);
+		}
+	}
+
+	// Load zoomout animation images to the background.
+	function loadZoomOutImages(i) {
+		if (i < 77) {
+			picnumstring = ('00000' + i).slice(-5);
+			innerProject = currentInnerProject();
+			picstring = './sequences/rotate/ZOOMOUT/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
+			$('#configurator .inset-0').prepend('<img class="hidden sequence-image outer-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
+			setTimeout(function(){ loadZoomOutImages(i + 1) }, 50);
+
+			
+		} else {
+			loadedProjects.push(innerProject);
+		}
+
+	}
+
+	function playZoomOut(i) {
+		if (i < 77) {
+			picnumstring = ('00000' + i).slice(-5);
+			clearAnim();
+			$('#configurator .inset-0 .outer-' + innerProject + '-' + picnumstring).removeClass('hidden');
+			setTimeout(function(){ playZoomOut(i + 1) }, 50);
 		}
 	}
 
 	// Belső clicked.
 	$('._tab-nav a:nth-child(4)').click(function() {
-		loadZoominImages(0);
-		playInit(60);
+		if (whichAnim == 'outer') {
+			loadZoomInImages(0);
+			playInit(60);
+			whichAnim = 'inner';
+		}
+	})	
+
+	// Other than belső clicked.
+	$('._tab-nav a:nth-child(1)').click(function() {
+		if (whichAnim == 'inner') {
+			loadZoomOutImages(0);
+			playZoomOut(0);
+			whichAnim = 'outer';
+		}
 	})	
 
 });

@@ -35,7 +35,7 @@
                 <li class="ani-delay-10 w-24 ani-slidein-b">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-white sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                            2.8
+                            3.3
                         </div>
                         <div class="label--small text-xs text-white text-center leading-tight mx-auto w-full">
                             mp
@@ -63,7 +63,7 @@
                 <li class="ani-delay-12 w-24 ani-slidein-b">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-white sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                            561
+                            580
                         </div>
                         <div class="label--small text-xs text-white text-center leading-tight mx-auto w-full">
                             km
@@ -169,7 +169,7 @@
     </svg>
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            80
+                            100
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             kw/h
@@ -233,7 +233,7 @@
     
         <h3 class="font-semibold">Tesla Model X</h3>
     
-    <h2 class="text-2xl md:text-3xl leading-snug">A világ legkeresettebb elektromos autója</h2>
+    <h2 class="text-2xl md:text-3xl leading-snug">Biztonság, design és technológia egyben</h2>
     <div class="w-16 border-t-2 border-emerald-500 mx-auto md:ml-0 my-4 md:my-8"></div>
 </div>
             <div class="badge flex flex-col justify-start mx-auto md:mr-0">

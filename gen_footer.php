@@ -109,3 +109,4 @@
         </ul>
     </div>
 </footer>
+<?php include_once('./gen_footer_js.php'); ?>
