@@ -147,16 +147,19 @@ $(document).ready(function() {
 		picstring = path + '/' + innerProject +'/' + project + '_' + picnumstring + '.jpg';
 
 		picstring = './sequences/rotate/ZOOMIN/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
-		//$('#configurator .inset-0').prepend('<img class="hidden sequence-image ' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
+		if ($('.inner-' + innerProject + '-' + picnumstring).length == 0) {
+			$('#configurator .inset-0').prepend('<img class="hidden sequence-image inner-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
+		}
 
 		clearAnim();
-		$('#configurator .' + innerProject + '-' + picnumstring).removeClass('hidden');
+		$('#configurator .inner-' + innerProject + '-' + picnumstring).removeClass('hidden');
 	}
 
 	// Load images to background. If user chooses red model first, all red image loaded in background.
 	function loadImages(i, dir) {
 		if (i < 406 && i > -1) {
 			$('#progress-bar-3d').removeClass('hidden');
+
 			project = currentProject();
 			picnumstring = ('00000' + i).slice(-5);
 			picstring = path + '/' + project +'/' + project + '_' + picnumstring + '.jpg';
@@ -237,7 +240,6 @@ $(document).ready(function() {
 			$('#configurator .inset-0').prepend('<img class="hidden sequence-image inner-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
 
 
-			console.log('PIC' + picstring);
 			setTimeout(function(){ loadZoomInImages(i + 1) }, 50);
 
 			
@@ -292,10 +294,13 @@ $(document).ready(function() {
 	})	
 
 	// Other than belső clicked.
-	$('._tab-nav a:nth-child(1)').click(function() {
+	$('._tab-nav a:nth-child(-n+3)').click(function() {
 		if (whichAnim == 'inner') {
 			loadZoomOutImages(0);
-			playZoomOut(0);
+			setTimeout(function() {
+				playZoomOut(0);	
+			}, 1000);
+			
 			whichAnim = 'outer';
 		}
 	})	

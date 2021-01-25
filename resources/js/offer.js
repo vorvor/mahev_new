@@ -1,12 +1,30 @@
 $(function(){
 
-	$('._config-summary li:nth-child(1) span:nth-child(2)').html(getCookie('mahev_facility'));
-	$('._config-summary li:nth-child(2) span:nth-child(2)').html(getCookie('mahev_exterior'));
-	$('._config-summary li:nth-child(3) span:nth-child(2)').html(getCookie('mahev_interior'));
-	$('._config-summary li:nth-child(4) span:nth-child(2)').html(getCookie('mahev_rim'));
-	$('._config-summary li:nth-child(5) span:nth-child(2)').html(getCookie('mahev_seats'));
-	$('._config-summary li:nth-child(6) span:nth-child(2)').html(getCookie('mahev_wtire'));
-	$('._config-summary li:nth-child(7) span:nth-child(2)').html(getCookie('mahev_extra'));
+
+	switch(getCookie('mahev_model')) {
+		case 's': 
+			model = 'Model S';
+			// no seats, no extra
+			$('._config-summary li:nth-child(6)').hide();
+			$('._config-summary li:nth-child(9)').hide();
+		break;
+		case '3': model = 'Model 3';
+		break;
+		case 'x': model = 'Model X';
+		break;
+		case 'y': model = 'Model Y';
+		break;
+	}
+
+	$('._config-summary li:nth-child(1) span:nth-child(1)').html(model);
+	$('._config-summary li:nth-child(2) span:nth-child(2)').html(getCookie('mahev_facility'));
+	$('._config-summary li:nth-child(3) span:nth-child(2)').html(getCookie('mahev_exterior'));
+	$('._config-summary li:nth-child(4) span:nth-child(2)').html(getCookie('mahev_interior'));
+	$('._config-summary li:nth-child(5) span:nth-child(2)').html(getCookie('mahev_rim'));
+	$('._config-summary li:nth-child(6) span:nth-child(2)').html(getCookie('mahev_seats'));
+	$('._config-summary li:nth-child(7) span:nth-child(2)').html(getCookie('mahev_selfdrive'));
+	$('._config-summary li:nth-child(8) span:nth-child(2)').html(getCookie('mahev_wtire'));
+	$('._config-summary li:nth-child(9) span:nth-child(2)').html(getCookie('mahev_extra'));
 
 	function getCookie(cname) {
 	  var name = cname + "=";

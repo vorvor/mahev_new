@@ -2,6 +2,7 @@ $(function(){
 
 	calcOfferPrice();
 
+	document.cookie = 'mahev_model=s';
 	// Facility
 	$('#conf-tab-1 ._radio-extras:nth-child(1)').removeClass('off').addClass('on');
 	document.cookie = 'mahev_facility=' + $('#conf-tab-1 ._radio-extras:nth-child(1) .text-sm').html();
@@ -128,7 +129,7 @@ $(function(){
 	$('#conf-tab-4 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
 
 
-// Self drive
+	// Self drive
 	$('#conf-tab-5 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
 	document.cookie = 'mahev_selfdrive=' + $('#conf-tab-5 ._radio-extras:nth-child(1) .text-sm').html();
 
@@ -151,6 +152,9 @@ $(function(){
 
 
 	// Extra
+	// No classic extra on MS.
+	document.cookie = 'mahev_extra=';
+	document.cookie = 'mahev_seats=';
 	
 	$('.offer .block.winter-tire').addClass('hidden');
 	$('.offer .winter-tire-price').addClass('hidden');

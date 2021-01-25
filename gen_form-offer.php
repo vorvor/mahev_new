@@ -28,11 +28,13 @@
 </div>
             <div class="sm:col-span-6 md:col-span-3 xl:col-span-4 mb-8"> 
               <ul class="_config-summary text-sm bg-gray-white border-emerald-500 md:border-l-2 md:pl-4">
+                <li><span></span></li>
                 <li><span>Kivitel</span><span>Standard Range Plus (RWD)</span></li>
                 <li><span>Külső szín</span><span>Vörös metál</span></li>
                 <li><span>Belső szín</span><span>Gyémánt metál</span></li>
                 <li><span>Felni</span><span>18’ Aero könnyűfém</span></li>
                 <li><span>Ülések</span><span>4</span></li>
+                <li><span>Önvezetés</span><span>autopilot</span></li>
                 <li><span>Téli gumi</span><span></span></li>
                 <li><span>Extra</span><span></span></li>
               </ul>

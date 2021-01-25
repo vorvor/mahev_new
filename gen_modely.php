@@ -233,7 +233,7 @@
     
         <h3 class="font-semibold">Tesla Model Y</h3>
     
-    <h2 class="text-2xl md:text-3xl leading-snug">A világ legkeresettebb elektromos autója</h2>
+    <h2 class="text-2xl md:text-3xl leading-snug">Kompakt SUV kivitelben a legkedveltebb elektromos autó</h2>
     <div class="w-16 border-t-2 border-emerald-500 mx-auto md:ml-0 my-4 md:my-8"></div>
 </div>
             <div class="badge flex flex-col justify-start mx-auto md:mr-0">

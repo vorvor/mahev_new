@@ -552,7 +552,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>2000 €</div>
+        <div>5 150 €</div>
     </div>
 </div>
             
@@ -846,7 +846,7 @@
 
 
 
-
+    <!-- offer desktop -->
     <div class="offer min-h-4 bg-emerald-500 text-gray-500 w-full bottom-8 z-10 shadow-md hidden xl:block">
         <div class="hidden xl:block p-4">
             <div class="content">
@@ -1022,6 +1022,7 @@
 
     </div>
       
+      <!-- offer mobile -->
         <div class="pushbar offer bg-emerald-500 text-gray-500" data-pushbar-id="pushbaroffer" data-pushbar-direction="bottom">
     <div class="relative w-8 h-8 text-white ml-auto absolute cursor-pointer mr-2 mt-2" data-pushbar-close>
     <svg class="svg-icon ">
@@ -1042,30 +1043,30 @@
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Külső szín</span>
-                        <span class="block exterior">Vörös metál</span> 
+                        <span class="block exterior">Gyémámt metál</span> 
                     </div>
-                    <div class="w-1/4 mt-auto text-right exterior-price">4000 €</div>
+                    <div class="w-1/4 mt-auto text-right exterior-price">0 €</div>
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Belső szín</span>
                         <span class="block interior">Gyémánt metál</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right interior-price">3200 €</div>
+                    <div class="w-1/4 mt-auto text-right interior-price">0 €</div>
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Felni</span>
-                        <span class="block rim">18’ Aero könnyűfém</span>
+                        <span class="block rim">19’ ezüst könnyűfém felni</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right rim-price">4900 €</div>
+                    <div class="w-1/4 mt-auto text-right rim-price">0 €</div>
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
-                        <span class="block text-white">Extrák</span>
-                        <span class="block extra">Vonóhorog</span>
+                        <span class="block text-white">Téli gumi</span>
+                        <span class="block extra">19' ezüst könnyűfém felni Pirelli Sottozero 3 téligumival</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right extra-price">8700 €</div>
+                    <div class="w-1/4 mt-auto text-right extra-price">3 180 €</div>
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
@@ -1084,7 +1085,7 @@
             <div class="w-1/2 mt-auto text-right text-white text-xl sm:text-4xl leading-none sum-price">65 310 €</div>
         </div>
         <div class="text-center mt-4 sm:mt-8">
-            <a href= "/form-offer.html" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">tovább az ajánlat kéréshez</a>
+            <a href= "/gen_form-offer.php" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">tovább az ajánlat kéréshez</a>
             
             <div class="mt-2 text-xs font-semibold tracking-wider uppercase leading-snug cursor-pointer inline-block mx-auto">
                 <div class="w-4 h-4 inline-block relative top-1"> 
