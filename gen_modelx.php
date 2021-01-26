@@ -35,7 +35,7 @@
                 <li class="ani-delay-10 w-24 ani-slidein-b">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-white sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                            3.3
+                            2.8
                         </div>
                         <div class="label--small text-xs text-white text-center leading-tight mx-auto w-full">
                             mp
@@ -926,6 +926,7 @@
         </div>
     </div>
 
+    <!-- offer desktop -->
     <div class="offer min-h-4 bg-emerald-500 text-gray-500 w-full bottom-8 z-10 shadow-md hidden xl:block">
         <div class="hidden xl:block p-4">
             <div class="content">
@@ -1036,68 +1037,7 @@
 
 
 
-<!-- section.py-16>.container.grid.md:grid-cols-2.gap-8>.section-title.col-span-full>h2{Hírek}^div{hír$}*4+.col-span-full.flex.justify-center>button.mx-auto{Összes hír} -->
-<section class="py-16">
-    <div class="container grid md:grid-cols-2 gap-8">
-        <div class="_section-title _io col-span-full relative mb-8 md:mb-12">
-    <h2 class="text-gray-500 text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Hírek</h2>
-    <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
-
-
-    </div>
-</div>
-
-        
-            <div class="card-news">
-    <a href="/article.html">
-        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
-            <img class="object-cover object-center block h-full w-full" src="/resources/img/news1.jpg" alt="">
-        </div>
-        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
-        <h2 class="text-xl py-4 text-gray-500">A Tesla Model X három év alatt alig veszített az értékéből</h2>
-        <p class="text-gray-500">Betekintést kapunk a klikkvadász cím mögött rejlő valódi tartalomviharsarok</p>
-    </a>
-</div>
-        
-            <div class="card-news">
-    <a href="/article.html">
-        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
-            <img class="object-cover object-center block h-full w-full" src="/resources/img/news2.jpg" alt="">
-        </div>
-        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
-        <h2 class="text-xl py-4 text-gray-500">Bruce Wayne Teslákat vett</h2>
-        <p class="text-gray-500">22 darab fekete teslát vásárolt Gotham város leggazdagabb embere.</p>
-    </a>
-</div>
-        
-            <div class="card-news">
-    <a href="/article.html">
-        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
-            <img class="object-cover object-center block h-full w-full" src="/resources/img/news3.jpg" alt="">
-        </div>
-        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
-        <h2 class="text-xl py-4 text-gray-500">Az új Knight Rider rebootban egy Tesláé lesz a főszerep</h2>
-        <p class="text-gray-500">David Hasselhoffot is majd viszontláthatjuk</p>
-    </a>
-</div>
-        
-            <div class="card-news">
-    <a href="/article.html">
-        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
-            <img class="object-cover object-center block h-full w-full" src="/resources/img/news4.jpg" alt="">
-        </div>
-        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
-        <h2 class="text-xl py-4 text-gray-500">Egy porszívó elkötött egy Teslát</h2>
-        <p class="text-gray-500">Több tanú is állítja, hogy a Roomba fegyverrel fenyegetőzött</p>
-    </a>
-</div>
-        
-        <div class="col-span-full text-center mt-8">
-            <a href= "" class= " bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Összes hír</a>
-        </div>
-    </div>
-</section>
-<!-- news -->
+<?php include('./gen_news.php'); ?>
 
     <?php include('./gen_contact_block_3.php'); ?>
 
@@ -1106,6 +1046,7 @@
 
     </div>
       
+    <!-- offer mobile -->
         <div class="pushbar offer bg-emerald-500 text-gray-500" data-pushbar-id="pushbaroffer" data-pushbar-direction="bottom">
     <div class="relative w-8 h-8 text-white ml-auto absolute cursor-pointer mr-2 mt-2" data-pushbar-close>
     <svg class="svg-icon ">
@@ -1119,48 +1060,43 @@
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Kivitel</span>
-                        <span class="block">Standard Range Plus (RWD)</span>
+                        <span class="block facility">Standard Range Plus (RWD)</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right">48000 €</div>
+                    <div class="w-1/4 mt-auto text-right facility-price">48000 €</div>
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Külső szín</span>
-                        <span class="block">Vörös metál</span> 
+                        <span class="block exterior">Vörös metál</span> 
                     </div>
-                    <div class="w-1/4 mt-auto text-right">4000 €</div>
+                    <div class="w-1/4 mt-auto text-right exterior-price">4000 €</div>
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Belső szín</span>
-                        <span class="block">Gyémánt metál</span>
+                        <span class="block interior">Gyémánt metál</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right">3200 €</div>
+                    <div class="w-1/4 mt-auto text-right interior-price">3200 €</div>
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Felni</span>
-                        <span class="block">18’ Aero könnyűfém</span>
+                        <span class="block rim">18’ Aero könnyűfém</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right">4900 €</div>
+                    <div class="w-1/4 mt-auto text-right rim-price">4900 €</div>
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Extrák</span>
-                        <span class="block">Vonóhorog</span>
-                        <span class="block">Enhanced Anti-theft</span>
-                        <span class="block">Wireless Phone Charger</span>
-                        <span class="block">Vonóhorog</span>
-                        <span class="block">Enhanced Anti-theft</span>
-                        <span class="block">Wireless Phone Charger</span>
+                        <span class="block extra">Vonóhorog</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right">8700 €</div>
+                    <div class="w-1/4 mt-auto text-right extra-price">8700 €</div>
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Szállítás</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right">8700 €</div>
+                    <div class="w-1/4 mt-auto text-right">900 €</div>
                 </div><!-- item -->
             </div>
         </div><!--items-->
@@ -1170,7 +1106,7 @@
             <div class="w-1/2 pr-2 mt-auto">
                 <span class="block">Bruttó vételár</span>
             </div>
-            <div class="w-1/2 mt-auto text-right text-white text-xl sm:text-4xl leading-none">65 310 €</div>
+            <div class="w-1/2 mt-auto text-right text-white text-xl sm:text-4xl leading-none sum-price">65 310 €</div>
         </div>
         <div class="text-center mt-4 sm:mt-8">
             <a href= "/form-offer.html" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">tovább az ajánlat kéréshez</a>

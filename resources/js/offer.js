@@ -1,6 +1,5 @@
 $(function(){
 
-
 	switch(getCookie('mahev_model')) {
 		case 's': 
 			model = 'Model S';
@@ -16,20 +15,44 @@ $(function(){
 		break;
 	}
 
+	$('.lastname').addClass('hidden');
+
+	fields = ['model', 'facility', 'exterior', 'interior', 'rim', 'seats', 'selfdrive', 'wtire', 'extra'];
+
 	$('._config-summary li:nth-child(1) span:nth-child(1)').html(model);
-	$('._config-summary li:nth-child(2) span:nth-child(2)').html(getCookie('mahev_facility'));
-	$('._config-summary li:nth-child(3) span:nth-child(2)').html(getCookie('mahev_exterior'));
-	$('._config-summary li:nth-child(4) span:nth-child(2)').html(getCookie('mahev_interior'));
-	$('._config-summary li:nth-child(5) span:nth-child(2)').html(getCookie('mahev_rim'));
-	$('._config-summary li:nth-child(6) span:nth-child(2)').html(getCookie('mahev_seats'));
-	$('._config-summary li:nth-child(7) span:nth-child(2)').html(getCookie('mahev_selfdrive'));
-	$('._config-summary li:nth-child(8) span:nth-child(2)').html(getCookie('mahev_wtire'));
-	$('._config-summary li:nth-child(9) span:nth-child(2)').html(getCookie('mahev_extra'));
+
+	facility = getCookie('mahev_facility');
+	$('._config-summary li:nth-child(2) span:nth-child(2)').html(facility);
+	$('#offer').append('');
+	exterior = getCookie('mahev_exterior');
+	$('._config-summary li:nth-child(3) span:nth-child(2)').html(exterior);
+	interior = getCookie('mahev_interior');
+	$('._config-summary li:nth-child(4) span:nth-child(2)').html(interior);
+	rim = getCookie('mahev_rim');
+	$('._config-summary li:nth-child(5) span:nth-child(2)').html(rim);
+	seats = getCookie('mahev_seats');
+	$('._config-summary li:nth-child(6) span:nth-child(2)').html(seats);
+	selfdrive = getCookie('mahev_selfdrive');
+	$('._config-summary li:nth-child(7) span:nth-child(2)').html(selfdrive);
+	wtire = getCookie('mahev_wtire');
+	$('._config-summary li:nth-child(8) span:nth-child(2)').html(wtire);
+	extra = getCookie('mahev_extra');
+	$('._config-summary li:nth-child(9) span:nth-child(2)').html(extra);
+
+	$.each(fields, function(k, v) {
+		if (window[v] !== '') {
+			var newOption = document.createElement('input');  
+	    	newOption.name = v;
+	    	newOption.type = 'text';
+	    	newOption.value = window[v];
+	    	$('#offer').append(newOption); 
+    	}
+	})
 
 	function getCookie(cname) {
 	  var name = cname + "=";
 	  var decodedCookie = decodeURIComponent(document.cookie);
-	  console.log(decodedCookie);
+
 	  var ca = decodedCookie.split(';');
 	  for(var i = 0; i <ca.length; i++) {
 	    var c = ca[i];

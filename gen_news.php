@@ -15,21 +15,20 @@
   foreach ($articles['nodes'] as $article) {
           
                 print '<div class="card-news">';
-				    print '<a href="/gen_article.php?q=' . $article['node']['nid'] . '">';
+				        print '<a href="/gen_article.php?q=' . $article['node']['nid'] . '">';
 				        print '<div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">';
-				            print '<img class="object-cover object-center block h-full w-full" src="' . $article['node']['field_main_image']['src'] . '" alt="">';
+				        print '<img class="object-cover object-center block h-full w-full" src="' . $article['node']['field_main_image']['src'] . '" alt="">';
 				        print '</div>';
 				        print '<div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>';
 				        print '<h2 class="text-xl py-4 text-gray-500">' . $article['node']['title'] . '</h2>';
 				        print '<p class="text-gray-500">' . $article['node']['field_lead'] . '</p>';
-				    print '</a></div>';
+				        print '</a></div>';
 	}  
-
 
 ?>
             
             <div class="col-span-full text-center mt-8">
-                <a href= "" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Összes hír</a>
+                <!-- <a href= "" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Összes hír</a> -->
             </div>
         </div>
     </section>

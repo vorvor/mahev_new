@@ -7,6 +7,7 @@ $(function(){
 	document.cookie = 'mahev_facility=' + $('#conf-tab-1 ._radio-extras:nth-child(1) .text-sm').html();
 	$('#conf-tab-1 ._radio-extras').each(function() {
 		$(this).click(function() {
+
 			text = $('.text-sm', this).html();
 			price = $('.price div', this).html();
 
@@ -19,6 +20,7 @@ $(function(){
 
 			//Other tabs option changes.
 			if (text.toLowerCase().includes('standard plus') || text.toLowerCase().includes('long range')) {
+
 				$('#conf-tab-3 ._radio-extras').each(function() {
 					if ($('.text-sm', this).html().includes('20')) {
 						$(this).addClass('hidden');
@@ -27,7 +29,9 @@ $(function(){
 					}
 				})
 
-				$('#conf-tab-5 ._radio-extras').each(function() {
+				$('#conf-tab-6 ._toggle-extras').removeClass('hidden');
+
+				$('#conf-tab-6 ._radio-extras').each(function() {
 					if ($('.text-sm', this).html().includes('20')) {
 						$(this).addClass('hidden');
 					} else {
@@ -36,6 +40,7 @@ $(function(){
 				})
 			}
 			if (text.toLowerCase().includes('performance')) {
+
 				$('#conf-tab-3 ._radio-extras').each(function() {
 					if ($('.text-sm', this).html().includes('18') || $('.text-sm', this).html().includes('19')) {
 						$(this).addClass('hidden');
@@ -44,7 +49,9 @@ $(function(){
 					}
 				})
 
-				$('#conf-tab-5 ._radio-extras').each(function() {
+				$('#conf-tab-6 ._toggle-extras').addClass('hidden');
+
+				$('#conf-tab-6 ._radio-extras').each(function() {
 					if ($('.text-sm', this).html().includes('18') || $('.text-sm', this).html().includes('19')) {
 						$(this).addClass('hidden');
 					} else {
@@ -52,6 +59,8 @@ $(function(){
 					}
 				})
 			}
+
+			$('#conf-tab-3 ._radio-extras').not('.hidden').first().click();
 
 			// Under 3D rotate data.
 			var regex = /[+-]?\d+(\.\d+)?/g;
@@ -217,7 +226,6 @@ $(function(){
 		price = 0;
 		$('.offer .price').not('.hidden').each(function() {
 			price += parseInt($(this).html().replace(/\s+/g, ''));
-			console.log(price);
 		})
 		
 		$('.offer .sum-price').html(priceFormat(price) + ' €');

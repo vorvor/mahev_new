@@ -21,6 +21,10 @@ body.brand-page h2 {
     animation: blinking 1s infinite;
 }
 
+.grid .grid .leading-tight {
+    line-height: 1;
+}
+
 
 @keyframes blinking{
 0%{   color: #0acf83;   }

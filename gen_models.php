@@ -113,6 +113,9 @@
         <use xlink:href="#i-speed"></use>
     </svg>
                         </div>
+                        <div class="label--small text-xs text-center leading-tight mx-auto w-full">
+                            max
+                        </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
                             261
                         </div>
@@ -131,6 +134,9 @@
     <svg class="svg-icon ">
         <use xlink:href="#i-acceleration"></use>
     </svg>
+                        </div>
+                        <div class="label--small text-xs text-center leading-tight mx-auto w-full">
+                            min
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
                             2.5
@@ -151,8 +157,11 @@
         <use xlink:href="#i-distance"></use>
     </svg>
                         </div>
+                        <div class="label--small text-xs text-center leading-tight mx-auto w-full">
+                            max
+                        </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            639
+                            652
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             km
@@ -169,6 +178,9 @@
     <svg class="svg-icon ">
         <use xlink:href="#i-acumlator"></use>
     </svg>
+                        </div>
+                        <div class="label--small text-xs text-center leading-tight mx-auto w-full">
+                            max
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
                             100
@@ -946,72 +958,7 @@
 
 <?php include('./gen_contact_block_1.php'); ?>
 
-
-
-<!-- section.py-16>.container.grid.md:grid-cols-2.gap-8>.section-title.col-span-full>h2{Hírek}^div{hír$}*4+.col-span-full.flex.justify-center>button.mx-auto{Összes hír} -->
-<section class="py-16">
-    <div class="container grid md:grid-cols-2 gap-8">
-        <div class="_section-title _io col-span-full relative mb-8 md:mb-12">
-    <h2 class="text-gray-500 text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Hírek</h2>
-    <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
-
-
-    </div>
-</div>
-
-        
-            <div class="card-news">
-    <a href="/article.html">
-        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
-            <img class="object-cover object-center block h-full w-full" src="/resources/img/news1.jpg" alt="">
-        </div>
-        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
-        <h2 class="text-xl py-4 text-gray-500">A Tesla Model S három év alatt alig veszített az értékéből</h2>
-        <p class="text-gray-500">Betekintést kapunk a klikkvadász cím mögött rejlő valódi tartalomviharsarok</p>
-    </a>
-</div>
-        
-            <div class="card-news">
-    <a href="/article.html">
-        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
-            <img class="object-cover object-center block h-full w-full" src="/resources/img/news2.jpg" alt="">
-        </div>
-        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
-        <h2 class="text-xl py-4 text-gray-500">Bruce Wayne Teslákat vett</h2>
-        <p class="text-gray-500">22 darab fekete teslát vásárolt Gotham város leggazdagabb embere.</p>
-    </a>
-</div>
-        
-            <div class="card-news">
-    <a href="/article.html">
-        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
-            <img class="object-cover object-center block h-full w-full" src="/resources/img/news3.jpg" alt="">
-        </div>
-        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
-        <h2 class="text-xl py-4 text-gray-500">Az új Knight Rider rebootban egy Tesláé lesz a főszerep</h2>
-        <p class="text-gray-500">David Hasselhoffot is majd viszontláthatjuk</p>
-    </a>
-</div>
-        
-            <div class="card-news">
-    <a href="/article.html">
-        <div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">
-            <img class="object-cover object-center block h-full w-full" src="/resources/img/news4.jpg" alt="">
-        </div>
-        <div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>
-        <h2 class="text-xl py-4 text-gray-500">Egy porszívó elkötött egy Teslát</h2>
-        <p class="text-gray-500">Több tanú is állítja, hogy a Roomba fegyverrel fenyegetőzött</p>
-    </a>
-</div>
-        
-        <div class="col-span-full text-center mt-8">
-            <a href= "" class= " bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Összes hír</a>
-        </div>
-    </div>
-</section>
-<!-- news -->
-
-
+<?php include('./gen_news.php'); ?>
 
 <?php include('./gen_contact_block_3.php'); ?>
 

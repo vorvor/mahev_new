@@ -42,6 +42,8 @@ $(document).ready(function() {
 	intColor = 'IntBkDrkAsh';
 	rim = '19cSilv';
 
+	var animTimer;
+
 	// Init facility option buttons.
 	$('._configurator-tabs #conf-tab-1 ._radio-extras').attr('data-prop', 'facility');
 	$('._configurator-tabs #conf-tab-1 ._radio-extras:eq(0)').attr('data-val', 'LRP');
@@ -171,15 +173,15 @@ $(document).ready(function() {
 			}
 
 			if (dir == 'right') {
-				setTimeout(function(){ loadImages(i+4, 'right') }, 100);
+				setTimeout(function(){ loadImages(i+4, 'right') }, 50);
 			}
 			if (dir == 'left') {
-				setTimeout(function(){ loadImages(i-4, 'left') }, 100);
+				setTimeout(function(){ loadImages(i-4, 'left') }, 50);
 			}
 
 			if (dir == 'start') {
-				setTimeout(function(){ loadImages(i+4, 'right') }, 100);
-				setTimeout(function(){ loadImages(i-4, 'left') }, 100);
+				setTimeout(function(){ loadImages(i+4, 'right') }, 50);
+				setTimeout(function(){ loadImages(i-4, 'left') }, 50);
 			}
 		} else {
 			// All images loaded.
@@ -211,7 +213,7 @@ $(document).ready(function() {
 			}
 			setPic(currentState);
 			animSpeed = 40;
-			setTimeout(function() { play(step, to, currentState) }, animSpeed);
+			animTimer = setTimeout(function() { play(step, to, currentState) }, animSpeed);
 		} else {
 			// Animation finished. Start next animation.
 			playZoomIn(0);
@@ -240,7 +242,7 @@ $(document).ready(function() {
 			$('#configurator .inset-0').prepend('<img class="hidden sequence-image inner-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
 
 
-			setTimeout(function(){ loadZoomInImages(i + 1) }, 50);
+			animTimer = setTimeout(function(){ loadZoomInImages(i + 1) }, 50);
 
 			
 		} else {
@@ -255,7 +257,9 @@ $(document).ready(function() {
 			clearAnim();
 			$('#configurator .inset-0 .inner-' + innerProject + '-' + picnumstring).removeClass('hidden');
 
-			setTimeout(function(){ playZoomIn(i + 1) }, 50);
+			animTimer = setTimeout(function(){ playZoomIn(i + 1) }, 50);
+		} else {
+			animTimer = null;
 		}
 	}
 
@@ -266,7 +270,7 @@ $(document).ready(function() {
 			innerProject = currentInnerProject();
 			picstring = './sequences/rotate/ZOOMOUT/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
 			$('#configurator .inset-0').prepend('<img class="hidden sequence-image outer-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
-			setTimeout(function(){ loadZoomOutImages(i + 1) }, 50);
+			animTimer = setTimeout(function(){ loadZoomOutImages(i + 1) }, 50);
 
 			
 		} else {
@@ -280,28 +284,33 @@ $(document).ready(function() {
 			picnumstring = ('00000' + i).slice(-5);
 			clearAnim();
 			$('#configurator .inset-0 .outer-' + innerProject + '-' + picnumstring).removeClass('hidden');
-			setTimeout(function(){ playZoomOut(i + 1) }, 50);
+			animTimer = setTimeout(function(){ playZoomOut(i + 1) }, 50);
+		} else {
+			$('input[type="range"]').val(212).change();
+			animTimer = null;
 		}
 	}
 
 	// Belső clicked.
 	$('._tab-nav a:nth-child(4)').click(function() {
-		if (whichAnim == 'outer') {
+		if (whichAnim == 'outer' && animTimer == null) {
 			loadZoomInImages(0);
 			playInit(60);
 			whichAnim = 'inner';
+			$('#slide').addClass('hidden');
 		}
 	})	
 
 	// Other than belső clicked.
 	$('._tab-nav a:nth-child(-n+3)').click(function() {
-		if (whichAnim == 'inner') {
+		if (whichAnim == 'inner' && animTimer == null) {
 			loadZoomOutImages(0);
 			setTimeout(function() {
 				playZoomOut(0);	
 			}, 1000);
 			
 			whichAnim = 'outer';
+			$('#slide').removeClass('hidden');
 		}
 	})	
 
