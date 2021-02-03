@@ -10,6 +10,7 @@
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>
       <?php include('./gen_header_menu.php'); ?>
+      <?php include('./db.php'); ?>
 
 
 <div class="relative min-h-48 xl:min-h-88 h-screen30 py-8 lg:py-16">

@@ -10,6 +10,7 @@
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>
       <?php include('./gen_header_menu.php'); ?>
+      <?php include('./db.php'); ?>
 
 <div class="relative min-h-48 xl:min-h-88 h-screen30 py-8 lg:py-16">
     <div class="container">
@@ -132,9 +133,9 @@
             </section>
             <section class="pt-16 pb-16 md:pb-4 focus:outline-none">
                 <blockquote>
-                    <h2>Mudri Dániel</h2>
-                    <a href="tel:+36 20 366 3447">Tel.: +36 20 366 3447</a><br />
-                    E-mail: <a href="mailto:daniel.mudri@mahzrt.hu">daniel.mudri@mahzrt.hu</a> | <a href="mailto:info@mahzrt.hu">info@mahzrt.hu</a>
+                    <h2>Král Ádám <br />Bachman Gergely</h2>
+                    <a href="tel:+36 20 366 3447">Tel.: <?php print $phone_main; ?></a><br />
+                    E-mail: <a href="mailto:adam.kral@mahzrt.hu">adam.kral@mahzrt.hu</a> | <a href="mailto:gergely.bachman@mahzrt.hu ">gergely.bachman@mahzrt.hu </a> | <a href="mailto:info@mahzrt.hu">info@mahzrt.hu</a>
                 </blockquote>
             </section>
             <!--

@@ -10,6 +10,7 @@
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>
       <?php include('./gen_header_menu.php'); ?>
+      <?php include('./db.php'); ?>
 
       <div class="container max-w-3/4">
 </div>

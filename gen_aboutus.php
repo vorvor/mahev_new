@@ -10,6 +10,7 @@
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>
       <?php include('./gen_header_menu.php'); ?>
+      <?php include('./db.php'); ?>
 
 
 <div class="relative min-h-48 xl:min-h-88 h-screen30 py-8 lg:py-16">
@@ -42,67 +43,27 @@
                 <div class="container py-16 leading-loose">
                     
 
-<div class="_section-title3  text- flex leading-loose items-center mx-auto md:mx-0 max-w-md">
-    <div>
-        <div class="w-24 h-24 p-5 border-2 border-emerald-500 rounded-full mr-4">
-    <svg class="svg-icon ">
-        <use xlink:href="#i-mah"></use>
-    </svg></div>
-    </div>
-    <div>
-        <h2 class="text-2xl md:text-3xl leading-snug">A MAH ZRT.</h2>
-        <div class="w-16 border-t-2 border-emerald-500 ml-0 mt-4 md:mt-8"></div>
-    </div>
-</div>
+                    <div class="_section-title3  text- flex leading-loose items-center mx-auto md:mx-0 max-w-md">
+                        <div>
+                            <div class="w-24 h-24 p-5 border-2 border-emerald-500 rounded-full mr-4">
+                        <svg class="svg-icon ">
+                            <use xlink:href="#i-mah"></use>
+                        </svg></div>
+                        </div>
+                        <div>
+                            <h2 class="text-2xl md:text-3xl leading-snug">A MAH ZRT.</h2>
+                            <div class="w-16 border-t-2 border-emerald-500 ml-0 mt-4 md:mt-8"></div>
+                        </div>
+                    </div>
+
                     <div class="lead my-16 md:my-12">
-                        Társaságunk tagja a Magyar Gépjármű kereskedők Országos Egyesületének, ahol folyamatos szakmai együttműködésben nyomon követjük a változó szabályokat, trendeket, ezzel is lépést tartva a Magyar gépjárműpiaccal. Számos ELÉGEDETT vásárlónk a GARANCIA arra, hogy a Magyar Autókereskedőház Zrt. a legjobbat nyújtja Önnek.
+                        A Magyar Autókereskedőház Zrt. 2016-óta működött együtt a Bécsi Tesla szalonnal a Magyarországra történő járművek honosítási ügyintézésében. Akár egyösszegű vásárlás során a forgalomba helyezési eljárások bonyolításában, akár a finanszírozva történő vásárlások esetén, beszállítással az intézmények felé. 2018-óta aktívan értékesítünk új és használt Tesla modelleket, a valós sikertermék a 2019-ben megjelenő Model 3 volt. Ebből a modellből és társaiból a mai napig jelentős mennyiséget importáltunk és adtunk át az új tulajdonosaiknak, hogy élvezzék az elektromobilitás jelenlegi élvonalát!
+
+
                         <p> A MAH Zrt.  főbb mérfördkövei:</p>
 
                     </div>
-                    <div class="grid md:grid-cols-2 col-gap-8 row-gap-16">
-                        <div>
-                            <h3>2015</h3>
-                            <p>A Magyar Autókereskedőház Zrt. alapítása</p>
-                            <p>Online és offline bővülés – honlap indítása, új iroda</p>
-                            <p>Közel 21 millió forintos jegyzett tőke</p>
-                            <p>Elért árbevétel: 160 mHUF</p>
-
-                            <h3>2017</h3>
-                            <p>A MAH Zrt. csapata újabb kollégákkal bővül</p>
-                            <p>Évről évre növekedő forgalom, amit az árbevételek is tükröznek</p>
-                            <p>Külön együttműködés a hasznaltauto.hu weboldallal</p>
-                            <p>Online marketing erősítése – AdWords hirdetések (részben mobile.de oldalon megjelenő reklám), közösségi felületeken való aktív</p>részvétel
-                            <p> Elért árbevétel: 432 mHUF</p>
-
-                            <h3>2018</h3>
-                            <p> A MAH Zrt. csapata újabb kollégákkal bővül</p>
-                            <p> Évről évre növekedő forgalom, amit az árbevételek is tükröznek</p>
-                            <p> Külön együttműködés a hasznaltauto.hu weboldallal</p>
-                            <p> Online marketing erősítése – AdWords hirdetések (részben mobile.de oldalon megjelenő reklám), közösségi felületeken való aktív </p>részvétel
-                            <p> Elért árbevétel: 432 mHUF</p>
-                        </div>
-                        <div>
-                            <h3>2019</h3>
-                            <p> Honlap innováció – extra funkciók hozzáadása, illetve a teljes design frissítése</p>
-                            <p> Az éves forgalom több mint a duplájára emelkedett az előző évhez képest</p>
-                            <p> A cég alaptőkéje közel megduplázódik</p>
-                            <p> Online jelenlét megalapozása: az első 1000 Facebook kedvelő – 2016. októbere, feliratkozók gyűjtése</p>
-                            <p> Elért árbevétel: 327 mHUF</p>
-
-                            <h3>2020</h3>
-                            <p>TESLA partneri viszony a Bécsi TESLA központon keresztül</p>
-                            <p>Mobile.de hivatalos partnerség, aminek köszönhetően mindig aktuális hirdetések jelennek meg az oldalunkon</p>
-                            <p>MAH Tndr mobil applikáció elindul az App Store-ban</p>
-                            <p>FB követők száma több, mint 7000</p>
-                            <p>Eladási eredmények növekedése – kiemelkedő értékű autók értékesítése (Ferrari, Tesla)</p>
-                            <p>Új munkatársak felvétele</p>
-                            <p>A vállalat vezetősége vezető szerepet vállal releváns szakmai szervezetekben (MGOE, MASZSZ)</p>
-                            <p>Élen az online marketingben a vállalkozás</p>
-                            <p>Elért árbevétel: 761 mHUF</p>
-
-
-                        </div>
-                    </div>
+                    
 
                 </div><!--container-->
             </section>
@@ -286,6 +247,87 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
             <!-- team -->
 
 
+
+
+
+<section class="_services-content">
+                <div class="container py-16 leading-loose">
+                    
+
+                    <div class="_section-title3  text- flex leading-loose items-center mx-auto md:mx-0 max-w-md">
+                        <div>
+                            <div class="w-24 h-24 p-5 border-2 border-emerald-500 rounded-full mr-4">
+                        <svg class="svg-icon ">
+                            <use xlink:href="#i-mah"></use>
+                        </svg></div>
+                        </div>
+                        <div>
+                            <h2 class="text-2xl md:text-3xl leading-snug">A MAH ZRT.</h2>
+                            <div class="w-16 border-t-2 border-emerald-500 ml-0 mt-4 md:mt-8"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid md:grid-cols-2 col-gap-8 row-gap-16">
+                        <div>
+                            <h3>2015</h3>
+                            <p>A Magyar Autókereskedőház Zrt. alapítása</p>
+                            <p>Online és offline bővülés – honlap indítása, új iroda</p>
+                            <p>Közel 21 millió forintos jegyzett tőke</p>
+                            <p>Elért árbevétel: 160 mHUF</p>
+
+                            <h3>2016</h3>
+                            <p>Honlap innováció – extra funkciók hozzáadása, illetve a teljes design frissítése</p>
+                            <p>Az éves forgalom több mint a duplájára emelkedett az előző évhez képest</p>
+                            <p>A cég alaptőkéje közel megduplázódik</p>
+                            <p>Online jelenlét megalapozása: az első 1000 Facebook kedvelő – 2016. októbere, feliratkozók gyűjtése</p>
+                            <p>Elért árbevétel: 327 mHUF</p>
+
+                            <h3>2017</h3>
+                            <p>A MAH Zrt. csapata újabb kollégákkal bővül</p>
+                            <p>Évről évre növekedő forgalom, amit az árbevételek is tükröznek</p>
+                            <p>Külön együttműködés a hasznaltauto.hu weboldallal</p>
+                            <p>Online marketing erősítése – AdWords hirdetések (részben mobile.de oldalon megjelenő reklám), közösségi felületeken való aktív részvétel</p>
+                            <p> Elért árbevétel: 432 mHUF</p>
+
+                            <h3>2018</h3>
+                            <p> TESLA partneri viszony a Bécsi TESLA központon keresztül</p>
+                            <p> <a href="http://www.mobile.de">Mobile.de</a> hivatalos partnerség, aminek köszönhetően mindig aktuális hirdetések jelennek meg az oldalunkon</p>
+                            <p> MAH Tndr mobil applikáció elindul az App Store-ban</p>
+                            <p> FB követők száma több, mint 7000</p>
+                            <p> Eladási eredmények növekedése – kiemelkedő értékű autók értékesítése (Ferrari, Tesla)</p>
+                            <p> Új munkatársak felvétele</p>
+                            <p> A vállalat vezetősége vezető szerepet vállal releváns szakmai szervezetekben (MGOE, MASZSZ)</p>
+                            <p> Élen az online marketingben a vállalkozás</p>
+                            <p> Elért árbevétel: 761 mHUF</p>
+                        </div>
+                        <div>
+                            <h3>2019</h3>
+                            <p> TESLA.HU internetes oldal beindítása, Tesla Model 3-ból a legtöbbet importáló vállalkozás az országban 2019-ben</p>
+                            <p> ECDH.HU internetes járműkezelési oldal fő szakmai támogatója a MAH Zrt.</p>
+                            <p> FB követők meghaladják a 12 000-es létszámot</p>
+                            <p> Prémiumgépjármű importban az élen Magyarországon</p>
+                            <p> Különleges járművek importja</p>
+                            <p> Kollégák száma az eddigi legmagasabb, 8 fő</p>
+                            <p> Elért árbevétel: 1 600 mHUF</p>
+
+
+                            <h3>2020</h3>
+                            <p>Megkezdődött a MAH autószalon beruházása ahol TESLA és egyéb prémium márkák értékesítése lesz 2021-től</p>
+                            <p>Prémium gépjárműimportban továbbra is az élmezőnyben Magyarországon</p>
+                            <p>FB követők meghaladják a 20 000 főt, jelentős közösségi média részvétel a vállalkozás részéről</p>
+                            <p>Beindult az export üzletág</p>
+                            <p>Különleges járművek importja továbbra is jellemző a megrendeléseinkre</p>
+                            <p>Jelentős szerepvállalás az MGOE-ben</p>
+                            <p>Kollégák száma meghaladja a 12 főt</p>
+                            <p>Elért árbevétel: 1 800 mHUF</p>
+
+
+                        </div>
+                    </div>
+
+                </div><!--container-->
+            </section>
+            <!-- MAH Zrt -->
 
             
 

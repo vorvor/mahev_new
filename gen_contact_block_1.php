@@ -28,7 +28,7 @@
                 </a>
             </li>
             <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="https://m.me/MagyarAutokereskedohazZrt" class="text-white">
+                <a href="https://m.me/MagyarAutokereskedohazZrt" target="_blank" class="text-white">
                     
     <svg class="svg-icon ">
         <use xlink:href="#i-messenger"></use>

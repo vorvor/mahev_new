@@ -8,7 +8,6 @@
     </div>
 </div>
         <div class="col-span-full lg:col-span-4 mb-8 w-full max-w-xs mx-auto md:mx-0">
-            <!-- <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.1428546112606!2d18.998372515879765!3d47.44815470690252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741ddf8208fed53%3A0x92b5e4f4976f044b!2zQnVkYXBlc3QsIEvDoW5haSDDunQgMywgMTExMg!5e0!3m2!1sen!2shu!4v1604312628720!5m2!1sen!2shu" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
             <div class="w-80 h-80 rounded-full overflow-hidden mb-4">
                 <a class="w-80 h-80 block" target="_blank" href="https://www.google.hu/maps/place/Magyar+Aut%C3%B3keresked%C5%91h%C3%A1z+Zrt./@47.4484897,18.9982552,17z/data=!3m1!4b1!4m5!3m4!1s0x4741e0aad6a5d437:0x593a19e9c78f1d1b!8m2!3d47.4484861!4d19.0004439?hl=hu">
                     <img class="block object-cover object-center w-full h-full" src="resources/img/map__kanai-ut-3.jpg" alt="">
@@ -101,11 +100,11 @@
     <div class="border-t-2 border-gray-300 text-gray-300">
         <ul class="container  lg:flex lg:flex-wrap lg:justify-between">
             <li class="py-2 block px-4 inline-block"><a class="" href="#">© 2015-2021 MAHZRT</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="#">Adatkezelési tájkoztató</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="#">Model S</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="#">Model 3</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="#">Model X</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="#">Model Y</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" target="_blank" href="/gen_priv-policy.php">Adatkezelési tájkoztató</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" href="/gen_models">Model S</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" href="/gen_model3">Model 3</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" href="/gen_modelx">Model X</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" href="/gen_modely">Model Y</a></li>
         </ul>
     </div>
 </footer>

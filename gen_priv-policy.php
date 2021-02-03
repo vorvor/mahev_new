@@ -10,6 +10,7 @@
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>
       <?php include('./gen_header_menu.php'); ?>
+      <?php include('./db.php'); ?>
 
 
 
@@ -51,11 +52,11 @@
 <div class="lead my-16 md:my-12">
     <h3>1. Az adatkezelési tájékoztató célja</h3>
     
-    A Magyar Autókereskedőház Zrt. (1112 Bp., Repülőtéri út 6.., a továbbiakban Szolgáltató, Adatkezelő) mint adatkezelő, magára nézve kötelezőnek ismeri el jelen jogi közlemény tartalmát. Kötelezettséget vállal arra, hogy tevékenységével kapcsolatos minden adatkezelés megfelel a jelen szabályzatban és a hatályos nemzeti jogszabályokban, valamint az Európai Unió jogi aktusaiban meghatározott elvárásoknak.
+    A Magyar Autókereskedőház Zrt. (1112 Bp., Kánai út 3. A/B., a továbbiakban Szolgáltató, Adatkezelő) mint adatkezelő, magára nézve kötelezőnek ismeri el jelen jogi közlemény tartalmát. Kötelezettséget vállal arra, hogy tevékenységével kapcsolatos minden adatkezelés megfelel a jelen szabályzatban és a hatályos nemzeti jogszabályokban, valamint az Európai Unió jogi aktusaiban meghatározott elvárásoknak.
     
     A Szolgáltató adatkezeléseivel kapcsolatosan felmerülő adatvédelmi irányelvek folyamatosan elérhetők a <a href="https://mah-ev.hu">https://mah-ev.hu</a> címen.
     A Szolgáltató fenntartja magának a jogot jelen tájékoztató bármikori megváltoztatására. Természetesen az esetleges változásokról kellő időben értesíti közönségét.
-    Amennyiben kérdése lenne jelen közleményünkhöz kapcsolódóan, kérjük, írja meg nekünk, és kollégánk megválaszolja kérdését: <a href="mailto:info@hahev.hu">info@tesla.hu</a>, <a href="mailto:info@mahzr.hu">info@mahzrt.hu</a>
+    Amennyiben kérdése lenne jelen közleményünkhöz kapcsolódóan, kérjük, írja meg nekünk, és kollégánk megválaszolja kérdését: <a href="mailto:info@mahzrt.hu">info@mahzrt.hu</a>
     A Szolgáltató elkötelezett ügyfelei és partnerei személyes adatainak védelmében, kiemelten fontosnak tartja ügyfelei információs önrendelkezési jogának tiszteletben tartását. A Szolgáltató a személyes adatokat bizalmasan kezeli, és megtesz minden olyan biztonsági, technikai és szervezési intézkedést, mely az adatok biztonságát garantálja.
     A Szolgáltató az alábbiakban ismerteti adatkezelési gyakorlatát.
 </div>
@@ -66,7 +67,7 @@
     A Szolgáltató minden hozzá beérkezett e-mailt a vezetéknév és keresztnév személyes adatokkal együtt az adatközléstől számított legfeljebb 5 év elteltével töröl.
 
     Név: Magyar Autókereskedőház Zrt.<br />
-Székhely: 1112 Bp., Repülőtéri út 6<br />
+Székhely: 1112 Bp., Kánai út 3. A/B.<br />
 Cégjegyzékszám: 01-10-048433<br />
 A bejegyző bíróság megnevezése: Fővárosi Törvényszék Cégbírósága<br />
 Adószám: 25196276-2-43<br />

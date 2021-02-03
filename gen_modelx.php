@@ -11,6 +11,7 @@
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>
       <?php include('./gen_header_menu.php'); ?>
+      <?php include('./db.php'); ?>
       
 <div class="_model-hero h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
     <div class="swiper-slide relative flex items-stretch overflow-hidden">
@@ -81,7 +82,7 @@
             <picture>
                 <source media="(max-width: 799px)" srcset="/resources/img/product__model-x--mobile.jpg">
                 <source media="(min-width: 800px)" srcset="/resources/img/product__model-x--desktop.jpg">
-                <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product__model-3--mobile.jpg" alt="">
+                <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product__model-x--mobile.jpg" alt="">
             </picture>
         </div>
     </div>
@@ -323,7 +324,7 @@
             <div class="flex-shrink">
                 <span class="w-full block text-sm font-semibold">Long range plus</span>
                 
-                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 3.8 mp | Hatótáv: 652 km | Végsebesség 250 km/h</span>
+                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 3.9 mp | Hatótáv: 580 km | Végsebesség 250 km/h</span>
                 
             </div>
         </span>
@@ -344,9 +345,9 @@
         <span id="toggle-label10" class="leading-5 flex">
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Performance</span>
+                <span class="w-full block text-sm font-semibold">Plaid</span>
                 
-                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 2.6 mp | Hatótáv: 639 km | Végsebesség 250 km/h</span>
+                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 2.6 mp | Hatótáv: 547 km | Végsebesség 262 km/h</span>
                 
             </div>
         </span>
@@ -415,7 +416,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>1 750 €</div>
+        <div>1 760 €</div>
     </div>
 </div>
             
@@ -443,7 +444,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>1 750 €</div>
+        <div>1 760 €</div>
     </div>
 </div>
             
@@ -471,7 +472,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>1 750 €</div>
+        <div>1 760 €</div>
     </div>
 </div>
             
@@ -499,7 +500,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>3 100 €</div>
+        <div>3 170 €</div>
     </div>
 </div>
         </div>

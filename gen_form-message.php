@@ -10,6 +10,7 @@
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>
       <?php include('./gen_header_menu.php'); ?>
+      <?php include('./db.php'); ?>
       
       <div class="container max-w-3/4">
 </div>
@@ -74,7 +75,7 @@
                 <div class="ml-3 text-sm leading-5">
                   <label for="termsandconditions" class="font-medium text-gray-500">Elfogadom az adatvédelmi feltételeket </label>
                     <p class="text-gray-500">
-                        <a class="text-emerald-600 underline uppercase text-xs font-semibold tracking-wide" href="https://bit.ly/2IMpSzu" target="_blank">
+                        <a class="text-emerald-600 underline uppercase text-xs font-semibold tracking-wide" href="/gen_priv-policy.php" target="_blank">
                             Adatkezelési tájékoztató
                         </a>
                     </p>

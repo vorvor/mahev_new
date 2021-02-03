@@ -10,6 +10,8 @@
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>
       <?php include('./gen_header_menu.php'); ?>
+      <?php include('./db.php'); ?>
+      
           <section class="swiper-big swiper-container w-full">
     <div class="swiper-wrapper h-screen50 md:h-screen80 min-h-56 flex">
         
@@ -77,7 +79,7 @@
             </div>
             <!--innerwrapper-->
             <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
-                <img class="block object-cover object-center w-full h-full" src="resources/img/home__model-s.jpg" alt="">
+                <img class="block object-cover object-center w-full h-full" src="resources/img/modelS-mountain.jpg" alt="">
             </div>
         </div><!--swiper-slide -->
         
@@ -148,7 +150,7 @@
             </div>
             <!--innerwrapper-->
             <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
-                <img class="block object-cover object-center w-full h-full" src="resources/img/home__model-3.jpg" alt="">
+                <img class="block object-cover object-center w-full h-full" src="resources/img/model3-city.jpg" alt="">
             </div>
         </div><!--swiper-slide -->
         
@@ -665,7 +667,7 @@
             <span class="leading-snug">Megrendelés</span>
         </h2>
         <div class="leading-5 text-sm text-gray-600">
-            az összes folyamatot bonyolítjuk
+            Az összes folyamatot bonyolítjuk
         </div>
     </div>  
 </div>

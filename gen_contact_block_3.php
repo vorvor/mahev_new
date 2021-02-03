@@ -3,7 +3,7 @@
             <div class="_section-title _io col-span-full relative mb-8 md:mb-12">
     <h2 class="text-gray-500 text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Csapatunk</h2>
     <div class="text-gray-500 pl-4 sm:pl-8  md:pl-16 ">
-        Jelenleg Mudri Dániel és Král Ádám fogadja az érdeklődők leveleit, megkereséseit, de célunk a forgalommal arányos folyamatos bővítés, legyen az emberi erőforrások területe vagy pedig a cég egyéb erőforrásainak feljesztése. Kollégáink összességében több mint 30 éve foglalkoznak gépjármű kereskedelemmel és finanszírozással, szakmai múltjuk és tapasztalatuk alább olvasható:
+        Jelenleg Mudri Dániel, Král Ádám és Bachman Gergely fogadja az érdeklődők leveleit, megkereséseit, de célunk a forgalommal arányos folyamatos bővítés, legyen az emberi erőforrások területe vagy pedig a cég egyéb erőforrásainak feljesztése. Kollégáink összességében több mint 40 éve foglalkoznak gépjármű kereskedelemmel és finanszírozással, szakmai múltjuk és tapasztalatuk alább olvasható:
     </div>
     <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
 
@@ -13,8 +13,8 @@
             
                 <div class="_card-person-short text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-        <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-bigda-zsuzsanna-res.jpg" alt="">
+        <!-- <img class="_image-scale block w-full h-full object-cover object-center"
+             src="resources/img/colleague-bigda-zsuzsanna-res.jpg" alt=""> -->
     </div>
     <div
          class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">

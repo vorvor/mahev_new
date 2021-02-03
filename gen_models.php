@@ -13,6 +13,7 @@
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>
       <?php include('./gen_header_menu.php'); ?>
+      <?php include('./db.php'); ?>
       
 <div class="_model-hero h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
     <div class="swiper-slide relative flex items-stretch overflow-hidden">
@@ -37,7 +38,7 @@
                 <li class="ani-delay-10 w-24 ani-slidein-b">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-white sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                            2.5
+                            2.1
                         </div>
                         <div class="label--small text-xs text-white text-center leading-tight mx-auto w-full">
                             mp
@@ -51,7 +52,7 @@
                 <li class="ani-delay-11 w-24 ani-slidein-b">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-white sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                            261
+                            322
                         </div>
                         <div class="label--small text-xs text-white text-center leading-tight mx-auto w-full">
                             km/h
@@ -65,7 +66,7 @@
                 <li class="ani-delay-12 w-24 ani-slidein-b">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-white sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                            639
+                            837
                         </div>
                         <div class="label--small text-xs text-white text-center leading-tight mx-auto w-full">
                             km
@@ -117,7 +118,7 @@
                             max
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            261
+                            322
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             km/h
@@ -139,7 +140,7 @@
                             min
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            2.5
+                            2.1
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             mp
@@ -161,7 +162,7 @@
                             max
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            652
+                            837
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             km
@@ -183,7 +184,7 @@
                             max
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            100
+                            130+
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             kw/h
@@ -202,7 +203,7 @@
     </svg>
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            2
+                            3
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             db
@@ -229,7 +230,7 @@
                 </div>
             </div>
             <div class="a col-span-2 order-1 lg:order-2 -mx-4 sm:mx-auto">
-                <img src="/resources/img/model-s-sample.jpg" alt="">
+                <img src="/resources/img/modelS-white.jpg" alt="">
             </div>
         </div>
         <div class="text-gray-500 text-sm py-4"></div>
@@ -330,7 +331,7 @@
             <div class="flex-shrink">
                 <span class="w-full block text-sm font-semibold">Long range plus</span>
                 
-                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 3.8 mp | Hatótáv: 652 km | Végsebesség 250 km/h</span>
+                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 3.2 mp | Hatótáv: 663 km | Végsebesség 250 km/h</span>
                 
             </div>
         </span>
@@ -353,7 +354,7 @@
             <div class="flex-shrink">
                 <span class="w-full block text-sm font-semibold">Plaid</span>
                 
-                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 2.5 mp | Hatótáv: 652 km | Végsebesség 261 km/h</span>
+                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 2.1 mp | Hatótáv: 837 km | Végsebesség 322 km/h</span>
                 
             </div>
         </span>

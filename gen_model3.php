@@ -14,6 +14,7 @@
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>
       <?php include('./gen_header_menu.php'); ?>
+      <?php include('./db.php'); ?>
       
 <div class="_model-hero h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
     <div class="swiper-slide relative flex items-stretch overflow-hidden">
@@ -218,7 +219,7 @@
                 </div>
             </div>
             <div class="a col-span-2 order-1 lg:order-2 -mx-4 sm:mx-auto">
-                <img src="/resources/img/tesla-bigsample-1.jpg" alt="">
+                <img src="/resources/img/model3-highway.jpg" alt="">
             </div>
         </div>
         <div class="text-gray-500 text-sm py-4">
@@ -323,7 +324,7 @@
             <div class="flex-shrink">
                 <span class="w-full block text-sm font-semibold">Standard Plus (Rwd)</span>
                 
-                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 5.6 mp | Hatótáv: 430 km | Végsebesség 225 km/h</span>
+                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 5.6 mp | Hatótáv: 448 km | Végsebesség 225 km/h</span>
                 
             </div>
         </span>
