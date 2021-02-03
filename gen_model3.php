@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
+    <link rel="stylesheet" href="resources/css/custom-mobile-slider.css">
     <script src="resources/js/config-m3.js"></script>
+    <script src="resources/js/slider-init-m3.js"></script>
+    <script src="resources/js/slider-m3.js"></script>
   </head>
   <body class="debug-screens bg-white model"> 
 
@@ -841,12 +844,20 @@
 
     <div class="product min-h-16 lg:col-span-2">
         <div class="_configurator-3d">
-            <div class="absolute inset-0 overflow-hidden">
-                <img class="inset-0 absolute border-b-2 border-gray-100" src="/resources/img/3dplaceholder.jpg" alt="">
+            <div class="absolute inset-0">
+                <!-- <img class="inset-0 absolute border-b-2 border-gray-100" src="/resources/img/3dplaceholder.jpg" alt=""> -->
+                <div id="slide">
+                    <form>
+                        <input type="range" name="slider" id="slider" class="slider" min="0" max="101" value="48">
+                    </form>
+                </div>
             </div>
         </div>
+
+
+
         <div>
-            <ul class="highlights w-full flex justify-center items-center text-gray-500 pt-4">
+            <ul class="highlights w-full flex justify-center items-center text-gray-500 pt-4" style="padding-top:3rem;">
                 <li class="w-24">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-emerald-500 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl md:text-2xl font-semibold text-center leading-tight mx-auto w-full">

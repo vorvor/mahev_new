@@ -52,7 +52,7 @@
                 <p>Adószám: 25196276-2-43</p>
                 <p>Cégjegyzékszám: 01-10-048433</p>
             </div>
-            <a href= "tel:0036306668888" class= "w-full mx-auto mb-8 bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">+36 30 666 8888</a>
+            <a href= "tel:0036306668888" class= "w-full mx-auto mb-8 bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out"><?php print $phone_main; ?></a>
             <a href= "/gen_form-message.php" class= "w-full mx-auto mb-8 bg-gray-300  hover:bg-gray-400  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Üzenetet küldök</a>
             <ul class="grid grid-cols-3 gap-8 justify-items-center items-center w-full">
                 <!--<li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150 link-overlay extend-a">

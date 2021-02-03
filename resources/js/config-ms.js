@@ -29,12 +29,12 @@ $(function(){
 				})
 			}
 
-			if (text.toLowerCase().includes('performance')) {
+			if (text.toLowerCase().includes('plaid')) {
 				$('#conf-tab-4 ._radio-extras').each(function() {
-					if ($('.text-sm', this).html().includes('kőrisfa')) {
-						$(this).addClass('hidden');
-					} else {
+					if ($('.text-sm', this).html().includes('karbon')) {
 						$(this).removeClass('hidden');
+					} else {
+						$(this).addClass('hidden');
 					}
 				})
 			}
@@ -170,6 +170,8 @@ $(function(){
 
 				// Save value.
 				document.cookie = 'mahev_wtire=19\' ezüst könnyűfém felni Pirelli Sottozero 3 téligumival';
+			} else {
+				document.cookie = 'mahev_wtire=';
 			}
 
 			calcOfferPrice();

@@ -35,7 +35,7 @@
                     <li class="ani-delay-10 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                2.5
+                                2.1
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 mp
@@ -49,7 +49,7 @@
                     <li class="ani-delay-11 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                261
+                                322
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 km/h
@@ -63,7 +63,7 @@
                     <li class="ani-delay-12 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                639
+                                837
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 km
@@ -177,7 +177,7 @@
                     <li class="ani-delay-10 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                2.8
+                                2.6
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 mp
@@ -191,7 +191,7 @@
                     <li class="ani-delay-11 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                261
+                                262
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 km/h
@@ -205,7 +205,7 @@
                     <li class="ani-delay-12 w-24 ani-slidein-b">
                         <div class="border-2 border-white circle content-center flex flex-column flex-wrap h-16 mx-auto rounded-full w-16 sm:h-16 sm:w-16 md:h-20 md:h-20 md:w-20 md:w-20">
                             <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                                561
+                                580
                             </div>
                             <div class="label--small leading-tight mx-auto text-center text-white text-xs w-full">
                                 km
@@ -484,7 +484,7 @@
     </h2>
     <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
     <div class="text-center leading-8 text-gray-600 w-full">
-        Számos biztosító társaság termékét kínáljuk ügyfeleinknek ajánlani, melyek jelenleg a piacon elérhető egyik legkedvezőbb termékek.
+        Számos biztosító társaság termékét kínáljuk ügyfeleinknek, melyek jelenleg a piacon elérhető egyik legkedvezőbb termékek.
     </div>
     <div class="text-center pt-8 mt-auto w-full">
         <a href= "gen_services.php#insurance" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>

@@ -1,39 +1,21 @@
 <?php
 
-  function curl_get_contents($url, $post = NULL) {
+  $phone_main = '+36 20 666 8888';
 
+  function curl_get_contents($url) {
 
-
-  if (isset($_POST['api_url'])) {
-    $ch = curl_init($_POST['api_url']);
-  }
-  else {
-    $ch = curl_init($url);
-  }
+  $ch = curl_init($url);
 
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
   curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
   curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+  curl_setopt($ch, CURLOPT_POST, 1);
 
-
-  if (isset($_POST['params'])) {
-    $params = str_replace('|', '&', $_POST['params']);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
-  }
-
-  $params = '';
-  if (isset($post)) {
-    
-    curl_setopt($ch, CURLOPT_POST, count($post) + 1);
-      
-    $params = 'api=1';
-    foreach ($post as $key => $value) {       
-      $params .= '&' . $key . '=' . $value;
-    }
-    
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
-  }
+  $params = array(
+    'pass' => '123',
+  );
+  curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
 
   $data = curl_exec($ch);
   $status = curl_getinfo($ch);

@@ -7,7 +7,7 @@
     </div>
     <div class="text-center flex flex-wrap content-center">
         <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-            <img class="_image-scale block w-full h-full object-cover object-center" src="resources/img/colleague-kral-adam.jpg" alt="">
+            <img class="_image-scale block w-full h-full object-cover object-center" src="resources/img/colleague-kral-adam-res.jpg" alt="">
         </div>
         <div class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-4 mt-4">Král Ádám</div>
         <div class="text-gray-500 w-full">Értékesítő</div>

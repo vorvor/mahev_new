@@ -100,7 +100,7 @@
 </style> -->
 
 <div id="mail-wrapper" style="background: #616366;font-family: 'Barlow', sans-serif;overflow: hidden;">
-      <div id="logo" style="padding: 8px 32px;border: 1px solid #fff;width: 134px;margin: 40px auto;color: #fff;">MAHZRT</div>
+      <div id="logo" style="padding: 8px 32px;border: 1px solid #fff;width: 56px;margin: 40px auto;color: #fff;">MAHZRT</div>
       <div id="mail-inside-wrapper" style="background: #fff;width: 80%;margin: 0 auto 50px;border-top: 4px solid #0acf83;padding: 37px 58px;box-sizing: border-box;">
         <div id="config-photo" style="margin: 0 auto;"><img style="width: 100%;" src="http://mahev.wabisabee.com/sequences/M3_PE_ExBk_IntBk_20cUturb/M3_PE_ExBk_IntBk_20cUturb_00000.jpg"></div>
 
@@ -155,30 +155,39 @@
             <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">###interior###</div>
           </div>
           </span>
+          <!-- selfdrive block start -->
           <span id="autopilot">
           <div class="data-row autopilot" style="border-bottom: 2px solid #0acf83;font-weight: bold;margin: 10px 0;overflow: hidden;">
             <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;">Önvezetés</div>
             <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">###selfdrive###</div>
           </div>
           </span>
+          <!-- selfdrive block start -->
+          <!-- wtire block start -->
           <span id="tire">
           <div class="data-row winter-wheel" style="border-bottom: 2px solid #0acf83;font-weight: bold;margin: 10px 0;overflow: hidden;">
             <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;">Téli gumi</div>
             <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">###wtire###</div>
           </div>
           </span>
+          <!-- wtire block end -->
+          <!-- extra block start -->
           <span id="extra">
           <div class="data-row extra" style="border-bottom: 2px solid #0acf83;font-weight: bold;margin: 10px 0;overflow: hidden;">
             <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;">Extra</div>
             <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">###extra###</div>
           </div>
           </span>
+          <!-- extra block end -->
+          <!-- seats block start -->
           <span id="seats">
           <div class="data-row seats" style="border-bottom: 2px solid #0acf83;font-weight: bold;margin: 10px 0;overflow: hidden;">
             <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;">Ülések száma</div>
             <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">###seats###</div>
           </div>
           </span>
+          <!-- seats block end -->
+          <!--
           <div class="data-row" style="border-bottom: 2px solid #0acf83;font-weight: bold;margin: 10px 0;overflow: hidden;">
             <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;">Szállítás</div>
             <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">990 EUR</div>
@@ -191,6 +200,7 @@
             <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;">Végösszeg</div>
             <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">[data:sum_price-value] EUR</div>
           </div>
+        -->
         </div>
         <!--
 

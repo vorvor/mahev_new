@@ -4,28 +4,6 @@ $(document).ready(function() {
 
 	path = './sequences/';
 	projectPattern = 'model_facility_extcolor_IntBkDrkAsh_rim';
-	projects = [
-		'MS_LRP_ExWh_IntBkDrkAsh_19cSilv', 
-		'MS_LRP_ExWh_IntBkDrkAsh_21cCarb',
-		'MS_LRP_ExBk_IntBkDrkAsh_19cSilv', 
-		'MS_LRP_ExBk_IntBkDrkAsh_21cCarb', 
-		'MS_LRP_ExBl_IntBkDrkAsh_19cSilv', 
-		'MS_LRP_ExBl_IntBkDrkAsh_21cCarb', 
-		'MS_LRP_ExGr_IntBkDrkAsh_19cSilv', 
-		'MS_LRP_ExGr_IntBkDrkAsh_21cCarb', 
-		'MS_LRP_ExRd_IntBkDrkAsh_19cSilv', 
-		'MS_LRP_ExRd_IntBkDrkAsh_21cCarb', 
-		'MS_PE_ExBk_IntBkDrkAsh_19cSilv', 
-		'MS_PE_ExBk_IntBkDrkAsh_21cCarb', 
-		'MS_PE_ExBl_IntBkDrkAsh_19cSilv', 
-		'MS_PE_ExBl_IntBkDrkAsh_21cCarb', 
-		'MS_PE_ExGr_IntBkDrkAsh_19cSilv', 
-		'MS_PE_ExGr_IntBkDrkAsh_21cCarb', 
-		'MS_PE_ExRd_IntBkDrkAsh_19cSilv', 
-		'MS_PE_ExRd_IntBkDrkAsh_21cCarb', 
-		'MS_PE_ExWh_IntBkDrkAsh_19cSilv', 
-		'MS_PE_ExWh_IntBkDrkAsh_21cCarb'];
-
 
 	whichAnim = 'outer';
 
@@ -35,7 +13,7 @@ $(document).ready(function() {
 
 	loadedProjects = [];
 
-	project = projects[0];
+	project = 'MS_LRP_ExWh_IntBkDrkAsh_19cSilv';
 	model = 'MS';
 	facility = 'LRP';
 	extColor = 'ExWh';
@@ -82,7 +60,7 @@ $(document).ready(function() {
 			return true;
 		}
 		
-		if (prop == 'facility' || prop == 'extColor' || prop == 'intColor') {
+		if (prop == 'facility' || prop == 'extColor' || prop == 'intColor' || prop == 'rim') {
 			// Update current project based upon selection.
 			project = currentProject();
 			picnum = $('#slider').val() * 4;
@@ -90,8 +68,9 @@ $(document).ready(function() {
 			if (!loadedProjects.includes(project)) {
 				loadImages(picnum, 'start');
 				loadedProjects.push(currentProject());
+			} else {
+				setPic();
 			}
-			setPic();
 		}
 	})
 
@@ -163,6 +142,7 @@ $(document).ready(function() {
 			project = currentProject();
 			picnumstring = ('00000' + i).slice(-5);
 			picstring = path + '/' + project +'/' + project + '_' + picnumstring + '.jpg';
+
 			$('#configurator .inset-0').prepend('<img class="hidden sequence-image ' + project + '-' + picnumstring + '" src="' + picstring + '">');
 			
 			// If slider changed to a position image not loaded yet, now lets show it to user.
@@ -219,8 +199,7 @@ $(document).ready(function() {
 	}
 
 	// Prepare zoomin animation.
-	innerProject = 'MS_LRP_ExBk_IntBeigLbOak_19cSilv';
-	innerProjectPattern = 'MS_facility_extcolor_intcolor_rim';
+	innerProjectPattern = 'model_facility_extcolor_intcolor_rim';
 
 	function currentInnerProject() {
 		return innerProjectPattern

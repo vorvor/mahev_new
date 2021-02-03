@@ -43,7 +43,7 @@ $(function(){
 		if (window[v] !== '') {
 			var newOption = document.createElement('input');  
 	    	newOption.name = v;
-	    	newOption.type = 'text';
+	    	newOption.type = 'hidden';
 	    	newOption.value = window[v];
 	    	$('#offer').append(newOption); 
     	}
