@@ -45,14 +45,14 @@ if (isset($_POST['submit']) && $_POST['lastname'] == '') {
 
       // Content
       $mail->isHTML(true);                                  // Set email format to HTML
-      $mail->Subject = 'Here is the subject';
+      $mail->Subject = 'Köszönjük megrendelését! - mah-ev.hu';
       
       $mail->Body = $body;
-      $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+      $mail->AltBody = $body;
 
       $mail->send();
-      echo 'Message has been sent';
-      
+
+      header('Location: gen_form-offer-thank-you.php');
     
 
   } catch (Exception $e) {

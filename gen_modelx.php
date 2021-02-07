@@ -216,7 +216,7 @@
                 </div>
             </div>
             <div class="a col-span-2 order-1 lg:order-2 -mx-4 sm:mx-auto">
-                <img src="/resources/img/tesla-bigsample-1.jpg" alt="">
+                <img src="/resources/img/5.jpg" alt="">
             </div>
         </div>
         <div class="text-gray-500 text-sm py-4"></div>
@@ -1141,24 +1141,20 @@
 </div>
                     <ul class="font-bold text-gray-500 text-sm uppercase">
                         
-                        <li>0,25&nbsp;körüli CW érték</li>
-                        <li>Maximális gyorsulás: 2,9&nbsp;mp 0-100 km/h (Performance)</li>
-                        <li>Maximális hatótávolság: 505&nbsp;km (Long Range)</li>
-                        <li>Maximális sebesség: 250 km/h</li>
-                        <li>20 perc alatt, akár 300 km-re elengendő energia töltése Supercharger töltőről</li>
-                        <li>4 év | 80 000 km általános garancia</li>
-                        <li>8 év | 240&nbsp;000 km garancia az akkumulátorra és hajtásláncra</li>
-                        <li>LED ködlámpa elöl</li>
-                        <li>LED adaptív kanyarkövető fényszórók</li>
-                        <li>Állandó összkerék meghajtás, két villanymotoros rendszer</li>
-                        <li>Vonóhorog (2 250 kg terhelhetőség)</li>
-                        <li>Elektromos csomagtérajtó</li>
-                        <li>HEPA utastér szűrő rendszer</li>
-                        <li>5, 6 vagy 7 ülés lehetősége</li>
-                        <li>UV védett, sötétített üvegtető</li>
-                        <li>Könnyűfém kerekek 20" / 22&nbsp;"</li>
-                        <li>Fűthető kormány és fűthető ablakmosó fúvókák</li>
-                        <li>Adaptív légrugós futómű</li>
+                        <li>Maximális sebesség : 262 km/h (Plaid)</li>
+<li>Maximális hatótávolság :  580 km (Long Range)</li>
+<li>Maximális gyorsulás : 2,6 mp  0-100 km/h</li>
+<li>0.25 Körüli CW érték</li>
+<li>7-ülés lehetősége</li>
+<li>250kW maximális töltési sebesség </li>
+<li>Alacsony borulási kockázat</li>
+<li>Elülső ütközés védelem</li>
+<li>Oldalsó utasvédelem</li>
+<li>15 perc alatt 282km -es hatótáv Superchargeren keresztűl</li>
+<li>Vonóhorog : 2 268 kg terhelhetőséggel</li>
+<li>Csomagtér térfogata : 2 577 Liter</li>
+<li>4 év/ 80 000km általános garancia</li>
+<li>4 év/ 240 000km garancia akkumlátorra és hajtásláncra</li>
 
                     </ul>
                 </div><!--Technikai adatok-->
@@ -1174,25 +1170,29 @@
 </div>
                     <ul class="font-bold text-gray-500 text-sm uppercase">
 
-                        <li>360 fokos kamera rendszer</li>
-                        <li>ROBOTPILÓTA</li>
-                        <li>12 szenzor a biztonságos önvezetésért</li>
-                        <li>Bluetooth és USB audio bemenet</li>
-                        <li>17'-os érintőképernyős kijelző</li>
-                        <li>Fűthető első és hátsó ülések</li>
-                        <li>Elektromosan állítható első ülések</li>
-                        <li>Memória funkció a vezető oldalán</li>
-                        <li>Elektromos utasajtó nyitás és -zárás</li>
-                        <li>Elektromos ablakok és fűthető külső tükrök</li>
-                        <li>Hangvezérelt funkciók</li>
-                        <li>Prémium hangrendszer, 17 hangszóró</li>
-                        <li>Navigációs rendszer valós idejű forgalmi információkal</li>
-                        <li>Bluetooth és USB audio bemenet</li>
-                        <li>Hangvezérelési lehetőség</li>
-                        <li>Folyamatos online LTE járműkapcsolat</li>
-                        <li>Fűthető külső tükrök</li>
-                        <li>Garázskapu nyitó</li>
-                        <li>Performance tartalmazza a Ludicrous módot</li>
+                        <li>15" fektetett érintésérzékeny kijelző</li>
+<li>8" kijelző a hátsó utasok számára</li>
+<li>10 teraflopos számítási tejlesítményű rendszer a játékok futtatásához</li>
+<li>Ülésszellőztetés elől</li>
+<li>Indukciós okostelefon töltés </li>
+<li>Prémium audiórendszer : 22hangszóró, 960W teljesítmény</li>
+<li>Aktív zajcsökkentés</li>
+<li>Téli csomag (Ülésfűtés elől és hátul, fűthető kormány, fűthető szélvédőmosó fúvókák)</li>
+<li>3-zónás automatikus klímaberendezés</li>
+<li>Vezetési profil beállítás</li>
+<li>Hangulatvilágítás a belső térben</li>
+<li>Színezett UV védett napfénytető</li>
+<li>Elektromosan behajható külső tükrök</li>
+<li>USB-C port</li>
+<li>Home Link - integrált garázskapu nyitó</li>
+<li>Elektromosan nyitható és zárható csomagtérajtó</li>
+<li>Prémium Connect (3-évig): Műholdas térképek és valós idejű forgalmi információk kijelzése, Internetes zene streaming, gyakori frissítések mobilhálozaton keresztűl, internet böngésző                       </li>
+<li>Full Self Driving - Teljes önevezető funkció lehetősége</li>
+<li>12 ultrahangos szenzor</li>
+<li>360° kamera rendszer</li>
+<li>Automatikus parkolás</li>
+<li>Falkon Wings felfelé nyiló ajtók</li>
+<li>Soft Close ajtószervó az első ajtóknál</li>
                     </ul>
                 </div><!--Felszereltség-->
                 

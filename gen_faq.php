@@ -15,7 +15,7 @@
 <div class="relative min-h-48 xl:min-h-88 h-screen30 py-8 lg:py-16">
     <div class="container">
         <div class="_section-title _io  relative mb-8 md:mb-12">
-    <h2 class="text-gray-500 text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Gyakori kérdések</h2>
+    <h2 class="text-white text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Gyakori kérdések</h2>
     <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
 
 
@@ -23,7 +23,7 @@
 </div>
     </div>
     <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
-        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/faq-2000x506-proba1.jpg" alt="">
+        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/img_4447_k.jpg" alt="">
     </div>
 </div>
 <div class="">

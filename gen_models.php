@@ -270,18 +270,21 @@
             </div>
         </div>
 
+        <?php
+            $images = glob('./resources/galleries/models/*.jpg');
+        ?>
         <div id="lightgallery">
-            <a href="./resources/img/model-s-sample.jpg" class="block gradient-overlay-2 absolute inset-0 overflow-hidden z-0">
+            <a href="<?php print $images[0]; ?>" class="block gradient-overlay-2 absolute inset-0 overflow-hidden z-0">
                 <!-- <img id="parallax-gallery" class="parallax absolute inset-0 object-cover block w-full h-full" src="./resources/img/tesla-bigsample-3.jpg" alt=""> -->
                 <picture>
-                    <source media="(max-width: 1023px)" srcset="/resources/img/gallery__model-s--mobile.jpg">
-                    <source media="(min-width: 1024px)" srcset="/resources/img/gallery__model-s--desktop.jpg">
-                    <img id="parallax-gallery" class="block parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/gallery__model-3--mobile.jpg" alt="">
+                    <source media="(max-width: 1023px)" srcset="/resources/img/IMG_4489_K.jpg">
+                    <source media="(min-width: 1024px)" srcset="/resources/img/IMG_4489_K.jpg">
+                    <img id="parallax-gallery" class="block parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/IMG_4489_K.jpg" alt="">
                 </picture>
             </a>
-            <a class="hidden" href="/resources/img/model-x-sample.jpg"></a>
-            <a class="hidden" href="/resources/img/model-s-sample.jpg"></a>
-            <a class="hidden" href="/resources/img/model-y-sample.jpg"></a>
+            <?php for ($c = 1; $c < count($images); $c++): ?>
+            <a class="hidden" href="<?php print $images[$c]; ?>"></a>
+            <?php endfor; ?>
         </div>
 
 </section>
@@ -354,7 +357,7 @@
             <div class="flex-shrink">
                 <span class="w-full block text-sm font-semibold">Plaid</span>
                 
-                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 2.1 mp | Hatótáv: 837 km | Végsebesség 322 km/h</span>
+                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 2.1 mp | Hatótáv: 628 km | Végsebesség 322 km/h</span>
                 
             </div>
         </span>
@@ -377,7 +380,7 @@
             <div class="flex-shrink">
                 <span class="w-full block text-sm font-semibold">Plaid+</span>
                 
-                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 2.5 mp | Hatótáv: 652 km | Végsebesség 261 km/h</span>
+                    <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 2.1 mp | Hatótáv: 837 km | Végsebesség 322 km/h</span>
                 
             </div>
         </span>
@@ -1079,23 +1082,22 @@
 </div>
                     <ul class="font-bold text-gray-500 text-sm uppercase">
                         
-                        <li>Nagy merevségű karosszéria elülső és oldalsó ütközésvédelemmel</li>
-                        <li>0,23 körüli CW érték</li>
-                        <li>Maximális gyorsulás: 2,5 mp 0-100 km/h (Performance)</li>
-                        <li>Maximális hatótávolság: 652 km (Long Range)</li>
-                        <li>Maximális sebesség: 261 km/h (Performance)</li>
-                        <li>4 év / 80 000 km általános járműgarancia</li>
-                        <li>8 év / 240 000 km garancia akkumulátorra és hajtásláncra</li>
-                        <li>Állandó összkerék meghajtás, két villanymotoros rendszer</li>
-                        <li>Fűthető első és hátsó ülések</li>
-                        <li>UV védett, sötétített üvegtető</li>
-                        <li>Fűthető külső tükrök</li>
-                        <li>17"-os érintőképernyő, navigációs rendszer</li>
-                        <li>LED ködlámpa elöl</li>
-                        <li>Háromfokozatú, dinamikus LED kanyarfényszóró</li>
-                        <li>HEPA utastér szűrő rendszer</li>
-                        <li>AUTOPILOT</li>
-                        <li>Fűthető ablakmosó fúvókák</li>
+                        <li>Maximális gyorsulás : 2,1mp - 0-100km/h (Plaid +)</li>
+<li>Maximális hatótávolság : 837km (Plaid+)</li>
+<li>Maximális sebesség : 322km/h (Plaid+)</li>
+<li>3 motoros hajtásrendszer (Plaid, Plaid + )</li>
+<li>0,208-as CW érték</li>
+<li>15 perc alatt 322km hatótáv Supercharger töltőállomásokon</li>
+<li>Alacsony borulás kockázat</li>
+<li>Oldalsó ütközés védelem</li>
+<li>Elülső ütésvédelem a nagy szilárdságú anyagoknak köszönhetően</li>
+<li>Önsúly : 2,162 kg </li>
+<li>Maximális töltési teljesítmény : 250kW</li>
+<li>Csomagtér mérete: 793 Liter</li>
+<li>Autopilot</li>
+<li>4 év/ 80 000km általános garancia</li>
+<li>4 év/ 240 000km garancia akkumlátorra és hajtásláncra</li>
+<li>Három motoros hajtáslánc (Plaid, Plaid+)</li>
 
                     </ul>
                 </div><!--Technikai adatok-->
@@ -1111,23 +1113,27 @@
 </div>
                     <ul class="font-bold text-gray-500 text-sm uppercase">
 
-                        <li>Parkolást segítő rendszerek + elülső, oldalsó és hátsó kamera</li>
-                        <li>Prémium audiórendszer</li>
-                        <li>12 szenzor a biztonságos önvezetésért</li>
-                        <li>Elektromosan állítható első ülések, memória funkcióval</li>
-                        <li>360 fokos kamera rendszer</li>
-                        <li>Hangvezérelt funkciók</li>
-                        <li>804 L csomagtartó</li>
-                        <li>Elektromos ablakok</li>
-                        <li>ISOFIX gyermekbiztonásá gi rendszer</li>
-                        <li>Elektromos csomagtérajtó nyitás / zárás</li>
-                        <li>Távolságtartó tempomat</li>
-                        <li>Multifunkciós, fűthető kormánykerék</li>
-                        <li>Hangvezérlés</li>
-                        <li>Prémium internetes kapcsolat 1 évig</li>
-                        <li>Bluetooth és 2 USB audio bemenet</li>
-                        <li>Adaptív légrugós futómű</li>
-                        <li>Performance tartalmazza a Ludicrous módot</li>
+                        <li>15" fektetett érintésérzékeny kijelző</li>
+<li>8" kijelző a hátsó utasok számára</li>
+<li>10 teraflopos számítási tejlesítményű rendszer a játékok futtatásához</li>
+<li>Ülésszellőztetés elől</li>
+<li>Indukciós okostelefon töltés elől és hátul</li>
+<li>Prémium audiórendszer : 22hangszóró, 960W teljesítmény</li>
+<li>Aktív zajcsökkentés</li>
+<li>Téli csomag (Ülésfűtés elől és hátul, fűthető kormány, fűthető szélvédőmosó fúvókák)</li>
+<li>3-zónás automatikus klímaberendezés</li>
+<li>Vezetési profil beállítás</li>
+<li>Hangulatvilágítás a belső térben</li>
+<li>Színezett UV védett napfénytető</li>
+<li>Elektromosan behajható külső tükrök</li>
+<li>USB-C port</li>
+<li>Home Link - integrált garázskapu nyitó</li>
+<li>Elektromosan nyitható és zárható csomagtérajtó</li>
+<li>Prémium Connect (3-évig): Műholdas térképek és valós idejű forgalmi információk kijelzése, Internetes zene streaming, gyakori frissítések mobilhálozaton keresztűl, internet böngésző                       </li>
+<li>Full Self Driving - Teljes önevezető funkció lehetősége</li>
+<li>12 ultrahangos szenzor</li>
+<li>360° kamera rendszer</li>
+<li>Automatikus parkolás</li>
 
                     </ul>
                 </div><!--Felszereltség-->

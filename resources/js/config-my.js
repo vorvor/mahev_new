@@ -20,15 +20,7 @@ $(function(){
 			//Other tabs option changes.
 			if (text.toLowerCase().includes('standard plus') || text.toLowerCase().includes('long range')) {
 				$('#conf-tab-3 ._radio-extras').each(function() {
-					if ($('.text-sm', this).html().includes('20')) {
-						$(this).addClass('hidden');
-					} else {
-						$(this).removeClass('hidden');
-					}
-				})
-
-				$('#conf-tab-5 ._radio-extras').each(function() {
-					if ($('.text-sm', this).html().includes('20')) {
+					if ($('.text-sm', this).html().includes('21')) {
 						$(this).addClass('hidden');
 					} else {
 						$(this).removeClass('hidden');
@@ -37,18 +29,10 @@ $(function(){
 			}
 			if (text.toLowerCase().includes('performance')) {
 				$('#conf-tab-3 ._radio-extras').each(function() {
-					if ($('.text-sm', this).html().includes('18') || $('.text-sm', this).html().includes('19')) {
-						$(this).addClass('hidden');
-					} else {
+					if ($('.text-sm', this).html().includes('21')) {
 						$(this).removeClass('hidden');
-					}
-				})
-
-				$('#conf-tab-5 ._radio-extras').each(function() {
-					if ($('.text-sm', this).html().includes('18') || $('.text-sm', this).html().includes('19')) {
-						$(this).addClass('hidden');
 					} else {
-						$(this).removeClass('hidden');
+						$(this).addClass('hidden');
 					}
 				})
 			}
@@ -89,7 +73,7 @@ $(function(){
 
 	// Rim
 	$('#conf-tab-3 ._radio-extras').each(function() {
-		if ($('.text-sm', this).html().includes('20')) {
+		if ($('.text-sm', this).html().includes('21')) {
 			$(this).addClass('hidden');
 		} else {
 			$(this).removeClass('hidden');

@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
+    <link rel="stylesheet" href="resources/css/custom-mobile-slider.css">
     <script src="resources/js/config-my.js"></script>
+    <script src="resources/js/config-init-my.js"></script>
+    <script src="resources/js/slider-my.js"></script>
   </head>
   <body class="debug-screens bg-white model"> 
 
@@ -216,7 +219,7 @@
                 </div>
             </div>
             <div class="a col-span-2 order-1 lg:order-2 -mx-4 sm:mx-auto">
-                <img src="/resources/img/tesla-bigsample-1.jpg" alt="">
+                <img src="/resources/img/model_y_inside.jpg" alt="">
             </div>
         </div>
         <div class="text-gray-500 text-sm py-4"></div>
@@ -520,7 +523,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">18' aero könnyűfém felni</span>
+                <span class="w-full block text-sm font-semibold">19' Gemini könnyűfém felni</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -548,7 +551,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">19' sport könnyűfém felni</span>
+                <span class="w-full block text-sm font-semibold">20' Induction könnyűfém felni</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -556,7 +559,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>1 750 €</div>
+        <div>2 300 €</div>
     </div>
 </div>
             
@@ -576,7 +579,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">20' performance szürke könnyűfém felni</span>
+                <span class="w-full block text-sm font-semibold">21' Turbina könnyűfém felni</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -584,7 +587,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>1 750 €</div>
+        <div>0 €</div>
     </div>
 </div>
             
@@ -722,7 +725,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>3 950 €</div>
+        <div>3 390 €</div>
     </div>
 </div>
 
@@ -777,7 +780,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>7 999 €</div>
+        <div>7 990 €</div>
     </div>
 </div>
  </div>
@@ -789,13 +792,22 @@
 
     </div>
     <div class="product min-h-16 lg:col-span-2">
+
         <div class="_configurator-3d">
-            <div class="absolute inset-0 overflow-hidden">
-                <img class="inset-0 absolute border-b-2 border-gray-100" src="/resources/img/3dplaceholder.jpg" alt="">
+            <div class="absolute inset-0">
+                <!-- <img class="inset-0 absolute border-b-2 border-gray-100" src="/resources/img/3dplaceholder.jpg" alt=""> -->
+                <div id="slide">
+                    <form>
+                        <input type="range" name="slider" id="slider" class="slider" min="0" max="101" value="48">
+                    </form>
+                </div>
             </div>
+            
         </div>
+
+
         <div>
-            <ul class="highlights w-full flex justify-center items-center text-gray-500 pt-4">
+            <ul class="highlights w-full flex justify-center items-center text-gray-500 pt-4" style="padding-top:3rem;">
                 <li class="w-24">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-emerald-500 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl md:text-2xl font-semibold text-center leading-tight mx-auto w-full">
@@ -1043,25 +1055,17 @@
         <ul class="font-bold text-gray-500 text-sm uppercase">
             
 
-            <li>Fűthető első és hátsó ülések</li>
-            <li>Prémium hangrendszer, 17 hangszóró</li>
-            <li>UV védett, sötétített üvegtető</li>
-            <li>Fűthető külső tükrök</li>
-            <li>LED ködlámpa elöl</li>
-            <li>Bluetooth és USB audio bemenet</li>
-            <li>ABS</li>
-            <li>Prémium internetes kapcsolat 1 évig</li>
-            <li>Műhold, médiastreaming</li>
-            <li>AWD kétmotoros hajtásrendszer</li>
-            <li>15'-os érintőképernyős kijelző</li>
-            <li>0,23 körüli CW-érték</li>
-            <li>5,8 mp 0–100 km/h gyorsulás</li>
-            <li>Maximális hatótávolság: 540 km</li>
-            <li>7 ülés lehetősége</li>
-            <li>Maximális sebesség: 241 km/h</li>
-            <li>Könnyűfém kerekek 18', 19' vagy 20'</li>
-            <li>12 szenzor a biztonságos önvezetésért</li>
-            <li>360 fokos kamera rendszer</li>
+            <li>Maximális sebesség : 241km/h (Performance)</li>
+<li>Maximális hatótávolság : 505 km (Long Range)</li>
+<li>Maximális gyorsulás : 3,7  0 -100km/h (Performance)</li>
+<li>7 személyes kivitel lehetősége</li>
+<li>Elülső ütésvédelem</li>
+<li>Alacsony súlypont</li>
+<li>Merev karosszéria</li>
+<li>Síkba dönthető hátsó utasülés</li>
+<li>15p alatt 270 km hatótáv  Supercharger töltőállomásokon</li>
+<li>Önsúly : 2,003 kg</li>
+<li>Autopilot</li>
 
 
         </ul>

@@ -4,7 +4,7 @@
     <?php include('./gen_header.php'); ?>
     <link rel="stylesheet" href="resources/css/custom-mobile-slider.css">
     <script src="resources/js/config-m3.js"></script>
-    <script src="resources/js/slider-init-m3.js"></script>
+    <script src="resources/js/config-init-m3.js"></script>
     <script src="resources/js/slider-m3.js"></script>
   </head>
   <body class="debug-screens bg-white model"> 
@@ -264,9 +264,12 @@
             <a href="./resources/img/tesla-bigsample-3.jpg" class="block gradient-overlay-2 absolute inset-0 overflow-hidden z-0">
                 <!-- <img id="parallax-gallery" class="parallax absolute inset-0 object-cover block w-full h-full" src="./resources/img/tesla-bigsample-3.jpg" alt=""> -->
                 <picture>
+                    <!--
                     <source media="(max-width: 1023px)" srcset="/resources/img/gallery__model-3--mobile.jpg">
                     <source media="(min-width: 1024px)" srcset="/resources/img/gallery__model-3--desktop.jpg">
-                    <img id="parallax-gallery" class="block parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/gallery__model-3--mobile.jpg" alt="">
+                     <img id="parallax-gallery" class="block parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/gallery__model-3--mobile.jpg" alt=""> -->
+                     <img id="parallax-gallery" class="block parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/IMG_4155_K.jpg" alt="">
+
                 </picture>
             </a>
             <a class="hidden" href="/resources/img/model-x-sample.jpg"></a>
@@ -611,7 +614,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>1 750 €</div>
+        <div>0 €</div>
     </div>
 </div>
             
@@ -777,7 +780,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>2190 €</div>
+        <div>2 190 €</div>
     </div>
 </div>
 
@@ -1121,23 +1124,18 @@
                     <ul class="font-bold text-gray-500 text-sm uppercase">
                         
     
-    <li>0,23 körüli CW érték</li>
-    <li>Maximális gyorsulás: 3,3&nbsp;mp 0-100 km/h (Performance)</li>
-    <li>Maximális hatótávolság: 580 km (Long Range)</li>
-    <li>Maximális sebesség: 261&nbsp;km/h (Performance)</li>
-    <li>20 perc alatt, akár 250 km-re elengendő energia töltése Supercharger töltőről</li>
-    <li>4 év | 80 000 km általános garancia</li>
-    <li>Long Range és Performance esetében 8 év | 192 000 km garancia az akkumulátorra</li>
-    <li>Standard Range Plus esetében 8 év&nbsp;| 160 000 km garancia a hajtásláncra és akkumulátorra</li>
-    <li>LED ködlámpa elöl (kiv Standard Range)</li>
-    <li>LED fényszórók</li>
-    <li>Állandó összkerék meghajtás, két villanymotoros rendszer (kiv. Standard Range)</li>
-    <li>12 szenzor a biztonságos önvezetésért és parkolásért</li>
-    <li>AUTOPILOT</li>
-    <li>Eső és fényszenzor</li>
-    <li>Elektromosan állítható első ülések&nbsp;</li>
-    <li>Fűthető első ülések</li>
-    <li>Fűthető hátsó ülések (kiv. Standard Range)</li>
+    <li>Maximális gyorsulás :  3,3 mp  0-100km/h (Performance)</li>
+<li>Maximális sebesség : 261km/h (Performance)</li>
+<li>Maximális hatótávolság : 580km (Long Range)</li>
+<li>5 csillagos EURO NCAP biztonsági értékelés</li>
+<li>Nagy szilárdságú UV védett panoráma napfénytető</li>
+<li>Dual Motor a legjobb nyomatékelosztás és tapadás érdekében</li>
+<li>15 p alatt akár 275km hatótáv növelés Supercharger töltő állomásokon</li>
+<li>Garancia 4-év vagy 80.000km</li>
+<li>Akkumlátor és hajtáslánca garancia : 8-év vagy 192.000km</li>
+<li>Csomagtartó mérete : 524 Liter</li>
+<li>Önsúly : 1. 844 kg (Long Range)</li>
+<li>Önvezető rendszer</li>
 
 
                     </ul>
@@ -1155,20 +1153,28 @@
                     <ul class="font-bold text-gray-500 text-sm uppercase">
 
 
-    <li>Prémium hangrendszer 14 hangszóró, 1 mélysugárzó, 2 erősítő (kiv. standard)</li>
-    <li>Kétzónás légkondícionáló rendszer, állóhelyzeti hűtés / fűtés</li>
-    <li>Bluetooth és USB audio bemenet</li>
-    <li>15"-os&nbsp;érintőképernyő, navigációs rendszer</li>
-    <li>Hőszivattyús fűtési rendszer</li>
-    <li>Fűthető külső tükrök</li>
-    <li>Internet, zene- és médiastreaming&nbsp;(kiv. standard)</li>
-    <li>UV védett, sötétített üvegtető</li>
-    <li>Elektromos ablakok és fűthető külső tükrök</li>
-    <li>Központi zár, szervókormány</li>
-    <li>Távolságtartó tempomat</li>
-    <li>Elektromos csomagtérajtó nyitás / zárás</li>
-    <li>Prémium internetes kapcsolat 1 évig, valós idejű&nbsp;forgalom megjelenítéssel&nbsp;(kiv. standard)</li>
-    <li>Dupla üvegezés</li>
+    <li>Prémium Audio rendszer : (14 hangszoró, 1 mélynyomó, 2 erősítő)</li>
+<li>12-irányban állítható első elektromos ülések</li>
+<li>Ülésfűtés elől és hátul (Long Range, Performance)</li>
+<li>Indukciós okostelefon töltés 2 telefon számára</li>
+<li>Prémium Connect (1-évig): Műholdas térképek és valós idejű forgalmi információk kijelzése, Internetes zene streaming, gyakori frissítések mobilhálozaton keresztűl, internet böngésző</li>
+<li>LED-Ködlámpák (Long Range , Performance)</li>
+<li>USB-C port </li>
+<li>Színezett UV védett panoráma napfénytető</li>
+<li>Zene és média Bluetoothon keresztűl</li>
+<li>Egyéni vezetési profilok beállítása</li>
+<li>Performance fékek, Carbon hátsó légterelő, Chrome pedálok (Performance)</li>
+<li>Track mód(Performance)</li>
+<li>Full Selft Driving lehetősége</li>
+<li>LED-fényszórók</li>
+<li>12db Külső ultrahangos érzélő</li>
+<li>Állófűtés és hűtés</li>
+<li>360° kamera rendszer</li>
+<li>15" érintés érzékeny kijelző</li>
+<li>Elektromosan nyitható és zárható csomagtérajtó</li>
+<li>Dupla üvegezés</li>
+<li>Memória funkció (Ülések, kormány,tükrök)</li>
+<li>Hőszivattyús fűtési és hűtési rendszer</li>
 
 
                     </ul>

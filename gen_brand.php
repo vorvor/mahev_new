@@ -24,7 +24,7 @@
 </div>
     </div>
     <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
-        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/services--1.jpg" alt="">
+        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/img_4744_k.jpg" alt="">
     </div>
 </div>
 <div class="">

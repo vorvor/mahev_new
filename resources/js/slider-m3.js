@@ -37,7 +37,7 @@ $(document).ready(function() {
 			picnum = $('#slider').val() * 4;
 			// Load images to the project if it's a new choice and images not loaded before.
 			if (!loadedProjects.includes(project)) {
-				loadImages(picnum, 'start');
+				loadImages(picnum, 'start', project);
 				loadedProjects.push(currentProject());
 			} else {
 				setPic();
@@ -57,7 +57,7 @@ $(document).ready(function() {
 		picnum = $('#slider').val() * 4;
 		// Load images to the project if it's a new choice and images not loaded before.
 		if (!loadedProjects.includes(project)) {
-			loadImages(picnum, 'start');
+			loadImages(picnum, 'start', project);
 			loadedProjects.push(currentProject());
 		} else {
 			setPic();
@@ -131,11 +131,10 @@ $(document).ready(function() {
 	}
 
 	// Load images to background. If user chooses red model first, all red image loaded in background.
-	function loadImages(i, dir) {
+	function loadImages(i, dir, project) {
 		if (i < 406 && i > -1) {
 			$('#progress-bar-3d').removeClass('hidden');
 
-			project = currentProject();
 			picnumstring = ('00000' + i).slice(-5);
 			picstring = path + '/' + project +'/' + project + '_' + picnumstring + '.jpg';
 			
@@ -159,15 +158,15 @@ $(document).ready(function() {
 			}*/
 
 			if (dir == 'right') {
-				setTimeout(function(){ loadImages(i+4, 'right') }, 50);
+				setTimeout(function(){ loadImages(i+4, 'right', project) }, 50);
 			}
 			if (dir == 'left') {
-				setTimeout(function(){ loadImages(i-4, 'left') }, 50);
+				setTimeout(function(){ loadImages(i-4, 'left', project) }, 50);
 			}
 
 			if (dir == 'start') {
-				setTimeout(function(){ loadImages(i+4, 'right') }, 50);
-				setTimeout(function(){ loadImages(i-4, 'left') }, 50);
+				setTimeout(function(){ loadImages(i+4, 'right', project) }, 50);
+				setTimeout(function(){ loadImages(i-4, 'left', project) }, 50);
 			}
 		} else {
 			// All images loaded.
@@ -177,7 +176,7 @@ $(document).ready(function() {
 	}
 
 	// Start default project images init.
-	loadImages(192, 'start');
+	loadImages(192, 'start',project);
 	loadedProjects.push(currentProject());
 	//setPic();
 

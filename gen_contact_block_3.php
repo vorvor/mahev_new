@@ -11,23 +11,6 @@
     </div>
 </div>
             
-                <div class="_card-person-short text-center flex flex-col flex-wrap max-w-xs mx-auto">
-    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-        <!-- <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-bigda-zsuzsanna-res.jpg" alt=""> -->
-    </div>
-    <div
-         class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
-        Bigda Zsuzsanna</div>
-    <div class="text-gray-500 w-full leading-snug">
-        Irodavezető</div>
-    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
-    </div>
-    <div class="text-gray-500">Zsuzsanna az adminisztratív munka területén szerzett több éves tapasztalattal csatlakozott a Magyar Autókereskedőház csapatához, ahol egy új területtel megismerkedve járul hozzá ahhoz, hogy a cég napi ügyei zökkenőmentesen haladjanak.</div>
-</div>
-
-
-
 
             
                 <div class="_card-person-short text-center flex flex-col flex-wrap max-w-xs mx-auto">
@@ -63,6 +46,21 @@
     </div>
     <div class="text-gray-500">Ádám több éves értékesítői tapasztalattal került
 csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A MAH Zrt.-hez való csatlakozását nagyban befolyásolta a terület vonzalma. Szakmai felkészültsége igen magas a területen, tudását a MAH Zrt.-nél kamatoztatja a jövőben.</div>
+</div>
+
+<div class="_card-person-short text-center flex flex-col flex-wrap max-w-xs mx-auto">
+    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
+        <!-- <img class="_image-scale block w-full h-full object-cover object-center"
+             src="resources/img/colleague-bigda-zsuzsanna-res.jpg" alt=""> -->
+    </div>
+    <div
+         class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
+        Bachman Gergely</div>
+    <div class="text-gray-500 w-full leading-snug">
+        Értékesítő</div>
+    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
+    </div>
+    <div class="text-gray-500">Gergely finanszírozói területről érkezett hozzánk. Korábban foglalkozott már gépjárművekkel, ezt a tudását fogja a MAH Zrt.-nél hasznosítani. Alaposságával és szakmai ismereteivel a közeljövőben csapatunkat erősíti.</div>
 </div>
 
 

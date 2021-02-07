@@ -24,7 +24,7 @@
 </div>
     </div>
     <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
-        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/services--1.jpg" alt="">
+        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/img_4437_k.jpg" alt="">
     </div>
 </div>
 <div class="">
@@ -34,7 +34,7 @@
             <section id="transparency" class="_services-content">
                 <div class="container py-16 leading-loose">
                     
-
+<!--
 <div class="_section-title3  text- flex leading-loose items-center mx-auto md:mx-0 max-w-md">
     <div>
         <div class="w-24 h-24 p-5 border-2 border-emerald-500 rounded-full mr-4">
@@ -42,18 +42,19 @@
         <use xlink:href="#i-transparency"></use>
     </svg></div>
     </div>
-    <div>
-        <h2 class="text-2xl md:text-3xl leading-snug">Transzparencia</h2>
+     <div>
+        <h2 class="text-2xl md:text-3xl leading-snug">Szolgáltatásaink</h2>
         <div class="w-16 border-t-2 border-emerald-500 ml-0 mt-4 md:mt-8"></div>
-    </div>
+    </div> 
 </div>
+-->
                     <div class="lead my-16 md:my-12">
                         A <strong> Magyar Autókereskedőház Zrt.</strong> kollégái többéves releváns szakmai tapasztalattal rendelkeznek a prémium gépjárművek importjának területén. Garanciát vállalunk az általunk behozott gépkocsik minőségére, megbízhatóságára.  Átlátható folyamatok. Nincsenek rejtett költségek. 
                     </div>
                     <div class="grid md:grid-cols-2 col-gap-8 row-gap-16">
                         <div>
                             <h3>Transzparencia</h3>
-                            <p>Zártkörű  részvénytársaságként működünk, 20 mHUF-os alaptőkével. Pénzügyi mutatószámaink folyamatosan növekednek, melyeket közhiteles nyilvántartásban online bárki megtekinthet. Átlátható és szabályozott folyamatokon keresztül, stabil háttérrel intézzük autójának importját. </p>
+                            <p>Zártkörű részvénytársaságként működünk 2015 óta, 20 mHUF-os alaptőkével. Pénzügyi mutatószámaink folyamatosan növekednek, melyeket közhiteles nyilvántartásban online bárki megtekinthet. Kollégáink elérhetősége külön-külön megtalálható az oldalon, átlátható és szabályozott folyamatokon keresztül, stabil háttérrel importáljuk autóját és adjuk át Önnek. </p>
                         </div>
                         <div>
                             <h3>Megbízhatóság</h3>
@@ -61,7 +62,7 @@
                         </div>
                         <div>
                             <h3>Szakértelem</h3>
-                            <p>A Magyar Autókereskedőház Zrt. kollégái többéves releváns szakmai tapasztalattal rendelkeznek a prémium gépjárművek importjának területén. Odafigyelünk az egyedi igényekre is és levesszük az adminisztrációval járó terheket a válláról. Szakértelmünk az Ön érdekeit szolgálják.</p>
+                            <p>A Magyar Autókereskedőház Zrt. kollégái többéves releváns szakmai tapasztalattal rendelkeznek a prémium és elektromos gépjárművek importjának területén. Odafigyelünk az egyedi igényekre is és levesszük az adminisztrációval járó terheket és folyamatokat a válláról. Szakértelmünk az Ön érdekeit szolgálják!</p>
                         </div>
                         <div>
                             <h3>Személyes kapcsolat</h3>
@@ -194,83 +195,10 @@
                 </div><!--container-->
             </section>
             <!-- Biztosítás -->
-            <section class="py-16">
-                
-                
-<div class="_can-i-help container grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-    <div class="text-gray-500 leading-loose flex flex-wrap content-center">
-        Amennyiben kérdése merülne fel a rendeléssel, vásárlással kapcsolatban,  vagy bármi másban tudok segíteni, kérem keressen bizalommal: 
-    </div>
-    <div class="text-center flex flex-wrap content-center">
-        <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-            <img class="_image-scale block w-full h-full object-cover object-center" src="resources/img/mudri.jpg" alt="">
-        </div>
-        <div class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-4 mt-4">Mudri Dániel</div>
-        <div class="text-gray-500 w-full">Vezető értékesítő</div>
 
-    </div>
-    <div class="text-center flex flex-wrap content-center">
-        <a href= "tel:0036306668888" class= "w-full max-w-xs mx-auto mb-8 bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">+36 30 666 8888</a>
-        <a href= "form-message.html" class= "w-full max-w-xs mx-auto bg-gray-300  hover:bg-gray-400  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Üzenetet küldök</a>
-    </div>
-    <div class="flex content-center items-center">
-        <ul class="grid grid-cols-3 gap-8 justify-items-center items-center w-full max-w-xs mx-auto">
-            <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="#" class="text-white">
-                    
-    <svg class="svg-icon ">
-        <use xlink:href="#i-mail"></use>
-    </svg>
-                </a>
-            </li>
-            <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="#" class="text-white">
-                    
-    <svg class="svg-icon ">
-        <use xlink:href="#i-messenger"></use>
-    </svg>
-                </a>
-            </li>
-            <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="#" class="text-white">
-                    
-    <svg class="svg-icon ">
-        <use xlink:href="#i-whatsup"></use>
-    </svg>
-                </a>
-            </li>
-            <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="#" class="text-white">
-                    
-    <svg class="svg-icon ">
-        <use xlink:href="#i-viber"></use>
-    </svg>
-                </a>
-            </li>
-            <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="#" class="text-white">
-                    
-    <svg class="svg-icon ">
-        <use xlink:href="#i-phone"></use>
-    </svg>
-                </a>
-            </li>
-            <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">
-                <a href="#" class="text-white">
-                    
-    <svg class="svg-icon ">
-        <use xlink:href="#i-facebook"></use>
-    </svg>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="col-span-full text-center mt-8 Xborder-t-2 Xborder-gray-100 pt-8">
-        <a href= "aboutus.html#team" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Mindenki</a>
-    </div>
 
-</div>
-            </section>
+
+            <?php include_once('gen_contact_block_1.php'); ?>
             <!--can i help?-->
 
 

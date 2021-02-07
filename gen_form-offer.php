@@ -5,7 +5,9 @@
     <script src="resources/js/offer.js"></script>
   </head>
   
-  <body class="debug-screens bg-white form-offer"> 
+  <body class="debug-screens bg-white form-offer">
+
+    <?php include('./gen_send.php'); ?>
     
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>
@@ -188,10 +190,6 @@
         </div>
     </form>
 </div>
-
-<?php 
-  include('./gen_send.php');
-?>      
 
 <?php include('./gen_footer.php'); ?>
 
