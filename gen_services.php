@@ -24,7 +24,7 @@
 </div>
     </div>
     <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
-        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/img_4437_k.jpg" alt="">
+        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/IMG_4437_K.jpg" alt="">
     </div>
 </div>
 <div class="">
@@ -54,7 +54,7 @@
                     <div class="grid md:grid-cols-2 col-gap-8 row-gap-16">
                         <div>
                             <h3>Transzparencia</h3>
-                            <p>Zártkörű részvénytársaságként működünk 2015 óta, 20 mHUF-os alaptőkével. Pénzügyi mutatószámaink folyamatosan növekednek, melyeket közhiteles nyilvántartásban online bárki megtekinthet. Kollégáink elérhetősége külön-külön megtalálható az oldalon, átlátható és szabályozott folyamatokon keresztül, stabil háttérrel importáljuk autóját és adjuk át Önnek. </p>
+                            <p>Zártkörű részvénytársaságként működünk 2015 óta, 20 mHUF-os alaptőkével. Pénzügyi mutatószámaink folyamatosan növekednek, melyeket közhiteles nyilvántartásban online bárki megtekinthet. Kollégáink elérhetősége külön-külön megtalálható az oldalon, átlátható és szabályozott folyamatokon keresztül, stabil háttérrel importáljuk autódat és adjuk át neked. </p>
                         </div>
                         <div>
                             <h3>Megbízhatóság</h3>
@@ -62,11 +62,11 @@
                         </div>
                         <div>
                             <h3>Szakértelem</h3>
-                            <p>A Magyar Autókereskedőház Zrt. kollégái többéves releváns szakmai tapasztalattal rendelkeznek a prémium és elektromos gépjárművek importjának területén. Odafigyelünk az egyedi igényekre is és levesszük az adminisztrációval járó terheket és folyamatokat a válláról. Szakértelmünk az Ön érdekeit szolgálják!</p>
+                            <p>A Magyar Autókereskedőház Zrt. kollégái többéves releváns szakmai tapasztalattal rendelkeznek a prémium és elektromos gépjárművek importjának területén. Odafigyelünk az egyedi igényekre is és levesszük az adminisztrációval járó terheket és folyamatokat a válláról. Szakértelmünk a Te érdekedet szolgálja!</p>
                         </div>
                         <div>
                             <h3>Személyes kapcsolat</h3>
-                            <p>Számos elégedett vásárlónk a garancia arra, hogy a Magyar Autókereskedőház Zrt. a legjobbat nyújtja Önnek. Mindent megteszünk, hogy elégedett ügyfélként távozzon. </p>
+                            <p>Számos elégedett vásárlónk a garancia arra, hogy a Magyar Autókereskedőház Zrt. a legjobbat nyújtja neked. Mindent megteszünk, hogy elégedett ügyfélként távozz tőlünk.</p>
                         </div>
                     </div>
 

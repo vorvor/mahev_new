@@ -60,7 +60,7 @@
                         A Magyar Autókereskedőház Zrt. 2016-óta működött együtt a Bécsi Tesla szalonnal a Magyarországra történő járművek honosítási ügyintézésében. Akár egyösszegű vásárlás során a forgalomba helyezési eljárások bonyolításában, akár a finanszírozva történő vásárlások esetén, beszállítással az intézmények felé. 2018-óta aktívan értékesítünk új és használt Tesla modelleket, a valós sikertermék a 2019-ben megjelenő Model 3 volt. Ebből a modellből és társaiból a mai napig jelentős mennyiséget importáltunk és adtunk át az új tulajdonosaiknak, hogy élvezzék az elektromobilitás jelenlegi élvonalát!
 
 
-                        <p> A MAH Zrt.  főbb mérfördkövei:</p>
+                        
 
                     </div>
                     
@@ -79,28 +79,14 @@
     </div>
 </div>
                     
-                        <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
-    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-        <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-borka-balazs-res.jpg" alt="">
-    </div>
-    <div
-         class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
-        Borka J. Balázs</div>
-    <div class="text-gray-500 w-full leading-snug text-sm tracking-wider">
-        Vezérigazgató</div>
-    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
-    </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202578998">+36202578998</a></div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:balazs.borka@mahzrt.hu">balazs.borka@mahzrt.hu</a></div>
-    <div class="text-gray-500 text-sm tracking-wider">Balázs közel 10 évet töltött el gépjármű finanszírozással foglalkozó intézetek kockázatkezelési osztályán. Pályafutását 2001-ben kezdte a szektorban, majd az ott eltöltött évek múlva 2011-ben részt vett a Pannonhandel Zrt. megalapításában, ahol a vállalkozás szakmai vezetését végezte. Jelenleg a Magyar Autókereskedőház vezetőjeként tevékenykedik, mellette a Magyar Gépjárműkereskedők Országos Egyesületének kommunikációs igazgatója és a Magyar Autós Szakmai Szövetség felügyelőbizottságának tagja.</div>
-</div>
+
+
 
 
 
 
                     
-                        <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
+<div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
         <img class="_image-scale block w-full h-full object-cover object-center"
              src="resources/img/colleague-mudri-daniel-res.jpg" alt="">
@@ -109,7 +95,7 @@
          class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
         Mudri Dániel</div>
     <div class="text-gray-500 w-full leading-snug text-sm tracking-wider">
-        Vezető értékesítő</div>
+        Cégvezető</div>
     <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
     </div>
     <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36203663447">+36203663447</a></div>
@@ -119,26 +105,6 @@
 </div>
 
 <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
-    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-        <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-bigda-zsuzsanna-res.jpg" alt="">
-    </div>
-    <div
-         class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
-        Bigda Zsuzsanna</div>
-    <div class="text-gray-500 w-full leading-snug text-sm tracking-wider">
-        Status</div>
-    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
-    </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202334390">+36202334390</a></div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:zsuzsanna.bigda@mahzrt.hu">zsuzsanna.bigda@mahzrt.hu</a></div>
-    <div class="text-gray-500 text-sm tracking-wider">Zsuzsanna az adminisztratív munka területén szerzett több éves tapasztalattal csatlakozott a Magyar Autókereskedőház csapatához, ahol egy új területtel megismerkedve járul hozzá ahhoz, hogy a cég napi ügyei zökkenőmentesen haladjanak.</div>
-</div>
-
-
-
-                    
-                        <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
         <img class="_image-scale block w-full h-full object-cover object-center"
              src="resources/img/colleague-kral-adam-res.jpg" alt="">
@@ -156,25 +122,54 @@
 csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A MAH Zrt.-hez való csatlakozását nagyban befolyásolta a terület vonzalma. Szakmai felkészültsége igen magas a területen, tudását a MAH Zrt.-nél kamatoztatja a jövőben.</div>
 </div>
 
-
-
-
-                    
-                        <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
+<div class="_card-person-short text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
         <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-szabo-daniel-res.jpg" alt="">
+             src="resources/img/colleague-bachman-gergely-res.jpg" alt="">
+    </div>
+    <div class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
+        Bachman Gergely</div>
+    <div class="text-gray-500 w-full leading-snug text-sm tracking-wider">
+        Értékesítő</div>
+    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
+    </div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:"></a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:gergely.bachman@mahzrt.hu">gergely.bachman@mahzrt.hu</a></div>
+    <div class="text-gray-500">Gergely finanszírozói területről érkezett hozzánk. Korábban foglalkozott már gépjárművekkel, ezt a tudását fogja a MAH Zrt.-nél hasznosítani. Alaposságával és szakmai ismereteivel a közeljövőben csapatunkat erősíti.</div>
+</div>
+
+<div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
+    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
+        <img class="_image-scale block w-full h-full object-cover object-center"
+             src="resources/img/colleague-borka-balazs-res.jpg" alt="">
     </div>
     <div
          class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
-        Szabó Dániel</div>
+        Borka J. Balázs</div>
     <div class="text-gray-500 w-full leading-snug text-sm tracking-wider">
-        Hirdetéskezelő</div>
+        Vezérigazgató</div>
     <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
     </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36209244439">+36209244439</a></div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:daniel.szabo@mahzrt.hu">daniel.szabo@mahzrt.hu</a></div>
-    <div class="text-gray-500 text-sm tracking-wider">Dániel korábban is járművekkel foglalkozott, Magyarország egyik legnagyobb új gépjárművekkel foglalkozó vállalkozásának a telephelyén. Jelenleg tudásával és szakmai felkészültségével a MAH Zrt. hirdetéskezelését és online marketing jelenlétét tervezi meg és hajtja végre az ezzel kapcsolatos feladatokat, kiváló eredménnyel.</div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202578998">+36202578998</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:balazs.borka@mahzrt.hu">balazs.borka@mahzrt.hu</a></div>
+    <div class="text-gray-500 text-sm tracking-wider">Balázs közel 10 évet töltött el gépjármű finanszírozással foglalkozó intézetek kockázatkezelési osztályán. Pályafutását 2001-ben kezdte a szektorban, majd az ott eltöltött évek múlva 2011-ben részt vett a Pannonhandel Zrt. megalapításában, ahol a vállalkozás szakmai vezetését végezte. Jelenleg a Magyar Autókereskedőház vezetőjeként tevékenykedik, mellette a Magyar Gépjárműkereskedők Országos Egyesületének kommunikációs igazgatója és a Magyar Autós Szakmai Szövetség felügyelőbizottságának tagja.</div>
+</div>
+
+<div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
+    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
+        <img class="_image-scale block w-full h-full object-cover object-center"
+             src="resources/img/colleague-bigda-zsuzsanna-res.jpg" alt="">
+    </div>
+    <div
+         class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
+        Bigda Zsuzsanna</div>
+    <div class="text-gray-500 w-full leading-snug text-sm tracking-wider">
+        Irodavezető</div>
+    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
+    </div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202334390">+36202334390</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:zsuzsanna.bigda@mahzrt.hu">zsuzsanna.bigda@mahzrt.hu</a></div>
+    <div class="text-gray-500 text-sm tracking-wider">Zsuzsanna az adminisztratív munka területén szerzett több éves tapasztalattal csatlakozott a Magyar Autókereskedőház csapatához, ahol egy új területtel megismerkedve járul hozzá ahhoz, hogy a cég napi ügyei zökkenőmentesen haladjanak.</div>
 </div>
 
 
@@ -192,11 +187,51 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
         Irodavezető helyettes</div>
     <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
     </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202334390">+36202334390</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202314095">+36202314095</a></div>
     <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:reka.sofalvi@mahzrt.hu">reka.sofalvi@mahzrt.hu</a></div>
     <div class="text-gray-500 text-sm tracking-wider">Réka 2020-ban csatlakozott csapatunkhoz. Fiatal kora ellenére precíz és pontos tudásanyaggal rendelkezik, melynek köszönhetően elősegíti cégünk fejlődését.</div>
 </div>
 
+
+
+
+                    
+<div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
+    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
+        <img class="_image-scale block w-full h-full object-cover object-center"
+             src="resources/img/colleague-szabo-daniel-res.jpg" alt="">
+    </div>
+    <div
+         class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
+        Szabó Dániel</div>
+    <div class="text-gray-500 w-full leading-snug text-sm tracking-wider">
+        Hirdetéskezelő, értékesítés támogató</div>
+    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
+    </div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36209244439">+36209244439</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:daniel.szabo@mahzrt.hu">daniel.szabo@mahzrt.hu</a></div>
+    <div class="text-gray-500 text-sm tracking-wider">Dániel korábban is járművekkel foglalkozott, Magyarország egyik legnagyobb új gépjárművekkel foglalkozó vállalkozásának a telephelyén. Jelenleg tudásával és szakmai felkészültségével a MAH Zrt. hirdetéskezelését és online marketing jelenlétét tervezi meg és hajtja végre az ezzel kapcsolatos feladatokat, kiváló eredménnyel.</div>
+</div>
+
+
+
+                    
+<div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
+    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
+        <img class="_image-scale block w-full h-full object-cover object-center"
+             src="resources/img/colleague-selinger-orsolya-res.jpg" alt="">
+    </div>
+    <div
+         class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
+        Selinger Orsolya</div>
+    <div class="text-gray-500 w-full leading-snug text-sm tracking-wider">
+        Pénzügyi asszisztens</div>
+    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
+    </div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202314095">+36202314095</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:orsolya.selinger@mahzrt.hu">orsolya.selinger@mahzrt.hu</a></div>
+    <div class="text-gray-500 text-sm tracking-wider">Orsi több éves szakmai tapasztalattal rendelkezik a pénzügy területén, mely tudásával és pontosságával segíti folyamataink gördülékeny menetét.</div>
+</div>
 
 
 
@@ -221,22 +256,8 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
 
 
 
-<div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
-    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-        <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-selinger-orsolya-res.jpg" alt="">
-    </div>
-    <div
-         class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
-        Selinger Orsolya</div>
-    <div class="text-gray-500 w-full leading-snug text-sm tracking-wider">
-        Pénzügyi asszisztens</div>
-    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
-    </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202334390">+36202334390</a></div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:orsolya.selinger@mahzrt.hu">orsolya.selinger@mahzrt.hu</a></div>
-    <div class="text-gray-500 text-sm tracking-wider">Orsi több éves szakmai tapasztalattal rendelkezik a pénzügy területén, mely tudásával és pontosságával segíti folyamataink gördülékeny menetét.</div>
-</div>
+
+
 
 
 
@@ -265,6 +286,9 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
                             <h2 class="text-2xl md:text-3xl leading-snug">A MAH ZRT.</h2>
                             <div class="w-16 border-t-2 border-emerald-500 ml-0 mt-4 md:mt-8"></div>
                         </div>
+                    </div>
+                     <div class="lead my-16 md:my-12">
+                        <p> A MAH Zrt.  főbb mérfördkövei:</p>
                     </div>
                     
                     <div class="grid md:grid-cols-2 col-gap-8 row-gap-16">

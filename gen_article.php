@@ -15,10 +15,10 @@
       <?php include('./gen_svg.php'); ?>
       <?php include('./gen_header_menu.php'); ?>
       <?php include('./db.php'); ?>
+      <?php include_once('./get_articles.php'); ?>
 
 
       <?php
-        include_once('./base.php');
         $data = curl_get_contents('https://mahev.hu/articles-api-one/' . $_GET['q']);
         $article_data = json_decode($data, true);
         $article = $article_data['nodes'][0]['node'];

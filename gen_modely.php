@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="resources/css/custom-mobile-slider.css">
     <script src="resources/js/config-my.js"></script>
     <script src="resources/js/config-init-my.js"></script>
-    <script src="resources/js/slider-my.js"></script>
+    <script src="resources/js/slider.js"></script>
   </head>
   <body class="debug-screens bg-white model"> 
 
@@ -19,7 +19,7 @@
 <div class="_model-hero h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
     <div class="swiper-slide relative flex items-stretch overflow-hidden">
         <div class="innerwrapper py-4 md:py-12 w-full relative flex flex-wrap items-start mx-auto container">
-            <h2 class="ani-delay-5 ani-slidein-l text-3xl text-gray-500 md:text-5xl pl-4 sm:pl-8 md:pl-16 border-l-2 border-emerald-500 relative">
+            <h2 class="ani-delay-5 ani-slidein-l text-3xl text-white md:text-5xl pl-4 sm:pl-8 md:pl-16 border-l-2 border-emerald-500 relative">
                 <span class="hidden sm:inline">Tesla</span> Model Y
             </h2>
             <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
@@ -83,9 +83,9 @@
         <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
             <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
             <picture>
-                <source media="(max-width: 799px)" srcset="/resources/img/product__model-y--mobile.jpg">
-                <source media="(min-width: 800px)" srcset="/resources/img/product__model-y--desktop.jpg">
-                <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product__model-3--mobile.jpg" alt="">
+                <source media="(max-width: 799px)" srcset="/resources/img/home__model-y-mobile.jpg">
+                <source media="(min-width: 800px)" srcset="/resources/img/home__model-y.jpg">
+                <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/home__model-y.jpg" alt="">
             </picture>
         </div>
     </div>
@@ -1023,7 +1023,7 @@
             <div class="w-1/2 mt-auto text-right text-white text-xl sm:text-4xl leading-none sum-price">65 310 €</div>
         </div>
         <div class="text-center mt-4 sm:mt-8">
-            <a href= "/form-offer.html" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">tovább az ajánlat kéréshez</a>
+            <a href= "/gen_form-offer.php" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">tovább az ajánlat kéréshez</a>
             
             <div class="mt-2 text-xs font-semibold tracking-wider uppercase leading-snug cursor-pointer inline-block mx-auto">
                 <div class="w-4 h-4 inline-block relative top-1"> 

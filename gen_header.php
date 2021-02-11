@@ -27,9 +27,7 @@
     <script src="resources/js/all.js"></script>
     <script src="resources/js/base.js"></script>
     <script src="resources/js/init-offer.js"></script>
-    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script> 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script type="text/javascript" src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
-
+    
+    <?php header("Cache-Control: public, max-age=604800, immutable"); ?>
     
   

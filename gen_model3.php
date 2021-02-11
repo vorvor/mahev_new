@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="resources/css/custom-mobile-slider.css">
     <script src="resources/js/config-m3.js"></script>
     <script src="resources/js/config-init-m3.js"></script>
-    <script src="resources/js/slider-m3.js"></script>
+    <script src="resources/js/slider.js"></script>
   </head>
   <body class="debug-screens bg-white model"> 
 
@@ -19,7 +19,7 @@
 <div class="_model-hero h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
     <div class="swiper-slide relative flex items-stretch overflow-hidden">
         <div class="innerwrapper py-4 md:py-12 w-full relative flex flex-wrap items-start mx-auto container">
-            <h2 class="ani-delay-5 ani-slidein-l text-3xl text-gray-500 md:text-5xl pl-4 sm:pl-8 md:pl-16 border-l-2 border-emerald-500 relative">
+            <h2 class="ani-delay-5 ani-slidein-l text-3xl text-white md:text-5xl pl-4 sm:pl-8 md:pl-16 border-l-2 border-emerald-500 relative">
                 <span class="hidden sm:inline">Tesla</span> Model 3
             </h2>
             <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
@@ -83,9 +83,9 @@
         <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
             <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
             <picture>
-                <source media="(max-width: 799px)" srcset="/resources/img/product__model-3--mobile.jpg">
-                <source media="(min-width: 800px)" srcset="/resources/img/product__model-3--desktop.jpg">
-                <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product__model-3--mobile.jpg" alt="">
+                <source media="(max-width: 799px)" srcset="/resources/img/model3-city-mobile.jpg">
+                <source media="(min-width: 800px)" srcset="/resources/img/model3-city.jpg">
+                <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/model3-city.jpg" alt="">
             </picture>
         </div>
     </div>
@@ -207,9 +207,9 @@
                         <div class="circle flex flex-column flex-wrap content-center mx-auto items-center border-2 border-emerald-500 bg-emerald-500 group-hover:border-emerald-600 group-hover:bg-emerald-600 ease-in-out duration-150 w-24 h-24 rounded-full text-gray-500">
                             <div class="text-white w-16 h-16 mx-auto">
                                 
-    <svg class="svg-icon ">
-        <use xlink:href="#i-plus"></use>
-    </svg>
+                                <svg class="svg-icon ">
+                                    <use xlink:href="#i-plus"></use>
+                                </svg>
                             </div> 
                         </div>
                         <div class="label text-sm text-center ">
@@ -260,8 +260,11 @@
             </div>
         </div>
 
+        <?php
+            $images = glob('./resources/galleries/model3/*.jpg');
+        ?>
         <div id="lightgallery">
-            <a href="./resources/img/tesla-bigsample-3.jpg" class="block gradient-overlay-2 absolute inset-0 overflow-hidden z-0">
+            <a href="<?php print $images[0]; ?>" class="block gradient-overlay-2 absolute inset-0 overflow-hidden z-0">
                 <!-- <img id="parallax-gallery" class="parallax absolute inset-0 object-cover block w-full h-full" src="./resources/img/tesla-bigsample-3.jpg" alt=""> -->
                 <picture>
                     <!--
@@ -272,9 +275,9 @@
 
                 </picture>
             </a>
-            <a class="hidden" href="/resources/img/model-x-sample.jpg"></a>
-            <a class="hidden" href="/resources/img/model-s-sample.jpg"></a>
-            <a class="hidden" href="/resources/img/model-y-sample.jpg"></a>
+            <?php for ($c = 1; $c < count($images); $c++): ?>
+            <a class="hidden" href="<?php print $images[$c]; ?>"></a>
+            <?php endfor; ?>
         </div>
 
 </section>
@@ -700,7 +703,7 @@
             
             <div class="flex-shrink">
                 <span class="w-full block text-sm font-semibold">Autopilot</span>
-                <span class="hidden sm:inline w-full block text-xs"></span>
+                <span class="hidden sm:inline w-full block text-xs">Lehetővé teszi az automatikus kormányzást, gyorsulást és fékezést, figyelembe véve járműveket és gyalogosokat</span>
             </div>
         </span>
     </div>
@@ -708,7 +711,28 @@
         <div>0 €</div>
     </div>
 </div>
+
+<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
+
+    <div class="flex items-center space-x-3 col-span-2">
+        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+            <!-- On: "scale-100", Off: "scale-0" -->
+            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
+        </span>
+        <span id="toggle-label10" class="leading-5 flex">
             
+           
+            
+            <div class="flex-shrink">
+                <span class="w-full block text-sm font-semibold">Enhanced Autopilot</span>
+                <span class="hidden sm:inline w-full block text-xs">Automatikus vezetés autópályán a felhajtótól a lehajtóig, automatikusan megelőzi a lassabb járműveket | Sávváltó asszisztens | Automatikus parkolás</span>
+            </div>
+        </span>
+    </div>
+    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
+        <div>4 100 €</div>
+    </div>
+</div>      
 
 
 <div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
@@ -723,13 +747,13 @@
             <div class="flex-shrink">
                 <span class="w-full block text-sm font-semibold">Full self driving</span>
                 
-                    <span class="hidden sm:inline w-full block text-xs"></span>
+                    <span class="hidden sm:inline w-full block text-xs">Magában foglalja az alap Autopilot és Továbbfejlesztett Autopilot összes funkcióját | Automatikusan felismeri és reagál  a közlekedési lámpákra és jelzőtáblákra | Közeljövőben : Automatikus vezetés városban</span>
                 
             </div>
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>7 999 €</div>
+        <div>7 990 €</div>
     </div>
 </div>
  </div>
@@ -1092,7 +1116,7 @@
             <div class="w-1/2 mt-auto text-right text-white text-xl sm:text-4xl leading-none sum-price">65 310 €</div>
         </div>
         <div class="text-center mt-4 sm:mt-8">
-            <a href= "/form-offer.html" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">tovább az ajánlat kéréshez</a>
+            <a href= "/gen_form-offer.php" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">tovább az ajánlat kéréshez</a>
             
             <div class="mt-2 text-xs font-semibold tracking-wider uppercase leading-snug cursor-pointer inline-block mx-auto">
                 <div class="w-4 h-4 inline-block relative top-1"> 

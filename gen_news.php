@@ -8,8 +8,8 @@
 
 	<?php
 
-  include_once('./base.php');
-  $data = curl_get_contents('https://mahev.hu/articles-api-four');
+  include_once('./get_articles.php');
+  $data = curl_get_contents('http://new.mah-ev.hu/backend/articles-api-four');
   $articles = json_decode($data, true);
   
   foreach ($articles['nodes'] as $article) {

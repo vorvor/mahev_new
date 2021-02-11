@@ -528,7 +528,7 @@
     </h2>
     <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
     <div class="text-center leading-8 text-gray-600 w-full">
-        Béreljen tőlünk Teslát és élje át az elektromos autózás csúcsát Ön is! Ha pedig vásárol is, a bérlet költése nem kerül felszámításra Önnek.
+        Bérelj tőlünk Teslát és éld át az elektromos autózás csúcsát! Ha pedig vásárolsz tőlünk, a bérlet költsége nem kerül felszámításra.
     </div>
     <div class="text-center pt-8 mt-auto w-full">
         <a href= "gen_services.php#transparency" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
@@ -575,7 +575,7 @@
             <span class="leading-snug">Típus kiválasztása</span>
         </h2>
         <div class="leading-5 text-sm text-gray-600">
-            Válassza ki kedvenc modelljét
+            Válaszd ki kedvenc modelledet
         </div>
     </div>  
 </div>
@@ -598,7 +598,7 @@
             <span class="leading-snug">Konfigurátor</span>
         </h2>
         <div class="leading-5 text-sm text-gray-600">
-            Szabja testre a 3D-s konfigurátorral
+            Szabd testre a 3D-s konfigurátorral
         </div>
     </div>  
 </div>
@@ -690,7 +690,7 @@
             <span class="leading-snug">Kulcsátadás</span>
         </h2>
         <div class="leading-5 text-sm text-gray-600">
-            Gratulálunk az új Teslájához
+            Gratulálunk az új Tesládhoz!
         </div>
     </div>  
 </div>
@@ -700,6 +700,54 @@
         </div>
     </section>
     <!--steps-->
+
+
+
+
+
+
+
+
+
+
+
+    <div class="_model-hero h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
+    <div class="swiper-slide relative flex items-stretch overflow-hidden">
+        <div class="innerwrapper py-4 md:py-12 w-full relative flex flex-wrap items-start mx-auto container">
+            <h2 class="ani-delay-5 ani-slidein-l text-3xl text-white md:text-5xl pl-4 sm:pl-8 md:pl-16 border-l-2 border-emerald-500 relative">
+                <span class="hidden sm:inline">Bérelj Tesla Model 3-at MAH Zrt-től!</span>
+            </h2>
+            
+            <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
+                <div class="icon bg-emerald-500 mx-auto w-16 h-16 md:w-20 md:h-20 rounded-full transition-colors ease-out duration-200 overflow-hidden">
+                    <a class="block rounded-full h-full" href="#configurator">
+                        
+                        <svg class="svg-icon p-4 text-white">
+                            <use xlink:href="#i-details"></use>
+                        </svg>
+                    </a>
+                </div>
+                
+            </div>
+            
+        </div>
+        <!--innerwrapper-->
+        <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+            <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
+            <picture>
+                <source media="(max-width: 799px)" srcset="/resources/img/modelS-mountain-mobile.jpg">
+                <source media="(min-width: 800px)" srcset="/resources/img/IMG_4655_K.jpg">
+                <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/IMG_4655_K.jpg" alt="" style="object-position: center 38.5727%;">
+            </picture>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
 
 
 

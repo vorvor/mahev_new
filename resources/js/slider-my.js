@@ -36,7 +36,6 @@ $(document).ready(function() {
 			project = currentProject();
 			picnum = $('#slider').val() * 4;
 			// Load images to the project if it's a new choice and images not loaded before.
-			console.log('current project ' + project);
 			if (!loadedProjects.includes(project)) {
 				loadImages(picnum, 'start', project);
 				loadedProjects.push(currentProject());

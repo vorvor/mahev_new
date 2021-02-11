@@ -4,7 +4,7 @@ $(function(){
 
 	// Facility
 	$('#conf-tab-1 ._radio-extras:nth-child(1)').removeClass('off').addClass('on');
-	document.cookie = 'mahev_facility=' + $('#conf-tab-1 ._radio-extras:nth-child(1) .text-sm').html();
+	setCookie('mahev_facility', $('#conf-tab-1 ._radio-extras:nth-child(1) .text-sm').html());
 	$('#conf-tab-1 ._radio-extras').each(function() {
 		$(this).click(function() {
 
@@ -16,7 +16,7 @@ $(function(){
 			$('.offer .facility-price').html(price);
 
 			// Save value.
-			document.cookie = 'mahev_facility=' + text;
+			setCookie('mahev_facility', text);
 
 			//Other tabs option changes.
 			if (text.toLowerCase().includes('standard plus') || text.toLowerCase().includes('long range')) {
@@ -78,7 +78,10 @@ $(function(){
 
 	// Exterior
 	$('#conf-tab-2 ._radio-extras:nth-child(1)').removeClass('off').addClass('on');
-	document.cookie = 'mahev_exterior=' + $('#conf-tab-2 ._radio-extras:nth-child(1) .text-sm').html();
+	exterior = getCookie('mahev_exterior');
+	if (exterior === '') {
+		setCookie('mahev_exterior',  $('#conf-tab-2 ._radio-extras:nth-child(1) .text-sm').html());
+	}
 	$('#conf-tab-2 ._radio-extras').each(function() {
 		$(this).click(function() {
 			text = $('.text-sm', this).html();
@@ -88,7 +91,7 @@ $(function(){
 			$('.offer .exterior-price').html(price);
 
 			// Save value.
-			document.cookie = 'mahev_exterior=' + text;
+			setCookie('mahev_exterior', text);
 
 			calcOfferPrice();
 		})
@@ -105,7 +108,7 @@ $(function(){
 		}
 	})
 	$('#conf-tab-3 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
-	document.cookie = 'mahev_rim=' + $('#conf-tab-3 ._radio-extras:nth-child(1) .text-sm').html();
+	setCookie('mahev_rim', $('#conf-tab-3 ._radio-extras:nth-child(1) .text-sm').html());
 
 
 	$('#conf-tab-3 ._radio-extras').each(function() {
@@ -117,7 +120,7 @@ $(function(){
 			$('.offer .rim-price').html(price);
 
 			// Save value.
-			document.cookie = 'mahev_rim=' + text;
+			setCookie('mahev_rim',  text);
 
 			calcOfferPrice();
 		})
@@ -127,7 +130,7 @@ $(function(){
 
 
 	// Interior
-	document.cookie = 'mahev_interior=' + $('#conf-tab-4 ._radio-extras:nth-child(1) .text-sm').html();
+	setCookie('mahev_interior',  $('#conf-tab-4 ._radio-extras:nth-child(1) .text-sm').html());
 	$('#conf-tab-4 ._radio-extras').each(function() {
 		$(this).click(function() {
 			text = $('.text-sm', this).html();
@@ -137,7 +140,7 @@ $(function(){
 			$('.offer .interior-price').html(price);
 
 			// Save value.
-			document.cookie = 'mahev_interior=' + text;
+			setCookie('mahev_interior',  text);
 
 			calcOfferPrice();
 		})
@@ -149,7 +152,7 @@ $(function(){
 	
 	// Self drive
 	$('#conf-tab-5 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
-	document.cookie = 'mahev_selfdrive=' + $('#conf-tab-5 ._radio-extras:nth-child(1) .text-sm').html();
+	setCookie('mahev_selfdrive', $('#conf-tab-5 ._radio-extras:nth-child(1) .text-sm').html());
 
 	$('#conf-tab-5 ._radio-extras').each(function() {
 		$(this).click(function() {
@@ -160,7 +163,7 @@ $(function(){
 			$('.offer .self-driving-price').html(price);
 
 			// Save value.
-			document.cookie = 'mahev_selfdrive=' + text;
+			setCookie('mahev_selfdrive',  text);
 
 			calcOfferPrice();
 		})
@@ -180,7 +183,7 @@ $(function(){
 	$('.offer .block.extra').addClass('hidden');
 	$('.offer .extra-price').addClass('hidden');
 
-	document.cookie = 'mahev_extra=';
+	setCookie('mahev_extra', '');
 	$('#conf-tab-6 ._toggle-extras').each(function() {
 		$(this).click(function() {
 			price = $('.price div', this).html();
@@ -193,7 +196,7 @@ $(function(){
 				$('.offer .extra-price').removeClass('hidden');
 
 				// Save value.
-				document.cookie = 'mahev_extra=Vonóhorog';
+				setCookie('mahev_extra', 'Vonóhorog');
 			}
 
 			calcOfferPrice();
@@ -203,7 +206,7 @@ $(function(){
 	})
 
 	// Winter tire
-	document.cookie = 'mahev_wtire=';
+	setCookie('mahev_wtire', '');
 	$('#conf-tab-5 ._radio-extras').each(function() {
 		$(this).click(function() {
 			text = $('.text-sm', this).html();
@@ -213,7 +216,7 @@ $(function(){
 			$('.offer .winter-tire-price').html(price);
 
 			// Save value.
-			document.cookie = 'mahev_wtire=' + text;
+			setCookie('mahev_wtire', text);
 
 			calcOfferPrice();
 		})

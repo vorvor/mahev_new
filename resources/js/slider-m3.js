@@ -176,7 +176,7 @@ $(document).ready(function() {
 	}
 
 	// Start default project images init.
-	loadImages(192, 'start',project);
+	loadImages(192, 'start', project);
 	loadedProjects.push(currentProject());
 	//setPic();
 

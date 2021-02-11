@@ -33,3 +33,28 @@ body.brand-page h2 {
 97%{   color:transparent; }
 100%{  color: #0acf83;   }
 }
+
+.coming-soon {
+    position: absolute;
+    margin-top: -220px;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    padding-left: 30px;
+    color: #aaa;
+}
+
+body.model-s .sequence-image,
+body.model-x .sequence-image {
+    opacity: 0.1;
+}
+
+.desktop-hide {
+    display: none;
+}
+
+@media (min-width: 350px) and (max-width: 767px) {
+    .desktop-hide {
+        display: block;
+    }
+}

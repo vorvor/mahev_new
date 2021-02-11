@@ -3,72 +3,59 @@ $(document).ready(function() {
 	$('._configurator-3d').prepend('<div id="progress-bar-3d" class="hidden">loading</div>');
 
 	path = './sequences/';
-	projectPattern = 'model_facility_extcolor_IntBkDrkAsh_rim';
-	projects = [
-		'MS_LRP_ExWh_IntBkDrkAsh_19cSilv', 
-		'MS_LRP_ExWh_IntBkDrkAsh_21cCarb',
-		'MS_LRP_ExBk_IntBkDrkAsh_19cSilv', 
-		'MS_LRP_ExBk_IntBkDrkAsh_21cCarb', 
-		'MS_LRP_ExBl_IntBkDrkAsh_19cSilv', 
-		'MS_LRP_ExBl_IntBkDrkAsh_21cCarb', 
-		'MS_LRP_ExGr_IntBkDrkAsh_19cSilv', 
-		'MS_LRP_ExGr_IntBkDrkAsh_21cCarb', 
-		'MS_LRP_ExRd_IntBkDrkAsh_19cSilv', 
-		'MS_LRP_ExRd_IntBkDrkAsh_21cCarb', 
-		'MS_PE_ExBk_IntBkDrkAsh_19cSilv', 
-		'MS_PE_ExBk_IntBkDrkAsh_21cCarb', 
-		'MS_PE_ExBl_IntBkDrkAsh_19cSilv', 
-		'MS_PE_ExBl_IntBkDrkAsh_21cCarb', 
-		'MS_PE_ExGr_IntBkDrkAsh_19cSilv', 
-		'MS_PE_ExGr_IntBkDrkAsh_21cCarb', 
-		'MS_PE_ExRd_IntBkDrkAsh_19cSilv', 
-		'MS_PE_ExRd_IntBkDrkAsh_21cCarb', 
-		'MS_PE_ExWh_IntBkDrkAsh_19cSilv', 
-		'MS_PE_ExWh_IntBkDrkAsh_21cCarb'];
-
-
 	whichAnim = 'outer';
-
-	extcolors = ['ExBk', 'ExBl', 'ExGr', 'ExRd', 'ExWh'];
-	intcolors = ['IntBkDrkAsh', 'IntWhBkAsh', 'IntBeigLbOak'];
-	rims = ['19cSilv', '21cCarb'];
 
 	loadedProjects = [];
 
-	project = projects[0];
-	model = 'MS';
-	facility = 'LRP';
-	extColor = 'ExWh';
-	intColor = 'IntBkDrkAsh';
-	rim = '19cSilv';
-
 	var animTimer;
 
-	// Init facility option buttons.
-	$('._configurator-tabs #conf-tab-1 ._radio-extras').attr('data-prop', 'facility');
-	$('._configurator-tabs #conf-tab-1 ._radio-extras:eq(0)').attr('data-val', 'LRP');
-	$('._configurator-tabs #conf-tab-1 ._radio-extras:eq(1)').attr('data-val', 'PE');
+	model = $('#configurator').data('model');
+	facility = $('._configurator-tabs #conf-tab-1 ._radio-extras:eq(0)').data('val');
+	
+	// Default exterior from saved cookie if there is or radio options first element if not.
+	extColor = getCookie('mahev_exterior');
+	if (extColor === '') {
+		extColor = $('._configurator-tabs #conf-tab-2 ._radio-extras:eq(0)').data('val');
+	} else {
+		$('._configurator-tabs #conf-tab-2 ._radio-extras').each(function() {
+			extHuman = $('.text-sm', this).html();
+			if (extHuman == extColor) {
+				extColor = $(this).data('val');
+			}
+		})
+	}
 
-	// Init color option buttons.
-	$('._configurator-tabs #conf-tab-2 ._radio-extras').attr('data-prop', 'extColor');
-	$('._configurator-tabs #conf-tab-2 ._radio-extras:eq(0)').attr('data-val', 'ExWh');
-	$('._configurator-tabs #conf-tab-2 ._radio-extras:eq(1)').attr('data-val', 'ExBk');
-	$('._configurator-tabs #conf-tab-2 ._radio-extras:eq(2)').attr('data-val', 'ExGr');
-	$('._configurator-tabs #conf-tab-2 ._radio-extras:eq(3)').attr('data-val', 'ExBl');
-	$('._configurator-tabs #conf-tab-2 ._radio-extras:eq(4)').attr('data-val', 'ExRd');
+	// Default rim from saved cookie if there is or radio options first element if not.
+	rim = getCookie('mahev_rim');
+	if (rim === '') {
+		rim = $('._configurator-tabs #conf-tab-3 ._radio-extras:eq(0)').data('val');
+	} else {
+		$('._configurator-tabs #conf-tab-3 ._radio-extras').each(function() {
+			rimHuman = $('.text-sm', this).html();
+			if (rimHuman == rim) {
+				rim = $(this).data('val');
+			}
+		})
+	}
 
-	// Init rim option buttons.
-	$('._configurator-tabs #conf-tab-3 ._radio-extras').attr('data-prop', 'rim');
-	$('._configurator-tabs #conf-tab-3 ._radio-extras:eq(0)').attr('data-val', '19cSilv');
-	$('._configurator-tabs #conf-tab-3 ._radio-extras:eq(1)').attr('data-val', '21cCarb');
+	// Default intColor from saved cookie if there is or radio options first element if not.
+	intColor = getCookie('mahev_interior');
+	if (intColor === '') {
+		intColor = $('._configurator-tabs #conf-tab-4 ._radio-extras:eq(0)').data('val');
+	} else {
+		$('._configurator-tabs #conf-tab-4 ._radio-extras').each(function() {
+			interiorHuman = $('.text-sm', this).html();
+			if (interiorHuman == intColor) {
+				intColor = $(this).data('val');
+			}
+		})
+	}
 
-	// Interior option buttons.
-	$('._configurator-tabs #conf-tab-4 ._radio-extras').attr('data-prop', 'intColor');
-	$('._configurator-tabs #conf-tab-4 ._radio-extras:eq(0)').attr('data-val', 'IntBkDrkAsh');
-	$('._configurator-tabs #conf-tab-4 ._radio-extras:eq(1)').attr('data-val', 'IntWhBkAsh');
-	$('._configurator-tabs #conf-tab-4 ._radio-extras:eq(2)').attr('data-val', 'IntBkCarb');
-	$('._configurator-tabs #conf-tab-4 ._radio-extras:eq(3)').attr('data-val', 'IntWhCarb');
-	$('._configurator-tabs #conf-tab-4 ._radio-extras:eq(4)').attr('data-val', 'IntBeigLbOak');
+	
+	hook = '';
+
+	// Default projetc on page load.
+	var project = currentProject();
 
 	// Configuration option button selected, image management.
 	$('._configurator-tabs ._radio-extras').click(function() {
@@ -82,19 +69,40 @@ $(document).ready(function() {
 			return true;
 		}
 		
-		if (prop == 'facility' || prop == 'extColor' || prop == 'intColor') {
+		if (prop == 'facility' || prop == 'extColor' || prop == 'intColor' || prop == 'rim') {
 			// Update current project based upon selection.
 			project = currentProject();
 			picnum = $('#slider').val() * 4;
 			// Load images to the project if it's a new choice and images not loaded before.
 			if (!loadedProjects.includes(project)) {
-				loadImages(picnum, 'start');
+				loadImages(picnum, 'start', project);
 				loadedProjects.push(currentProject());
+			} else {
+				setPic();
 			}
+		}
+	})
+
+	$('._configurator-tabs ._toggle-extras').click(function() {
+		if ($(this).hasClass('on')) {
+			hook = 'th';
+		} else {
+			hook ='';
+		}
+
+		// Update current project based upon selection.
+		project = currentProject();
+		picnum = $('#slider').val() * 4;
+		// Load images to the project if it's a new choice and images not loaded before.
+		if (!loadedProjects.includes(project)) {
+			loadImages(picnum, 'start', project);
+			loadedProjects.push(currentProject());
+		} else {
 			setPic();
 		}
 	})
 
+	// Slider init.
 	rangesliderJs.create(
 		document.getElementById('slider'), {
 		onSlide: (value, percent, position) => {
@@ -104,13 +112,11 @@ $(document).ready(function() {
 
 	// Current project changes as user changes color, rim or inner.
 	function currentProject() {
-		return projectPattern
-		.replace('facility', facility)
-		.replace('model', model)
-		.replace('extcolor', extColor)
-		.replace('rim', rim);
-		//.replace('intcolor', intColor)
-		
+		project = model + '_' + facility + '_' + extColor +'_' + intColor +'_' + rim;
+		if (hook !== undefined && hook !== '') {
+			project += '_' + hook;
+		}
+		return project;
 	}
 
 	// Hide all images.
@@ -137,49 +143,68 @@ $(document).ready(function() {
 		}
 	}
 
-	function setInnerPic() {
-		
+	function setInnerPic() {	
 		picnum = 77;
-		innerProject = currentInnerProject();
-		
+		innerProject = currentProject();
 		picnumstring = ('00000' + picnum).slice(-5);
-		picstring = path + '/' + innerProject +'/' + project + '_' + picnumstring + '.jpg';
-
 		picstring = './sequences/rotate/ZOOMIN/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
-		if ($('.inner-' + innerProject + '-' + picnumstring).length == 0) {
-			$('#configurator .inset-0').prepend('<img class="hidden sequence-image inner-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
-		}
 
-		clearAnim();
-		$('#configurator .inner-' + innerProject + '-' + picnumstring).removeClass('hidden');
+		if ($('.inner-' + innerProject + '-' + picnumstring).length == 0) {
+			var image = new Image();
+			image.className = 'hidden sequence-image inner-' + innerProject + '-' + picnumstring;
+			image.src = picstring;
+			image.onload = function() {
+				clearAnim();
+				$('#configurator .inner-' + innerProject + '-' + picnumstring).removeClass('hidden');
+			}
+
+			$('#configurator .inset-0').prepend(image);
+			console.log('image added');
+			console.log(picstring);
+		} else {
+			clearAnim();
+			$('#configurator .inner-' + innerProject + '-' + picnumstring).removeClass('hidden');
+		}
 
 	}
 
 	// Load images to background. If user chooses red model first, all red image loaded in background.
-	function loadImages(i, dir) {
+	function loadImages(i, dir, project) {
 		if (i < 406 && i > -1) {
 			$('#progress-bar-3d').removeClass('hidden');
 
-			project = currentProject();
 			picnumstring = ('00000' + i).slice(-5);
 			picstring = path + '/' + project +'/' + project + '_' + picnumstring + '.jpg';
-			$('#configurator .inset-0').prepend('<img class="hidden sequence-image ' + project + '-' + picnumstring + '" src="' + picstring + '">');
+			
+
+
+			var image = new Image();
+			image.className = 'hidden sequence-image ' + project + '-' + picnumstring;
+			image.src = picstring;
+			if (dir == 'start') {
+				image.onload = function() {
+					setPic();
+				}
+			}
+			$('#configurator .inset-0').prepend(image);
+
+			//$('#configurator .inset-0').prepend('<img class="hidden sequence-image ' + project + '-' + picnumstring + '" src="' + picstring + '">');
 			
 			// If slider changed to a position image not loaded yet, now lets show it to user.
-			if ($('#slider').val() * 4 == i) {
+			/*if ($('#slider').val() * 4 == i) {
 				setPic(i);
-			}
+			}*/
 
 			if (dir == 'right') {
-				setTimeout(function(){ loadImages(i+4, 'right') }, 50);
+				setTimeout(function(){ loadImages(i+4, 'right', project) }, 50);
 			}
 			if (dir == 'left') {
-				setTimeout(function(){ loadImages(i-4, 'left') }, 50);
+				setTimeout(function(){ loadImages(i-4, 'left', project) }, 50);
 			}
 
 			if (dir == 'start') {
-				setTimeout(function(){ loadImages(i+4, 'right') }, 50);
-				setTimeout(function(){ loadImages(i-4, 'left') }, 50);
+				setTimeout(function(){ loadImages(i+4, 'right', project) }, 50);
+				setTimeout(function(){ loadImages(i-4, 'left', project) }, 50);
 			}
 		} else {
 			// All images loaded.
@@ -189,9 +214,10 @@ $(document).ready(function() {
 	}
 
 	// Start default project images init.
-	loadImages(192, 'start');
+	console.log('PRO' + project);
+	loadImages(192, 'start', project);
 	loadedProjects.push(currentProject());
-	setPic();
+	//setPic();
 
 	// Play sequence (rotate model) from actual position to position from where zoomin animation starts.
 	// Decide if current position is before or after the position needs to be rotated to. 
@@ -218,24 +244,11 @@ $(document).ready(function() {
 		}
 	}
 
-	// Prepare zoomin animation.
-	innerProject = 'MS_LRP_ExBk_IntBeigLbOak_19cSilv';
-	innerProjectPattern = 'MS_facility_extcolor_intcolor_rim';
-
-	function currentInnerProject() {
-		return innerProjectPattern
-		.replace('facility', facility)
-		.replace('model', model)
-		.replace('extcolor', extColor)
-		.replace('intcolor', intColor)
-		.replace('rim', rim);
-	}
-
 	// Load zoomin animation images to the background.
 	function loadZoomInImages(i) {
 		if (i < 77) {
 			picnumstring = ('00000' + i).slice(-5);
-			innerProject = currentInnerProject();
+			innerProject = currentProject();
 			picstring = './sequences/rotate/ZOOMIN/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
 			$('#configurator .inset-0').prepend('<img class="hidden sequence-image inner-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
 
@@ -265,7 +278,7 @@ $(document).ready(function() {
 	function loadZoomOutImages(i) {
 		if (i < 77) {
 			picnumstring = ('00000' + i).slice(-5);
-			innerProject = currentInnerProject();
+			innerProject = currentProject();
 			picstring = './sequences/rotate/ZOOMOUT/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
 			$('#configurator .inset-0').prepend('<img class="hidden sequence-image outer-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
 			animTimer = setTimeout(function(){ loadZoomOutImages(i + 1) }, 50);

@@ -50,8 +50,8 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
 
 <div class="_card-person-short text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-        <!-- <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-bigda-zsuzsanna-res.jpg" alt=""> -->
+        <img class="_image-scale block w-full h-full object-cover object-center"
+             src="resources/img/colleague-bachman-gergely-res.jpg" alt="">
     </div>
     <div
          class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">

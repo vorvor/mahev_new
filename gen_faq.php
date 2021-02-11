@@ -23,7 +23,7 @@
 </div>
     </div>
     <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
-        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/img_4447_k.jpg" alt="">
+        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/IMG_4447_K.jpg" alt="">
     </div>
 </div>
 <div class="">
@@ -50,24 +50,24 @@
                 <p>A Model 3-asok jelenleg háromféle variációban érhetőek el, ezek pedig az alábbiak (330 HUF = 1 EUR árfolyamon történt a váltás):</p>
                 <p><strong>Standard Range Plus</strong> (simple motor - hátsótengely hajtás)</p>
                     <ul>
-                        <li>hatótáv: 415 km</li>
+                        <li>hatótáv: 448 km</li>
                         <li>maximális sebesség: 225 km/h</li>
                         <li>gyorsulás: 5,6 s | 0-100 km/h</li>
-                        <li>induló vételár: 13 688 504 HUF + áfa</li>
+                        <li>induló vételár: 13 456 456 HUF + áfa</li>
                     </ul>
                 <p><strong>Long Range</strong> (dual motor)</p>
                     <ul>
-                        <li>hatótáv: 560 km</li>
+                        <li>hatótáv: 580 km</li>
                         <li>maximális sebesség: 233 km/h</li>
-                        <li>gyorsulás: 4,6 s | 0-100 km/h</li>
-                        <li>induló vételár: 16 364 882 HUF + áfa</li>
+                        <li>gyorsulás: 4,4 s | 0-100 km/h</li>
+                        <li>induló vételár: 16 433 425 HUF + áfa</li>
                     </ul>
                 <p><strong>Performance</strong> (dual motor)</p>
                     <ul>
-                        <li>hatótáv: 530 km</li>
-                        <li>maximális sebesség: 260 km/h</li>
-                        <li>gyorsulás: 3,4 s | 0-100 km/h</li>
-                        <li>induló vételár: 18 131 811 HUF + áfa</li>
+                        <li>hatótáv: 567 km</li>
+                        <li>maximális sebesség: 261 km/h</li>
+                        <li>gyorsulás: 3,3 s | 0-100 km/h</li>
+                        <li>induló vételár: 17 928 897 HUF + áfa</li>
                     </ul>
 
                 <p>Ezek a <strong>Tesla Model 3 árak fekete külső színben, fekete bőr belsővel és Long és Standard Range modell esetében 18’-os alumínium felnikkel, a Performance esetében az alap 20’ kerekekkel</strong> kerültek meghatározásra. Ez az <strong>ár tartalmazza az alapvető extrákat</strong>, mint légkondícionálás, elektromos ablakok, stb., továbbá a <strong>kettes szintű önvezetést</strong> (távtartó  tempomat és út követés autópályán). A <strong>vételár része szintén a jármű Magyarországra történő szállítása, a jármű műszaki vizsgáztatását</strong> övező költségek, illetve a <strong>Magyar Autókereskedőház Zrt.</strong> megtérülése és <strong>munkadíja.</strong></p>
