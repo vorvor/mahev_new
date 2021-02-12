@@ -2,19 +2,19 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
-    <link rel="stylesheet" href="resources/css/custom-mobile-slider.css">
-    <script src="resources/js/config-ms.js"></script>
-    <script src="resources/js/config-init-ms.js"></script>
-    <script src="resources/js/slider.js"></script>
+    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
+    <script src="/resources/js/config-ms.js"></script>
+    <script src="/resources/js/config-init-ms.js"></script>
+    <script src="/resources/js/slider.js"></script>
   </head>
   <body class="debug-screens bg-white model model-s"> 
 
 
     
     <div id="sitewrapper">
-      <?php include('./gen_svg.php'); ?>
-      <?php include('./gen_header_menu.php'); ?>
-      <?php include('./db.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_svg.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_header_menu.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/db.php'); ?>
       
 <div class="_model-hero h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
     <div class="swiper-slide relative flex items-stretch overflow-hidden">
@@ -185,7 +185,7 @@
                             max
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            130+
+                            ?
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             kw/h
@@ -272,11 +272,20 @@
         </div>
 
         <?php
-            $images = glob('./resources/galleries/models/*.jpg');
+            $images = glob($_SERVER['DOCUMENT_ROOT'] . '/resources/galleries/models/*.jpg');
+            if(isset($_SERVER['HTTPS'])){
+                $protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https" : "http";
+            }
+            else{
+                $protocol = 'http';
+            }
+            foreach ($images as &$image) {
+                $image = str_replace($_SERVER['DOCUMENT_ROOT'], $protocol . '://' . $_SERVER['SERVER_NAME'], $image);
+            }
         ?>
         <div id="lightgallery">
             <a href="<?php print $images[0]; ?>" class="block gradient-overlay-2 absolute inset-0 overflow-hidden z-0">
-                <!-- <img id="parallax-gallery" class="parallax absolute inset-0 object-cover block w-full h-full" src="./resources/img/tesla-bigsample-3.jpg" alt=""> -->
+                <!-- <img id="parallax-gallery" class="parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/tesla-bigsample-3.jpg" alt=""> -->
                 <picture>
                     <source media="(max-width: 1023px)" srcset="/resources/img/IMG_4489_K.jpg">
                     <source media="(min-width: 1024px)" srcset="/resources/img/IMG_4489_K.jpg">
@@ -414,7 +423,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Pearl White Multi Coat</span>
+                <span class="w-full block text-sm font-semibold">Gyémánt metál</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -442,7 +451,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Solid Black</span>
+                <span class="w-full block text-sm font-semibold">Fekete metál</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -470,7 +479,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Midnight Silver Metallic</span>
+                <span class="w-full block text-sm font-semibold">Sötétszürke metál</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -498,7 +507,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Deep Blue Metallic</span>
+                <span class="w-full block text-sm font-semibold">Mélykék metál</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -526,7 +535,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Red Multi-Coat</span>
+                <span class="w-full block text-sm font-semibold">Vörös metál</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -612,7 +621,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-            <img src="./resources/img/inner_black_fihuredashwooddecor.png">
+            <img src="/resources/img/inner_black_fihuredashwooddecor.png">
 </div>
             
             <div class="flex-shrink">
@@ -639,7 +648,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-        <img src="./resources/img/inner_black_and_white_darkashwooddecor.png">
+        <img src="/resources/img/inner_black_and_white_darkashwooddecor.png">
     </div>
             
             <div class="flex-shrink">
@@ -666,7 +675,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-        <img src="./resources/img/inner_black_CarbonFiberDecor.png">
+        <img src="/resources/img/cream__OakWoodDecor.png">
     </div>
             
             <div class="flex-shrink">
@@ -691,7 +700,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-        <img src="./resources/img/inner_black_and_white_CarbonFiberDecor.png">
+        <img src="/resources/img/inner_black_and_white_CarbonFiberDecor.png">
     </div>
             
             <div class="flex-shrink">
@@ -716,7 +725,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-        <img src="./resources/img/inner_black_and_white_CarbonFiberDecor.png">
+        <img src="/resources/img/inner_black_and_white_CarbonFiberDecor.png">
     </div>
             
             <div class="flex-shrink">
@@ -743,7 +752,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-        <img src="./resources/img/inner_cream_OakWoodDecor.png">
+        <img src="/resources/img/inner_cream_OakWoodDecor.png">
     </div>
             
             <div class="flex-shrink">
@@ -841,7 +850,24 @@
         <!-- extra -->
         <div class="_tab-content pb-4" id="conf-tab-6">
             
-
+            <div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label5" class="_toggle-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
+                <div class="flex items-center space-x-3 col-span-2">
+                    <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
+                    <span class="switch bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+                        <!-- On: "translate-x-5", Off: "translate-x-0" -->
+                        <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
+                    </span>
+                    <span id="toggle-label5" class="leading-5">
+                        <span class="w-full block text-sm font-semibold">Fali töltő</span>
+                        
+                            <span class="hidden sm:inline w-full block text-xs"></span>
+                        
+                    </span>
+                </div>
+                <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
+                    <div>650 €</div>
+                </div>
+            </div> 
 
         </div>
     </div>
@@ -919,7 +945,7 @@
     <div class="offer min-h-4 bg-emerald-500 text-gray-500 w-full bottom-8 z-10 shadow-md hidden xl:block">
         <div class="hidden xl:block p-4">
             <div class="content">
-                <h3 class="text-2xl"><span class="text-white">Áttekintés</span> Model 3</h3>
+                <h3 class="text-2xl"><span class="text-white">Áttekintés</span> Model S</h3>
                 <div aria-hidden="true" class="border-b-2 border-white"></div>
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
@@ -1159,6 +1185,7 @@
 <li>Full Self Driving - Teljes önevezető funkció lehetősége</li>
 <li>12 ultrahangos szenzor</li>
 <li>360° kamera rendszer</li>
+<li>Autopilot</li>
 <li>Automatikus parkolás</li>
 
                     </ul>

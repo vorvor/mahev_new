@@ -36,12 +36,13 @@ body.brand-page h2 {
 
 .coming-soon {
     position: absolute;
-    margin-top: -220px;
+    margin-top: -31vh;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 10vh;
     text-align: center;
-    padding-left: 30px;
     color: #aaa;
+    width: 100%;
+    max-width: 100%;
 }
 
 body.model-s .sequence-image,
@@ -53,8 +54,26 @@ body.model-x .sequence-image {
     display: none;
 }
 
+/* Scroll bar appeared before. */
+._configurator-tabs ._tab-content {
+    overflow: visible;
+}
+
+/* Capital accents cutted before. */
+._configurator-tabs ._tab-nav {
+    padding-top: 1px;
+}
+
+._techinfo ._wrapper-inner {
+    width: 50%;
+}
+
 @media (min-width: 350px) and (max-width: 767px) {
     .desktop-hide {
         display: block;
+    }
+
+    body.fooldal ._card-car img {
+        margin-left: 7vw;
     }
 }

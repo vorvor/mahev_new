@@ -201,7 +201,6 @@ $(function(){
 		price = 0;
 		$('.offer .price').not('.hidden').each(function() {
 			price += parseInt($(this).html().replace(/\s+/g, ''));
-			console.log(price);
 		})
 		
 		$('.offer .sum-price').html(priceFormat(price) + ' €');

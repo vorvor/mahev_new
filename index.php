@@ -78,9 +78,14 @@
                 </ul>
             </div>
             <!--innerwrapper-->
-            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
-                <img class="block object-cover object-center w-full h-full" src="resources/img/modelS-mountain.jpg" alt="">
-            </div>
+            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+            <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
+            <picture>
+                <source media="(max-width: 799px)" srcset="/resources/img/modelS-mountain-mobile.jpg">
+                <source media="(min-width: 800px)" srcset="/resources/img/modelS-mountain.jpg">
+                <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/modelS-mountain.jpg" alt="">
+            </picture>
+        </div>
         </div><!--swiper-slide -->
         
         
@@ -149,8 +154,13 @@
                 </ul>
             </div>
             <!--innerwrapper-->
-            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
-                <img class="block object-cover object-center w-full h-full" src="resources/img/model3-city.jpg" alt="">
+            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+                <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
+                <picture>
+                    <source media="(max-width: 799px)" srcset="/resources/img/model3-city-mobile.jpg">
+                    <source media="(min-width: 800px)" srcset="/resources/img/model3-city.jpg">
+                    <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/model3-city.jpg" alt="">
+                </picture>
             </div>
         </div><!--swiper-slide -->
         
@@ -220,8 +230,13 @@
                 </ul>
             </div>
             <!--innerwrapper-->
-            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
-                <img class="block object-cover object-center w-full h-full" src="resources/img/home__model-x.jpg" alt="">
+            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+                <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
+                <picture>
+                    <source media="(max-width: 799px)" srcset="/resources/img/home__model-x-mobile.jpg">
+                    <source media="(min-width: 800px)" srcset="/resources/img/home__model-x.jpg">
+                    <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/home__model-x.jpg" alt="">
+                </picture>
             </div>
         </div><!--swiper-slide -->
         
@@ -291,8 +306,13 @@
                 </ul>
             </div>
             <!--innerwrapper-->
-            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
-                <img class="block object-cover object-center w-full h-full" src="resources/img/home__model-y.jpg" alt="">
+            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+                <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
+                <picture>
+                    <source media="(max-width: 799px)" srcset="/resources/img/home__model-y-mobile.jpg">
+                    <source media="(min-width: 800px)" srcset="/resources/img/home__model-y.jpg">
+                    <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/home__model-y.jpg" alt="">
+                </picture>
             </div>
         </div><!--swiper-slide -->
         
@@ -713,7 +733,9 @@
 
     <div class="_model-hero h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
     <div class="swiper-slide relative flex items-stretch overflow-hidden">
+        
         <div class="innerwrapper py-4 md:py-12 w-full relative flex flex-wrap items-start mx-auto container">
+            
             <h2 class="ani-delay-5 ani-slidein-l text-3xl text-white md:text-5xl pl-4 sm:pl-8 md:pl-16 border-l-2 border-emerald-500 relative">
                 <span class="hidden sm:inline">Bérelj Tesla Model 3-at MAH Zrt-től!</span>
             </h2>
@@ -727,10 +749,12 @@
                         </svg>
                     </a>
                 </div>
-                
+                <div class="label text-xs pt-2 text-white text-center"><a href="/gen_modely.php">részletek</a></div>
             </div>
             
+            
         </div>
+        
         <!--innerwrapper-->
         <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
             <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->

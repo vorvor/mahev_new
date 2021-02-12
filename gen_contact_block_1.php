@@ -9,7 +9,7 @@
 
 
         <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-            <img class="_image-scale block w-full h-full object-cover object-center" src="resources/img/colleague-kral-adam-res.jpg" alt="">
+            <img class="_image-scale block w-full h-full object-cover object-center" src="/resources/img/colleague-kral-adam-res.jpg" alt="">
         </div>
         <div class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-4 mt-4">Král Ádám</div>
         <div class="text-gray-500 w-full">Értékesítő</div>
@@ -19,7 +19,7 @@
 
     <div class="text-center flex flex-wrap content-center">
         <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-            <img class="_image-scale block w-full h-full object-cover object-center" src="resources/img/colleague-bachman-gergely-res.jpg" alt="">
+            <img class="_image-scale block w-full h-full object-cover object-center" src="/resources/img/colleague-bachman-gergely-res.jpg" alt="">
         </div>
         <div class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-4 mt-4">Bachman Gergely</div>
         <div class="text-gray-500 w-full">Értékesítő</div>
@@ -68,7 +68,7 @@
     </div>
 
     <div class="col-span-full text-center mt-8 Xborder-t-2 Xborder-gray-100 pt-8">
-        <a href= "gen_aboutus.php#team" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Mindenki</a>
+        <a href= "rolunk#team" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Mindenki</a>
     </div>
 
 </div>

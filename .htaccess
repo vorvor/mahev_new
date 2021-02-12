@@ -1,15 +1,18 @@
 RewriteEngine On
 RewriteBase /
 
-RewriteRule ^tesla-model-s$ gen_models.php [L]
-RewriteRule ^tesla-model-3$ gen_model3.php [L]
-RewriteRule ^tesla-model-x$ gen_modelx.php [L]
-RewriteRule ^tesla-model-y$ gen_modely.php [L]
-RewriteRule ^szolgaltatasok$ gen_services.php [L]
-RewriteRule ^rolunk$ gen_aboutus.php [L]
-RewriteRule ^markatortenet$ gen_brand.php [L]
-RewriteRule ^gyik$ gen_faq.php [L]
-RewriteRule ^hirek$ gen_news.php [L]
+RewriteRule ^tesla/tesla-model-s$ gen_models.php [L]
+RewriteRule ^tesla/tesla-model-3$ gen_model3.php [L]
+RewriteRule ^tesla/tesla-model-x$ gen_modelx.php [L]
+RewriteRule ^tesla/tesla-model-y$ gen_modely.php [L]
+RewriteRule ^tesla/szolgaltatasaink$ gen_services.php [L]
+RewriteRule ^tesla/rolunk$ gen_aboutus.php [L]
+RewriteRule ^tesla/markatortenet$ gen_brand.php [L]
+RewriteRule ^tesla-gyik$ gen_faq.php [L]
+RewriteRule ^tesla/hirek$ gen_news.php [L]
+RewriteRule ^uzenet$ gen_form-message.php [L]
+RewriteRule ^adatkezelesi-tajekoztato$ gen_priv-policy.php [L]
+RewriteRule ^tesla/berles$ gen_rent_tesla.php [L]
 
 <FilesMatch ".(flv|swf|ico|gif|jpg|jpeg|png)$">  
 Header set Cache-Control "max-age=2592000"  

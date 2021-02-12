@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php include('./gen_header.php'); ?>
-    <link rel="stylesheet" href="resources/css/custom-mobile-slider.css">
-    <script src="resources/js/config-mx.js"></script>
-    <script src="resources/js/config-init-mx.js"></script>
-    <script src="resources/js/slider.js"></script>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_header.php'); ?>
+    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
+    <script src="/resources/js/config-mx.js"></script>
+    <script src="/resources/js/config-init-mx.js"></script>
+    <script src="/resources/js/slider.js"></script>
   </head>
   <body class="debug-screens bg-white model model-x"> 
 
 
     
     <div id="sitewrapper">
-      <?php include('./gen_svg.php'); ?>
-      <?php include('./gen_header_menu.php'); ?>
-      <?php include('./db.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_svg.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_header_menu.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/db.php'); ?>
       
 <div class="_model-hero h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
     <div class="swiper-slide relative flex items-stretch overflow-hidden">
@@ -192,7 +192,7 @@
     </svg>
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            2
+                            3
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             db
@@ -259,18 +259,30 @@
             </div>
         </div>
 
+        <?php
+            $images = glob($_SERVER['DOCUMENT_ROOT'] . '/resources/galleries/modelx/*.jpg');
+            if(isset($_SERVER['HTTPS'])){
+                $protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https" : "http";
+            }
+            else{
+                $protocol = 'http';
+            }
+            foreach ($images as &$image) {
+                $image = str_replace($_SERVER['DOCUMENT_ROOT'], $protocol . '://' . $_SERVER['SERVER_NAME'], $image);
+            }
+        ?>
         <div id="lightgallery">
-            <a href="./resources/img/tesla-bigsample-3.jpg" class="block gradient-overlay-2 absolute inset-0 overflow-hidden z-0">
-                <!-- <img id="parallax-gallery" class="parallax absolute inset-0 object-cover block w-full h-full" src="./resources/img/tesla-bigsample-3.jpg" alt=""> -->
+            <a href="<?php print $images[0]; ?>" class="block gradient-overlay-2 absolute inset-0 overflow-hidden z-0">
+                <!-- <img id="parallax-gallery" class="parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/tesla-bigsample-3.jpg" alt=""> -->
                 <picture>
                     <source media="(max-width: 1023px)" srcset="/resources/img/gallery__model-x--mobile.jpg">
                     <source media="(min-width: 1024px)" srcset="/resources/img/gallery__model-x--desktop.jpg">
                     <img id="parallax-gallery" class="block parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/gallery__model-3--mobile.jpg" alt="">
                 </picture>
             </a>
-            <a class="hidden" href="/resources/img/model-x-sample.jpg"></a>
-            <a class="hidden" href="/resources/img/model-s-sample.jpg"></a>
-            <a class="hidden" href="/resources/img/model-y-sample.jpg"></a>
+            <?php for ($c = 1; $c < count($images); $c++): ?>
+            <a class="hidden" href="<?php print $images[$c]; ?>"></a>
+            <?php endfor; ?>
         </div>
 
 </section>
@@ -581,7 +593,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-            <img src="./resources/img/inner_black_fihuredashwooddecor.png">
+            <img src="/resources/img/inner_black_fihuredashwooddecor.png">
 </div>
             
             <div class="flex-shrink">
@@ -608,7 +620,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-        <img src="./resources/img/inner_black_and_white_darkashwooddecor.png">
+        <img src="/resources/img/inner_black_and_white_darkashwooddecor.png">
     </div>
             
             <div class="flex-shrink">
@@ -635,7 +647,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-        <img src="./resources/img/inner_black_CarbonFiberDecor.png">
+        <img src="/resources/img/inner_black_CarbonFiberDecor.png">
     </div>
             
             <div class="flex-shrink">
@@ -662,7 +674,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-        <img src="./resources/img/inner_black_and_white_CarbonFiberDecor.png">
+        <img src="/resources/img/inner_black_and_white_CarbonFiberDecor.png">
     </div>
             
             <div class="flex-shrink">
@@ -689,7 +701,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-        <img src="./resources/img/inner_cream_OakWoodDecor.png">
+        <img src="/resources/img/inner_cream_OakWoodDecor.png">
     </div>
             
             <div class="flex-shrink">
@@ -876,14 +888,14 @@
             <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
         </span>
         <span id="toggle-label5" class="leading-5">
-            <span class="w-full block text-sm font-semibold">20' téli garnitúra Pirelli gumival</span>
+            <span class="w-full block text-sm font-semibold">Fali töltő</span>
             
                 <span class="hidden sm:inline w-full block text-xs"></span>
             
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>3 650 €</div>
+        <div>650 €</div>
     </div>
 </div> 
 
@@ -962,7 +974,7 @@
     <div class="offer min-h-4 bg-emerald-500 text-gray-500 w-full bottom-8 z-10 shadow-md hidden xl:block">
         <div class="hidden xl:block p-4">
             <div class="content">
-                <h3 class="text-2xl"><span class="text-white">Áttekintés</span> Model 3</h3>
+                <h3 class="text-2xl"><span class="text-white">Áttekintés</span> Model X</h3>
                 <div aria-hidden="true" class="border-b-2 border-white"></div>
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">

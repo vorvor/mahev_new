@@ -53,10 +53,6 @@
     </div>
 </div>
 
-<?php 
-  include('./gen_send.php');
-?>      
-
 <?php include('./gen_footer.php'); ?>
 
 

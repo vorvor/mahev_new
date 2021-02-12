@@ -36,6 +36,7 @@ $(function(){
 					}
 				})
 			}
+			$('#conf-tab-3 ._radio-extras').not('.hidden').first().click();
 
 			// Under 3D rotate data.
 			var regex = /[+-]?\d+(\.\d+)?/g;

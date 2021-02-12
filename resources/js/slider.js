@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$('._configurator-3d').prepend('<div id="progress-bar-3d" class="hidden">loading</div>');
 
-	path = './sequences/';
+	path = '/sequences/';
 	whichAnim = 'outer';
 
 	loadedProjects = [];
@@ -21,9 +21,13 @@ $(document).ready(function() {
 			extHuman = $('.text-sm', this).html();
 			if (extHuman == extColor) {
 				extColor = $(this).data('val');
+			} else {
+				// Fallback.
+				extColor = $('._configurator-tabs #conf-tab-2 ._radio-extras:eq(0)').data('val');
 			}
 		})
 	}
+
 
 	// Default rim from saved cookie if there is or radio options first element if not.
 	rim = getCookie('mahev_rim');
@@ -34,6 +38,9 @@ $(document).ready(function() {
 			rimHuman = $('.text-sm', this).html();
 			if (rimHuman == rim) {
 				rim = $(this).data('val');
+			} else {
+				// Fallback.
+				rim = $('._configurator-tabs #conf-tab-3 ._radio-extras:eq(0)').data('val');
 			}
 		})
 	}
@@ -47,6 +54,9 @@ $(document).ready(function() {
 			interiorHuman = $('.text-sm', this).html();
 			if (interiorHuman == intColor) {
 				intColor = $(this).data('val');
+			} else {
+				// Fallback.
+				intColor = $('._configurator-tabs #conf-tab-4 ._radio-extras:eq(0)').data('val');
 			}
 		})
 	}

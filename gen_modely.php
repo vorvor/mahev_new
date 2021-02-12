@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php include('./gen_header.php'); ?>
-    <link rel="stylesheet" href="resources/css/custom-mobile-slider.css">
-    <script src="resources/js/config-my.js"></script>
-    <script src="resources/js/config-init-my.js"></script>
-    <script src="resources/js/slider.js"></script>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_header.php'); ?>
+    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
+    <script src="/resources/js/config-my.js"></script>
+    <script src="/resources/js/config-init-my.js"></script>
+    <script src="/resources/js/slider.js"></script>
   </head>
   <body class="debug-screens bg-white model"> 
 
 
     
     <div id="sitewrapper">
-      <?php include('./gen_svg.php'); ?>
-      <?php include('./gen_header_menu.php'); ?>
-      <?php include('./db.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_svg.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_header_menu.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/db.php'); ?>
       
 <div class="_model-hero h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
     <div class="swiper-slide relative flex items-stretch overflow-hidden">
@@ -240,6 +240,7 @@
     <h2 class="text-2xl md:text-3xl leading-snug">Kompakt SUV kivitelben a legkedveltebb elektromos autó</h2>
     <div class="w-16 border-t-2 border-emerald-500 mx-auto md:ml-0 my-4 md:my-8"></div>
 </div>
+            <!--
             <div class="badge flex flex-col justify-start mx-auto md:mr-0">
                 <div class="">
                     <div class="circle flex flex-column flex-wrap content-center items-center mx-auto border-2 border-emerald-500 bg-emerald-500
@@ -247,9 +248,9 @@
                         <div class="text-white
                         w-6 h-6 md:w-12 md:h-12 mx-auto">
                             
-    <svg class="svg-icon ">
-        <use xlink:href="#i-pic"></use>
-    </svg>
+                            <svg class="svg-icon ">
+                                <use xlink:href="#i-pic"></use>
+                            </svg>
                         </div> 
                     </div>
                     <div class="label text-sm text-white text-center ">
@@ -257,20 +258,19 @@
                     </div>
                 </div>
             </div>
+        -->
         </div>
 
-        <div id="lightgallery">
-            <a href="./resources/img/tesla-bigsample-3.jpg" class="block gradient-overlay-2 absolute inset-0 overflow-hidden z-0">
-                <!-- <img id="parallax-gallery" class="parallax absolute inset-0 object-cover block w-full h-full" src="./resources/img/tesla-bigsample-3.jpg" alt=""> -->
+        <div>
+            <div href="/resources/img/tesla-bigsample-3.jpg" class="block gradient-overlay-2 absolute inset-0 overflow-hidden z-0">
+                <!-- <img id="parallax-gallery" class="parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/tesla-bigsample-3.jpg" alt=""> -->
                 <picture>
                     <source media="(max-width: 1023px)" srcset="/resources/img/gallery__model-y--mobile.jpg">
                     <source media="(min-width: 1024px)" srcset="/resources/img/gallery__model-y--desktop.jpg">
                     <img id="parallax-gallery" class="block parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/gallery__model-3--mobile.jpg" alt="">
                 </picture>
-            </a>
-            <a class="hidden" href="/resources/img/model-x-sample.jpg"></a>
-            <a class="hidden" href="/resources/img/model-s-sample.jpg"></a>
-            <a class="hidden" href="/resources/img/model-y-sample.jpg"></a>
+            </div>
+
         </div>
 
 </section>
@@ -634,7 +634,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-    <img src="./resources/img/radio-bw-icon.png">
+    <img src="/resources/img/radio-bw-icon.png">
     </div>
             
             <div class="flex-shrink">
@@ -680,30 +680,6 @@
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
         <div>0 €</div>
-    </div>
-</div>
-            
-
-
-<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
-    <div class="flex items-center space-x-3 col-span-2">
-        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "scale-100", Off: "scale-0" -->
-            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
-        </span>
-        <span id="toggle-label10" class="leading-5 flex">
-            
-            
-            <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">6 ülés</span>
-                
-                    <span class="hidden sm:inline w-full block text-xs"></span>
-                
-            </div>
-        </span>
-    </div>
-    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>7 290 €</div>
     </div>
 </div>
 
@@ -946,17 +922,17 @@
 
 
 
-<?php include('./gen_contact_block_1.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_contact_block_1.php'); ?>
 
 
 
-<?php include('./gen_news.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_news.php'); ?>
 
 
 
-    <?php include('./gen_contact_block_3.php'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_contact_block_3.php'); ?>
 
-      <?php include('./gen_footer.php'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_footer.php'); ?>
 
     </div>
       

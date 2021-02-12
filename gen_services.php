@@ -8,9 +8,9 @@
 
     
     <div id="sitewrapper">
-      <?php include('./gen_svg.php'); ?>
-      <?php include('./gen_header_menu.php'); ?>
-      <?php include('./db.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_svg.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_header_menu.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/db.php'); ?>
 
 
 <div class="relative min-h-48 xl:min-h-88 h-screen30 py-8 lg:py-16">
@@ -24,7 +24,7 @@
 </div>
     </div>
     <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
-        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/IMG_4437_K.jpg" alt="">
+        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/IMG_4437_K.jpg" alt="">
     </div>
 </div>
 <div class="">
@@ -98,36 +98,29 @@
                             <p><strong>Igénylői:</strong>  magánszemélyek és vállalkozások</p>
                             <p><strong>Induló befizetés:</strong> minimum 20%</p>
                             <p><strong>Futamidő:</strong>  12-84 hónap</p>
-                            <p><strong>Üzemben tartó:</strong> a lízingbevevő</p>
+                            <p><strong>Üzembentartó:</strong> a lízingbevevő</p>
                             <p><strong>Tulajdonos:</strong> a finanszírozást nyújtó pénzintézet</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                            <div><a href="/uzenet" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                         <div>
                             <h3>NYILTVÉGŰ PÉNZÜGYI LÍZING</h3>
-                            <p><strong>Igénylői:</strong>  magánszemélyek és vállalkozások</p>
+                            <p><strong>Igénylői:</strong>  vállalkozások</p>
                             <p><strong>Induló befizetés:</strong> minimum 20%</p>
+                            <p><strong>Maradványérték:</strong>  a futamidő függvényében meghatározott (10-50%)</p>
                             <p><strong>Futamidő:</strong>  12-84 hónap</p>
-                            <p><strong>Üzemben tartó:</strong> a lízingbevevő</p>
+                            <p><strong>Üzembentartó:</strong> a lízingbevevő</p>
                             <p><strong>Tulajdonos:</strong> a finanszírozást nyújtó pénzintézet</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                            <div><a href="/uzenet" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                         <div>
-                            <h3>ZÁRTVÉGŰ PÉNZÜGYI LÍZING</h3>
-                            <p><strong>Igénylői:</strong>  magánszemélyek és vállalkozások</p>
-                            <p><strong>Induló befizetés:</strong> minimum 20%</p>
-                            <p><strong>Futamidő:</strong>  12-84 hónap</p>
-                            <p><strong>Üzemben tartó:</strong> a lízingbevevő</p>
-                            <p><strong>Tulajdonos:</strong> a finanszírozást nyújtó pénzintézet</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
-                        </div>
-                        <div>
-                            <h3>EGYÉB PÉNZÜGYI MEGOLDÁSOK</h3>
-                            <p><strong>Igénylői:</strong>  magánszemélyek és vállalkozások</p>
-                            <p><strong>Induló befizetés:</strong> minimum 20%</p>
-                            <p><strong>Futamidő:</strong>  12-84 hónap</p>
-                            <p><strong>Üzemben tartó:</strong> a lízingbevevő</p>
-                            <p><strong>Tulajdonos:</strong> a finanszírozást nyújtó pénzintézet</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                            <h3>Operatív lízing vagy tartós bérlet</h3>
+                            <p><strong>Igénylői:</strong>  vállalkozások</p>
+                            <p><strong>Induló befizetés:</strong> akár 0%</p>
+                            <p><strong>Futamidő:</strong>  12-60 hónap</p>
+                            <p><strong>Maradványérték:</strong>  a futamidő függvényében meghatározott</p>
+                            <p><strong>Üzembentartó:</strong> a bérbeadó</p>
+                            <p><strong>Tulajdonos:</strong> a bérbeadó</p>
+                            <div><a href="/uzenet" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                     </div>
 
@@ -153,41 +146,67 @@
                     <div class="lead my-16 md:my-12">
                         A Tesla termékek értékesítését vállalkozásunk többféle biztosítási termékkel tudja támogatni. Számos biztosító társaság KGFB és Casco termékét tudjuk ügyfeleinknek ajánlani, melyek jelenleg a piacon elérhető egyik legkedvezőbb termékek. Az alábbi példák egy budapesti vállakozásra érvényes, más esetben ennél alacsonyabb árú konstrukciók is elérhetőek.
                     </div>
-                    <div class="grid md:grid-cols-3 col-gap-8 row-gap-16">
+                    <div class="py-16 grid md:grid-cols-3 col-gap-8 row-gap-16">
                         <div>
-                            <h3>Tesla model 3 long range</h3>
-                            <p>Casco: <strong>305 820 HUF/év</strong>-től</p>
+                            <h3>Tesla model 3 Standard Range</h3>
+                            <p>Casco: <strong>351 000 HUF/év</strong>-től</p>
                             <p>Kötelező: <strong>72 000 HUF/év</strong>-től</p>
                             <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                         <div>
-                            <h3>Tesla model 3 long range</h3>
-                            <p>Casco: <strong>305 820 HUF/év</strong>-től</p>
+                            <h3>Tesla model 3 Long Range</h3>
+                            <p>Casco: <strong>351 000 HUF/év</strong>-től</p>
                             <p>Kötelező: <strong>72 000 HUF/év</strong>-től</p>
                             <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                         <div>
-                            <h3>Tesla model 3 long range</h3>
-                            <p>Casco: <strong>305 820 HUF/év</strong>-től</p>
+                            <h3>Tesla model 3 Performance</h3>
+                            <p>Casco: <strong>351 000 HUF/év</strong>-től</p>
                             <p>Kötelező: <strong>72 000 HUF/év</strong>-től</p>
                             <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
+                    </div> 
+                    <div class="py-16 grid md:grid-cols-3 col-gap-8 row-gap-16">
                         <div>
-                            <h3>Tesla model 3 long range</h3>
-                            <p>Casco: <strong>305 820 HUF/év</strong>-től</p>
-                            <p>Kötelező: <strong>72 000 HUF/év</strong>-től</p>
+                            <h3>Tesla model S Long Range</h3>
+                            <p>Casco: <strong>495 000 HUF/év</strong>-től</p>
+                            <p>Kötelező: <strong>85 000 HUF/év</strong>-től</p>
                             <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                         <div>
-                            <h3>Tesla model 3 long range</h3>
-                            <p>Casco: <strong>305 820 HUF/év</strong>-től</p>
-                            <p>Kötelező: <strong>72 000 HUF/év</strong>-től</p>
+                            <h3>Tesla model S Performance</h3>
+                            <p>Casco: <strong>555 000 HUF/év</strong>-től</p>
+                            <p>Kötelező: <strong>90 000 HUF/év</strong>-től</p>
+                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                        </div>
+                    </div>
+                    <div class="py-16 grid md:grid-cols-3 col-gap-8 row-gap-16">
+                        <div>
+                            <h3>Tesla Model X Long Range</h3>
+                            <p>Casco: <strong>530 000 HUF/év</strong>-től</p>
+                            <p>Kötelező: <strong>90 000 HUF/év</strong>-től</p>
                             <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                         <div>
-                            <h3>Tesla model 3 long range</h3>
-                            <p>Casco: <strong>305 820 HUF/év</strong>-től</p>
-                            <p>Kötelező: <strong>72 000 HUF/év</strong>-től</p>
+                            <h3>Tesla Model X Performance</h3>
+                            <p>Casco: <strong>530 000 HUF/év</strong>-től</p>
+                            <p>Kötelező: <strong>98 000 HUF/év</strong>-től</p>
+                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                        </div>
+                    </div>
+                    <div>A Model Y 2021-ben válik elérhetővé, de casco és KGFB kalkuláció már készült hozzá, mely az alábbi képen alakul:</div>
+                    <div class="py-16 grid md:grid-cols-3 col-gap-8 row-gap-16">
+                        
+                        <div>
+                            <h3>Tesla Model Y Long Range</h3>
+                            <p>Casco: <strong>408 250 HUF/év</strong>-től</p>
+                            <p>Kötelező: <strong>75 000 HUF/év</strong>-től</p>
+                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                        </div>
+                        <div>
+                            <h3>Tesla Model Y Performance</h3>
+                            <p>Casco: <strong>496 500 HUF/év</strong>-től</p>
+                            <p>Kötelező: <strong>78 000 HUF/év</strong>-től</p>
                             <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                     </div>
@@ -198,7 +217,7 @@
 
 
 
-            <?php include_once('gen_contact_block_1.php'); ?>
+            <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/gen_contact_block_1.php'); ?>
             <!--can i help?-->
 
 
@@ -210,7 +229,7 @@
 </div>
 <!--article-->
 
-      <?php include('./gen_footer.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_footer.php'); ?>
     </div>
       
   </body>

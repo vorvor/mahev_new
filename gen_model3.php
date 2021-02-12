@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php include('./gen_header.php'); ?>
-    <link rel="stylesheet" href="resources/css/custom-mobile-slider.css">
-    <script src="resources/js/config-m3.js"></script>
-    <script src="resources/js/config-init-m3.js"></script>
-    <script src="resources/js/slider.js"></script>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_header.php'); ?>
+    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
+    <script src="/resources/js/config-m3.js"></script>
+    <script src="/resources/js/config-init-m3.js"></script>
+    <script src="/resources/js/slider.js"></script>
   </head>
   <body class="debug-screens bg-white model"> 
 
 
     
     <div id="sitewrapper">
-      <?php include('./gen_svg.php'); ?>
-      <?php include('./gen_header_menu.php'); ?>
-      <?php include('./db.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_svg.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_header_menu.php'); ?>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/db.php'); ?>
       
 <div class="_model-hero h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
     <div class="swiper-slide relative flex items-stretch overflow-hidden">
@@ -261,11 +261,20 @@
         </div>
 
         <?php
-            $images = glob('./resources/galleries/model3/*.jpg');
+            $images = glob($_SERVER['DOCUMENT_ROOT'] . '/resources/galleries/model3/*.jpg');
+            if(isset($_SERVER['HTTPS'])){
+                $protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https" : "http";
+            }
+            else{
+                $protocol = 'http';
+            }
+            foreach ($images as &$image) {
+                $image = str_replace($_SERVER['DOCUMENT_ROOT'], $protocol . '://' . $_SERVER['SERVER_NAME'], $image);
+            }
         ?>
         <div id="lightgallery">
             <a href="<?php print $images[0]; ?>" class="block gradient-overlay-2 absolute inset-0 overflow-hidden z-0">
-                <!-- <img id="parallax-gallery" class="parallax absolute inset-0 object-cover block w-full h-full" src="./resources/img/tesla-bigsample-3.jpg" alt=""> -->
+                <!-- <img id="parallax-gallery" class="parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/tesla-bigsample-3.jpg" alt=""> -->
                 <picture>
                     <!--
                     <source media="(max-width: 1023px)" srcset="/resources/img/gallery__model-3--mobile.jpg">
@@ -664,7 +673,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-    <img src="./resources/img/radio-bw-icon.png">
+    <img src="/resources/img/radio-bw-icon.png">
     </div>
             
             <div class="flex-shrink">
@@ -781,6 +790,25 @@
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
         <div>1 160 €</div>
+    </div>
+</div> 
+
+<div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label5" class="_toggle-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
+    <div class="flex items-center space-x-3 col-span-2">
+        <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
+        <span class="switch bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+            <!-- On: "translate-x-5", Off: "translate-x-0" -->
+            <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
+        </span>
+        <span id="toggle-label5" class="leading-5">
+            <span class="w-full block text-sm font-semibold">Fali töltő</span>
+            
+                <span class="hidden sm:inline w-full block text-xs"></span>
+            
+        </span>
+    </div>
+    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
+        <div>650 €</div>
     </div>
 </div> 
 

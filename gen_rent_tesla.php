@@ -24,7 +24,7 @@
 </div>
     </div>
     <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
-        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/IMG_4655_K.jpg" alt="">
+        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/IMG_4655_K.jpg" alt="">
     </div>
 </div>
 <div class="">
@@ -169,7 +169,7 @@
     <svg class="svg-icon ">
         <use xlink:href="#i-close"></use>
     </svg></div> </header>
-            <div class="content overflow-auto flex-grow-0 md:grid md:grid-cols-2 my-0">
+            <div class="content overflow-auto flex-grow-0 md:grid md:grid-cols-1 my-0">
                 <div class="col1 p-4">
                     <div class=" _section-title2 _io col-span-full xl:w-full text-gray-500 leading-loose text-center mx-auto md:text-left md:mx-0 max-w-md">
     

@@ -16,6 +16,8 @@ $(document).ready(function() {
 	intColor = $('._configurator-tabs #conf-tab-4 ._radio-extras:eq(0)').data('val');
 	hook = '';
 
+	alert(extColor);
+
 	// Default projetc on page load.
 	var project = currentProject();
 

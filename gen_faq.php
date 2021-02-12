@@ -273,7 +273,7 @@
     <!--container-->
 </div>
 <!--article-->
-
+    <?php include('./gen_contact_block_1.php'); ?>
     <?php include('./gen_footer.php'); ?>
     </div>
       

@@ -5,8 +5,7 @@ $(document).ready(function() {
 	// Init facility option buttons.
 	$('._configurator-tabs #conf-tab-1 ._radio-extras').attr('data-prop', 'facility');
 	$('._configurator-tabs #conf-tab-1 ._radio-extras:eq(0)').attr('data-val', 'LR');
-	$('._configurator-tabs #conf-tab-1 ._radio-extras:eq(1)').attr('data-val', 'LR');
-	$('._configurator-tabs #conf-tab-1 ._radio-extras:eq(2)').attr('data-val', 'PE');
+	$('._configurator-tabs #conf-tab-1 ._radio-extras:eq(1)').attr('data-val', 'PE');
 
 	// Init color option buttons.
 	$('._configurator-tabs #conf-tab-2 ._radio-extras').attr('data-prop', 'extColor');

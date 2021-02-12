@@ -105,6 +105,7 @@
         <div id="config-photo" style="margin: 0 auto;"><img style="width: 100%;" src="http://mahev.wabisabee.com/sequences/M3_PE_ExBk_IntBk_20cUturb/M3_PE_ExBk_IntBk_20cUturb_00000.jpg"></div>
 
         <div id="title" style="font-size: 24px;text-align: center;font-weight: 900;margin: 0px auto 40px;text-transform: uppercase;">Új megrendelés érkezett!</div>
+        <p>Köszönjük, hogy érdeklődésével megtisztelte cégünket a Magyar Autókereskedőház Zrt.-t. A konfiguráció sikeres volt, melyet hamarosan megadott e-mail címére is továbbítunk. Kollégánk hamarosan felveszi Önnel a kapcsolatot, hogy minden felmerülő kérdésére választ tudjunk adni.</p>
 
         <div id="data-personal" style="margin: 0 auto;">
           <div class="data-row" style="margin: 10px 0;overflow: hidden;">

@@ -10,7 +10,7 @@
         <div class="col-span-full lg:col-span-4 mb-8 w-full max-w-xs mx-auto md:mx-0">
             <div class="w-80 h-80 rounded-full overflow-hidden mb-4">
                 <a class="w-80 h-80 block" target="_blank" href="https://www.google.hu/maps/place/Magyar+Aut%C3%B3keresked%C5%91h%C3%A1z+Zrt./@47.4484897,18.9982552,17z/data=!3m1!4b1!4m5!3m4!1s0x4741e0aad6a5d437:0x593a19e9c78f1d1b!8m2!3d47.4484861!4d19.0004439?hl=hu">
-                    <img class="block object-cover object-center w-full h-full" src="resources/img/map__kanai-ut-3.jpg" alt="">
+                    <img class="block object-cover object-center w-full h-full" src="/resources/img/map__kanai-ut-3.jpg" alt="">
                 </a>
             </div>
             <div class="flex justify-center w-80  text-gray-300">
@@ -101,10 +101,10 @@
         <ul class="container  lg:flex lg:flex-wrap lg:justify-between">
             <li class="py-2 block px-4 inline-block"><a class="" href="#">© 2015-2021 MAHZRT</a></li>
             <li class="py-2 block px-4 inline-block"><a class="" target="_blank" href="/gen_priv-policy.php">Adatkezelési tájkoztató</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="/gen_models">Model S</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="/gen_model3">Model 3</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="/gen_modelx">Model X</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="/gen_modely">Model Y</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" href="/tesla-model-s">Model S</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" href="/tesla-model-3">Model 3</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" href="/tesla-model-x">Model X</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" href="/tesla-model-y">Model Y</a></li>
         </ul>
     </div>
 </footer>

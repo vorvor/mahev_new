@@ -24,12 +24,12 @@
 </div>
     </div>
     <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
-        <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/aboutus" alt=""> -->
+        <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/aboutus" alt=""> -->
 
         <picture>
-            <source media="(max-width: 1299px)" srcset="resources/img/aboutus--mobile.jpg">
-            <source media="(min-width: 1300px)" srcset="resources/img/aboutus--desktop.jpg">
-            <img id="parallax-gallery" class="block object-cover object-center w-full h-full" src="resources/img/aboutus.jpg" alt="" style="object-position: center 56.6443%;">
+            <source media="(max-width: 1299px)" srcset="/resources/img/aboutus--mobile.jpg">
+            <source media="(min-width: 1300px)" srcset="/resources/img/aboutus--desktop.jpg">
+            <img id="parallax-gallery" class="block object-cover object-center w-full h-full" src="/resources/img/aboutus.jpg" alt="" style="object-position: center 56.6443%;">
         </picture>
 
 
@@ -89,7 +89,7 @@
 <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
         <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-mudri-daniel-res.jpg" alt="">
+             src="/resources/img/colleague-mudri-daniel-res.jpg" alt="">
     </div>
     <div
          class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
@@ -107,7 +107,7 @@
 <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
         <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-kral-adam-res.jpg" alt="">
+             src="/resources/img/colleague-kral-adam-res.jpg" alt="">
     </div>
     <div
          class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
@@ -125,7 +125,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
 <div class="_card-person-short text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
         <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-bachman-gergely-res.jpg" alt="">
+             src="/resources/img/colleague-bachman-gergely-res.jpg" alt="">
     </div>
     <div class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
         Bachman Gergely</div>
@@ -141,7 +141,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
 <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
         <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-borka-balazs-res.jpg" alt="">
+             src="/resources/img/colleague-borka-balazs-res.jpg" alt="">
     </div>
     <div
          class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
@@ -158,7 +158,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
 <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
         <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-bigda-zsuzsanna-res.jpg" alt="">
+             src="/resources/img/colleague-bigda-zsuzsanna-res.jpg" alt="">
     </div>
     <div
          class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
@@ -178,7 +178,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
 <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
         <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-sofalvi-reka-res.jpg" alt="">
+             src="/resources/img/colleague-sofalvi-reka-res.jpg" alt="">
     </div>
     <div
          class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
@@ -199,7 +199,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
 <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
         <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-szabo-daniel-res.jpg" alt="">
+             src="/resources/img/colleague-szabo-daniel-res.jpg" alt="">
     </div>
     <div
          class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
@@ -219,7 +219,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
 <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
         <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-selinger-orsolya-res.jpg" alt="">
+             src="/resources/img/colleague-selinger-orsolya-res.jpg" alt="">
     </div>
     <div
          class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
@@ -238,7 +238,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
 <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
     <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
         <img class="_image-scale block w-full h-full object-cover object-center"
-             src="resources/img/colleague-pataki-zsanett-res.jpg" alt="">
+             src="/resources/img/colleague-pataki-zsanett-res.jpg" alt="">
     </div>
     <div
          class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
