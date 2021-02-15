@@ -2,6 +2,29 @@
 <html lang="en">
   <head>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_header.php'); ?>
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="Tervezze meg Tesla Model 3 elektromos autóját a MAH ZRT. Tesla konfigurátorával. Rendelje meg és kapja kézhez a Tesla Model 3-at Magyarországon egyedülállóan rövid, 2 hónapos határidővel." />
+    <meta property="fb:app_id" content="1192951680871368" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tesla Model 3 ár konfigurátor - számolja ki, és rendelje meg Tesla Model 3 elektromos autóját | mah-ev.hu" />
+    <meta property="og:url" content="https://mah-ev.hu/tesla/tesla-model-3" />
+    <meta property="og:title" content="Tesla Model 3 ár konfigurátor - számolja ki, és rendelje meg Tesla Model 3 elektromos autóját | mah-ev.hu" />
+    <meta property="og:determiner" content="auto" />
+    <meta property="og:description" content="Tervezze meg Tesla Model 3 elektromos autóját a MAH ZRT. Tesla konfigurátorával. Rendelje meg és kapja kézhez a Tesla Model 3-at Magyarországon egyedülállóan rövid, 2 hónapos határidővel." />
+    <meta property="og:image" content="https://www.mah-ev.hu/resources/img/model3-city.jpg" />
+    <meta property="og:image:url" content="https://www.mah-ev.hu/resources/img/model3-city.jpg" />
+    <meta property="og:image:secure_url" content="https://www.mah-ev.hu/resources/img/model3-city.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://www.mah-ev.hu/" />
+    <meta name="twitter:title" content="Tesla Model 3 ár konfigurátor - számolja ki, és rendelje meg Tesla Model 3 elektromos autóját | mah-ev.hu" />
+    <meta name="dcterms.title" content="Tesla Model 3 ár konfigurátor - számolja ki, és rendelje meg Tesla Model 3 elektromos autóját | mah-ev.hu" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
+    <meta name="dcterms.format" content="text/html" />
+    
     <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
     <script src="/resources/js/config-m3.js"></script>
     <script src="/resources/js/config-init-m3.js"></script>
@@ -1122,7 +1145,7 @@
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
-                        <span class="block text-white">Extrák</span>
+                        <span class="block text-white">Extra</span>
                         <span class="block extra">Vonóhorog</span>
                     </div>
                     <div class="w-1/4 mt-auto text-right extra-price">8700 €</div>

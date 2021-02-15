@@ -149,7 +149,6 @@ $(document).ready(function() {
 		if ($('#configurator .' + project + '-' + picnumstring).length > 0) {
 			clearAnim();
 			$('#configurator .' + project + '-' + picnumstring).removeClass('hidden');
-			console.log('#configurator .' + project + '-' + picnumstring + ' is active');
 		}
 	}
 

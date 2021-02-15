@@ -40,6 +40,7 @@
                 <li><span>Önvezetés</span><span>autopilot</span></li>
                 <li><span>Téli gumi</span><span></span></li>
                 <li><span>Extra</span><span></span></li>
+                <li><span>Végső ár</span><span></span></li>
               </ul>
             </div>
 

@@ -7,7 +7,7 @@ function viewport() {
     return e[ a+'Width' ] + ':' + e[ a+'Height'];
 }
 
-function getCookie(cname) {
+function getBaseCookie(cname) {
   var name = cname + "=";
   var decodedCookie = decodeURIComponent(document.cookie);
 
@@ -24,8 +24,43 @@ function getCookie(cname) {
   return "";
 }
 
+function getCookie(cname) {
+  savedParams = getBaseCookie('params');
+  params = JSON.parse(savedParams);
+  
+  for (var i in params) {
+    if (params[i].name == cname) {
+      return params[i].value;
+    }
+  }
+}
+
 function setCookie(cname, cvalue) {
-  document.cookie = cname + '=' + cvalue;
+  savedParams = getBaseCookie('params');
+
+  if (savedParams == '') {
+    var params = [];
+  } else {
+    params = JSON.parse(savedParams);
+  }
+
+  found = false;
+  for (var i in params) {
+    if (params[i].name == cname) {
+      params[i].value = cvalue;
+      found = true;
+      break; //Stop this loop, we found it!
+    }
+  }
+
+  if (!found) {
+    var item = {};
+    item.name = cname;
+    item.value = cvalue;
+    params.push(item);
+  }
+  document.cookie = 'params=' + JSON.stringify(params) + ';path=/';
+  //document.cookie = cname + '=' + cvalue + ';path=/';
 }
 
 $(document).ready(function() {

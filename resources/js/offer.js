@@ -1,11 +1,7 @@
 $(function(){
 
 	switch(getCookie('mahev_model')) {
-		case 's': 
-			model = 'Model S';
-			// no seats, no extra
-			$('._config-summary li:nth-child(6)').hide();
-			$('._config-summary li:nth-child(9)').hide();
+		case 's': model = 'Model S';
 		break;
 		case '3': model = 'Model 3';
 		break;
@@ -17,7 +13,7 @@ $(function(){
 
 	$('.lastname').addClass('hidden');
 
-	fields = ['model', 'facility', 'exterior', 'interior', 'rim', 'seats', 'selfdrive', 'wtire', 'extra'];
+	fields = ['model', 'facility', 'exterior', 'interior', 'rim', 'seats', 'selfdrive', 'wtire', 'extra', 'price'];
 
 	$('._config-summary li:nth-child(1) span:nth-child(1)').html(model);
 
@@ -35,9 +31,11 @@ $(function(){
 	selfdrive = getCookie('mahev_selfdrive');
 	$('._config-summary li:nth-child(7) span:nth-child(2)').html(selfdrive);
 	wtire = getCookie('mahev_wtire');
-	$('._config-summary li:nth-child(8) span:nth-child(2)').html(wtire);
+	$('._config-summary li:nth-child(8) span:nth-child(2)').html(wtire);	
 	extra = getCookie('mahev_extra');
 	$('._config-summary li:nth-child(9) span:nth-child(2)').html(extra);
+	price = getCookie('mahev_price');
+	$('._config-summary li:nth-child(10) span:nth-child(2)').html(price);
 
 	$.each(fields, function(k, v) {
 		if (window[v] !== '') {
@@ -46,6 +44,8 @@ $(function(){
 	    	newOption.type = 'hidden';
 	    	newOption.value = window[v];
 	    	$('#offer').append(newOption); 
+    	} else {
+    		$('._config-summary li:nth-child(' + (k + 1) + ')').hide();
     	}
 	})
 

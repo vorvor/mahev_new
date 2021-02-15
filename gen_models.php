@@ -2,6 +2,29 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="Tervezze meg Tesla Model S elektromos autóját a MAH ZRT. Tesla konfigurátorával. Rendelje meg és kapja kézhez a Tesla Model S-t Magyarországon egyedülállóan rövid időn belül." />
+    <meta property="fb:app_id" content="1192951680871368" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tesla Model S ár konfigurátor - számolja ki, és rendelje meg Tesla Model S elektromos autóját | mah-ev.hu" />
+    <meta property="og:url" content="https://mah-ev.hu/tesla/tesla-model-s" />
+    <meta property="og:title" content="Tesla Model S ár konfigurátor - számolja ki, és rendelje meg Tesla Model S elektromos autóját | mah-ev.hu" />
+    <meta property="og:determiner" content="auto" />
+    <meta property="og:description" content="Tervezze meg Tesla Model S elektromos autóját a MAH ZRT. Tesla konfigurátorával. Rendelje meg és kapja kézhez a Tesla Model S-t Magyarországon egyedülállóan rövid időn belül." />
+    <meta property="og:image" content="https://www.mah-ev.hu/resources/img/modelS-mountain.jpg" />
+    <meta property="og:image:url" content="https://www.mah-ev.hu/resources/img/modelS-mountain.jpg" />
+    <meta property="og:image:secure_url" content="https://www.mah-ev.hu/resources/img/modelS-mountain.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://www.mah-ev.hu/" />
+    <meta name="twitter:title" content="Tesla Model S ár konfigurátor - számolja ki, és rendelje meg Tesla Model S elektromos autóját | mah-ev.hu" />
+    <meta name="dcterms.title" content="Tesla Model S ár konfigurátor - számolja ki, és rendelje meg Tesla Model S elektromos autóját | mah-ev.hu" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
+    <meta name="dcterms.format" content="text/html" />
+
     <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
     <script src="/resources/js/config-ms.js"></script>
     <script src="/resources/js/config-init-ms.js"></script>
@@ -775,102 +798,98 @@
 <div class="_tab-content pb-4 radiogroup" id="conf-tab-5">
             
 
-<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
+    <div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
 
-    <div class="flex items-center space-x-3 col-span-2">
-        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "scale-100", Off: "scale-0" -->
-            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
-        </span>
-        <span id="toggle-label10" class="leading-5 flex">
+        <div class="flex items-center space-x-3 col-span-2">
+            <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+                <!-- On: "scale-100", Off: "scale-0" -->
+                <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
+            </span>
+            <span id="toggle-label10" class="leading-5 flex">
             
            
             
-            <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Autopilot</span>
-                <span class="hidden sm:inline w-full block text-xs">Lehetővé teszi az automatikus kormányzást, gyorsulást és fékezést, figyelembe véve járműveket és gyalogosokat</span>
-            </div>
-        </span>
+                <div class="flex-shrink">
+                    <span class="w-full block text-sm font-semibold">Autopilot</span>
+                    <span class="hidden sm:inline w-full block text-xs">Lehetővé teszi az automatikus kormányzást, gyorsulást és fékezést, figyelembe véve járműveket és gyalogosokat</span>
+                </div>
+            </span>
+        </div>
+        <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
+            <div>0 €</div>
+        </div>
     </div>
-    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>0 €</div>
-    </div>
-</div>
 
-<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
+    <div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
 
-    <div class="flex items-center space-x-3 col-span-2">
-        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+        <div class="flex items-center space-x-3 col-span-2">
+            <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
             <!-- On: "scale-100", Off: "scale-0" -->
-            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
-        </span>
-        <span id="toggle-label10" class="leading-5 flex">
+                <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
+            </span>
+            <span id="toggle-label10" class="leading-5 flex">
             
            
             
-            <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Enhanced Autopilot</span>
-                <span class="hidden sm:inline w-full block text-xs">Automatikus vezetés autópályán a felhajtótól a lehajtóig, automatikusan megelőzi a lassabb járműveket | Sávváltó asszisztens | Automatikus parkolás</span>
-            </div>
-        </span>
-    </div>
-    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>4 100 €</div>
-    </div>
-</div>      
+                <div class="flex-shrink">
+                    <span class="w-full block text-sm font-semibold">Enhanced Autopilot</span>
+                    <span class="hidden sm:inline w-full block text-xs">Automatikus vezetés autópályán a felhajtótól a lehajtóig, automatikusan megelőzi a lassabb járműveket | Sávváltó asszisztens | Automatikus parkolás</span>
+                </div>
+            </span>
+        </div>
+        <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
+            <div>4 100 €</div>
+        </div>
+    </div>      
 
 
-<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
-    <div class="flex items-center space-x-3 col-span-2">
-        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "scale-100", Off: "scale-0" -->
-            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
-        </span>
-        <span id="toggle-label10" class="leading-5 flex">
-            
-            
-            <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Full self driving</span>
+    <div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
+        <div class="flex items-center space-x-3 col-span-2">
+            <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+                <!-- On: "scale-100", Off: "scale-0" -->
+                <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
+            </span>
+            <span id="toggle-label10" class="leading-5 flex">
                 
-                    <span class="hidden sm:inline w-full block text-xs">Magában foglalja az alap Autopilot és Továbbfejlesztett Autopilot összes funkcióját | Automatikusan felismeri és reagál  a közlekedési lámpákra és jelzőtáblákra | Közeljövőben : Automatikus vezetés városban</span>
                 
-            </div>
-        </span>
+                <div class="flex-shrink">
+                    <span class="w-full block text-sm font-semibold">Full self driving</span>
+                    
+                        <span class="hidden sm:inline w-full block text-xs">Magában foglalja az alap Autopilot és Továbbfejlesztett Autopilot összes funkcióját | Automatikusan felismeri és reagál  a közlekedési lámpákra és jelzőtáblákra | Közeljövőben : Automatikus vezetés városban</span>
+                    
+                </div>
+            </span>
+        </div>
+        <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
+            <div>7 990 €</div>
+        </div>
     </div>
-    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>7 990 €</div>
-    </div>
-</div>
-
-
 
  </div>
 <!-- Önvezetés -->
 
         <!-- extra -->
-        <div class="_tab-content pb-4" id="conf-tab-6">
-            
-            <div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label5" class="_toggle-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
-                <div class="flex items-center space-x-3 col-span-2">
-                    <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
-                    <span class="switch bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-                        <!-- On: "translate-x-5", Off: "translate-x-0" -->
-                        <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
-                    </span>
-                    <span id="toggle-label5" class="leading-5">
-                        <span class="w-full block text-sm font-semibold">Fali töltő</span>
-                        
-                            <span class="hidden sm:inline w-full block text-xs"></span>
-                        
-                    </span>
-                </div>
-                <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-                    <div>650 €</div>
-                </div>
-            </div> 
-
+<div class="_tab-content pb-4" id="conf-tab-6">
+    
+    <div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label5" class="_toggle-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
+        <div class="flex items-center space-x-3 col-span-2">
+            <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
+            <span class="switch bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+                <!-- On: "translate-x-5", Off: "translate-x-0" -->
+                <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
+            </span>
+            <span id="toggle-label5" class="leading-5">
+                <span class="w-full block text-sm font-semibold">Fali töltő</span>
+                <span class="hidden sm:inline w-full block text-xs"></span>
+            </span>
         </div>
-    </div>
+        <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
+            <div>650 €</div>
+        </div>
+    </div> 
+</div>
+
+</div>
 
     <div class="product min-h-16 lg:col-span-2">
         <div class="_configurator-3d">
@@ -985,6 +1004,13 @@
                 </div><!-- offer -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
+                        <span class="block text-white">Extra</span>
+                        <span class="block extra">Fali töltő</span>
+                    </div>
+                    <div class="w-1/4 mt-auto text-right price extra-price">650 €</div>
+                </div><!-- offer -->
+                <div class="flex text-sm my-4 font-semibold">
+                    <div class="w-3/4 pr-2">
                         <span class="block text-white">Szállítás</span>
                     </div>
                     <div class="w-1/4 mt-auto price text-right">990 €</div>
@@ -1084,6 +1110,13 @@
                         <span class="block rim">19’ ezüst könnyűfém felni</span>
                     </div>
                     <div class="w-1/4 mt-auto text-right rim-price">0 €</div>
+                </div><!-- item -->
+                <div class="flex text-sm my-4 font-semibold">
+                    <div class="w-3/4 pr-2">
+                        <span class="block text-white">Extra</span>
+                        <span class="block extra">Fali töltő</span>
+                    </div>
+                    <div class="w-1/4 mt-auto text-right extra-price">650 €</div>
                 </div><!-- item -->
                 
                 <div class="flex text-sm my-4 font-semibold">

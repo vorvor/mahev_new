@@ -1,5 +1,21 @@
 $(function(){
 
+
+	$('.offer .facility').html($('#conf-tab-1 ._radio-extras:nth-child(1) .text-sm').html());
+	$('.offer .facility-price').html($('#conf-tab-1 ._radio-extras:nth-child(1) .price div').html());
+
+	$('.offer .exterior').html($('#conf-tab-2 ._radio-extras:nth-child(1) .text-sm').html());
+	$('.offer .exterior-price').html($('#conf-tab-2 ._radio-extras:nth-child(1) .price div').html());
+
+	$('.offer .interior').html($('#conf-tab-4 ._radio-extras:nth-child(1) .text-sm').html());
+	$('.offer .interior-price').html($('#conf-tab-4 ._radio-extras:nth-child(1) .price div').html());
+
+	$('.offer .rim').html($('#conf-tab-3 ._radio-extras:nth-child(1) .text-sm').html());
+	$('.offer .rim-price').html($('#conf-tab-3 ._radio-extras:nth-child(1) .price div').html());
+
+	$('.offer .self-driving').html($('#conf-tab-5 ._radio-extras:nth-child(1) .text-sm').html());
+	$('.offer .self-driving-price').html($('#conf-tab-5 ._radio-extras:nth-child(1) .price div').html());
+	
 	calcOfferPrice();
 
 	// Facility
@@ -108,7 +124,7 @@ $(function(){
 		}
 	})
 	$('#conf-tab-3 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
-	setCookie('mahev_rim', $('#conf-tab-3 ._radio-extras:nth-child(1) .text-sm').html());
+	setCookie('mahev_rim', $('#conf-tab-3 ._radio-extras').not('.hidden').first().html());
 
 
 	$('#conf-tab-3 ._radio-extras').each(function() {
@@ -182,47 +198,68 @@ $(function(){
 
 	$('.offer .block.extra').addClass('hidden');
 	$('.offer .extra-price').addClass('hidden');
-
+	
 	setCookie('mahev_extra', '');
 	$('#conf-tab-6 ._toggle-extras').each(function() {
 		$(this).click(function() {
-			price = $('.price div', this).html();
-			$('.offer .extra-price').html(price);
-
+			sumExtra = [];
+			sumPrice = 0;
 			$('.offer .block.extra').addClass('hidden');
 			$('.offer .extra-price').addClass('hidden');
-			if ($(this).hasClass('on')) {
-				$('.offer .block.extra').removeClass('hidden');
-				$('.offer .extra-price').removeClass('hidden');
+	
+
+			$('#conf-tab-6 ._toggle-extras').each(function() {
+				if ($(this).hasClass('on')) {
+					text = $('.text-sm', this).html();
+					price = parseInt($('.price div', this).html().replace(/\s+/g, ''));
+					$('.offer .block.extra').removeClass('hidden');
+					$('.offer .extra-price').removeClass('hidden');
+					sumExtra.push(text);
+					sumPrice += price * 1;
+				}
+			})
+
+			text = sumExtra.join(', ');
+			$('.offer .block.extra').html(text);
+			$('.offer .extra-price').html(priceFormat(sumPrice) + ' €');
+			// Save value.
+			setCookie('mahev_extra', text);
+
+			calcOfferPrice();
+		})
+
+		
+	})
+
+	$('#conf-tab-6 ._radio-extras').each(function() {
+		$(this).click(function() {
+			if ($('.text-sm', this).html() == getCookie('mahev_wtire')) {
+				$(this).removeClass('on').addClass('off');
+				$('.offer .block.winter-tire').html('');
+				$('.offer .winter-tire-price').html('');
+				// Save value.
+				setCookie('mahev_wtire',  '');
+			} else {
+				text = $('.text-sm', this).html();
+				price = $('.price div', this).html();
+
+				$('.offer .block.winter-tire').html(text);
+				$('.offer .winter-tire-price').html(price);
 
 				// Save value.
-				setCookie('mahev_extra', 'Vonóhorog');
+				setCookie('mahev_wtire',  text);
 			}
 
-			calcOfferPrice();
-		})
-
-		
-	})
-
-	// Winter tire
-	setCookie('mahev_wtire', '');
-	$('#conf-tab-5 ._radio-extras').each(function() {
-		$(this).click(function() {
-			text = $('.text-sm', this).html();
-			price = $('.price div', this).html();
-
-			$('.offer .block.winter-tire').html(text);
-			$('.offer .winter-tire-price').html(price);
-
-			// Save value.
-			setCookie('mahev_wtire', text);
+			// Bug fixed in all.js, later must fix in origin part.
+			$('#conf-tab-6 ._toggle-extras').each(function() {
+				if (getCookie('mahev_extra').includes($('.text-sm', this).html())) {
+					$(this).addClass('on').removeClass('off');
+				}
+			})
 
 			calcOfferPrice();
 		})
-
-		
-	})
+	});
 
 
 	function calcOfferPrice() {
@@ -231,7 +268,9 @@ $(function(){
 			price += parseInt($(this).html().replace(/\s+/g, ''));
 		})
 		
-		$('.offer .sum-price').html(priceFormat(price) + ' €');
+		sumPrice = priceFormat(price) + ' €';
+		$('.offer .sum-price').html(sumPrice);
+		setCookie('mahev_price', sumPrice);
 	}
 
 	function priceFormat(nStr) {
