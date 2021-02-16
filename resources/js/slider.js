@@ -223,7 +223,6 @@ $(document).ready(function() {
 	}
 
 	// Start default project images init.
-	console.log('PRO' + project);
 	loadImages(192, 'start', project);
 	loadedProjects.push(currentProject());
 	//setPic();
@@ -288,6 +287,9 @@ $(document).ready(function() {
 		if (i < 77) {
 			picnumstring = ('00000' + i).slice(-5);
 			innerProject = currentProject();
+			if (innerProject == 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb') {
+				innerProject = 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb_Spr';
+			}
 			picstring = '/sequences/rotate/ZOOMOUT/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
 			$('#configurator .inset-0').prepend('<img class="hidden sequence-image outer-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
 			animTimer = setTimeout(function(){ loadZoomOutImages(i + 1) }, 50);
@@ -303,10 +305,14 @@ $(document).ready(function() {
 		if (i < 77) {
 			picnumstring = ('00000' + i).slice(-5);
 			clearAnim();
+			if (innerProject == 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb') {
+				innerProject = 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb_Spr';
+			}
 			$('#configurator .inset-0 .outer-' + innerProject + '-' + picnumstring).removeClass('hidden');
 			animTimer = setTimeout(function(){ playZoomOut(i + 1) }, 50);
 		} else {
-			$('input[type="range"]').val(212).change();
+			document.getElementById('slider').value = 49;
+			$('input[type="range"]').change();
 			animTimer = null;
 		}
 	}

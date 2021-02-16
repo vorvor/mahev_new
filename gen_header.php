@@ -23,9 +23,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/resources/css/style.css">
     <link rel="stylesheet" href="/resources/css/rangeslider.css">
-    <link rel="stylesheet" href="/resources/css/custom.css">
+    <link rel="stylesheet" href="/resources/css/custom.css?v=<?php print rand(1,100000); ?>">
     <script src="/resources/js/all.js"></script>
-    <script src="/resources/js/base.js"></script>
+    <script src="/resources/js/base.js?v=<?php print rand(1,100000); ?>"></script>
     <script src="/resources/js/init-offer.js"></script>
     
     <?php header("Cache-Control: public, max-age=604800, immutable"); ?>

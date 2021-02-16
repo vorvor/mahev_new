@@ -28,7 +28,7 @@
 
      <div class="text-center flex flex-wrap content-center">
         <a href= "tel:+36203576428" class= "w-full max-w-xs mx-auto mb-8 bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out"><?php print $phone_main; ?></a>
-        <a href= "gen_form-message.php" class= "w-full max-w-xs mx-auto mb-8 bg-gray-300  hover:bg-gray-400  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Üzenetet küldök</a>
+        <a href= "/uzenet" class= "w-full max-w-xs mx-auto mb-8 bg-gray-300  hover:bg-gray-400  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Üzenetet küldök</a>
 
         <ul class="grid grid-cols-3 gap-8 justify-items-center items-center w-full max-w-xs mx-auto">
             <li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150">

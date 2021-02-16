@@ -29,7 +29,7 @@
     </svg>
                         </a>
                     </div>
-                    <div class="icon-label text-sm text-center hidden">
+                    <div class="icon-label text-sm text-center text-white">
                         részletek
                     </div>
                 </div>
@@ -105,7 +105,7 @@
     </svg>
                         </a>
                     </div>
-                    <div class="icon-label text-sm text-center hidden">
+                    <div class="icon-label text-sm text-center text-white">
                         részletek
                     </div>
                 </div>
@@ -181,7 +181,7 @@
     </svg>
                         </a>
                     </div>
-                    <div class="icon-label text-sm text-center hidden">
+                    <div class="icon-label text-sm text-center text-white">
                         részletek
                     </div>
                 </div>
@@ -257,7 +257,7 @@
     </svg>
                         </a>
                     </div>
-                    <div class="icon-label text-sm text-center hidden">
+                    <div class="icon-label text-sm text-center text-white">
                         részletek
                     </div>
                 </div>
@@ -742,14 +742,14 @@
             
             <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
                 <div class="icon bg-emerald-500 mx-auto w-16 h-16 md:w-20 md:h-20 rounded-full transition-colors ease-out duration-200 overflow-hidden">
-                    <a class="block rounded-full h-full" href="#configurator">
+                    <a class="block rounded-full h-full" href="/tesla/berles">
                         
                         <svg class="svg-icon p-4 text-white">
                             <use xlink:href="#i-details"></use>
                         </svg>
                     </a>
                 </div>
-                <div class="label text-xs pt-2 text-white text-center"><a href="/gen_modely.php">részletek</a></div>
+                <div class="label text-xs pt-2 text-white text-center">részletek</div>
             </div>
             
             
@@ -759,9 +759,9 @@
         <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
             <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
             <picture>
-                <source media="(max-width: 799px)" srcset="/resources/img/modelS-mountain-mobile.jpg">
+                <source media="(max-width: 799px)" srcset="/resources/img/IMG_4655_K.jpg">
                 <source media="(min-width: 800px)" srcset="/resources/img/IMG_4655_K.jpg">
-                <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/IMG_4655_K.jpg" alt="" style="object-position: center 38.5727%;">
+                <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/IMG_4655_K.jpg" alt="" style="object-position: center 80%;">
             </picture>
         </div>
     </div>

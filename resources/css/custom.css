@@ -64,8 +64,15 @@ body.model-x .sequence-image {
     padding-top: 1px;
 }
 
-._techinfo ._wrapper-inner {
+body.car-rent-page ._techinfo ._wrapper-inner {
     width: 50%;
+}
+
+@media (min-width: 1280px) {
+
+    body.car-rent-page .min-h-48 {
+        min-height: 36rem;
+    }
 }
 
 form .lastname {

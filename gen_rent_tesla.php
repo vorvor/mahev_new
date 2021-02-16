@@ -3,7 +3,7 @@
   <head>
     <?php include('./gen_header.php'); ?>
   </head>
-  <body class="debug-screens bg-white services-page"> 
+  <body class="debug-screens bg-white car-rent-page"> 
 
 
     
@@ -16,23 +16,21 @@
 <div class="relative min-h-48 xl:min-h-88 h-screen30 py-8 lg:py-16">
     <div class="container">
         <div class="_section-title _io  relative mb-8 md:mb-12">
-    <h2 class="text-white text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Bérelj Tesla Model 3-at MAH Zrt-től!</h2>
-    <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
-
-
-    </div>
-</div>
+            <h2 class="text-white text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Bérelj Tesla Model 3-at MAH Zrt-től!</h2>
+                <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500"></div>
+        </div>
     </div>
     <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
         <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/IMG_4655_K.jpg" alt="">
     </div>
 </div>
+
 <div class="">
     <div class="_services">
 
         <main>
             <section id="transparency" class="_services-content">
-                <div class="container py-16 leading-loose">
+                <div class="container leading-loose">
                     
 <!--
 <div class="_section-title3  text- flex leading-loose items-center mx-auto md:mx-0 max-w-md">
@@ -51,13 +49,32 @@
                     <div class="lead my-16 md:my-12">
                         Ültél már Teslában? Átélted már a Tesla élményt és megmutatnád a családodnak is? Vásárolnál egy Teslát, de nem vagy biztos a képességeiben? Itt a lehetőség, hogy a legnépszerűbb modellt szeretteid, barátaid és ügyfeleid körében élvezd! Akár egy hétvégére is bérlehető és nincs napi futáskorlátozás! Amennyiben születésnapi ajándéknak szánod, készíts fényképet az ünnepelttel és oszd meg ismerőseid között, hogy a MAH Zrt.-től béreltél Teslát. Ebben az esetben, ha erről fényképet küldesz nekünk, a bérleti díj 20%-val mi járulunk hozzá az ajándékodhoz!  
                     </div>
-                    <div class="grid md:grid-cols-2 col-gap-8 row-gap-16">
+                    <div class="lead my-16 md:my-12">
                         Rendezvényre vagy egyéb eseményekre kérj egyedi ajánlatot, konstrukcióink rugalmasak, könnyedén személyre szabhatóak.
                     </div>
 
                 </div><!--container-->
             </section>
             <!-- transzparencia -->
+
+
+<div class="relative min-h-48 xl:min-h-88 h-screen30 py-8 lg:py-16">
+    <div class="container">
+        <div class="_section-title _io  relative mb-8 md:mb-12">
+            
+                <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500"></div>
+        </div>
+    </div>
+    <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
+        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/IMG_4685_K.jpg" alt="">
+    </div>
+</div>
+
+
+
+
+
+
             <section id="finance" class="_services-content">
                 <div class="container py-16 leading-loose">
                     

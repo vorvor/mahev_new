@@ -25,9 +25,9 @@
     <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
     <meta name="dcterms.format" content="text/html" />
     
-    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
+    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css?v=1">
     <script src="/resources/js/config-m3.js"></script>
-    <script src="/resources/js/config-init-m3.js"></script>
+    <script src="/resources/js/config-init-m3.js"></script> 
     <script src="/resources/js/slider.js"></script>
   </head>
   <body class="debug-screens bg-white model"> 
@@ -54,7 +54,7 @@
     </svg>
                     </a>
                 </div>
-                <div class="icon-label text-sm text-center">
+                <div class="icon-label text-sm text-center text-white">
                     konfigurátor
                 </div>
             </div>
@@ -1060,7 +1060,7 @@
                     <div class="w-1/2 mt-auto text-right text-white text-xl sm:text-4xl leading-none sum-price">65 310 €</div>
                 </div>
                 <div class="text-center mt-4 sm:mt-8">
-                    <a href= "/gen_form-offer.php" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">ajánlatot kérek</a>
+                    <a href= "/rendeles" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">ajánlatot kérek</a>
                 </div>
             </div>
         </div> 
@@ -1174,7 +1174,7 @@
             <div class="w-1/2 mt-auto text-right text-white text-xl sm:text-4xl leading-none sum-price">65 310 €</div>
         </div>
         <div class="text-center mt-4 sm:mt-8">
-            <a href= "/gen_form-offer.php" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">tovább az ajánlat kéréshez</a>
+            <a href= "/rendeles" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">tovább az ajánlat kéréshez</a>
             
             <div class="mt-2 text-xs font-semibold tracking-wider uppercase leading-snug cursor-pointer inline-block mx-auto">
                 <div class="w-4 h-4 inline-block relative top-1"> 

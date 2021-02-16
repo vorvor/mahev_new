@@ -11,6 +11,7 @@ RewriteRule ^tesla/markatortenet$ gen_brand.php [L]
 RewriteRule ^tesla-gyik$ gen_faq.php [L]
 RewriteRule ^tesla/hirek$ gen_news.php [L]
 RewriteRule ^uzenet$ gen_form-message.php [L]
+RewriteRule ^rendeles$ gen_form-offer.php [L]
 RewriteRule ^adatkezelesi-tajekoztato$ gen_priv-policy.php [L]
 RewriteRule ^tesla/berles$ gen_rent_tesla.php [L]
 

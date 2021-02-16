@@ -200,8 +200,8 @@ $(function(){
 			price += parseInt($(this).html().replace(/\s+/g, ''));
 		})
 		
-		sumPrice = priceFormat(price) + ' EUR';
-		$('.sum-price').html(sumPrice);
+		sumPrice = priceFormat(price);
+		$('.sum-price').html(sumPrice + ' €');
 		setCookie('mahev_price', sumPrice);
 	}
 

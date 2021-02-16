@@ -7,7 +7,7 @@ function viewport() {
     return e[ a+'Width' ] + ':' + e[ a+'Height'];
 }
 
-function getBaseCookie(cname) {
+function getCookie(cname) {
   var name = cname + "=";
   var decodedCookie = decodeURIComponent(document.cookie);
 
@@ -24,6 +24,7 @@ function getBaseCookie(cname) {
   return "";
 }
 
+/*
 function getCookie(cname) {
   savedParams = getBaseCookie('params');
   params = JSON.parse(savedParams);
@@ -35,9 +36,11 @@ function getCookie(cname) {
   }
 }
 
-function setCookie(cname, cvalue) {
-  savedParams = getBaseCookie('params');
+*/
 
+function setCookie(cname, cvalue) {
+  /*
+  savedParams = getBaseCookie('params');
   if (savedParams == '') {
     var params = [];
   } else {
@@ -60,7 +63,9 @@ function setCookie(cname, cvalue) {
     params.push(item);
   }
   document.cookie = 'params=' + JSON.stringify(params) + ';path=/';
-  //document.cookie = cname + '=' + cvalue + ';path=/';
+  */
+  document.cookie = cname + '=' + cvalue + ';path=/';
+
 }
 
 $(document).ready(function() {
@@ -70,5 +75,11 @@ $(document).ready(function() {
 	$('#mainmenu .mm-navbar li:nth-child(4)').hide();
 	$('#mainmenu .mm-navbar li:nth-child(5) a').attr({href: 'info@mahzrt.hu', _target: 'blank'});
 	$('#mainmenu .mm-navbar li:nth-child(6) a').attr({href: 'https://www.facebook.com/MagyarAutokereskedohazZrt', _target: 'blank'});
+
+  $('body.fooldal .innerwrapper').each(function() {
+    $(this).click(function() {
+      window.location.href = $('.block.rounded-full', this).attr('href');
+    });
+  })
 
 });

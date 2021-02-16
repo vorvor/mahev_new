@@ -220,8 +220,8 @@ $(function(){
 			console.log(price);
 		})
 		
-		sumPrice = priceFormat(price) + ' EUR';
-		$('.offer .sum-price').html(sumPrice);
+		sumPrice = priceFormat(price);
+		$('.offer .sum-price').html(sumPrice + ' €');
 		setCookie('mahev_price', sumPrice);
 	}
 

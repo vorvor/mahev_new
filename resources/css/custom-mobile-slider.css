@@ -7,15 +7,3 @@
 .rangeslider__fill {
     background-color: #0acf83;
 }
-
-@media (min-width: 350px) and (max-width: 767px) {
-    #slide {
-        margin-top: -40vh;
-        opacity: 0;
-        height: 30vh;
-    }
-  
-  	.rangeslider {
-  		height: 50vh;
-  	}
-}

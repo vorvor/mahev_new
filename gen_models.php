@@ -54,7 +54,7 @@
     </svg>
                     </a>
                 </div>
-                <div class="icon-label text-sm text-center">
+                <div class="icon-label text-sm text-center text-white">
                     konfigurátor
                 </div>
             </div>
@@ -282,9 +282,9 @@
                         <div class="text-white
                         w-6 h-6 md:w-12 md:h-12 mx-auto">
                             
-    <svg class="svg-icon ">
-        <use xlink:href="#i-pic"></use>
-    </svg>
+                            <svg class="svg-icon ">
+                                <use xlink:href="#i-pic"></use>
+                            </svg>
                         </div> 
                     </div>
                     <div class="label text-sm text-white text-center ">
@@ -310,9 +310,9 @@
             <a href="<?php print $images[0]; ?>" class="block gradient-overlay-2 absolute inset-0 overflow-hidden z-0">
                 <!-- <img id="parallax-gallery" class="parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/tesla-bigsample-3.jpg" alt=""> -->
                 <picture>
-                    <source media="(max-width: 1023px)" srcset="/resources/img/IMG_4489_K.jpg">
-                    <source media="(min-width: 1024px)" srcset="/resources/img/IMG_4489_K.jpg">
-                    <img id="parallax-gallery" class="block parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/IMG_4489_K.jpg" alt="">
+                    <source media="(max-width: 1023px)" srcset="/resources/img/IMG_4544_K.jpg">
+                    <source media="(min-width: 1024px)" srcset="/resources/img/IMG_4544_K.jpg">
+                    <img id="parallax-gallery" class="block parallax absolute inset-0 object-cover block w-full h-full" src="/resources/img/IMG_4544_K.jpg" alt="">
                 </picture>
             </a>
             <?php for ($c = 1; $c < count($images); $c++): ?>
@@ -1029,7 +1029,7 @@
                     <div class="w-1/2 mt-auto text-right text-white text-xl sm:text-4xl leading-none sum-price">65 310 €</div>
                 </div>
                 <div class="text-center mt-4 sm:mt-8">
-                    <a href= "/gen_form-offer.php" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">ajánlatot kérek</a>
+                    <a href= "/rendeles" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">ajánlatot kérek</a>
                 </div>
             </div>
         </div> 
@@ -1143,7 +1143,7 @@
             <div class="w-1/2 mt-auto text-right text-white text-xl sm:text-4xl leading-none sum-price">65 310 €</div>
         </div>
         <div class="text-center mt-4 sm:mt-8">
-            <a href= "/gen_form-offer.php" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">tovább az ajánlat kéréshez</a>
+            <a href= "/rendeles" class= "border-2 border-white bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">tovább az ajánlat kéréshez</a>
             
             <div class="mt-2 text-xs font-semibold tracking-wider uppercase leading-snug cursor-pointer inline-block mx-auto">
                 <div class="w-4 h-4 inline-block relative top-1"> 
