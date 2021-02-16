@@ -1,103 +1,4 @@
-<!--<style>
- 
 
-
-
-
-#data-personal .data-row,
-#data-funding .data-row {
-  margin: 10px 0;
-  overflow: hidden;
-}
-
-.data-row-left, .data-row-right {
-  float: left;
-}
-
-#data-personal .data-row-left {
-  width: 40%;
-}
-
-#data-personal .data-row-right {
-  width: 60%;
-  font-weight: bold;
-}
-
-#data-funding .data-row-left {
-  width: 60%;
-}
-
-#data-funding .data-row-right {
-  width: 40%;
-  font-weight: bold;
-  text-align: right;
-}
-
-#data-personal .data-row-right.note,
-#data-funding .data-row-right.note {
-  font-weight: normal;
-}
-
-#model-name {
-  font-size: 30px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color:#0acf83;
-  margin: 28px 0;
-}
-
-#data-vehicle .data-row {
-  border-bottom: 2px solid #0acf83;
-  overflow: hidden;
-  font-weight: bold;
-}
-
-#data-vehicle .data-row.sum {
-  border: none;
-  text-transform: uppercase;
-  background: #0acf83;
-  color: #fff;
-}
-
-#data-vehicle .data-row-left {
-  width: 50%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-#data-vehicle .data-row-right {
-  width: 50%;
-  text-align: right;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-#funding-title {
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 40px 0 25px;
-}
-
-
-@media screen and (max-width: 800px) {
-    /*375-800*/
-
-  #logo {
-    margin: 30px auto;
-  }
-
-    #mail-inside-wrapper {
-      width: 100%;
-      padding: 0;
-      margin: 0;
-    }
-}
-
-
-
-
-</style> -->
 
 <div id="mail-wrapper" style="background: #616366;font-family: 'Barlow', sans-serif;overflow: hidden;">
       <div id="logo" style="padding: 8px 32px;border: 1px solid #fff;width: 56px;margin: 40px auto;color: #fff;">MAHZRT</div>
@@ -188,7 +89,6 @@
           </div>
           </span>
           <!-- seats block end -->
-          <!--
           <div class="data-row" style="border-bottom: 2px solid #0acf83;font-weight: bold;margin: 10px 0;overflow: hidden;">
             <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;">Szállítás</div>
             <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">990 EUR</div>
@@ -199,9 +99,9 @@
           </div>
           <div class="data-row sum" style="border: none;text-transform: uppercase;background: #0acf83;color: #fff;overflow:hidden;">
             <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;">Végösszeg</div>
-            <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">[data:sum_price-value] EUR</div>
+            <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">###price###</div>
           </div>
-        -->
+
         </div>
         <!--
 

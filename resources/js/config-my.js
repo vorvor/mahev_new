@@ -20,6 +20,7 @@ $(function(){
 
 	calcOfferPrice();
 
+	setCookie('mahev_model','y');
 	// Facility
 	$('#conf-tab-1 ._radio-extras:nth-child(1)').removeClass('off').addClass('on');
 	setCookie('mahev_facility', $('#conf-tab-1 ._radio-extras:nth-child(1) .text-sm').html());
@@ -219,7 +220,7 @@ $(function(){
 			console.log(price);
 		})
 		
-		sumPrice = priceFormat(price) + ' €';
+		sumPrice = priceFormat(price) + ' EUR';
 		$('.offer .sum-price').html(sumPrice);
 		setCookie('mahev_price', sumPrice);
 	}

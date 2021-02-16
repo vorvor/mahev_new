@@ -131,6 +131,7 @@
                 <p><strong>Összességében a döntést meghozni.</strong> A többi feladatot elvégezzük, a jármű Magyarországra történő szállításától, a műszaki vizsgáztatásig, a finanszírozás és biztosítás ügyintézéséig mindent elvégzünk Ön helyett.</p>
                 <p>Ha mindezeken kívül további kérdése merülne fel, kollégáink szívesen segítenek eligazodni a folyamatokban, legyen az Model S vagy Model X, keressen minket bizalommal elérhetőségeinken!</p>
             </section>
+             <!--
             <section class="pt-16 pb-16 md:pb-4 focus:outline-none">
                 <blockquote>
                     <h2>Král Ádám <br />Bachman Gergely</h2>
@@ -138,7 +139,7 @@
                     E-mail: <a href="mailto:adam.kral@mahzrt.hu">adam.kral@mahzrt.hu</a> | <a href="mailto:gergely.bachman@mahzrt.hu ">gergely.bachman@mahzrt.hu </a> | <a href="mailto:info@mahzrt.hu">info@mahzrt.hu</a>
                 </blockquote>
             </section>
-            <!--
+           
             <section id="faq-equipment" class="pt-16 pb-16 md:pb-4 focus:outline-none">
                 <h2 class="focus:outline-none pl-8 relative">
                     <span class="text-emerald-500 absolute left-0">1</span> Milyen felszereltséggel és milyen áron érhetőek el a Tesla Model 3-asok? Mit tartalmaz a vételár? 

@@ -551,7 +551,7 @@
         Bérelj tőlünk Teslát és éld át az elektromos autózás csúcsát! Ha pedig vásárolsz tőlünk, a bérlet költsége nem kerül felszámításra.
     </div>
     <div class="text-center pt-8 mt-auto w-full">
-        <a href= "gen_services.php#transparency" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
+        <a href= "/tesla/berles" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
     </div>
 </div>
 

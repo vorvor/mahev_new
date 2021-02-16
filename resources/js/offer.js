@@ -11,8 +11,6 @@ $(function(){
 		break;
 	}
 
-	$('.lastname').addClass('hidden');
-
 	fields = ['model', 'facility', 'exterior', 'interior', 'rim', 'seats', 'selfdrive', 'wtire', 'extra', 'price'];
 
 	$('._config-summary li:nth-child(1) span:nth-child(1)').html(model);

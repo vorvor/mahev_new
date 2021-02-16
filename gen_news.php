@@ -9,21 +9,26 @@
 	<?php
 
   include_once('./get_articles.php');
-  $data = curl_get_contents('http://new.mah-ev.hu/backend/articles-api-four');
-  $articles = json_decode($data, true);
-  
-  foreach ($articles['nodes'] as $article) {
-          
-                print '<div class="card-news">';
-				        print '<a href="/gen_article.php?q=' . $article['node']['nid'] . '">';
-				        print '<div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">';
-				        print '<img class="object-cover object-center block h-full w-full" src="' . $article['node']['field_main_image']['src'] . '" alt="">';
-				        print '</div>';
-				        print '<div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>';
-				        print '<h2 class="text-xl py-4 text-gray-500">' . $article['node']['title'] . '</h2>';
-				        print '<p class="text-gray-500">' . $article['node']['field_lead'] . '</p>';
-				        print '</a></div>';
-	}  
+  $data = @curl_get_contents('http://new.mah-ev.hu/backend/articles-api-four');
+  if ($data === FALSE || $data == 'error' || empty($data)) {
+    
+  } else {
+
+    $articles = json_decode($data, true);
+    
+    foreach ($articles['nodes'] as $article) {
+            
+                  print '<div class="card-news">';
+  				        print '<a href="/gen_article.php?q=' . $article['node']['nid'] . '">';
+  				        print '<div class="img relative w-full h-64 overflow-hidden flex gradient-overlay">';
+  				        print '<img class="object-cover object-center block h-full w-full" src="' . $article['node']['field_main_image']['src'] . '" alt="">';
+  				        print '</div>';
+  				        print '<div class="border-b-2 border-emerald-500 w-6 Xh-1 mt-6 leading-none"></div>';
+  				        print '<h2 class="text-xl py-4 text-gray-500">' . $article['node']['title'] . '</h2>';
+  				        print '<p class="text-gray-500">' . $article['node']['field_lead'] . '</p>';
+  				        print '</a></div>';
+  	}  
+  }
 
 ?>
             

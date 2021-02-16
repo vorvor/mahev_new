@@ -156,7 +156,7 @@ $(document).ready(function() {
 		picnum = 77;
 		innerProject = currentProject();
 		picnumstring = ('00000' + picnum).slice(-5);
-		picstring = './sequences/rotate/ZOOMIN/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
+		picstring = '/sequences/rotate/ZOOMIN/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
 
 		if ($('.inner-' + innerProject + '-' + picnumstring).length == 0) {
 			var image = new Image();
@@ -258,7 +258,7 @@ $(document).ready(function() {
 		if (i < 77) {
 			picnumstring = ('00000' + i).slice(-5);
 			innerProject = currentProject();
-			picstring = './sequences/rotate/ZOOMIN/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
+			picstring = '/sequences/rotate/ZOOMIN/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
 			$('#configurator .inset-0').prepend('<img class="hidden sequence-image inner-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
 
 
@@ -288,7 +288,7 @@ $(document).ready(function() {
 		if (i < 77) {
 			picnumstring = ('00000' + i).slice(-5);
 			innerProject = currentProject();
-			picstring = './sequences/rotate/ZOOMOUT/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
+			picstring = '/sequences/rotate/ZOOMOUT/' + innerProject + '/' + innerProject + '_' + picnumstring + '.jpg';
 			$('#configurator .inset-0').prepend('<img class="hidden sequence-image outer-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
 			animTimer = setTimeout(function(){ loadZoomOutImages(i + 1) }, 50);
 

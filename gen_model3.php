@@ -1145,10 +1145,17 @@
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
+                        <span class="block text-white">Önvezetés</span>
+                        <span class="block self-driving">Autopilot</span>
+                    </div>
+                    <div class="w-1/4 mt-auto text-right self-driving-price">0 €</div>
+                </div><!-- item -->
+                <div class="flex text-sm my-4 font-semibold">
+                    <div class="w-3/4 pr-2">
                         <span class="block text-white">Extra</span>
                         <span class="block extra">Vonóhorog</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right extra-price">8700 €</div>
+                    <div class="w-1/4 mt-auto text-right extra-price">8 700 €</div>
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">

@@ -14,9 +14,9 @@ if (isset($_POST['submit']) && $_POST['lastname'] == '') {
     error_reporting(E_ALL);
 
     // Populate mail template with actual data.
-    $body = file_get_contents('./mail-tpl-mahev.php');
+    $body = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/mail-tpl-offer.php');
       
-    $fields = ['firstname', 'address', 'phone', 'email', 'message', 'model', 'facility', 'exterior', 'interior', 'rim', 'wtire', 'extra', 'selfdrive', 'seats'];
+    $fields = ['firstname', 'address', 'phone', 'email', 'message', 'model', 'facility', 'exterior', 'interior', 'rim', 'wtire', 'extra', 'selfdrive', 'seats', 'price'];
     
     foreach ($fields as $field) {
       if (isset($_POST[$field])) {
@@ -32,12 +32,14 @@ if (isset($_POST['submit']) && $_POST['lastname'] == '') {
     }
 
     //print $body;
+    //return 'hey!';
 
     $mail = new PHPMailer(true);
 
     try {
       
       $mail->isMail();
+      $mail->CharSet = 'UTF-8';
       //Recipients
       $mail->setFrom('from@wabisabee.com', 'Mailer');
       $mail->addAddress('vorosborisz@gmail.com', 'Vörös Borisz');     // Add a recipient

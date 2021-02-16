@@ -15,9 +15,10 @@ $(function(){
 
 	$('.offer .self-driving').html($('#conf-tab-5 ._radio-extras:nth-child(1) .text-sm').html());
 	$('.offer .self-driving-price').html($('#conf-tab-5 ._radio-extras:nth-child(1) .price div').html());
-	
+
 	calcOfferPrice();
 
+	setCookie('mahev_model','3');
 	// Facility
 	$('#conf-tab-1 ._radio-extras:nth-child(1)').removeClass('off').addClass('on');
 	setCookie('mahev_facility', $('#conf-tab-1 ._radio-extras:nth-child(1) .text-sm').html());
@@ -124,7 +125,7 @@ $(function(){
 		}
 	})
 	$('#conf-tab-3 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
-	setCookie('mahev_rim', $('#conf-tab-3 ._radio-extras').not('.hidden').first().html());
+	setCookie('mahev_rim', $('#conf-tab-3 ._radio-extras:nth-child(1) .text-sm').html());
 
 
 	$('#conf-tab-3 ._radio-extras').each(function() {
@@ -186,6 +187,8 @@ $(function(){
 
 		
 	})
+
+	setCookie('mahev_seats', '');
 
 	// Extra
 	$('#conf-tab-6 ._radio-extras').each(function() {
@@ -268,7 +271,7 @@ $(function(){
 			price += parseInt($(this).html().replace(/\s+/g, ''));
 		})
 		
-		sumPrice = priceFormat(price) + ' €';
+		sumPrice = priceFormat(price) + ' EUR';
 		$('.offer .sum-price').html(sumPrice);
 		setCookie('mahev_price', sumPrice);
 	}

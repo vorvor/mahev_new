@@ -14,9 +14,9 @@ if (isset($_POST['submit']) && $_POST['lastname'] == '') {
     error_reporting(E_ALL);
 
     // Populate mail template with actual data.
-    $body = file_get_contents('./mail-tpl-mahev.php');
+    $body = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/mail-tpl-message.php');
       
-    $fields = ['firstname', 'address', 'phone', 'email', 'message', 'model', 'facility', 'exterior', 'interior', 'rim', 'wtire', 'extra', 'selfdrive', 'seats'];
+    $fields = ['firstname', 'address', 'phone', 'email', 'message'];
     
     foreach ($fields as $field) {
       if (isset($_POST[$field])) {
@@ -32,6 +32,7 @@ if (isset($_POST['submit']) && $_POST['lastname'] == '') {
     }
 
     //print $body;
+    //return 'hey';
 
     $mail = new PHPMailer(true);
 
@@ -45,7 +46,7 @@ if (isset($_POST['submit']) && $_POST['lastname'] == '') {
 
       // Content
       $mail->isHTML(true);                                  // Set email format to HTML
-      $mail->Subject = 'Köszönjük megrendelését! - mah-ev.hu';
+      $mail->Subject = 'Köszönjük érdeklődését! - mah-ev.hu';
       
       $mail->Body = $body;
       $mail->AltBody = $body;

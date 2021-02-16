@@ -38,7 +38,7 @@ body.brand-page h2 {
     position: absolute;
     margin-top: -31vh;
     font-weight: bold;
-    font-size: 10vh;
+    font-size: 6vh;
     text-align: center;
     color: #aaa;
     width: 100%;
@@ -66,6 +66,10 @@ body.model-x .sequence-image {
 
 ._techinfo ._wrapper-inner {
     width: 50%;
+}
+
+form .lastname {
+    display: none;
 }
 
 @media (min-width: 350px) and (max-width: 767px) {

@@ -1157,16 +1157,16 @@
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Ülések száma</span>
-                        <span class="block rim">5</span>
+                        <span class="block seats">5</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right rim-price">0 €</div>
+                    <div class="w-1/4 mt-auto text-right seats-price">0 €</div>
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">
                         <span class="block text-white">Önvezetés</span>
-                        <span class="block rim">Autopilot</span>
+                        <span class="block self-driving">Autopilot</span>
                     </div>
-                    <div class="w-1/4 mt-auto text-right rim-price">0 €</div>
+                    <div class="w-1/4 mt-auto text-right self-driving-price">0 €</div>
                 </div><!-- item -->
                 <div class="flex text-sm my-4 font-semibold">
                     <div class="w-3/4 pr-2">

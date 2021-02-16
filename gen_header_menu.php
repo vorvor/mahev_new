@@ -1,7 +1,7 @@
 <header class="w-full bg-gray-500">
   <nav>
     <ul class="text-sm container uppercase flex justify-between items-center mx-auto text-white tracking-wider leading-tight py-2">
-      <li class="block border border-white hover:bg-gray-600 ease-in-out duration-150"><a class="block px-8 py-2" href="./"   rel="external">Mahzrt</a></li>
+      <li class="block border border-white hover:bg-gray-600 ease-in-out duration-150"><a class="block px-8 py-2" href="/"   rel="external">Mahzrt</a></li>
 
       <li class="hidden lg:block hover:bg-gray-600 ease-in-out duration-150 "><a class="block px-8 py-2" href="/tesla/tesla-model-s"  rel="external">Model S</a></li>
 
