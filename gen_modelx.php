@@ -27,10 +27,10 @@
     <meta name="dcterms.format" content="text/html" />
 
 
-    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
-    <script src="/resources/js/config-mx.js"></script>
-    <script src="/resources/js/config-init-mx.js"></script>
-    <script src="/resources/js/slider.js"></script>
+    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css?v=<?php print rand(1,100000); ?>">
+    <script src="/resources/js/config-mx.js?v=<?php print rand(1,100000); ?>"></script>
+    <script src="/resources/js/config-init-mx.js?v=<?php print rand(1,100000); ?>"></script>
+    <script src="/resources/js/slider.js?v=<?php print rand(1,100000); ?>"></script>
   </head>
   <body class="debug-screens bg-white model model-x"> 
 
@@ -362,7 +362,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Long range plus</span>
+                <span class="w-full block text-sm font-semibold">Long range (AWD)</span>
                 
                     <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 3.9 mp | Hatótáv: 580 km | Végsebesség 250 km/h</span>
                 
@@ -370,7 +370,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>91 950 €</div>
+        <div>106 890 €</div>
     </div>
 </div>
             
@@ -385,7 +385,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Plaid</span>
+                <span class="w-full block text-sm font-semibold">Plaid (AWD)</span>
                 
                     <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 2.6 mp | Hatótáv: 547 km | Végsebesség 262 km/h</span>
                 
@@ -393,7 +393,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>110 090 €</div>
+        <div>129 290 €</div>
     </div>
 </div>
             
@@ -622,7 +622,7 @@
 </div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Fekete kőrisfa betétekkel</span>
+                <span class="w-full block text-sm font-semibold">Fekete ébenfa betétekkel</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -649,7 +649,7 @@
     </div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Fekete-fehér kőrisfa betétekkel</span>
+                <span class="w-full block text-sm font-semibold">Fekete-fehér diófa betétekkel</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -657,12 +657,37 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>1 750 €</div>
+        <div>2 250 €</div>
     </div>
 </div>
             
 
 
+<div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
+    <div class="flex items-center space-x-3 col-span-2">
+        <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+            <!-- On: "scale-100", Off: "scale-0" -->
+            <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
+        </span>
+        <span id="toggle-label10" class="leading-5 flex">
+            
+                <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
+        <img src="/resources/img/cream__OakWoodDecor.png">
+    </div>
+            
+            <div class="flex-shrink">
+                <span class="w-full block text-sm font-semibold">Bézs diófa betétekkel</span>
+                
+                    <span class="hidden sm:inline w-full block text-xs"></span>
+                
+            </div>
+        </span>
+    </div>
+    <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
+        <div>2 250 €</div>
+    </div>
+</div>
+            
 <div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
     <div class="flex items-center space-x-3 col-span-2">
         <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
@@ -687,8 +712,6 @@
         <div>0 €</div>
     </div>
 </div>
-            
-
 
 <div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
     <div class="flex items-center space-x-3 col-span-2">
@@ -711,7 +734,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>1 750 €</div>
+        <div>2 250 €</div>
     </div>
 </div>
 
@@ -726,11 +749,11 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-        <img src="/resources/img/inner_cream_OakWoodDecor.png">
+        <img src="/resources/img/beige_carbonfiberdecor.png">
     </div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Bézs tölgyfa betétekkel</span>
+                <span class="w-full block text-sm font-semibold">Bézs karbon betétekkel</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -738,7 +761,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>1 750 €</div>
+        <div>2 250 €</div>
     </div>
 </div>
 
@@ -935,7 +958,7 @@
     </div>
     <div class="product min-h-16 lg:col-span-2">
         <div class="_configurator-3d">
-            <div class="absolute inset-0 overflow-hidden">
+            <div class="absolute inset-0">
                 <!-- <img class="inset-0 absolute border-b-2 border-gray-100" src="/resources/img/3dplaceholder.jpg" alt=""> -->
                 <div id="slide">
                     <form>
@@ -946,7 +969,7 @@
             <div class="coming-soon">Hamarosan frissítve...</div>
         </div>
         <div>
-            <ul class="highlights w-full flex justify-center items-center text-gray-500 pt-4">
+            <ul class="highlights w-full flex justify-center items-center text-gray-500 pt-4" style="padding-top:3rem;">
                 <li class="w-24">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-emerald-500 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl md:text-2xl font-semibold text-center leading-tight mx-auto w-full">
@@ -1082,7 +1105,7 @@
                 <a href= "" class= "text-white border-white border-2 bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">ajánlatot kérek</a>
             </div>
             <div class="text-gray-500 font-semibold text-sm pt-2">
-                bruttó vételár <span class="text-white">65 310 €</span>
+                bruttó vételár <span class="text-white sum-price">65 310 €</span>
             </div>
         </div>
     </div><!--offer bar-->
@@ -1106,7 +1129,7 @@
 
 
 
-<?php include('./gen_news.php'); ?>
+<?php include('./gen_news_block.php'); ?>
 
     <?php include('./gen_contact_block_3.php'); ?>
 

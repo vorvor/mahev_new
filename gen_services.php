@@ -23,9 +23,15 @@
     </div>
 </div>
     </div>
-    <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
-        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/IMG_4437_K.jpg" alt="">
-    </div>
+    
+    <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+            <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
+            <picture>
+                <source media="(max-width: 799px)" srcset="/resources/img/services_mobile.jpg">
+                <source media="(min-width: 800px)" srcset="/resources/img/services.jpg">
+                <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/services.jpg" alt="">
+            </picture>
+        </div>
 </div>
 <div class="">
     <div class="_services">
@@ -151,19 +157,19 @@
                             <h3>Tesla model 3 Standard Range</h3>
                             <p>Casco: <strong>351 000 HUF/év</strong>-től</p>
                             <p>Kötelező: <strong>72 000 HUF/év</strong>-től</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                            <div><a href="/uzenet" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                         <div>
                             <h3>Tesla model 3 Long Range</h3>
                             <p>Casco: <strong>351 000 HUF/év</strong>-től</p>
                             <p>Kötelező: <strong>72 000 HUF/év</strong>-től</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                            <div><a href="/uzenet" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                         <div>
                             <h3>Tesla model 3 Performance</h3>
                             <p>Casco: <strong>351 000 HUF/év</strong>-től</p>
                             <p>Kötelező: <strong>72 000 HUF/év</strong>-től</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                            <div><a href= "/uzenet" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                     </div> 
                     <div class="py-16 grid md:grid-cols-3 col-gap-8 row-gap-16">
@@ -171,13 +177,13 @@
                             <h3>Tesla model S Long Range</h3>
                             <p>Casco: <strong>495 000 HUF/év</strong>-től</p>
                             <p>Kötelező: <strong>85 000 HUF/év</strong>-től</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                            <div><a href= "/uzenet" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                         <div>
                             <h3>Tesla model S Performance</h3>
                             <p>Casco: <strong>555 000 HUF/év</strong>-től</p>
                             <p>Kötelező: <strong>90 000 HUF/év</strong>-től</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                            <div><a href= "/uzenet" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                     </div>
                     <div class="py-16 grid md:grid-cols-3 col-gap-8 row-gap-16">
@@ -185,13 +191,13 @@
                             <h3>Tesla Model X Long Range</h3>
                             <p>Casco: <strong>530 000 HUF/év</strong>-től</p>
                             <p>Kötelező: <strong>90 000 HUF/év</strong>-től</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                            <div><a href="/uzenet" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                         <div>
                             <h3>Tesla Model X Performance</h3>
                             <p>Casco: <strong>530 000 HUF/év</strong>-től</p>
                             <p>Kötelező: <strong>98 000 HUF/év</strong>-től</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                            <div><a href="/uzenet" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                     </div>
                     <div>A Model Y 2021-ben válik elérhetővé, de casco és KGFB kalkuláció már készült hozzá, mely az alábbi képen alakul:</div>
@@ -201,13 +207,13 @@
                             <h3>Tesla Model Y Long Range</h3>
                             <p>Casco: <strong>408 250 HUF/év</strong>-től</p>
                             <p>Kötelező: <strong>75 000 HUF/év</strong>-től</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                            <div><a href="/uzenet" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                         <div>
                             <h3>Tesla Model Y Performance</h3>
                             <p>Casco: <strong>496 500 HUF/év</strong>-től</p>
                             <p>Kötelező: <strong>78 000 HUF/év</strong>-től</p>
-                            <div><a href= "" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
+                            <div><a href="/uzenet" class= "button text-white mr-auto mt-8 bg-emerald-500  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Érdekel</a></div>
                         </div>
                     </div>
 

@@ -79,7 +79,7 @@
 <!--article-->
 
 
-        <?php include('./gen_news.php'); ?>
+        <?php include('./gen_news_block.php'); ?>
         <?php include('./gen_footer.php'); ?>
 
     </div>

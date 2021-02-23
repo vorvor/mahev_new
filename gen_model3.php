@@ -25,10 +25,10 @@
     <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
     <meta name="dcterms.format" content="text/html" />
     
-    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css?v=1">
-    <script src="/resources/js/config-m3.js"></script>
-    <script src="/resources/js/config-init-m3.js"></script> 
-    <script src="/resources/js/slider.js"></script>
+    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css?v=<?php print rand(1,100000); ?>">
+    <script src="/resources/js/config-m3.js?v=<?php print rand(1,100000); ?>"></script>
+    <script src="/resources/js/config-init-m3.js?v=<?php print rand(1,100000); ?>"></script> 
+    <script src="/resources/js/slider.js?v=<?php print rand(1,100000); ?>"></script>
   </head>
   <body class="debug-screens bg-white model"> 
 
@@ -360,7 +360,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Standard Plus (Rwd)</span>
+                <span class="w-full block text-sm font-semibold">Standard Plus (RWD)</span>
                 
                     <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 5.6 mp | Hatótáv: 448 km | Végsebesség 225 km/h</span>
                 
@@ -368,7 +368,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>50 250 €</div>
+        <div>47 150 €</div>
     </div>
 </div>
             
@@ -383,7 +383,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Long range (Awd)</span>
+                <span class="w-full block text-sm font-semibold">Long range (AWD)</span>
                 
                     <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 4.4 mp | Hatótáv: 580 km | Végsebesség 233 km/h</span>
                 
@@ -391,7 +391,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>60 490 €</div>
+        <div>57 800 €</div>
     </div>
 </div>
             
@@ -406,7 +406,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Performance (Awd)</span>
+                <span class="w-full block text-sm font-semibold">Performance (AWD)</span>
                 
                     <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 3.3 mp | Hatótáv: 567 km | Végsebesség 261 km/h</span>
                 
@@ -414,7 +414,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>66 890 €</div>
+        <div>63 150 €</div>
     </div>
 </div>
             
@@ -797,7 +797,7 @@
         <div class="_tab-content pb-4" id="conf-tab-6">
             
 
-<div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label1" class="_toggle-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
+<div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label1" class="_toggle-extras towing-hook border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
     <div class="flex items-center space-x-3 col-span-2">
         <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
         <span class="switch bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
@@ -812,7 +812,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>1 160 €</div>
+        <div>1 450 €</div>
     </div>
 </div> 
 
@@ -1072,7 +1072,7 @@
                 <a href= "" class= "text-white border-white border-2 bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">ajánlatot kérek</a>
             </div>
             <div class="text-gray-500 font-semibold text-sm pt-2">
-                bruttó vételár <span class="text-white">65 310 €</span>
+                bruttó vételár <span class="text-white sum-price">65 310 €</span>
             </div>
         </div>
     </div><!--offer bar-->
@@ -1096,7 +1096,7 @@
 
 
 
-    <?php include('./gen_news.php'); ?>
+    <?php include('./gen_news_block.php'); ?>
 
     <?php include('./gen_contact_block_3.php'); ?>
 
@@ -1214,7 +1214,7 @@
 <li>Dual Motor a legjobb nyomatékelosztás és tapadás érdekében</li>
 <li>15 p alatt akár 275km hatótáv növelés Supercharger töltő állomásokon</li>
 <li>Garancia 4-év vagy 80.000km</li>
-<li>Akkumlátor és hajtáslánca garancia : 8-év vagy 192.000km</li>
+<li>Akkumulátor és hajtáslánca garancia : 8-év vagy 192.000km</li>
 <li>Csomagtartó mérete : 524 Liter</li>
 <li>Önsúly : 1. 844 kg (Long Range)</li>
 <li>Önvezető rendszer</li>

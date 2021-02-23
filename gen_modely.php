@@ -26,7 +26,7 @@
     <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
     <meta name="dcterms.format" content="text/html" />
 
-    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
+    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css?v=<?php print rand(1,100000); ?>">
     <script src="/resources/js/config-my.js?v=<?php print rand(1,100000); ?>"></script>
     <script src="/resources/js/config-init-my.js?v=<?php print rand(1,100000); ?>"></script>
     <script src="/resources/js/slider.js?v=<?php print rand(1,100000); ?>"></script>
@@ -671,7 +671,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>1 150 €</div>
+        <div>1 120 €</div>
     </div>
 </div>
             
@@ -726,7 +726,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>3 390 €</div>
+        <div>3 310 €</div>
     </div>
 </div>
 
@@ -983,7 +983,7 @@
 
 
 
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_news.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . '/gen_news_block.php'); ?>
 
 
 

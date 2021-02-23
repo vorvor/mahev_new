@@ -1,6 +1,6 @@
 $(function(){
 
-
+	deleteAllCookies();
 	$('.offer .facility').html($('#conf-tab-1 ._radio-extras:nth-child(1) .text-sm').html());
 	$('.offer .facility-price').html($('#conf-tab-1 ._radio-extras:nth-child(1) .price div').html());
 
@@ -45,7 +45,7 @@ $(function(){
 					}
 				})
 			}
-
+			
 			if (text.toLowerCase().includes('plaid')) {
 				$('#conf-tab-4 ._radio-extras').each(function() {
 					if ($('.text-sm', this).html().includes('karbon')) {
@@ -64,7 +64,7 @@ $(function(){
 			$('.highlights li:nth-child(3) .circle .number').html(floats[2]);
 			$('.highlights li:nth-child(5) .circle .number').html(floats[1]);
 
-			$('#conf-tab-4 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on').click();
+			$('#conf-tab-4 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
 
 			calcOfferPrice();
 		})

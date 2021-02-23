@@ -1,6 +1,6 @@
 $(function(){
 
-
+	deleteAllCookies();
 	$('.offer .facility').html($('#conf-tab-1 ._radio-extras:nth-child(1) .text-sm').html());
 	$('.offer .facility-price').html($('#conf-tab-1 ._radio-extras:nth-child(1) .price div').html());
 
@@ -15,8 +15,6 @@ $(function(){
 
 	$('.offer .self-driving').html($('#conf-tab-5 ._radio-extras:nth-child(1) .text-sm').html());
 	$('.offer .self-driving-price').html($('#conf-tab-5 ._radio-extras:nth-child(1) .price div').html());
-
-	calcOfferPrice();
 
 	setCookie('mahev_model','3');
 	// Facility
@@ -46,7 +44,7 @@ $(function(){
 					}
 				})
 
-				$('#conf-tab-6 ._toggle-extras').removeClass('hidden');
+				$('#conf-tab-6 ._toggle-extras.towing-hook').removeClass('hidden');
 
 				$('#conf-tab-6 ._radio-extras').each(function() {
 					if ($('.text-sm', this).html().includes('20')) {
@@ -66,7 +64,7 @@ $(function(){
 					}
 				})
 
-				$('#conf-tab-6 ._toggle-extras').addClass('hidden');
+				$('#conf-tab-6 ._toggle-extras.towing-hook').addClass('hidden');
 
 				$('#conf-tab-6 ._radio-extras').each(function() {
 					if ($('.text-sm', this).html().includes('18') || $('.text-sm', this).html().includes('19')) {
@@ -264,6 +262,8 @@ $(function(){
 		})
 	});
 
+	calcOfferPrice();
+
 
 	function calcOfferPrice() {
 		price = 0;
@@ -272,7 +272,7 @@ $(function(){
 		})
 		
 		sumPrice = priceFormat(price);
-		$('.offer .sum-price').html(sumPrice + ' €');
+		$('.sum-price').html(sumPrice + ' €');
 		setCookie('mahev_price', price);
 	}
 

@@ -1,12 +1,11 @@
 
-
 <div id="mail-wrapper" style="background: #616366;font-family: 'Barlow', sans-serif;overflow: hidden;">
       <div id="logo" style="padding: 8px 32px;border: 1px solid #fff;width: 56px;margin: 40px auto;color: #fff;">MAHZRT</div>
-      <div id="mail-inside-wrapper" style="background: #fff;width: 80%;margin: 0 auto 50px;border-top: 4px solid #0acf83;padding: 37px 58px;box-sizing: border-box;">
-        <div id="config-photo" style="margin: 0 auto;"><img style="width: 100%;" src="http://mahev.wabisabee.com/sequences/M3_PE_ExBk_IntBk_20cUturb/M3_PE_ExBk_IntBk_20cUturb_00000.jpg"></div>
+      <div id="mail-inside-wrapper" style="background: #fff;width: 100%; max-width: 800px;margin: 0 auto 50px;border-top: 4px solid #0acf83;padding: 20px 40px;box-sizing: border-box;">
+        <div id="config-photo" style="margin: 0 auto;"><img style="width: 100%;" src="###configpic###"></div>
 
-        <div id="title" style="font-size: 24px;text-align: center;font-weight: 900;margin: 0px auto 40px;text-transform: uppercase;">Új megrendelés érkezett!</div>
-        <p>Köszönjük, hogy érdeklődésével megtisztelte cégünket a Magyar Autókereskedőház Zrt.-t. A konfiguráció sikeres volt, melyet hamarosan megadott e-mail címére is továbbítunk. Kollégánk hamarosan felveszi Önnel a kapcsolatot, hogy minden felmerülő kérdésére választ tudjunk adni.</p>
+        <div id="title" style="font-size: 28px;text-align: center;font-weight: 900;margin: 0px auto 40px;text-transform: uppercase;">Köszönjük érdeklődését!</div>
+        <p>Köszönjük, hogy érdeklődésével megtisztelte cégünket a Magyar Autókereskedőház Zrt-t. Kollégánk hamarosan felveszi Önnel a kapcsolatot, hogy minden felmerülő kérdésére választ tudjunk adni.</p>
 
         <div id="data-personal" style="margin: 0 auto;">
           <div class="data-row" style="margin: 10px 0;overflow: hidden;">
@@ -97,12 +96,14 @@
             <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;">Forgalomba helyezés</div>
             <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">0 EUR</div>
           </div>
-          <div class="data-row sum" style="border: none;text-transform: uppercase;background: #0acf83;color: #fff;overflow:hidden;">
-            <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;">Végösszeg</div>
-            <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">###price###</div>
+          <div class="data-row sum" style="border: none;background: #0acf83;color: #fff;overflow:hidden;">
+            <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;font-size: 18px; font-weight: bold;">Végösszeg</div>
+            <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;font-size: 18px; font-weight: bold;">###price###</div>
           </div>
 
         </div>
+
+        <div id="config-photo" style="margin: 0 auto;"><img style="width: 100%;" src="###configpic-end###"></div>
         <!--
 
         <div id="funding-title">Finanszírozás</div>

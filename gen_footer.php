@@ -32,7 +32,7 @@
             <div class="mb-8">
                 <h3 class="font-semibold mb-4">Magyar Autókereskedőház Zrt.</h3>
                 <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 leading-none"></div>
-                <p>Székhely/Iroda: 1112 Bp., Kánai út 3</p>
+                <p>Székhely/Iroda: 1112 Bp., Kánai út 3.</p>
                 <p>Adószám: 25196276-2-43</p>
                 <p>Cégjegyzékszám: 01-10-048433</p>
             </div>
@@ -101,10 +101,10 @@
         <ul class="container  lg:flex lg:flex-wrap lg:justify-between">
             <li class="py-2 block px-4 inline-block"><a class="" href="#">© 2015-2021 MAHZRT</a></li>
             <li class="py-2 block px-4 inline-block"><a class="" target="_blank" href="/gen_priv-policy.php">Adatkezelési tájkoztató</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="/tesla-model-s">Model S</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="/tesla-model-3">Model 3</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="/tesla-model-x">Model X</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" href="/tesla-model-y">Model Y</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" href="/tesla/tesla-model-s">Model S</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" href="/tesla/tesla-model-3">Model 3</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" href="/tesla/tesla-model-x">Model X</a></li>
+            <li class="py-2 block px-4 inline-block"><a class="" href="/tesla/tesla-model-y">Model Y</a></li>
         </ul>
     </div>
 </footer>

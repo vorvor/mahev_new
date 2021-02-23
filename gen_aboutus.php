@@ -27,9 +27,9 @@
         <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/aboutus" alt=""> -->
 
         <picture>
-            <source media="(max-width: 1299px)" srcset="/resources/img/aboutus--mobile.jpg">
-            <source media="(min-width: 1300px)" srcset="/resources/img/aboutus--desktop.jpg">
-            <img id="parallax-gallery" class="block object-cover object-center w-full h-full" src="/resources/img/aboutus.jpg" alt="" style="object-position: center 56.6443%;">
+            <source media="(max-width: 1299px)" srcset="/resources/img/about-us-mobile.jpg">
+            <source media="(min-width: 1300px)" srcset="/resources/img/about-us.jpg">
+            <img id="parallax-gallery" class="block object-cover object-center w-full h-full" src="/resources/img/about-us.jpg" alt="" style="object-position: center 56.6443%;">
         </picture>
 
 

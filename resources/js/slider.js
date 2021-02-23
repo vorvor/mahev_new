@@ -93,9 +93,9 @@ $(document).ready(function() {
 		}
 	})
 
-	$('._configurator-tabs ._toggle-extras').click(function() {
+	$('._configurator-tabs ._toggle-extras.towing-hook').click(function() {
 		if ($(this).hasClass('on')) {
-			hook = 'th';
+			hook = 'TH';
 		} else {
 			hook ='';
 		}
@@ -126,11 +126,13 @@ $(document).ready(function() {
 		if (hook !== undefined && hook !== '') {
 			project += '_' + hook;
 		}
+
+		setCookie('mahev_configpic', project);
 		return project;
 	}
 
 	// Hide all images.
-	function clearAnim() {
+	function clearAnim(excludeClass) {
 		$('#configurator .sequence-image').addClass('hidden');
 	}
 
@@ -150,6 +152,7 @@ $(document).ready(function() {
 			clearAnim();
 			$('#configurator .' + project + '-' + picnumstring).removeClass('hidden');
 		}
+		console.log(project + '-' + picnumstring);
 	}
 
 	function setInnerPic() {	
@@ -168,13 +171,10 @@ $(document).ready(function() {
 			}
 
 			$('#configurator .inset-0').prepend(image);
-			console.log('image added');
-			console.log(picstring);
 		} else {
 			clearAnim();
 			$('#configurator .inner-' + innerProject + '-' + picnumstring).removeClass('hidden');
 		}
-
 	}
 
 	// Load images to background. If user chooses red model first, all red image loaded in background.
@@ -261,7 +261,7 @@ $(document).ready(function() {
 			$('#configurator .inset-0').prepend('<img class="hidden sequence-image inner-' + innerProject + '-' + picnumstring + '" src="' + picstring + '">');
 
 
-			animTimer = setTimeout(function(){ loadZoomInImages(i + 1) }, 50);
+			animTimer = setTimeout(function() { loadZoomInImages(i + 1) }, 50);
 
 			
 		} else {
@@ -319,8 +319,15 @@ $(document).ready(function() {
 
 	// Belső clicked.
 	$('._tab-nav a:nth-child(4)').click(function() {
+		checkProject = currentProject();
+		if (checkProject == 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb') {
+			checkProject = 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb_Spr';
+		}
+
 		if (whichAnim == 'outer' && animTimer == null) {
-			loadZoomInImages(0);
+			if ($('.inner-' + checkProject + '-00001').length == 0) {
+				loadZoomInImages(0);
+			}
 			playInit(60);
 			whichAnim = 'inner';
 			$('#slide').addClass('hidden');
@@ -329,8 +336,15 @@ $(document).ready(function() {
 
 	// Other than belső clicked.
 	$('._tab-nav a:nth-child(-n+3)').click(function() {
+		checkProject = currentProject();
+		if (checkProject == 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb') {
+			checkProject = 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb_Spr';
+		}
+
 		if (whichAnim == 'inner' && animTimer == null) {
-			loadZoomOutImages(0);
+			if ($('.outer-' + checkProject + '-00001').length == 0) {
+				loadZoomOutImages(0);
+			}
 			setTimeout(function() {
 				playZoomOut(0);	
 			}, 1000);
@@ -338,6 +352,6 @@ $(document).ready(function() {
 			whichAnim = 'outer';
 			$('#slide').removeClass('hidden');
 		}
-	});	
+	});
 
 });

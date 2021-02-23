@@ -17,7 +17,6 @@ $(function(){
 
 	facility = getCookie('mahev_facility');
 	$('._config-summary li:nth-child(2) span:nth-child(2)').html(facility);
-	$('#offer').append('');
 	exterior = getCookie('mahev_exterior');
 	$('._config-summary li:nth-child(3) span:nth-child(2)').html(exterior);
 	interior = getCookie('mahev_interior');
@@ -33,7 +32,7 @@ $(function(){
 	extra = getCookie('mahev_extra');
 	$('._config-summary li:nth-child(9) span:nth-child(2)').html(extra);
 	price = getCookie('mahev_price');
-	$('._config-summary li:nth-child(10) span:nth-child(2)').html(price);
+	$('._config-summary li:nth-child(10) span:nth-child(2)').html(price + ' €');
 
 	$.each(fields, function(k, v) {
 		if (window[v] !== '') {
@@ -47,10 +46,16 @@ $(function(){
     	}
 	})
 
-	
-
-
-
+	configpic = getCookie('mahev_configpic');
+	var newOption = document.createElement('input');  
+	newOption.name = 'configpic';
+	newOption.type = 'hidden';
+	if (configpic !== '') {	
+    	newOption.value = window['configpic'];
+	} else {
+		newOption.value = 'M3_PE_ExBk_IntBk_20cUturb';
+	}
+	$('#offer').append(newOption);
 
 	$('#finance').click(function() {
 		$('.finance-form').hide();

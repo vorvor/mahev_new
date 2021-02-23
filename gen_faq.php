@@ -47,7 +47,7 @@
                 <h2 class="focus:outline-none pl-8 relative">
                     <span class="text-emerald-500 absolute left-0">1</span> Milyen felszereltséggel és milyen áron érhetőek el a Tesla Model 3-asok? Mit tartalmaz a vételár? 
                 </h2>
-                <p>A Model 3-asok jelenleg háromféle variációban érhetőek el, ezek pedig az alábbiak (330 HUF = 1 EUR árfolyamon történt a váltás):</p>
+                <p>A Model 3-asok jelenleg háromféle variációban érhetőek el, ezek pedig az alábbiak (355 HUF = 1 EUR árfolyamon történt a váltás):</p>
                 <p><strong>Standard Range Plus</strong> (simple motor - hátsótengely hajtás)</p>
                     <ul>
                         <li>hatótáv: 448 km</li>
@@ -70,8 +70,8 @@
                         <li>induló vételár: 17 928 897 HUF + áfa</li>
                     </ul>
 
-                <p>Ezek a <strong>Tesla Model 3 árak fekete külső színben, fekete bőr belsővel és Long és Standard Range modell esetében 18’-os alumínium felnikkel, a Performance esetében az alap 20’ kerekekkel</strong> kerültek meghatározásra. Ez az <strong>ár tartalmazza az alapvető extrákat</strong>, mint légkondícionálás, elektromos ablakok, stb., továbbá a <strong>kettes szintű önvezetést</strong> (távtartó  tempomat és út követés autópályán). A <strong>vételár része szintén a jármű Magyarországra történő szállítása, a jármű műszaki vizsgáztatását</strong> övező költségek, illetve a <strong>Magyar Autókereskedőház Zrt.</strong> megtérülése és <strong>munkadíja.</strong></p>
-                <p>Minden további szín, akár kívül akár belül feláras, továbbá feláras a hármas szintű önvezetés és a 19’-os felni is. Ezekről való bővebb felvilágosításért keresse kollégáinkat az elérhetőségeinken.</p>
+                <p>Ezek a <strong>Tesla Model 3 árak fehér külső színben, fekete bőr belsővel és Long és Standard Range modell esetében 18’-os alumínium felnikkel, a Performance esetében az alap 20’ kerekekkel</strong> kerültek meghatározásra. Ez az <strong>ár tartalmazza az alapvető extrákat</strong>, mint légkondícionálás, elektromos ablakok, stb., továbbá a <strong>Autopilot funkciót</strong> (távtartó  tempomat és út követés autópályán). A <strong>vételár része szintén a jármű Magyarországra történő szállítása, a jármű műszaki vizsgáztatását</strong> övező költségek, illetve a <strong>Magyar Autókereskedőház Zrt.</strong> megtérülése és <strong>munkadíja.</strong></p>
+                <p>Minden további szín, akár kívül akár belül feláras, továbbá feláras a Full Self Driving és a 19’-os felni is. Ezekről való bővebb felvilágosításért keresse kollégáinkat az elérhetőségeinken.</p>
             </section>
             <section id="faq-2" class="pt-16 pb-16 md:pb-4 focus:outline-none">
                 <h2 class="focus:outline-none pl-8 relative">
@@ -81,9 +81,6 @@
                 <ul>
                     <li>
                         <a href="#">Nagycsaládosok autóvásárlási tanácsadása</a>
-                     </li>
-                    <li>
-                        <a href="#">Társasági adó kedvezmény kis és középvállalkozások részére</a>
                      </li>
                 </ul>
                 <p>Ezen lehetőségek igényelhetőek a MAH Zrt.-nél, kattintson a támogatás típusára és a további oldalakon olvashat azokról részletesen vagy a támogatás igénybevételéhez kérje kollégáink segítségét, akik készséggel állnak rendelkezésére. </p>

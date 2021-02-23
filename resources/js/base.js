@@ -64,8 +64,17 @@ function setCookie(cname, cvalue) {
   }
   document.cookie = 'params=' + JSON.stringify(params) + ';path=/';
   */
-  document.cookie = cname + '=' + cvalue + ';path=/';
+  document.cookie = cname + '=' + encodeURI(cvalue) + ';path=/';
 
+}
+
+function deleteAllCookies() {
+  var res = document.cookie;
+    var multiple = res.split(";");
+    for(var i = 0; i < multiple.length; i++) {
+       var key = multiple[i].split("=");
+       document.cookie = key[0]+" =; expires = Thu, 01 Jan 1970 00:00:00 UTC;path=/";
+    }
 }
 
 $(document).ready(function() {
@@ -78,7 +87,9 @@ $(document).ready(function() {
 
   $('body.fooldal .innerwrapper').each(function() {
     $(this).click(function() {
-      window.location.href = $('.block.rounded-full', this).attr('href');
+      if ($('.block.rounded-full', this).length > 0) {
+        window.location.href = $('.block.rounded-full', this).attr('href');
+      }
     });
   })
 

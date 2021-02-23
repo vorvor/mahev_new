@@ -73,6 +73,10 @@ body.car-rent-page ._techinfo ._wrapper-inner {
     body.car-rent-page .min-h-48 {
         min-height: 36rem;
     }
+    
+    body.brand-page .min-h-48 {
+        min-height: 36rem;
+    }
 }
 
 form .lastname {
@@ -86,5 +90,9 @@ form .lastname {
 
     body.fooldal ._card-car img {
         margin-left: 7vw;
+    }
+
+    .coming-soon {
+        margin-top: -23vh;
     }
 }

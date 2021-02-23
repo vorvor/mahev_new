@@ -26,9 +26,9 @@
     <meta name="dcterms.format" content="text/html" />
 
     <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
-    <script src="/resources/js/config-ms.js"></script>
-    <script src="/resources/js/config-init-ms.js"></script>
-    <script src="/resources/js/slider.js"></script>
+    <script src="/resources/js/config-ms.js?v=<?php print rand(1,100000); ?>"></script>
+    <script src="/resources/js/config-init-ms.js?v=<?php print rand(1,100000); ?>"></script>
+    <script src="/resources/js/slider.js?v=<?php print rand(1,100000); ?>"></script>
   </head>
   <body class="debug-screens bg-white model model-s"> 
 
@@ -365,7 +365,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Long range plus</span>
+                <span class="w-full block text-sm font-semibold">Long range (AWD)</span>
                 
                     <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 3.2 mp | Hatótáv: 663 km | Végsebesség 250 km/h</span>
                 
@@ -388,7 +388,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Plaid</span>
+                <span class="w-full block text-sm font-semibold">Plaid (AWD)</span>
                 
                     <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 2.1 mp | Hatótáv: 628 km | Végsebesség 322 km/h</span>
                 
@@ -411,7 +411,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">Plaid+</span>
+                <span class="w-full block text-sm font-semibold">Plaid+ (AWD)</span>
                 
                     <span class="hidden sm:inline w-full block text-xs">Gyorsulás: 2.1 mp | Hatótáv: 837 km | Végsebesség 322 km/h</span>
                 
@@ -723,7 +723,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-        <img src="/resources/img/inner_black_and_white_CarbonFiberDecor.png">
+        <img src="/resources/img/inner_black_CarbonFiberDecor.png">
     </div>
             
             <div class="flex-shrink">
@@ -775,7 +775,7 @@
         <span id="toggle-label10" class="leading-5 flex">
             
                 <div class="w-6 h-6 flex-shrink-0 mr-2 self-center">
-        <img src="/resources/img/inner_cream_OakWoodDecor.png">
+        <img src="/resources/img/beige_carbonfiberdecor.png">
     </div>
             
             <div class="flex-shrink">
@@ -1061,7 +1061,7 @@
 
 <?php include('./gen_contact_block_1.php'); ?>
 
-<?php include('./gen_news.php'); ?>
+<?php include('./gen_news_block.php'); ?>
 
 <?php include('./gen_contact_block_3.php'); ?>
 

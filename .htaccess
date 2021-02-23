@@ -9,11 +9,12 @@ RewriteRule ^tesla/szolgaltatasaink$ gen_services.php [L]
 RewriteRule ^tesla/rolunk$ gen_aboutus.php [L]
 RewriteRule ^tesla/markatortenet$ gen_brand.php [L]
 RewriteRule ^tesla-gyik$ gen_faq.php [L]
-RewriteRule ^tesla/hirek$ gen_news.php [L]
+RewriteRule ^tesla/hirek$ gen_news_page.php [L]
 RewriteRule ^uzenet$ gen_form-message.php [L]
 RewriteRule ^rendeles$ gen_form-offer.php [L]
 RewriteRule ^adatkezelesi-tajekoztato$ gen_priv-policy.php [L]
 RewriteRule ^tesla/berles$ gen_rent_tesla.php [L]
+RewriteRule ^rolunk$ gen_aboutus.php [L]
 
 <FilesMatch ".(flv|swf|ico|gif|jpg|jpeg|png)$">  
 Header set Cache-Control "max-age=2592000"  

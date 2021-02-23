@@ -1,5 +1,6 @@
 $(function(){
 
+	deleteAllCookies();
 	$('.offer .facility').html($('#conf-tab-1 ._radio-extras:nth-child(1) .text-sm').html());
 	$('.offer .facility-price').html($('#conf-tab-1 ._radio-extras:nth-child(1) .price div').html());
 
@@ -17,8 +18,6 @@ $(function(){
 
 	$('.offer .self-driving').html($('#conf-tab-6 ._radio-extras:nth-child(1) .text-sm').html());
 	$('.offer .self-driving-price').html($('#conf-tab-6 ._radio-extras:nth-child(1) .price div').html());
-
-	calcOfferPrice();
 
 	setCookie('mahev_model','x');
 	// Facility
@@ -45,15 +44,14 @@ $(function(){
 						$(this).removeClass('hidden');
 					}
 				})
-
 			}
 
-			if (text.toLowerCase().includes('performance')) {
+			if (text.toLowerCase().includes('plaid')) {
 				$('#conf-tab-4 ._radio-extras').each(function() {
-					if ($('.text-sm', this).html().includes('kőrisfa')) {
-						$(this).addClass('hidden');
-					} else {
+					if ($('.text-sm', this).html().includes('karbon')) {
 						$(this).removeClass('hidden');
+					} else {
+						$(this).addClass('hidden');
 					}
 				})
 			}
@@ -214,17 +212,19 @@ $(function(){
 		
 	})
 
+	calcOfferPrice();
 	
 
 	function calcOfferPrice() {
 		price = 0;
 		$('.offer .price').not('.hidden').each(function() {
+			console.log($(this));
 			price += parseInt($(this).html().replace(/\s+/g, ''));
 		})
 		
 
 		sumPrice = priceFormat(price);
-		$('.offer .sum-price').html(sumPrice + ' €');
+		$('.sum-price').html(sumPrice + ' €');
 		setCookie('mahev_price', sumPrice);
 
 	}

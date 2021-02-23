@@ -40,9 +40,11 @@ if (isset($_POST['submit']) && $_POST['lastname'] == '') {
       
       $mail->isMail();
       //Recipients
-      $mail->setFrom('from@wabisabee.com', 'Mailer');
-      $mail->addAddress('vorosborisz@gmail.com', 'Vörös Borisz');     // Add a recipient
-      $mail->addReplyTo('info@wabisabee.com', 'Wabisabee team');
+      $mail->setFrom('info@mahzrt.hu', 'MAH Zrt.');
+      $mail->addBcc('vorosborisz@gmail.com', 'Vörös Borisz');
+      $mail->addAddress('mudri.daniel21@gmail.com', 'Mudri Daniel');
+      $mail->addAddress('info@mahzrt.hu', 'MAH Zrt.');
+      $mail->addReplyTo('info@mahzrt.hu', 'MAH Zrt.');
 
       // Content
       $mail->isHTML(true);                                  // Set email format to HTML
@@ -53,7 +55,7 @@ if (isset($_POST['submit']) && $_POST['lastname'] == '') {
 
       $mail->send();
 
-      header('Location: gen_form-offer-thank-you.php');
+      header('Location: gen_form-message-thank-you.php');
     
 
   } catch (Exception $e) {

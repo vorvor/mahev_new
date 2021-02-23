@@ -98,7 +98,7 @@
                 </h2>
                 <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
                     <div class="bg-emerald-500 duration-200 ease-out h-16 icon mx-auto overflow-hidden rounded-full transition-colors w-16 md:h-20 md:w-20">
-                        <a class="block rounded-full h-full" href="/gen_model3.php">
+                        <a class="block rounded-full h-full" href="/tesla/tesla-model-3">
                             
     <svg class="svg-icon p-4 text-white">
         <use xlink:href="#i-details"></use>
@@ -174,7 +174,7 @@
                 </h2>
                 <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
                     <div class="bg-emerald-500 duration-200 ease-out h-16 icon mx-auto overflow-hidden rounded-full transition-colors w-16 md:h-20 md:w-20">
-                        <a class="block rounded-full h-full" href="/gen_modelx.php">
+                        <a class="block rounded-full h-full" href="/tesla/tesla-model-x">
                             
     <svg class="svg-icon p-4 text-white">
         <use xlink:href="#i-details"></use>
@@ -250,7 +250,7 @@
                 </h2>
                 <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
                     <div class="bg-emerald-500 duration-200 ease-out h-16 icon mx-auto overflow-hidden rounded-full transition-colors w-16 md:h-20 md:w-20">
-                        <a class="block rounded-full h-full" href="/gen_modely.php">
+                        <a class="block rounded-full h-full" href="/tesla/tesla-model-y">
                             
     <svg class="svg-icon p-4 text-white">
         <use xlink:href="#i-details"></use>
@@ -346,7 +346,7 @@
         <use xlink:href="#i-configurator"></use>
     </svg>
             </div>
-            <div class="label text-xs pt-2"><a href="/gen_models.php#configurator">konfigurátor</a></div>
+            <div class="label text-xs pt-2"><a href="/tesla/tesla-model-s#configurator">konfigurátor</a></div>
         </div>
         <div class="_io extend-a flex flex-col items-center group">
             <div class="icon rounded-full  w-16 h-16 lg:w-20 lg:h-20 border-2 border-emerald-500 text-gray-400 p-3 lg:p-4 group-hover:border-emerald-600 group-hover:text-gray-500 ease-in-out duration-150">
@@ -355,7 +355,7 @@
         <use xlink:href="#i-details"></use>
     </svg>
             </div>
-            <div class="label text-xs pt-2"><a href="/gen_models.php">részletek</a></div>
+            <div class="label text-xs pt-2"><a href="/tesla/tesla-model-3">részletek</a></div>
         </div>
     </div>
 </div>
@@ -376,7 +376,7 @@
         <use xlink:href="#i-configurator"></use>
     </svg>
             </div>
-            <div class="label text-xs pt-2"><a href="/gen_model3.php#configurator">konfigurátor</a></div>
+            <div class="label text-xs pt-2"><a href="/tesla/tesla-model-3#configurator">konfigurátor</a></div>
         </div>
         <div class="_io extend-a flex flex-col items-center group">
             <div class="icon rounded-full  w-16 h-16 lg:w-20 lg:h-20 border-2 border-emerald-500 text-gray-400 p-3 lg:p-4 group-hover:border-emerald-600 group-hover:text-gray-500 ease-in-out duration-150">
@@ -385,7 +385,7 @@
         <use xlink:href="#i-details"></use>
     </svg>
             </div>
-            <div class="label text-xs pt-2"><a href="/gen_model3.php">részletek</a></div>
+            <div class="label text-xs pt-2"><a href="/tesla/tesla-model-x">részletek</a></div>
         </div>
     </div>
 </div>
@@ -406,7 +406,7 @@
         <use xlink:href="#i-configurator"></use>
     </svg>
             </div>
-            <div class="label text-xs pt-2"><a href="/gen_modelx.php#configurator">konfigurátor</a></div>
+            <div class="label text-xs pt-2"><a href="/tesla/tesla-model-x#configurator">konfigurátor</a></div>
         </div>
         <div class="_io extend-a flex flex-col items-center group">
             <div class="icon rounded-full  w-16 h-16 lg:w-20 lg:h-20 border-2 border-emerald-500 text-gray-400 p-3 lg:p-4 group-hover:border-emerald-600 group-hover:text-gray-500 ease-in-out duration-150">
@@ -415,7 +415,7 @@
         <use xlink:href="#i-details"></use>
     </svg>
             </div>
-            <div class="label text-xs pt-2"><a href="/gen_modelx.php">részletek</a></div>
+            <div class="label text-xs pt-2"><a href="/tesla/tesla-model-x">részletek</a></div>
         </div>
     </div>
 </div>
@@ -436,7 +436,7 @@
         <use xlink:href="#i-configurator"></use>
     </svg>
             </div>
-            <div class="label text-xs pt-2"><a href="/gen_modely.php#configurator">konfigurátor</a></div>
+            <div class="label text-xs pt-2"><a href="/tesla/tesla-model-y#configurator">konfigurátor</a></div>
         </div>
         <div class="_io extend-a flex flex-col items-center group">
             <div class="icon rounded-full  w-16 h-16 lg:w-20 lg:h-20 border-2 border-emerald-500 text-gray-400 p-3 lg:p-4 group-hover:border-emerald-600 group-hover:text-gray-500 ease-in-out duration-150">
@@ -445,7 +445,7 @@
         <use xlink:href="#i-details"></use>
     </svg>
             </div>
-            <div class="label text-xs pt-2"><a href="/gen_modely.php">részletek</a></div>
+            <div class="label text-xs pt-2"><a href="/tesla/tesla-model-y">részletek</a></div>
         </div>
     </div>
 </div>
@@ -486,7 +486,7 @@
         A piacon elérhető egyik legalacsonyabb kamatszintet tudjuk biztosítani ügyfeleinknek, a ügyintézési folyamat  összes terhét átvállalva.
     </div>
     <div class="text-center pt-8 mt-auto w-full">
-        <a href= "gen_services.php#finance" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
+        <a href= "/tesla/szolgaltatasaink#finance" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
     </div>
 </div>
             
@@ -509,7 +509,7 @@
         Számos biztosító társaság termékét kínáljuk ügyfeleinknek, melyek jelenleg a piacon elérhető egyik legkedvezőbb termékek.
     </div>
     <div class="text-center pt-8 mt-auto w-full">
-        <a href= "gen_services.php#insurance" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
+        <a href= "/tesla/szolgaltatasaink#insurance" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
     </div>
 </div>
 
@@ -530,7 +530,7 @@
         Átlátható és szabályozott folyamatokon keresztül, stabil háttérrel és sok év tapasztalatával kezeljük érdeklődését és megrendelését.
     </div>
     <div class="text-center pt-8 mt-auto w-full">
-        <a href= "gen_services.php#transparency" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
+        <a href= "/tesla/szolgaltatasaink#transparency" class= " bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Tovább</a>
     </div>
 </div>
 
@@ -777,7 +777,7 @@
 
     <?php include('./gen_contact_block_1.php'); ?>
 
-    <?php include('./gen_news.php'); ?>
+    <?php include('./gen_news_block.php'); ?>
 
 
     <!-- news -->
