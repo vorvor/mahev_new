@@ -53,6 +53,8 @@ $(function(){
 						$(this).removeClass('hidden');
 					}
 				})
+
+				window.rim = '18cAero';
 			}
 			if (text.toLowerCase().includes('performance')) {
 
@@ -73,9 +75,10 @@ $(function(){
 						$(this).removeClass('hidden');
 					}
 				})
+
+				window.rim = '20cUturb';
 			}
 
-			$('#conf-tab-3 ._radio-extras').not('.hidden').first().click();
 
 			// Under 3D rotate data.
 			var regex = /[+-]?\d+(\.\d+)?/g;
@@ -85,6 +88,7 @@ $(function(){
 			$('.highlights li:nth-child(3) .circle .number').html(floats[2]);
 			$('.highlights li:nth-child(5) .circle .number').html(floats[1]);
 
+			$('#conf-tab-3 ._radio-extras').addClass('off').removeClass('on');
 			$('#conf-tab-3 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
 
 			calcOfferPrice();

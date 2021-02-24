@@ -19,7 +19,7 @@
 
 
       <?php
-        $data = curl_get_contents('https://mahev.hu/articles-api-one/' . $_GET['q']);
+        $data = @curl_get_contents('https://new.mahev.hu/articles-api-one/' . $_GET['q']);
         $article_data = json_decode($data, true);
         $article = $article_data['nodes'][0]['node'];
         $tags = explode(',', $article['field_tags']);

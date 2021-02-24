@@ -2,60 +2,16 @@
 
   function curl_get_contents($url) {
 
-  $ch = curl_init($url);
-
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-  curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-  curl_setopt($ch, CURLOPT_POST, 1);
-
-  $params = array(
-    'pass' => '123',
-  );
-  curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
-
-  $data = curl_exec($ch);
-  $status = curl_getinfo($ch);
-  curl_close($ch);
-
-  if (isset($_POST['api_url']) && $status['http_code']==200) {
-    print $data;
-    return;
-  }
-  if (isset($_POST['api_url']) && $status['http_code']!==200) {
-    print 'error';
-    //print json_encode($status);
-    return;
-  }
-
-  if ($status['http_code']!==200) {
-    print 'error';
-    //print json_encode($status);
-    return;
-  }
-
-  if($status['http_code'] == 200) {
-    return $data;
-  }
-  elseif($status['http_code']==301 || $status['http_code']==302) {
-      if (!$follow_allowed) {
-          if (!empty($status['redirect_url'])) {
-              $redirURL=$status['redirect_url'];
-          } else {
-              preg_match('/href\=\"(.*?)\"/si',$data,$m);
-              if (!empty($m[1])) {
-                	$redirURL=$m[1];
-              }
-          }
-          if(!empty($redirURL)) {
-              return  call_user_func( __FUNCTION__, $redirURL, $post_paramtrs);
-          }
-      }
-  }
-
-  return $status;
-  
+  $ch = curl_init();
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+    curl_setopt($ch, CURLOPT_HEADER, false);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_REFERER, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+    $result = curl_exec($ch);
+    curl_close($ch);
+    return $result;
   
 }
 ?>

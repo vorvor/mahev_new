@@ -22,7 +22,7 @@
                 </h2>
                 <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
                     <div class="bg-emerald-500 duration-200 ease-out h-16 icon mx-auto overflow-hidden rounded-full transition-colors w-16 md:h-20 md:w-20">
-                        <a class="block rounded-full h-full" href="/gen_models.php">
+                        <a class="block rounded-full h-full" href="/tesla/tesla-model-s">
                             
     <svg class="svg-icon p-4 text-white">
         <use xlink:href="#i-details"></use>

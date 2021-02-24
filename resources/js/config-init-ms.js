@@ -27,5 +27,5 @@ $(document).ready(function() {
 	$('._configurator-tabs #conf-tab-4 ._radio-extras:eq(2)').attr('data-val', 'IntBeigLbOak');
 	$('._configurator-tabs #conf-tab-4 ._radio-extras:eq(3)').attr('data-val', 'IntBkDrkAsh');
 	$('._configurator-tabs #conf-tab-4 ._radio-extras:eq(4)').attr('data-val', 'IntWhBkAsh');
-	$('._configurator-tabs #conf-tab-4 ._radio-extras:eq(4)').attr('data-val', 'IntWhBkAsh');
+	$('._configurator-tabs #conf-tab-4 ._radio-extras:eq(5)').attr('data-val', 'IntWhBkAsh');
 })

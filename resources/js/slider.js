@@ -74,6 +74,11 @@ $(document).ready(function() {
 		// Set neccessary color or rim variable to the selected.
 		window[prop] = $(this).data('val');
 
+		// Animation running, dont interrupt.
+		if (animTimer !== undefined && animTimer !== null) {
+			return;
+		}
+
 		if (prop == 'intColor') {
 			setInnerPic();
 			return true;
@@ -83,8 +88,10 @@ $(document).ready(function() {
 			// Update current project based upon selection.
 			project = currentProject();
 			picnum = $('#slider').val() * 4;
+			picnumstring = ('00000' + picnum).slice(-5);
 			// Load images to the project if it's a new choice and images not loaded before.
-			if (!loadedProjects.includes(project)) {
+			//if (!loadedProjects.includes(project)) {
+			if ($('#configurator .' + project + '-' + picnumstring).length == 0) {
 				loadImages(picnum, 'start', project);
 				loadedProjects.push(currentProject());
 			} else {
@@ -122,6 +129,7 @@ $(document).ready(function() {
 
 	// Current project changes as user changes color, rim or inner.
 	function currentProject() {
+
 		project = model + '_' + facility + '_' + extColor +'_' + intColor +'_' + rim;
 		if (hook !== undefined && hook !== '') {
 			project += '_' + hook;
@@ -190,6 +198,7 @@ $(document).ready(function() {
 			var image = new Image();
 			image.className = 'hidden sequence-image ' + project + '-' + picnumstring;
 			image.src = picstring;
+			console.log(picstring + ' - loaded');
 			if (dir == 'start') {
 				image.onload = function() {
 					setPic();
@@ -278,6 +287,9 @@ $(document).ready(function() {
 
 			animTimer = setTimeout(function(){ playZoomIn(i + 1) }, 50);
 		} else {
+			setInnerPic();
+			console.log('INNER SET AUTO');
+			console.log(innerProject);
 			animTimer = null;
 		}
 	}
@@ -314,6 +326,18 @@ $(document).ready(function() {
 			document.getElementById('slider').value = 49;
 			$('input[type="range"]').change();
 			animTimer = null;
+
+			// Maybe inner clicked which combination not loaded yet on the outer anim.
+			project = currentProject();
+			picnum = 48;
+			picnumstring = ('00000' + i).slice(-5);
+			// Load images to the project if it's a new choice and images not loaded before.
+			if ($('#configurator .' + project + '-' + picnumstring).length == 0) {
+				loadImages(picnum, 'start', project);
+				loadedProjects.push(currentProject());
+			} else {
+				setPic();
+			}
 		}
 	}
 
