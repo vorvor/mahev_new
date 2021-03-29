@@ -32,7 +32,6 @@
             <div class="mb-8">
                 <h3 class="font-semibold mb-4">Magyar Autókereskedőház Zrt.</h3>
                 <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 leading-none"></div>
-                <p>Székhely/Iroda: 1112 Bp., Kánai út 3.</p>
                 <p>Adószám: 25196276-2-43</p>
                 <p>Cégjegyzékszám: 01-10-048433</p>
             </div>
@@ -48,11 +47,10 @@
             <div class="mb-8">
                 <h3 class="font-semibold mb-4">Kapcsolat</h3>
                 <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 leading-none"></div>
-                <p>Adószám: 25196276-2-43</p>
-                <p>Cégjegyzékszám: 01-10-048433</p>
+                <p>Székhely/Iroda: 1112 Bp., Kánai út 3.</p>
             </div>
-            <a href= "tel:0036306668888" class= "w-full mx-auto mb-8 bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out"><?php print $phone_main; ?></a>
-            <a href= "/gen_form-message.php" class= "w-full mx-auto mb-8 bg-gray-300  hover:bg-gray-400  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Üzenetet küldök</a>
+            <a href= "tel:<?php print $phone_main_raw; ?>" class= "w-full mx-auto mb-8 bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out"><?php print $phone_main; ?></a>
+            <a href= "/uzenet" class= "w-full mx-auto mb-8 bg-gray-300  hover:bg-gray-400  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">Üzenetet küldök</a>
             <ul class="grid grid-cols-3 gap-8 justify-items-center items-center w-full">
                 <!--<li class="w-16 h-16 overflow-hidden rounded-full p-2 bg-gray-300 hover:bg-gray-400 ease-in-out duration-150 link-overlay extend-a">
                     <a href="" class="text-white">
@@ -99,8 +97,8 @@
     </div>
     <div class="border-t-2 border-gray-300 text-gray-300">
         <ul class="container  lg:flex lg:flex-wrap lg:justify-between">
-            <li class="py-2 block px-4 inline-block"><a class="" href="#">© 2015-2021 MAHZRT</a></li>
-            <li class="py-2 block px-4 inline-block"><a class="" target="_blank" href="/gen_priv-policy.php">Adatkezelési tájkoztató</a></li>
+            <li class="py-2 block px-4 inline-block">© 2015-2021 MAHZRT</li>
+            <li class="py-2 block px-4 inline-block"><a class="" target="_blank" href="/adatkezelesi-tajekoztato">Adatkezelési tájékoztató</a></li>
             <li class="py-2 block px-4 inline-block"><a class="" href="/tesla/tesla-model-s">Model S</a></li>
             <li class="py-2 block px-4 inline-block"><a class="" href="/tesla/tesla-model-3">Model 3</a></li>
             <li class="py-2 block px-4 inline-block"><a class="" href="/tesla/tesla-model-x">Model X</a></li>

@@ -2,8 +2,28 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
+
+    <title>Tesla bérlés Budapesten - bérelj Tesla elektromos autót kedvező áron! | mah-ev.hu</title>
+    <meta name="description" content="Tesla Model 3 bérlés olyan napi áron, amennyit máshol 30 perc Tesla élményvezetésért fizetsz!" />
+    <meta property="fb:app_id" content="1192951680871368" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tesla bérlés Budapesten - bérelj Tesla elektromos autót kedvező áron! | mah-ev.hu" />
+    <meta property="og:url" content="https://mah-ev.hu/tesla/berles" />
+    <meta property="og:title" content="Tesla bérlés Budapesten - bérelj Tesla elektromos autót kedvező áron! | mah-ev.hu" />
+    <meta property="og:determiner" content="auto" />
+    <meta property="og:description" content="Tesla Model 3 bérlés olyan napi áron, amennyit máshol 30 perc Tesla élményvezetésért fizetsz!" />
+    <meta property="og:image" content="https://mah-ev.hu/resources/img/IMG_4655_K.jpg" />
+    <meta property="og:image:url" content="https://mah-ev.hu/resources/img/IMG_4655_K.jpg" />
+    <meta property="og:image:secure_url" content="https://mah-ev.hu/resources/img/IMG_4655_K.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://mah-ev.hu/tesla/berles" />
+    <meta name="twitter:title" content="Tesla bérlés Budapesten - bérelj Tesla elektromos autót kedvező áron! | mah-ev.hu" />
+    <meta name="dcterms.title" content="Tesla bérlés Budapesten - bérelj Tesla elektromos autót kedvező áron! | mah-ev.hu" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
+    <meta name="dcterms.format" content="text/html" />
   </head>
-  <body class="debug-screens bg-white car-rent-page"> 
+  <body class="bg-white car-rent-page"> 
 
 
     
@@ -16,11 +36,11 @@
 <div class="relative min-h-48 xl:min-h-88 h-screen30 py-8 lg:py-16">
     <div class="container">
         <div class="_section-title _io  relative mb-8 md:mb-12">
-            <h2 class="text-white text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Bérelj Tesla Model 3-at MAH Zrt-től!</h2>
+            <h2 class="text-white text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Bérelj Tesla Model 3-at a MAH Zrt-től!</h2>
                 <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500"></div>
         </div>
     </div>
-    <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
+    <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
         <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/IMG_4655_K.jpg" alt="">
     </div>
 </div>
@@ -47,7 +67,7 @@
 </div>
 -->
                     <div class="lead my-16 md:my-12">
-                        Ültél már Teslában? Átélted már a Tesla élményt és megmutatnád a családodnak is? Vásárolnál egy Teslát, de nem vagy biztos a képességeiben? Itt a lehetőség, hogy a legnépszerűbb modellt szeretteid, barátaid és ügyfeleid körében élvezd! Akár egy hétvégére is bérlehető és nincs napi futáskorlátozás! Amennyiben születésnapi ajándéknak szánod, készíts fényképet az ünnepelttel és oszd meg ismerőseid között, hogy a MAH Zrt.-től béreltél Teslát. Ebben az esetben, ha erről fényképet küldesz nekünk, a bérleti díj 20%-val mi járulunk hozzá az ajándékodhoz!  
+                        Ültél már Teslában? Átélted már a Tesla élményt és megmutatnád a családodnak is? Vásárolnál egy Teslát, de nem vagy biztos a képességeiben? Itt a lehetőség, hogy a legnépszerűbb modellt szeretteid, barátaid és ügyfeleid körében élvezd! Akár egy hétvégére is bérlehető és nincs napi futáskorlátozás! Amennyiben születésnapi ajándéknak szánod, készíts fényképet az ünnepelttel és oszd meg ismerőseid között, hogy a MAH Zrt.-től béreltél Teslát. Ebben az esetben, ha erről fényképet küldesz nekünk, a bérleti díj 20%-ával mi járulunk hozzá az ajándékodhoz!  
                     </div>
                     <div class="lead my-16 md:my-12">
                         Rendezvényre vagy egyéb eseményekre kérj egyedi ajánlatot, konstrukcióink rugalmasak, könnyedén személyre szabhatóak.
@@ -69,10 +89,6 @@
         <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/IMG_4685_K.jpg" alt="">
     </div>
 </div>
-
-
-
-
 
 
             <section id="finance" class="_services-content">

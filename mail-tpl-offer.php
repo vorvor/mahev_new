@@ -97,43 +97,41 @@
             <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;">0 EUR</div>
           </div>
           <div class="data-row sum" style="border: none;background: #0acf83;color: #fff;overflow:hidden;">
-            <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;font-size: 18px; font-weight: bold;">Végösszeg</div>
+            <div class="data-row-left" style="float: left;width: 50%;padding: 10px;box-sizing: border-box;font-size: 18px; font-weight: bold;">Bruttó vételár</div>
             <div class="data-row-right" style="float: left;width: 50%;text-align: right;padding: 10px;box-sizing: border-box;font-size: 18px; font-weight: bold;">###price###</div>
           </div>
 
         </div>
 
         <div id="config-photo" style="margin: 0 auto;"><img style="width: 100%;" src="###configpic-end###"></div>
-        <!--
-
-        <div id="funding-title">Finanszírozás</div>
-        <div id="data-funding" style="margin: 0 auto;">
-          <div class="data-row">
-            <div class="data-row-left">Finanszírozás igénybevételével történő vásárlás?</div>
-            <div class="data-row-right">[data:funding-value]</div>
+       
+        <!-- financial-construction block start -->
+        <div id="data-financial" style="margin: 0 auto;">
+          <div class="data-row" style="margin: 10px 0;overflow: hidden;">
+            <div class="data-row-left" style="float: left;width: 40%;padding: 10px;box-sizing: border-box;">Konstrukció:</div>
+            <div class="data-row-right" style="float: left;width: 60%;font-weight: bold;padding: 10px;box-sizing: border-box;">###financial-construction###</div>
           </div>
-          <div class="data-row">
-            <div class="data-row-left">Konstrukció:</div>
-            <div class="data-row-right">[data:financial_construction-value]</div>
+          <!-- initial-deposit block start -->
+          <div class="data-row" style="margin: 10px 0;overflow: hidden;">
+            <div class="data-row-left" style="float: left;width: 40%;padding: 10px;box-sizing: border-box;">Kezdő befizetés százalékban:</div>
+            <div class="data-row-right" style="float: left;width: 60%;font-weight: bold;padding: 10px;box-sizing: border-box;">###initial-deposit###</div>
           </div>
-          <div class="data-row">
-            <div class="data-row-left">Kezdő befizetés százalékban:</div>
-            <div class="data-row-right">[data:inital_deposit-value] [data:inital_deposit_open_end-value] [data:inital_deposit_rental-value]</div>
+          <!-- initial-deposit block end -->
+          <!-- duration block start -->
+          <div class="data-row" style="margin: 10px 0;overflow: hidden;">
+            <div class="data-row-left" style="float: left;width: 40%;padding: 10px;box-sizing: border-box;">Futamidő:</div>
+            <div class="data-row-right" style="float: left;width: 60%;font-weight: bold;padding: 10px;box-sizing: border-box;">###duration###</div>
           </div>
-          <div class="data-row">
-            <div class="data-row-left">Futamidő:</div>
-            <div class="data-row-right">[data:duration-value] hónap</div>
+          <!-- duration block end -->
+          <!-- remain block start -->
+          <div class="data-row" style="margin: 10px 0;overflow: hidden;">
+            <div class="data-row-left" style="float: left;width: 40%;padding: 10px;box-sizing: border-box;">Maradványérték:</div>
+            <div class="data-row-right" style="float: left;width: 60%;font-weight: bold;padding: 10px;box-sizing: border-box;">###remain###</div>
           </div>
-          <div class="data-row">
-            <div class="data-row-left">Devizanem:</div>
-            <div class="data-row-right">[data:currency-value]</div>
-          </div>
-          <div class="data-row">
-            <div class="data-row-left">Maradványérték:</div>
-            <div class="data-row-right">[data:remain_24-value][data:remain_24_36-value][data:remain_36_48-value][data:remain_48-value]</div>
-          </div>
-        </div><div id="funding-end"></div>  
-      -->
+          <!-- remain block end -->
+        </div>
+        <!-- financial-construction block end -->
+      
 
       </div> <!-- inside wrapper -->
        

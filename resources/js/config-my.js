@@ -19,8 +19,6 @@ $(function(){
 	$('.offer .self-driving').html($('#conf-tab-6 ._radio-extras:nth-child(1) .text-sm').html());
 	$('.offer .self-driving-price').html($('#conf-tab-6 ._radio-extras:nth-child(1) .price div').html());
 
-	calcOfferPrice();
-
 	setCookie('mahev_model','y');
 	// Facility
 	$('#conf-tab-1 ._radio-extras:nth-child(1)').removeClass('off').addClass('on');
@@ -47,6 +45,7 @@ $(function(){
 					}
 				})
 			}
+
 			if (text.toLowerCase().includes('performance')) {
 				$('#conf-tab-3 ._radio-extras').each(function() {
 					if ($('.text-sm', this).html().includes('21')) {
@@ -197,15 +196,28 @@ $(function(){
 	setCookie('mahev_extra', '');
 	$('#conf-tab-7 ._toggle-extras').each(function() {
 		$(this).click(function() {
+			sumExtra = [];
+			sumPrice = 0;
 			$('.offer .block.extra').addClass('hidden');
 			$('.offer .extra-price').addClass('hidden');
-			if ($(this).hasClass('on')) {
-				$('.offer .block.extra').removeClass('hidden');
-				$('.offer .extra-price').removeClass('hidden');
+	
 
-				// Save value.
-				setCookie('mahev_extra','Fali töltő');
-			}
+			$('#conf-tab-7 ._toggle-extras').each(function() {
+				if ($(this).hasClass('on')) {
+					text = $('.text-sm', this).html();
+					price = parseInt($('.price div', this).html().replace(/\s+/g, ''));
+					$('.offer .block.extra').removeClass('hidden');
+					$('.offer .extra-price').removeClass('hidden');
+					sumExtra.push(text);
+					sumPrice += price * 1;
+				}
+			})
+
+			text = sumExtra.join(', ');
+			$('.offer .block.extra').html(text);
+			$('.offer .extra-price').html(priceFormat(sumPrice) + ' €');
+			// Save value.
+			setCookie('mahev_extra', text);
 
 			calcOfferPrice();
 		})
@@ -213,16 +225,20 @@ $(function(){
 		
 	})
 
+	calcOfferPrice();
 
 	function calcOfferPrice() {
 		price = 0;
 		$('.offer .price').not('.hidden').each(function() {
-			price += parseInt($(this).html().replace(/\s+/g, ''));
-			console.log(price);
+			pprice = $(this).html().replace(/\s+/g, '');
+			if (pprice == '') {
+				pprice = 0;
+			}
+			price += parseInt(pprice);
 		})
 		
 		sumPrice = priceFormat(price);
-		$('.offer .sum-price').html(sumPrice + ' €');
+		$('.sum-price').html(sumPrice + ' €');
 		setCookie('mahev_price', sumPrice);
 	}
 

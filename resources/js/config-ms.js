@@ -16,9 +16,6 @@ $(function(){
 	$('.offer .self-driving').html($('#conf-tab-5 ._radio-extras:nth-child(1) .text-sm').html());
 	$('.offer .self-driving-price').html($('#conf-tab-5 ._radio-extras:nth-child(1) .price div').html());
 
-
-	calcOfferPrice();
-
 	setCookie('mahev_model','s');
 	// Facility
 	$('#conf-tab-1 ._radio-extras:nth-child(1)').removeClass('off').addClass('on');
@@ -44,6 +41,12 @@ $(function(){
 						$(this).removeClass('hidden');
 					}
 				})
+
+				text = $('#conf-tab-4 ._radio-extras:nth-child(1) .text-sm').html();
+				price = $('#conf-tab-4 ._radio-extras:nth-child(1) .price div').html();
+				$('.offer .block.interior').html(text);
+				$('.offer .interior-price').html(price);
+				$('#conf-tab-4 ._radio-extras:nth-child(1)').click();
 			}
 			
 			if (text.toLowerCase().includes('plaid')) {
@@ -54,7 +57,16 @@ $(function(){
 						$(this).addClass('hidden');
 					}
 				})
+
+				text = $('#conf-tab-4 ._radio-extras:nth-child(4) .text-sm').html();
+				price = $('#conf-tab-4 ._radio-extras:nth-child(4) .price div').html();
+				$('.offer .block.interior').html(text);
+				$('.offer .interior-price').html(price);
+				$('#conf-tab-4 ._radio-extras:nth-child(4)').click();
 			}
+
+			
+
 
 			// Under 3D rotate data.
 			var regex = /[+-]?\d+(\.\d+)?/g;
@@ -64,6 +76,7 @@ $(function(){
 			$('.highlights li:nth-child(3) .circle .number').html(floats[2]);
 			$('.highlights li:nth-child(5) .circle .number').html(floats[1]);
 
+			$('#conf-tab-4 ._radio-extras').removeClass('on').addClass('off');
 			$('#conf-tab-4 ._radio-extras').not('.hidden').first().removeClass('off').addClass('on');
 
 			calcOfferPrice();
@@ -194,10 +207,16 @@ $(function(){
 		
 	})
 
+	calcOfferPrice();
+
 	function calcOfferPrice() {
 		price = 0;
 		$('.offer .price').not('.hidden').each(function() {
-			price += parseInt($(this).html().replace(/\s+/g, ''));
+			pprice = $(this).html().replace(/\s+/g, '');
+			if (pprice == '') {
+				pprice = 0;
+			}
+			price += parseInt(pprice);
 		})
 		
 		sumPrice = priceFormat(price);

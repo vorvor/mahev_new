@@ -5,7 +5,7 @@
     <script src="resources/js/offer.js"></script>
   </head>
   
-  <body class="debug-screens bg-white form-offer">
+  <body class="bg-white form-offer">
 
     <?php include('./gen_form-offer-send.php'); ?>
     
@@ -49,7 +49,7 @@
                     Név / Cégnév*
                 </label>
                 <div class="mt-1 rounded-none shadow-sm">
-                  <input id="name" name="firstname" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5">
+                  <input id="name" name="firstname" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5" REQUIRED>
                 </div>
               </div><!--text input-->
               <div class="sm:col-span-3  lastname">
@@ -62,7 +62,7 @@
               </div><!--text input-->
             <div class="sm:col-span-3">
                 <label for="address" class="block text-sm font-medium leading-5 text-gray-500">
-                    Cím / Székhely*
+                    Cím / Székhely
                 </label>
                 <div class="mt-1 rounded-none shadow-sm">
                   <input id="address" name="address" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5">
@@ -73,7 +73,7 @@
                     Telefonszám*
                 </label>
                 <div class="mt-1 rounded-none shadow-sm">
-                  <input id="phone" name="phone" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5">
+                  <input type="tel" id="phone" name="phone" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5" REQUIRED>
                 </div>
             </div><!--text input-->
             <div class="sm:col-span-3">
@@ -81,7 +81,7 @@
                   Email*
                 </label>
                 <div class="mt-1 rounded-none shadow-sm">
-                  <input id="email" name="email" type="email" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5">
+                  <input id="email" name="email" type="email" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5" REQUIRED>
                 </div>
             </div><!--email input-->
             <div class="sm:col-span-6">
@@ -119,56 +119,56 @@
             <!-- Konstrukció -->
             <div class="sm:col-span-6 finance-form hidden">            
               <label for="edit-submitted-financial-construction" class="block text-sm font-medium leading-5 text-gray-500">Konstrukció</label>
-             <select class="order-financial-construction order-funding  form-select" id="financial-construction" name="submitted[financial_construction]"><option value="" selected="selected">Kérem válassszon!</option><option value="close-end">zártvégű pénzügyi lízing</option><option value="open-end">nyíltvégű pénzügyi lízing</option><option value="rental">tartós bérlet</option></select>
+             <select class="order-financial-construction order-funding  form-select" id="financial-construction" name="financial_construction"><option value="" selected="selected">Kérem válassszon!</option><option value="close-end">zártvégű pénzügyi lízing</option><option value="open-end">nyíltvégű pénzügyi lízing</option><option value="rental">tartós bérlet</option></select>
             </div>
 
             
             <!-- Kezdő befizetés 20-80 -->
             <div class="sm:col-span-6 initial-deposit initial-deposit-close-end hidden">
               <label for="edit-submitted-inital-deposit-rental" class="block text-sm font-medium leading-5 text-gray-500">Kezdő befizetés százalékban</label>
-                <select class="form-select" id="edit-submitted-inital-deposit" name="submitted[inital_deposit]"><option value="" selected="selected">Kérem válasszon!</option><option value="20">20%</option><option value="25">25%</option><option value="30">30%</option><option value="35">35%</option><option value="40">40%</option><option value="45">45%</option><option value="50">50%</option><option value="55">55%</option><option value="60">60%</option><option value="65">65%</option><option value="70">70%</option><option value="75">75%</option><option value="80">80%</option></select>
+                <select class="form-select" id="edit-submitted-inital-deposit" name="initial_deposit_close_end"><option value="" selected="selected">Kérem válasszon!</option><option value="20">20%</option><option value="25">25%</option><option value="30">30%</option><option value="35">35%</option><option value="40">40%</option><option value="45">45%</option><option value="50">50%</option><option value="55">55%</option><option value="60">60%</option><option value="65">65%</option><option value="70">70%</option><option value="75">75%</option><option value="80">80%</option></select>
             </div>
 
             <!-- Kezdő befizetés 20-50 -->
             <div class="sm:col-span-6 initial-deposit initial-deposit-open-end hidden">
                 <label for="edit-submitted-inital-deposit-rental" class="block text-sm font-medium leading-5 text-gray-500">Kezdő befizetés százalékban</label>
-                <select class="form-select" id="edit-submitted-inital-deposit-open-end" name="submitted[inital_deposit_open_end]"><option value="" selected="selected">Kérem válasszon!</option><option value="20">20%</option><option value="25">25%</option><option value="30">30%</option><option value="35">35%</option><option value="40">40%</option><option value="45">45%</option><option value="50">50%</option></select>
+                <select class="form-select" id="edit-submitted-inital-deposit-open-end" name="initial_deposit_open_end"><option value="" selected="selected">Kérem válasszon!</option><option value="20">20%</option><option value="25">25%</option><option value="30">30%</option><option value="35">35%</option><option value="40">40%</option><option value="45">45%</option><option value="50">50%</option></select>
             </div>
             
             <!-- Kezdő befizetés 20-40 -->
             <div class="sm:col-span-6 initial-deposit initial-deposit-rental hidden">
                 <label for="edit-submitted-inital-deposit-rental" class="block text-sm font-medium leading-5 text-gray-500">Kezdő befizetés százalékban</label>
-                <select class="form-select" id="edit-submitted-inital-deposit-rental" name="submitted[inital_deposit_rental]"><option value="" selected="selected">Kérem válasszon!</option><option value="20">20%</option><option value="25">25%</option><option value="30">30%</option><option value="35">35%</option><option value="40">40%</option></select>
+                <select class="form-select" id="edit-submitted-inital-deposit-rental" name="initial_deposit_rental"><option value="" selected="selected">Kérem válasszon!</option><option value="20">20%</option><option value="25">25%</option><option value="30">30%</option><option value="35">35%</option><option value="40">40%</option></select>
             </div>
 
             <!-- Futamidő -->
             <div class="sm:col-span-6 finance-form hidden">
               <label for="edit-submitted-duration" class="block text-sm font-medium leading-5 text-gray-500">Futamidő</label>
-             <select class="order-duration order-funding  form-select" id="duration" name="submitted[duration]" ><option value="0" selected="selected">Kérem válasszon!</option><option value="12">12</option><option value="18">18</option><option value="24">24</option><option value="30">30</option><option value="36">36</option><option value="42">42</option><option value="48">48</option><option value="54">54</option><option value="60">60</option><option value="66">66</option><option value="72">72</option><option value="78">78</option><option value="84">84</option></select>
+             <select class="order-duration order-funding  form-select" id="duration" name="duration" ><option value="0" selected="selected">Kérem válasszon!</option><option value="12">12</option><option value="18">18</option><option value="24">24</option><option value="30">30</option><option value="36">36</option><option value="42">42</option><option value="48">48</option><option value="54">54</option><option value="60">60</option><option value="66">66</option><option value="72">72</option><option value="78">78</option><option value="84">84</option></select>
             </div>
 
             <!-- Maradvány 40-50 -->
              <div class="sm:col-span-6 remain remain-24 hidden">
               <label for="edit-submitted-remain-24-36" class="block text-sm font-medium leading-5 text-gray-500">Maradványérték</label>
-             <select id="edit-submitted-remain-24" name="submitted[remain_24]" class="form-select"><option value="" selected="selected">Kérem válasszon!</option><option value="40">40%</option><option value="45">45%</option><option value="50">50%</option></select>
+             <select id="edit-submitted-remain-24" name="remain_24" class="form-select"><option value="" selected="selected">Kérem válasszon!</option><option value="40">40%</option><option value="45">45%</option><option value="50">50%</option></select>
             </div>
 
             <!-- Maradványérték 30-40-->
             <div class="sm:col-span-6 remain remain-24-36 hidden">
               <label for="edit-submitted-remain-24-36" class="block text-sm font-medium leading-5 text-gray-500">Maradványérték</label>
-                <select id="edit-submitted-remain-24-36" name="submitted[remain_24_36]" class="form-select"><option value="" selected="selected">Kérem válasszon!</option><option value="30">30%</option><option value="35">35%</option><option value="40">40%</option></select>
+                <select id="edit-submitted-remain-24-36" name="remain_24_36" class="form-select"><option value="" selected="selected">Kérem válasszon!</option><option value="30">30%</option><option value="35">35%</option><option value="40">40%</option></select>
             </div>
 
              <!-- Maradvány 20-30 -->
              <div class="sm:col-span-6 remain remain-36-48 hidden">
               <label for="edit-submitted-remain-24-36" class="block text-sm font-medium leading-5 text-gray-500">Maradványérték</label>
-             <select id="edit-submitted-remain-36-48" name="submitted[remain_36_48]" class="form-select"><option value="" selected="selected">Kérem válasszon!</option><option value="20">20%</option><option value="25">25%</option><option value="30">30%</option></select>
+             <select id="edit-submitted-remain-36-48" name="remain_36_48" class="form-select"><option value="" selected="selected">Kérem válasszon!</option><option value="20">20%</option><option value="25">25%</option><option value="30">30%</option></select>
             </div>
 
              <!-- Maradvány 10-20 -->
              <div class="sm:col-span-6 remain remain-48 hidden">
               <label for="edit-submitted-remain-24-36" class="block text-sm font-medium leading-5 text-gray-500">Maradványérték</label>
-             <select id="edit-submitted-remain-48" name="submitted[remain_48]" class="form-select"><option value="" selected="selected">Kérem válasszon!</option><option value="10">10%</option><option value="15">15%</option><option value="20">20%</option></select>
+             <select id="edit-submitted-remain-48" name="remain_48" class="form-select"><option value="" selected="selected">Kérem válasszon!</option><option value="10">10%</option><option value="15">15%</option><option value="20">20%</option></select>
 
             </div>
 

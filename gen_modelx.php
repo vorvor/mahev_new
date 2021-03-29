@@ -6,6 +6,7 @@
     <meta name="HandheldFriendly" content="true">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <title>Tesla Model X ár konfigurátor | mah-ev.hu</title>
     <meta name="description" content="Tervezze meg Tesla Model X elektromos autóját a MAH ZRT. Tesla konfigurátorával. Rendelje meg és kapja kézhez a Tesla Model X-et Magyarországon egyedülállóan rövid időn belül." />
 
     <meta property="fb:app_id" content="1192951680871368" />
@@ -27,12 +28,12 @@
     <meta name="dcterms.format" content="text/html" />
 
 
-    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css?v=<?php print rand(1,100000); ?>">
-    <script src="/resources/js/config-mx.js?v=<?php print rand(1,100000); ?>"></script>
-    <script src="/resources/js/config-init-mx.js?v=<?php print rand(1,100000); ?>"></script>
-    <script src="/resources/js/slider.js?v=<?php print rand(1,100000); ?>"></script>
+    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
+    <script src="/resources/js/config-mx.min.js?v=12"></script>
+    <script src="/resources/js/config-init-mx.js?v=2"></script>
+    <script src="/resources/js/slider.min.js?v=22"></script>
   </head>
-  <body class="debug-screens bg-white model model-x"> 
+  <body class="bg-white model model-x"> 
 
 
     
@@ -64,7 +65,7 @@
                 <li class="ani-delay-10 w-24 ani-slidein-b">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-white sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                            2.8
+                            2.6
                         </div>
                         <div class="label--small text-xs text-white text-center leading-tight mx-auto w-full">
                             mp
@@ -78,7 +79,7 @@
                 <li class="ani-delay-11 w-24 ani-slidein-b">
                     <div class="circle flex flex-column flex-wrap content-center mx-auto w-16 h-16 md:w-20 md:h-20 border-2 border-white sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full">
                         <div class="number text-xl sm:text-2xl font-semibold text-white text-center leading-tight mx-auto w-full">
-                            261
+                            262
                         </div>
                         <div class="label--small text-xs text-white text-center leading-tight mx-auto w-full">
                             km/h
@@ -105,7 +106,7 @@
             </ul>
         </div>
         <!--innerwrapper-->
-        <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+        <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
             <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
             <picture>
                 <source media="(max-width: 799px)" srcset="/resources/img/home__model-x-mobile.jpg">
@@ -160,7 +161,7 @@
     </svg>
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            2.8
+                            2.6
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             mp
@@ -179,7 +180,7 @@
     </svg>
                         </div>
                         <div class="number font-semibold text-2xl sm:text-3xl text-center leading-tight mx-auto w-full">
-                            561
+                            580
                         </div>
                         <div class="label--small text-xs text-center leading-tight mx-auto w-full">
                             km
@@ -322,7 +323,7 @@
     
         <h3 class="font-semibold">Tesla Model X</h3>
     
-    <h2 class="text-2xl md:text-3xl leading-snug">Konfigurator</h2>
+    <h2 class="text-2xl md:text-3xl leading-snug">Konfigurátor</h2>
     <div class="w-16 border-t-2 border-emerald-500 mx-auto md:ml-0 my-4 md:my-8"></div>
 </div>
         <div class="bg-white rounded-full text-emerald-500 w-16 h-16 z-10 OFFabsolute left-0 top-0 hidden md:block md:ml-auto xl:ml-0">
@@ -562,7 +563,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">20' ezüst könnyűfém felni</span>
+                <span class="w-full block text-sm font-semibold">20' Ezüst könnyűfém felni</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -590,7 +591,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">22' onyx fekete könnyűfém felni</span>
+                <span class="w-full block text-sm font-semibold">22' Onyx fekete könnyűfém felni</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -962,11 +963,11 @@
                 <!-- <img class="inset-0 absolute border-b-2 border-gray-100" src="/resources/img/3dplaceholder.jpg" alt=""> -->
                 <div id="slide">
                     <form>
-                        <input type="range" name="slider" id="slider" class="slider" min="0" max="101" value="48">
+                        <input type="range" name="slider" id="slider" class="slider" min="0" max="101" value="20">
                     </form>
                 </div>
             </div>
-            <div class="coming-soon">Hamarosan frissítve...</div>
+            <!-- <div class="coming-soon">Hamarosan frissítve...</div> -->
         </div>
         <div>
             <ul class="highlights w-full flex justify-center items-center text-gray-500 pt-4" style="padding-top:3rem;">
@@ -1255,7 +1256,7 @@
 <li>Alacsony borulási kockázat</li>
 <li>Elülső ütközés védelem</li>
 <li>Oldalsó utasvédelem</li>
-<li>15 perc alatt 282km -es hatótáv Superchargeren keresztűl</li>
+<li>15 perc alatt 282km -es hatótáv Superchargeren keresztül</li>
 <li>Vonóhorog : 2 268 kg terhelhetőséggel</li>
 <li>Csomagtér térfogata : 2 577 Liter</li>
 <li>4 év/ 80 000km általános garancia</li>
@@ -1291,8 +1292,8 @@
 <li>USB-C port</li>
 <li>Home Link - integrált garázskapu nyitó</li>
 <li>Elektromosan nyitható és zárható csomagtérajtó</li>
-<li>Prémium Connect (3-évig): Műholdas térképek és valós idejű forgalmi információk kijelzése, Internetes zene streaming, gyakori frissítések mobilhálozaton keresztűl, internet böngésző                       </li>
-<li>Full Self Driving - Teljes önevezető funkció lehetősége</li>
+<li>Prémium Connect (3-évig): Műholdas térképek és valós idejű forgalmi információk kijelzése, Internetes zene streaming, gyakori frissítések mobilhálózaton keresztül, internet böngésző                       </li>
+<li>Full Self Driving - Teljes önvezető funkció lehetősége</li>
 <li>12 ultrahangos szenzor</li>
 <li>360° kamera rendszer</li>
 <li>Automatikus parkolás</li>

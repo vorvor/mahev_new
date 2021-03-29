@@ -44,6 +44,9 @@ $(function(){
 					}
 				})
 
+				text = $('#conf-tab-3 ._radio-extras:eq(0) .text-sm').html();
+				price = $('#conf-tab-3 ._radio-extras:eq(0) .price div').html();
+
 				$('#conf-tab-6 ._toggle-extras.towing-hook').removeClass('hidden');
 
 				$('#conf-tab-6 ._radio-extras').each(function() {
@@ -66,6 +69,9 @@ $(function(){
 					}
 				})
 
+				text = $('#conf-tab-3 ._radio-extras:eq(2) .text-sm').html();
+				price = $('#conf-tab-3 ._radio-extras:eq(2) .price div').html();
+
 				$('#conf-tab-6 ._toggle-extras.towing-hook').addClass('hidden');
 
 				$('#conf-tab-6 ._radio-extras').each(function() {
@@ -79,6 +85,10 @@ $(function(){
 				window.rim = '20cUturb';
 			}
 
+			// Update offer block.
+			setCookie('mahev_rim',  text);
+			$('.offer .block.rim').html(text);
+			$('.offer .rim-price').html(price);
 
 			// Under 3D rotate data.
 			var regex = /[+-]?\d+(\.\d+)?/g;
@@ -118,7 +128,7 @@ $(function(){
 		
 	})
 
-	// Rim
+	// Rim defaults
 	$('#conf-tab-3 ._radio-extras').each(function() {
 		if ($('.text-sm', this).html().includes('20')) {
 			$(this).addClass('hidden');
@@ -272,7 +282,11 @@ $(function(){
 	function calcOfferPrice() {
 		price = 0;
 		$('.offer .price').not('.hidden').each(function() {
-			price += parseInt($(this).html().replace(/\s+/g, ''));
+			pprice = $(this).html().replace(/\s+/g, '');
+			if (pprice == '') {
+				pprice = 0;
+			}
+			price += parseInt(pprice);
 		})
 		
 		sumPrice = priceFormat(price);

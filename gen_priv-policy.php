@@ -2,8 +2,28 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
+
+    <title>Tesla adatok kezelése professzionálisan és jogszerűen. | mah-ev.hu</title>
+    <meta name="description" content="Tesla adatkezelési tájékoztató - így kezeli a Magyar Autókereskedőház Zrt. a Tesla vásárlók adatait." />
+    <meta property="fb:app_id" content="1192951680871368" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tesla adatok kezelése professzionálisan és jogszerűen. | mah-ev.hu" />
+    <meta property="og:url" content="https://mah-ev.hu/tesla/berles" />
+    <meta property="og:title" content="Tesla adatok kezelése professzionálisan és jogszerűen. | mah-ev.hu" />
+    <meta property="og:determiner" content="auto" />
+    <meta property="og:description" content="Tesla adatkezelési tájékoztató - így kezeli a Magyar Autókereskedőház Zrt. a Tesla vásárlók adatait." />
+    <meta property="og:image" content="https://mah-ev.hu/resources/img/IMG_4655_K.jpg" />
+    <meta property="og:image:url" content="https://mah-ev.hu/resources/img/IMG_4655_K.jpg" />
+    <meta property="og:image:secure_url" content="https://mah-ev.hu/resources/img/IMG_4655_K.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://mah-ev.hu/tesla/berles" />
+    <meta name="twitter:title" content="Tesla adatok kezelése professzionálisan és jogszerűen. | mah-ev.hu" />
+    <meta name="dcterms.title" content="Tesla adatok kezelése professzionálisan és jogszerűen. | mah-ev.hu" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
+    <meta name="dcterms.format" content="text/html" />
   </head>
-  <body class="debug-screens bg-white services-page"> 
+  <body class="bg-white services-page priv-policy"> 
 
 
     
@@ -18,17 +38,23 @@
 <div class="relative min-h-48 xl:min-h-88 h-screen30 py-8 lg:py-16">
     <div class="container">
         <div class="_section-title _io  relative mb-8 md:mb-12">
-    <h2 class="text-white text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Adatkezelési tájékoztató</h2>
-    <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
-
-
+            <h2 class="text-white text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Adatkezelési tájékoztató</h2>
+            <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
+            </div>
+        </div>
+    </div>
+    
+    <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+        <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
+        <picture>
+            <source media="(max-width: 799px)" srcset="/resources/img/services_mobile.jpg">
+            <source media="(min-width: 800px)" srcset="/resources/img/services.jpg">
+            <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/services.jpg" alt="">
+        </picture>
     </div>
 </div>
-    </div>
-    <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
-        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/services--1.jpg" alt="">
-    </div>
-</div>
+
+
 <div class="">
     <div class="_services">
 
@@ -63,8 +89,8 @@
 
 <div class="lead my-16 md:my-12">
     <h3>2. Az Adatkezelő/Szolgáltató adatai</h3>
-    Amennyiben megkeresné a Szolgáltatót, a +36 (20) 257 8998-as telefonszámon és az <a href="mailto:info@ecdh.hu">info@ecdh.hu</a> elérhetőségeken teheti ezt meg.
-    A Szolgáltató minden hozzá beérkezett e-mailt a vezetéknév és keresztnév személyes adatokkal együtt az adatközléstől számított legfeljebb 5 év elteltével töröl.
+    Amennyiben megkeresné a Szolgáltatót, a +36 (20) 257 8998-as telefonszámon és az <a href="mailto:info@mahzrt.hu">info@mahzrt.hu</a> elérhetőségeken teheti ezt meg.
+    A Szolgáltató minden hozzá beérkezett e-mailt a vezetéknév és keresztnév személyes adatokkal együtt az adatközléstől számított legfeljebb 5 év elteltével töröl.<br /><br />
 
     Név: Magyar Autókereskedőház Zrt.<br />
 Székhely: 1112 Bp., Kánai út 3. A/B.<br />
@@ -103,7 +129,7 @@ E-mail: info@mahzrt.hu
      Az Adatkezelő az adatkezelés során megőrzi
      <ul>
         <li>a titkosságot: megvédi az információt, hogy csak az férhessen hozzá, aki erre jogosult;</li>
-        <li>a sértetlenséget: megvédi az információnak és a feldolgozás módszerének a pontosságá és teljességét;</li>
+        <li>a sértetlenséget: megvédi az információnak és a feldolgozás módszerének a pontosságát és teljességét;</li>
         <li>a rendelkezésre állást: gondoskodik arról, hogy amikor a jogosult használónak szüksége van rá, valóban hozzá tudjon férni a kívánt információhoz, és rendelkezésre álljanak az ezzel kapcsolatos eszközök.</li>
     <ul>
  
@@ -193,11 +219,17 @@ E-mail: info@mahzrt.hu
 <div class="lead my-16 md:my-12">
     <h3>6. Az adatkezelés során az adatokhoz hozzáférők köre</h3>
     <h4>6.1 Az Adatkezelő alkalmazásában álló, vagy megbízásos szerződésben lévő munkatársak:</h4>
-    <p>Borka J. Balázs (gépjármű megrendelés)<br />
-    Bigda Zsuzsanna (gépjármű megrendelés)<br />
-    Mudri Dániel (gépjármű megrendelés)<br />
-    Békési Dorina (gépjármű megrendelés)<br />
-    Szabó Dániel (gépjármű megrendelés)</p>
+    <p>
+BORKA J. BALÁZS (Vezérigazgató)<br />
+MUDRI DÁNIEL (Cégvezető)<br />
+KRÁL ÁDÁM (Értékesítő)<br />
+BIGDA ZSUZSANNA (Irodavezető)<br />
+SÓFALVI RÉKA (Irodavezető helyettes)<br />
+SZABÓ DÁNIEL (Hirdetéskezelő, értékesítés támogató)<br />
+SELINGER ORSOLYA (Pénzügyi asszisztens)<br />
+PATAKI ZSANETT (Folyamatszervezési asszisztens)<br />
+BÉKÉSI DORINA (Ügyintéző)<br />
+</p>
 
     <h4>6.2 Webhely adminisztrációs joggal rendelkező adatfeldolgozók alkalmazásában álló, vagy megbízásos szerződésben lévő munkatársak:</h4>
     <h5>6.2.1 Total Studio</h5>
@@ -254,13 +286,14 @@ E-mail: info@mahzrt.hu
     <p>Az érintett a jogainak megsértése esetén az adatkezelő ellen bírósághoz fordulhat. A bíróság az ügyben soron kívül jár el.</p>
 
     <h4>7.11 Adatvédelmi hatósági eljárás</h4>
-    <p> Panasszal a Nemzeti Adatvédelmi és Információszabadság Hatóságnál lehet élni:
+    <p> Panasszal a Nemzeti Adatvédelmi és Információszabadság Hatóságnál lehet élni: <br /> <br />
         Név: Nemzeti Adatvédelmi és Információszabadság Hatóság<br />
         Székhely: 1125 Budapest, Szilágyi Erzsébet fasor 22/C.<br />
         Levelezési cím: 1530 Budapest, Pf.: 5.<br />
         Telefon: 0613911400<br />
         Fax: 0613911410 <br />
-        E-mail: ugyfelszolgalat@naih.hu Honlap: http://www.naih.hu<br /></p>
+        E-mail: ugyfelszolgalat@naih.hu <br /> 
+        Honlap: http://www.naih.hu<br /></p>
 
     <h3>9. Egyéb rendelkezések</h3>
     <p>E tájékoztatóban fel nem sorolt adatkezelésekről az adat felvételekor adunk tájékoztatást.</p>

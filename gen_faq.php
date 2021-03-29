@@ -2,8 +2,28 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
+
+    <title>Tesla FAQ: Tesla autókkal kapcsolatban feltett gyakori kérdések és válaszok. | mah-ev.hu</title>
+    <meta name="description" content="Tesla értékesítéssel, vásárlási folyamattal, modellekkel, felszereltséggel kapcsolatos kérdések és válaszok. Tesla GYIK." />
+    <meta property="fb:app_id" content="1192951680871368" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tesla FAQ: Tesla autókkal kapcsolatban feltett gyakori kérdések és válaszok. | mah-ev.hu" />
+    <meta property="og:url" content="https://mah-ev.hu/tesla-gyik" />
+    <meta property="og:title" content="Tesla FAQ: Tesla autókkal kapcsolatban feltett gyakori kérdések és válaszok. | mah-ev.hu" />
+    <meta property="og:determiner" content="auto" />
+    <meta property="og:description" content="Tesla értékesítéssel, vásárlási folyamattal, modellekkel, felszereltséggel kapcsolatos kérdések és válaszok. Tesla GYIK." />
+    <meta property="og:image" content="https://mah-ev.hu/resources/img/IMG_4447_K.jpg" />
+    <meta property="og:image:url" content="https://mah-ev.hu/resources/img/IMG_4447_K.jpg" />
+    <meta property="og:image:secure_url" content="https://mah-ev.hu/resources/img/IMG_4447_K.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://mah-ev.hu/tesla-gyik" />
+    <meta name="twitter:title" content="Tesla FAQ: Tesla autókkal kapcsolatban feltett gyakori kérdések és válaszok. | mah-ev.hu" />
+    <meta name="dcterms.title" content="Tesla FAQ: Tesla autókkal kapcsolatban feltett gyakori kérdések és válaszok. | mah-ev.hu" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
+    <meta name="dcterms.format" content="text/html" />
   </head>
-  <body class="debug-screens bg-white faq-page"> 
+  <body class="bg-white faq-page"> 
 
 
     
@@ -15,17 +35,23 @@
 <div class="relative min-h-48 xl:min-h-88 h-screen30 py-8 lg:py-16">
     <div class="container">
         <div class="_section-title _io  relative mb-8 md:mb-12">
-    <h2 class="text-white text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Gyakori kérdések</h2>
-    <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
-
-
+            <h2 class="text-white text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Gyakori kérdések</h2>
+            <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
+            </div>
+        </div>
+    </div>
+    
+    <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+        <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
+        <picture>
+            <source media="(max-width: 799px)" srcset="/resources/img/IMG_4447_K.jpg">
+            <source media="(min-width: 800px)" srcset="/resources/img/IMG_4447_K.jpg">
+            <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/IMG_4447_K.jpg" alt="">
+        </picture>
     </div>
 </div>
-    </div>
-    <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-4">
-        <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="resources/img/IMG_4447_K.jpg" alt="">
-    </div>
-</div>
+
+
 <div class="">
     <div class="_faq container grid md:grid-cols-3 gap-8">
         <nav id="faqnav" class="bg-white md:sticky top-0 self-start md:max-h-screen overflow-auto md:order-2 pt-8 md:py-16">
@@ -70,7 +96,7 @@
                         <li>induló vételár: 17 928 897 HUF + áfa</li>
                     </ul>
 
-                <p>Ezek a <strong>Tesla Model 3 árak fehér külső színben, fekete bőr belsővel és Long és Standard Range modell esetében 18’-os alumínium felnikkel, a Performance esetében az alap 20’ kerekekkel</strong> kerültek meghatározásra. Ez az <strong>ár tartalmazza az alapvető extrákat</strong>, mint légkondícionálás, elektromos ablakok, stb., továbbá a <strong>Autopilot funkciót</strong> (távtartó  tempomat és út követés autópályán). A <strong>vételár része szintén a jármű Magyarországra történő szállítása, a jármű műszaki vizsgáztatását</strong> övező költségek, illetve a <strong>Magyar Autókereskedőház Zrt.</strong> megtérülése és <strong>munkadíja.</strong></p>
+                <p>Ezek a <strong>Tesla Model 3 árak fehér külső színben, fekete bőr belsővel és Long és Standard Range modell esetében 18’-os alumínium felnikkel, a Performance esetében az alap 20’ kerekekkel</strong> kerültek meghatározásra. Ez az <strong>ár tartalmazza az alapvető extrákat</strong>, mint légkondicionálás, elektromos ablakok, stb., továbbá a <strong>Autopilot funkciót</strong> (távtartó  tempomat és út követés autópályán). A <strong>vételár része szintén a jármű Magyarországra történő szállítása, a jármű műszaki vizsgáztatását</strong> övező költségek, illetve a <strong>Magyar Autókereskedőház Zrt.</strong> megtérülése és <strong>munkadíja.</strong></p>
                 <p>Minden további szín, akár kívül akár belül feláras, továbbá feláras a Full Self Driving és a 19’-os felni is. Ezekről való bővebb felvilágosításért keresse kollégáinkat az elérhetőségeinken.</p>
             </section>
             <section id="faq-2" class="pt-16 pb-16 md:pb-4 focus:outline-none">
@@ -90,7 +116,7 @@
                     <span class="text-emerald-500 absolute left-0">3</span> Mi a Model 3 rendelés, vásárlás folyamata? 
                 </h2>
                 <p>A rendelés alapvetően a modell konfigurálásával kezdődik. <strong>Kollégáimmal történő kapcsolatfelvétel</strong> után meghatározásra kerül a <strong>konkrét igény</strong>, melyet lekonfigurál a MAH Zrt. kollégája a TESLA weboldalán, majd ez alapján <strong>meghatározza a vételárat.</strong> Amennyiben finanszírozás igénybevételével történik a vásárlás, a megrendelés előtt bonitás (hitel) vizsgálatra kerül sor, mely alapján az adott hitelintézet minősíti az ügyfelet, hogy megfelelő fizetőképességű-e a kiválasztott konstrukcióra.</p>
-                <p>Egyösszegű vásárlás vagy pozitív hitelbírálat esetében <strong>aláírásra kerül a megrendelői szerződés</strong>, a vevőnek <strong>át kell utalnia az abban szereplő induló díjat</strong> és ezzel realizálódik a vásárlás. Ezek után a <strong>MAH Zrt. kollégái megrendelik a járművet</strong>, majd egyeztetik a szállítást. Miután <strong>Magyarországra megérkezik a jármű, a vásárló</strong> azt a műszaki vizsgáztatás után <strong>megtekinti</strong>, majd abban az esetben ha finanszírozott a jármű, a lízinges papírokat, ha egyösszegű vásárlás akkor pedig a standard <strong>adás vételiket aláírja.</strong> A <strong>maradék vételár átutalása</strong>, illetve a banki folyósítás után pedig <strong>átadásra kerül az új Tesla.</strong></p>
+                <p>Egyösszegű vásárlás vagy pozitív hitelbírálat esetében <strong>aláírásra kerül a megrendelői szerződés</strong>, a vevőnek <strong>át kell utalnia az abban szereplő induló díjat</strong> és ezzel realizálódik a vásárlás. Ezek után a <strong>MAH Zrt. kollégái megrendelik a járművet</strong>, majd egyeztetik a szállítást. Miután <strong>Magyarországra megérkezik a jármű, a vásárló</strong> azt a műszaki vizsgáztatás után <strong>megtekinti</strong>, majd abban az esetben ha finanszírozott a jármű, a lízinges papírokat, ha egyösszegű vásárlás akkor pedig a standard <strong>adásvételiket aláírja.</strong> A <strong>maradék vételár átutalása</strong>, illetve a banki folyósítás után pedig <strong>átadásra kerül az új Tesla.</strong></p>
             </section>
             <section id="faq-4" class="pt-16 pb-16 md:pb-4 focus:outline-none">
                 <h2 class="focus:outline-none pl-8 relative">

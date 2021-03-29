@@ -2,8 +2,28 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
+
+    <title>Tesla vásárlás - az elektromos autó behozatalán túl finanszírozás is lehetséges! | mah-ev.hu</title>
+    <meta name="description" content="A Magyar Autókereskedőház Zrt. segítségével rendelt elektromos autók közül a Tesla Model 3 már két hónapos szállítási idővel megérkezik tulajdonosához. Autófinanszírozási és biztosítési konstrukcióink egyedülállóan kedvezőek." />
+    <meta property="fb:app_id" content="1192951680871368" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tesla vásárlás - az elektromos autó behozatalán túl finanszírozás is lehetséges! | mah-ev.hu" />
+    <meta property="og:url" content="https://mah-ev.hu/tesla/szolgaltatasaink" />
+    <meta property="og:title" content="Tesla vásárlás - az elektromos autó behozatalán túl finanszírozás is lehetséges! | mah-ev.hu" />
+    <meta property="og:determiner" content="auto" />
+    <meta property="og:description" content="A Magyar Autókereskedőház Zrt. segítségével rendelt elektromos autók közül a Tesla Model 3 már két hónapos szállítási idővel megérkezik tulajdonosához. Autófinanszírozási és biztosítési konstrukcióink egyedülállóan kedvezőek." />
+    <meta property="og:image" content="https://mah-ev.hu/resources/img/services.jpg" />
+    <meta property="og:image:url" content="https://mah-ev.hu/resources/img/services.jpg" />
+    <meta property="og:image:secure_url" content="https://mah-ev.hu/resources/img/services.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://mah-ev.hu/tesla/szolgaltatasaink" />
+    <meta name="twitter:title" content="Tesla vásárlás - az elektromos autó behozatalán túl finanszírozás is lehetséges! | mah-ev.hu" />
+    <meta name="dcterms.title" content="Tesla vásárlás - az elektromos autó behozatalán túl finanszírozás is lehetséges! | mah-ev.hu" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
+    <meta name="dcterms.format" content="text/html" />
   </head>
-  <body class="debug-screens bg-white services-page"> 
+  <body class="bg-white services-page"> 
 
 
     
@@ -16,23 +36,23 @@
 <div class="relative min-h-48 xl:min-h-88 h-screen30 py-8 lg:py-16">
     <div class="container">
         <div class="_section-title _io  relative mb-8 md:mb-12">
-    <h2 class="text-white text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Szolgáltatásaink</h2>
-    <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
-
-
-    </div>
-</div>
+            <h2 class="text-white text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">Szolgáltatásaink</h2>
+            <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
+            </div>
+        </div>
     </div>
     
-    <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
-            <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
-            <picture>
-                <source media="(max-width: 799px)" srcset="/resources/img/services_mobile.jpg">
-                <source media="(min-width: 800px)" srcset="/resources/img/services.jpg">
-                <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/services.jpg" alt="">
-            </picture>
-        </div>
+    <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
+        <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
+        <picture>
+            <source media="(max-width: 799px)" srcset="/resources/img/services_mobile.jpg">
+            <source media="(min-width: 800px)" srcset="/resources/img/services.jpg">
+            <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/services.jpg" alt="">
+        </picture>
+    </div>
 </div>
+
+
 <div class="">
     <div class="_services">
 
@@ -96,7 +116,7 @@
     </div>
 </div>
                     <div class="lead my-16 md:my-12">
-                        A <strong>Magyar Autókereskedőház Zrt.</strong> több finanszírozást közvetítő pénzügyi vállalkozással, lízingcéggel áll kapcsolatban, mint MNB által minősített független finanszírozást közvetítő ügynök. Ezen finanszírozók által biztosított konstrukcióink lehetővé teszik, hogy a piacon elérhető egyik legalacsonyabb kamatszinttjét tudjuk biztosítani ügyfeleinknek. Vállalkozásunknál elérhető zártvégű és nyíltvégű pénzügyi lízing és saját tulajdonú vállalkozásunk, a Magyar Flottakezelő Kft. által kínált operatív lízing, azaz tartós bérlet is. Az alábbiakban néhány alapvető sarokszám kíséretében részletezzük a finanszírozás lehetőségeit. 
+                        A <strong>Magyar Autókereskedőház Zrt.</strong> több finanszírozást közvetítő pénzügyi vállalkozással, lízingcéggel áll kapcsolatban, mint MNB által minősített független finanszírozást közvetítő ügynök. Ezen finanszírozók által biztosított konstrukcióink lehetővé teszik, hogy a piacon elérhető egyik legalacsonyabb kamatszintjét tudjuk biztosítani ügyfeleinknek. Vállalkozásunknál elérhető zártvégű és nyíltvégű pénzügyi lízing és saját tulajdonú vállalkozásunk, a Magyar Flottakezelő Kft. által kínált operatív lízing, azaz tartós bérlet is. Az alábbiakban néhány alapvető sarokszám kíséretében részletezzük a finanszírozás lehetőségeit. 
                     </div>
                     <div class="grid md:grid-cols-2 col-gap-8 row-gap-16">
                         <div>
@@ -150,7 +170,7 @@
     </div>
 </div>
                     <div class="lead my-16 md:my-12">
-                        A Tesla termékek értékesítését vállalkozásunk többféle biztosítási termékkel tudja támogatni. Számos biztosító társaság KGFB és Casco termékét tudjuk ügyfeleinknek ajánlani, melyek jelenleg a piacon elérhető egyik legkedvezőbb termékek. Az alábbi példák egy budapesti vállakozásra érvényes, más esetben ennél alacsonyabb árú konstrukciók is elérhetőek.
+                        A Tesla termékek értékesítését vállalkozásunk többféle biztosítási termékkel tudja támogatni. Számos biztosító társaság KGFB és Casco termékét tudjuk ügyfeleinknek ajánlani, melyek jelenleg a piacon elérhető egyik legkedvezőbb termékek. Az alábbi példák egy budapesti vállalkozásra érvényesek, más esetben ennél alacsonyabb árú konstrukciók is elérhetőek.
                     </div>
                     <div class="py-16 grid md:grid-cols-3 col-gap-8 row-gap-16">
                         <div>

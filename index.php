@@ -2,8 +2,29 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
+
+    <title>Tesla ár és vásárlás Magyarországon - Tesla Model 3 ár kalkuláció és rendelés 2 hónapon belül | mah-ev.hu</title>
+    <meta name="description" content="Tesla rendelés Magyarországon egyedülállóan rövid időn belül a Magyar Autókereskedőház Zrt.-től. Számolja ki elektromos Tesla autó konfigurátorunk segítségével a Tesla Model 3 árát, valamint a Tesla Model S, Tesla Model Y, Model X árát." />
+    <meta property="fb:app_id" content="1192951680871368" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tesla ár és vásárlás Magyarországon - Tesla Model 3 ár kalkuláció és rendelés 2 hónapon belül | mah-ev.hu" />
+    <meta property="og:url" content="https://mah-ev.hu" />
+    <meta property="og:title" content="Tesla ár és vásárlás Magyarországon - Tesla Model 3 ár kalkuláció és rendelés 2 hónapon belül | mah-ev.hu" />
+    <meta property="og:determiner" content="auto" />
+    <meta property="og:description" content="Tesla rendelés Magyarországon egyedülállóan rövid időn belül a Magyar Autókereskedőház Zrt.-től. Számolja ki elektromos Tesla autó konfigurátorunk segítségével a Tesla Model 3 árát, valamint a Tesla Model S, Tesla Model Y, Model X árát." />
+    <meta property="og:image" content="https://www.mah-ev.hu/resources/img/modelS-mountain.jpg" />
+    <meta property="og:image:url" content="https://www.mah-ev.hu/resources/img/modelS-mountain.jpg" />
+    <meta property="og:image:secure_url" content="https://www.mah-ev.hu/resources/img/modelS-mountain.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://www.mah-ev.hu/" />
+    <meta name="twitter:title" content="Tesla ár és vásárlás Magyarországon - Tesla Model 3 ár kalkuláció és rendelés 2 hónapon belül | mah-ev.hu" />
+    <meta name="dcterms.title" content="Tesla ár és vásárlás Magyarországon - Tesla Model 3 ár kalkuláció és rendelés 2 hónapon belül | mah-ev.hu" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
+    <meta name="dcterms.format" content="text/html" />
+
   </head>
-  <body class="debug-screens bg-white fooldal"> 
+  <body class="bg-white fooldal"> 
 
 
     
@@ -78,7 +99,7 @@
                 </ul>
             </div>
             <!--innerwrapper-->
-            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
             <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
             <picture>
                 <source media="(max-width: 799px)" srcset="/resources/img/modelS-mountain-mobile.jpg">
@@ -154,7 +175,7 @@
                 </ul>
             </div>
             <!--innerwrapper-->
-            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
                 <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
                 <picture>
                     <source media="(max-width: 799px)" srcset="/resources/img/model3-city-mobile.jpg">
@@ -230,7 +251,7 @@
                 </ul>
             </div>
             <!--innerwrapper-->
-            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
                 <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
                 <picture>
                     <source media="(max-width: 799px)" srcset="/resources/img/home__model-x-mobile.jpg">
@@ -306,7 +327,7 @@
                 </ul>
             </div>
             <!--innerwrapper-->
-            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+            <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
                 <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
                 <picture>
                     <source media="(max-width: 799px)" srcset="/resources/img/home__model-y-mobile.jpg">
@@ -336,7 +357,7 @@
         <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
     </div>
     <div class="img w-full h-56 OFFmd:h-56 lg:h-64 flex mb-8 -mt-8">
-        <img class="object-cover object-center block" src="resources/img/select__model-s.jpg" alt="">
+        <img class="object-cover object-center block" src="resources/img/select-model-s.jpg" alt="">
     </div>
     <div class="_card-car__controlls flex justify-around sm:px-16 md:px-0 lg:px-16 overflow-hidden">
         <div class="_io extend-a flex flex-col items-center group">
@@ -355,7 +376,7 @@
         <use xlink:href="#i-details"></use>
     </svg>
             </div>
-            <div class="label text-xs pt-2"><a href="/tesla/tesla-model-3">részletek</a></div>
+            <div class="label text-xs pt-2"><a href="/tesla/tesla-model-s">részletek</a></div>
         </div>
     </div>
 </div>
@@ -366,7 +387,7 @@
         <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
     </div>
     <div class="img w-full h-56 OFFmd:h-56 lg:h-64 flex mb-8 -mt-8">
-        <img class="object-cover object-center block" src="resources/img/select__model-3.jpg" alt="">
+        <img class="object-cover object-center block" src="resources/img/select-model-3.jpg" alt="">
     </div>
     <div class="_card-car__controlls flex justify-around sm:px-16 md:px-0 lg:px-16 overflow-hidden">
         <div class="_io extend-a flex flex-col items-center group">
@@ -385,7 +406,7 @@
         <use xlink:href="#i-details"></use>
     </svg>
             </div>
-            <div class="label text-xs pt-2"><a href="/tesla/tesla-model-x">részletek</a></div>
+            <div class="label text-xs pt-2"><a href="/tesla/tesla-model-3">részletek</a></div>
         </div>
     </div>
 </div>
@@ -396,7 +417,7 @@
         <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
     </div>
     <div class="img w-full h-56 OFFmd:h-56 lg:h-64 flex mb-8 -mt-8">
-        <img class="object-cover object-center block" src="resources/img/select__model-x.jpg" alt="">
+        <img class="object-cover object-center block" src="resources/img/select-model-x.jpg" alt="">
     </div>
     <div class="_card-car__controlls flex justify-around sm:px-16 md:px-0 lg:px-16 overflow-hidden">
         <div class="_io extend-a flex flex-col items-center group">
@@ -426,7 +447,7 @@
         <div class="w-16 border-t-2 border-emerald-500 mx-auto my-8"></div>
     </div>
     <div class="img w-full h-56 OFFmd:h-56 lg:h-64 flex mb-8 -mt-8">
-        <img class="object-cover object-center block" src="resources/img/select__model-y.jpg" alt="">
+        <img class="object-cover object-center block" src="resources/img/select-model-y.jpg" alt="">
     </div>
     <div class="_card-car__controlls flex justify-around sm:px-16 md:px-0 lg:px-16 overflow-hidden">
         <div class="_io extend-a flex flex-col items-center group">
@@ -555,15 +576,9 @@
     </div>
 </div>
 
-
-
-
-
         </div>
     </section>
     <!--services-->
-
-
 
     <section class="py-16">
         <div class="container grid md:grid-cols-2 lg:grid-cols-3 gap-x-8  gap-y-12">
@@ -571,13 +586,9 @@
     <h2 class="text-gray-500 text-3xl md:text-5xl pl-4 sm:pl-8  md:pl-16 ">6 lépésre a saját Tesládtól</h2>
     <div class="absolute left-0 top-0 bottom-0 border-l-2 border-emerald-500">
 
-
     </div>
 </div>
 
-
-            
-                
 
 <div class="_card-step _io flex">
     <div class="flex flex-col items-center mr-4">
@@ -641,7 +652,7 @@
             <span class="leading-snug">Ajánlat</span>
         </h2>
         <div class="leading-5 text-sm text-gray-600">
-            Részletes árajánaltot készítünk
+            Részletes árajánlatot készítünk
         </div>
     </div>  
 </div>
@@ -731,13 +742,13 @@
 
 
 
-    <div class="_model-hero h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
+    <div class="_model-hero rent-tesla h-screen50 lg:h-screen60 xl:h-screen80 min-h-56 flex">
     <div class="swiper-slide relative flex items-stretch overflow-hidden">
         
         <div class="innerwrapper py-4 md:py-12 w-full relative flex flex-wrap items-start mx-auto container">
             
             <h2 class="ani-delay-5 ani-slidein-l text-3xl text-white md:text-5xl pl-4 sm:pl-8 md:pl-16 border-l-2 border-emerald-500 relative">
-                <span class="hidden sm:inline">Bérelj Tesla Model 3-at MAH Zrt-től!</span>
+                <span class="sm:inline">Bérelj Tesla Model 3-at<br /> MAH Zrt-től!</span>
             </h2>
             
             <div class="Xextend-a details ani-delay-16 ani-bouncein ml-auto">
@@ -756,8 +767,7 @@
         </div>
         
         <!--innerwrapper-->
-        <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
-            <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
+        <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
             <picture>
                 <source media="(max-width: 799px)" srcset="/resources/img/IMG_4655_K.jpg">
                 <source media="(min-width: 800px)" srcset="/resources/img/IMG_4655_K.jpg">

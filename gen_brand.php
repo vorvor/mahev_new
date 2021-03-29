@@ -2,8 +2,29 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
+
+    <title>A Tesla márka az elektromos autózás éllovasaként vonul be az autóipar történetébe. | mah-ev.hu</title>
+    <meta name="description" content="Tesla márkatörténet, avagy minden fontos információ a Tesla márkáról: alapítás, Tesla technológia, Tesla akkumulátor, Tesla autopilot, Tesla Factory." />
+    <meta property="fb:app_id" content="1192951680871368" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="A Tesla márka az elektromos autózás éllovasaként vonul be az autóipar történetébe. | mah-ev.hu" />
+    <meta property="og:url" content="https://mah-ev.hu/tesla/markatortenet" />
+    <meta property="og:title" content="A Tesla márka az elektromos autózás éllovasaként vonul be az autóipar történetébe. | mah-ev.hu" />
+    <meta property="og:determiner" content="auto" />
+    <meta property="og:description" content="Tesla márkatörténet, avagy minden fontos információ a Tesla márkáról: alapítás, Tesla technológia, Tesla akkumulátor, Tesla autopilot, Tesla Factory." />
+    <meta property="og:image" content="https://mah-ev.hu/resources/img/brand.jpg" />
+    <meta property="og:image:url" content="https://mah-ev.hu/resources/img/brand.jpg" />
+    <meta property="og:image:secure_url" content="https://mah-ev.hu/resources/img/brand.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://mah-ev.hu/tesla/markatortenet" />
+    <meta name="twitter:title" content="A Tesla márka az elektromos autózás éllovasaként vonul be az autóipar történetébe. | mah-ev.hu" />
+    <meta name="dcterms.title" content="A Tesla márka az elektromos autózás éllovasaként vonul be az autóipar történetébe. | mah-ev.hu" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
+    <meta name="dcterms.format" content="text/html" />
+    
   </head>
-  <body class="debug-screens bg-white brand-page">
+  <body class="bg-white brand-page">
 
 
     
@@ -52,23 +73,23 @@
 
 <p>A vállalatot a szerb-amerikai feltalálóról, Nikola Tesláról nevezték el, akinek a nevéhez 146 szabadalom tartozik és őt tartják a 20. század egyik legjelentősebb tudósának. Martin Eberhard volt a cég eredeti vezérigazgatója, egészen 2007 augusztusáig, amikor is az igazgatótanács lemondatta. Ezek után a technológiáért felelős elnöki pozíciót töltötte be, de nem sokkal később végleg távozott a cégtől a másik alapítóval, Marc Tarpenninggel együtt, aki 2008 januárjáig a villamosmérnöki-részleg elnöke volt.</p>
 
-<p>Musk 2004 februárjában csatlakozott a Tesla igazgatótanácsához és segített befektetőket találni az éppen csak megszületett vállalatnak. Ekkor alakult ki a stratégia is, ami az elektromos autók széles körű elterjedését hivatott szolgálni, azazkezdetben egy prémium elektromos sportautóval felkelteni a befektetők figyelmét, hogy aztán egyre hétköznapibb, az átlagember számára is elérhető szedán és kompakt autók felé haladva nyerjenek teret az autóiparban. Elon Musknak sikerült 7,5 millió dollárt gyűjtenie első körben befektetőktől, valamint a fejlesztések terén is kivette a részét.</p>
+<p>Musk 2004 februárjában csatlakozott a Tesla igazgatótanácsához és segített befektetőket találni az éppen csak megszületett vállalatnak. Ekkor alakult ki a stratégia is, ami az elektromos autók széles körű elterjedését hivatott szolgálni, azaz kezdetben egy prémium elektromos sportautóval felkelteni a befektetők figyelmét, hogy aztán egyre hétköznapibb, az átlagember számára is elérhető szedán és kompakt autók felé haladva nyerjenek teret az autóiparban. Elon Musknak sikerült 7,5 millió dollárt gyűjtenie első körben befektetőktől, valamint a fejlesztések terén is kivette a részét.</p>
 
-<p>Komolyan elmélyedt a <a href="https://alapjarat.hu/aktualis/igy-nezhet-majd-ki-tesla-roadster-marson">Roadster</a> mérnöki megoldásaiban, még Eberhard is elismerte, hogy Musk volt az, aki már a legelejétől ragaszkodott ahhoz, hogy szénszállal erősített polimerből készüljön a karosszéria. Musknakegyéb dizájn elemekbe, valamint az akkumulátorokba is volt beleszólása. 2005. július 11-én a Tesla szerződést kötött a Lotusszal, aminek értelmében a Tesla Lotus Eliseket vásárol, amiket hajtáslánc nélkül szállítanak le a techvállalatnak. A szerződés 2011 márciusáig élt volna, azonban meghosszabbították 2011 decemberéig, hogy a vállalt minimum 2 400 darabot értékesíteni tudják.</p>
+<p>Komolyan elmélyedt a <a href="https://alapjarat.hu/aktualis/igy-nezhet-majd-ki-tesla-roadster-marson">Roadster</a> mérnöki megoldásaiban, még Eberhard is elismerte, hogy Musk volt az, aki már a legelejétől ragaszkodott ahhoz, hogy szénszállal erősített polimerből készüljön a karosszéria. Musknak egyéb dizájn elemekbe, valamint az akkumulátorokba is volt beleszólása. 2005. július 11-én a Tesla szerződést kötött a Lotusszal, aminek értelmében a Tesla Lotus Eliseket vásárol, amiket hajtáslánc nélkül szállítanak le a techvállalatnak. A szerződés 2011 márciusáig élt volna, azonban meghosszabbították 2011 decemberéig, hogy a vállalt minimum 2 400 darabot értékesíteni tudják.</p>
 
 <blockquote>
 Musk 2004-ben, az első befektetők között érkezett a céghez, és 2008 óta vezeti a vállalatot
 </blockquote>
 
-<p>Már a kezdetek kezdetén is az volt a cél, hogy egy olyan autót hozzanak létre, ami egy megfizethető, tömeggyártott elektromos autóteredményez. Az ehhez vezető út során 2006-ban Elon Musk megkapta a Global Green-díjat a Tesla Roadsterért, még Mihail Gorbacsovnak is bemutatták, majd 2007-ben az Index Design-díjat is megnyerték a Tesla Roadsterrel.</p>
+<p>Már a kezdetek kezdetén is az volt a cél, hogy egy olyan autót hozzanak létre, ami egy megfizethető, tömeg-gyártott elektromos autót eredményez. Az ehhez vezető út során 2006-ban Elon Musk megkapta a Global Green-díjat a Tesla Roadsterért, még Mihail Gorbacsovnak is bemutatták, majd 2007-ben az Index Design-díjat is megnyerték a Tesla Roadsterrel.</p>
 
 <p>Közben folyamatosan gyűjtötték a pénzt a befektetőktől, a második körös befektetési hullámban újabb 13 millió dollárt sikerült szerezniük, majd 2006 májusában a harmadik körben már 40 millió dollárt. Ez utóbbi során már olyanok szálltak be pénzzel a Teslába, mint a Google alapítói, Szergej Brin és Larry Page, a korábbi eBay elnök Jeff Skoll, vagy a Hyatt nemzetközi szállodalánc örököse, Nick Pritzker. Ezzel az összes befektetett pénz már 105 millió dollárra rúgott.</p>
 
-<h2>A Tesla üzleti stratégiája</h2>
+<h2 style="font-weight: bold;">A Tesla üzleti stratégiája</h2>
 
-<p>A Tesla azáltal szeretné megváltoztatni az autóipart, hogy rengeteg innovatív ötletet használ fel egyszerre. Ezt a stratégiáját hívta „komplex koordinálásnak” a Tesla befektetője, Peter Thiel. Ezáltal a marketingjük, a gyártásuk, az <a href="https://www.tesla.hu/tesla/tesla-model-3">értékesítésük</a> és a technológiai stratégiájuk mind-mind jócskán eltér a többi versenytársukétól. A Tesla marketingstratégiája az, hogy átültette a tipikusan technológiai termékekre jellemző termékciklust, vagyis először az anyagilag sokkal jobb helyzetben lévő embereket szólították meg. Ezek után a sokkal nagyobb piacok és a szélesebb közönség felé fordultak, alacsonyabb árú autókkal.</p>
+<p>A Tesla azáltal szeretné megváltoztatni az autóipart, hogy rengeteg innovatív ötletet használ fel egyszerre. Ezt a stratégiáját hívta „komplex koordinálásnak” a Tesla befektetője, Peter Thiel. Ezáltal a marketingjük, a gyártásuk, az <a href="https://mah-ev.hu/tesla/tesla-model-3">értékesítésük</a> és a technológiai stratégiájuk mind-mind jócskán eltér a többi versenytársukétól. A Tesla marketingstratégiája az, hogy átültette a tipikusan technológiai termékekre jellemző termékciklust, vagyis először az anyagilag sokkal jobb helyzetben lévő embereket szólították meg. Ezek után a sokkal nagyobb piacok és a szélesebb közönség felé fordultak, alacsonyabb árú autókkal.</p>
 
-<p>Az akkumulátorok és az elektromos hajtásláncok fejlesztési költségétminden egyes modell esetében az előző modellek értékesítéséből fedezték. A Tesla első modellje, a Roadster még kis példányszámban készült és az árát is eredetileg 109 ezer dollárra (átszámítva kb. 30 millió forint) lőtte be. Az utána következő Model S és Model X még mindig a luxuskategóriát célozta meg, igaz, már szélesebb körben, míg a legújabb Model 3-at már nagy volumenű gyártásra és értékesítésre tervezték meg. Ez a termékciklus teljesen szokványos a technológiai termékeknél, de korábban nem ültették még át a gyakorlatot az autóiparba. Ahogy azt egyik blogposztjában Elon Musk írta:</p>
+<p>Az akkumulátorok és az elektromos hajtásláncok fejlesztési költségét minden egyes modell esetében az előző modellek értékesítéséből fedezték. A Tesla első modellje, a Roadster még kis példányszámban készült és az árát is eredetileg 109 ezer dollárra (átszámítva kb. 30 millió forint) lőtte be. Az utána következő Model S és Model X még mindig a luxuskategóriát célozta meg, igaz, már szélesebb körben, míg a legújabb Model 3-at már nagy volumenű gyártásra és értékesítésre tervezték meg. Ez a termékciklus teljesen szokványos a technológiai termékeknél, de korábban nem ültették még át a gyakorlatot az autóiparba. Ahogy azt egyik blogposztjában Elon Musk írta:</p>
 
 
     <blockquote>
@@ -76,11 +97,11 @@ Musk 2004-ben, az első befektetők között érkezett a céghez, és 2008 óta 
     </blockquote>
 
 
-<p>Ezen kívül a Tesla stratégiájába tartozik a nagyon zárt rendszer, magyarán minél szélesebb körben gyártják az autóikhoz szükséges alkatrészeket, a lehető legkevesebb munkát szerveznek ki, az így megszerzett tapasztalataikat viszont más területeken is tudják kamatoztatni. Például a Tesla együttműködéseken keresztül más autógyártóknak isértékesíti az elektromos hajtásláncát, például a <a href="https://alapjarat.hu/aktualis/2020-smart-fortwo-es-forfour-eq-jovokep-az-elektromositasban-rejlik">SmartForTwo</a> elektromos kisautóba vagy a Toyota RAV4 EV-be. Ezzel ellentétben a klasszikus autógyártók inkább a lehető legtöbb munkát kiszervezik, hogy a motorfejlesztésekre és a végső összeszerelésre fókuszáljanak.</p>
+<p>Ezen kívül a Tesla stratégiájába tartozik a nagyon zárt rendszer, magyarán minél szélesebb körben gyártják az autóikhoz szükséges alkatrészeket, a lehető legkevesebb munkát szerveznek ki, az így megszerzett tapasztalataikat viszont más területeken is tudják kamatoztatni. Például a Tesla együttműködéseken keresztül más autógyártóknak is értékesíti az elektromos hajtásláncát, például a <a href="https://alapjarat.hu/aktualis/2020-smart-fortwo-es-forfour-eq-jovokep-az-elektromositasban-rejlik">SmartForTwo</a> elektromos kisautóba vagy a Toyota RAV4 EV-be. Ezzel ellentétben a klasszikus autógyártók inkább a lehető legtöbb munkát kiszervezik, hogy a motorfejlesztésekre és a végső összeszerelésre fókuszáljanak.</p>
 
 <p>A Tesla stratégiájába tartozik továbbá a járművek online értékesítése, illetve a cég által tulajdonolt bemutatótermekben való kiállítás, ahelyett, hogy partneri együttműködést alakítanának ki más autókereskedésekkel. A Tesla a teljesen elektromos fejlesztésekre fókuszál, amiben nem csak az elektromos hajtáslánc-fejlesztések kapnak helyet, de a technológiai-alapú szemléletük több területre is kiterjed, mint például az online szoftverfrissítésre is. A Tesla engedi a technológiái átvételét, az engedélyezési megállapodások olyan rendelkezéseket tartalmaznak, amelyek alapján a technológiát átvevő beleegyezik, hogy nem nyújt be szabadalmi védelmet a Tesla ellen, valamint az ipari titkok megőrzése érdekében azt is akadályozzák, hogy egy az egyben másoljanak le technológiát.</p>
 
-<h2>A Tesla értékesítési adatai</h2>
+<h2 style="font-weight: bold;">A Tesla értékesítési adatai</h2>
 
 <p>A Tesla globális <a href="https://alapjarat.hu/aktualis/mar-30-tesla-gazdara-talalt-teslahu-n">értékesítése</a> 2012-től 2018 év végéig összesen 532 ezer autót tett ki, aminek egy nagy részét, 245 ezret egyetlen évben, 2018-ban értékesítettek, ami 137%-os növekedést tett ki az azt megelőző 2017-es évhez képest. Évről-évre nő az eladott autóik száma, leglátványosabb növekedést az Egyesült Államokban értek el, ahol a 2017-es év 48 ezer eladott autójához képest 2018-ra már 182 400 autót adtak el, 280%-os növekedést produkálva. Ezzel az eredménnyel 2018 októberében 20%-át birtokolták az elektromos autók piacán az USA-ban, miközben az autóik már 8 milliárd km-t tettek meg az utakon.</p>
 
@@ -98,9 +119,9 @@ Musk 2004-ben, az első befektetők között érkezett a céghez, és 2008 óta 
 
 <p class="rtecenter"><strong>Termelési és értékesítési darabszámok negyedéves bontásban 2012-2018 között. Látszik, hogy az eladások az elérhetőbb Model 3 megjelenésével lódultak meg igazán</strong></p>
 
-<p>A szállítás alatt lévő Teslák számai jelentősen különböznek az egyes negyedévekben, aminek többek között az az oka, hogy az összám nagyban függ az adott régióban elérhető szállítási kapacitástól. Az autóiparban korábban elterjedtebb volt a havi jelentések készítése, de a Tesla nem ezt követi, sokkal inkább a negyedéves jelentések rendszerét. A legtöbb havi értékelés a Teslával kapcsolatban nem tekinthető hivatalos álláspontnak, pusztán médiaspekulációnak. A Teslát másolva végül a General Motors és a Ford is átváltott a havi jelentésekről a negyedéves jelentésekre 2018-2019között.</p>
+<p>A szállítás alatt lévő Teslák számai jelentősen különböznek az egyes negyedévekben, aminek többek között az az oka, hogy az összszám nagyban függ az adott régióban elérhető szállítási kapacitástól. Az autóiparban korábban elterjedtebb volt a havi jelentések készítése, de a Tesla nem ezt követi, sokkal inkább a negyedéves jelentések rendszerét. A legtöbb havi értékelés a Teslával kapcsolatban nem tekinthető hivatalos álláspontnak, pusztán médiaspekulációnak. A Teslát másolva végül a General Motors és a Ford is átváltott a havi jelentésekről a negyedéves jelentésekre 2018-2019 között.</p>
 
-<h2>A Tesla technológiája</h2>
+<h2 style="font-weight: bold;">A Tesla technológiája</h2>
 
 <p>Hogy a lehető legközpontosítottabban gyárthassa az autóit, a Teslának több technológiai területen is el kellett mélyednie a siker érdekében, úgymint akkumulátorok, elektromos motorok, érzékelők és mesterséges intelligencia.</p>
 
@@ -118,7 +139,7 @@ Musk 2004-ben, az első befektetők között érkezett a céghez, és 2008 óta 
 
 <h3>Tesla Autopilot</h3>
 
-<p>2014 szeptembere óta rendelkezésre áll a Tesla-sofőröknek az Autopilot, ami egy félig önvezető rendszer. 2016-ban fejlesztették a szenzorokat (ez a HW2, vagyis a Hardware verison 2 nevet kapta) és a szoftvert. 2017-ben az Autopilot kapott egy frissítést, amelyadaptív tempomatot, sávelhagyásra figyelmeztető asszisztenst, vészfékezést, Autosteert (önvezető kormányzás), Autoparkot (önvezető párhuzamos- és Y-parkolást segítő rendszer) és Summon funkciót (a leparkolt helyről az épp aktuális helyhez hívja az autót) tartalmaz.</p>
+<p>2014 szeptembere óta rendelkezésre áll a Tesla-sofőröknek az Autopilot, ami egy félig önvezető rendszer. 2016-ban fejlesztették a szenzorokat (ez a HW2, vagyis a Hardware verison 2 nevet kapta) és a szoftvert. 2017-ben az Autopilot kapott egy frissítést, amely adaptív tempomatot, sávelhagyásra figyelmeztető asszisztenst, vészfékezést, Autosteert (önvezető kormányzás), Autoparkot (önvezető párhuzamos- és Y-parkolást segítő rendszer) és Summon funkciót (a leparkolt helyről az épp aktuális helyhez hívja az autót) tartalmaz.</p>
 
 <p>A Hardware version 2 nyolc kamerát és 12 ultrahangos szenzort foglal magába, valamint egy előrenéző radart. A Hardware version 2.5 2017 közepén jelent meg, ami a Hardware version 2-t fejlesztette tovább egy grafikus processzorral, valamint kizárólag a Model 3-hoz egy sofőr felé néző kamerával.</p>
 
@@ -129,13 +150,13 @@ Az autók tudnának többet is, de annak egyelőre jogi akadályai vannak</p>
 
 <p>2016 végén a Tesla úgy gondolta, 2017 végére már teljesen önvezetők lesznek a Teslák, azonban az idő nem őket igazolta. Még jelenleg, 2019-ben sem áll rendelkezésre a teljes önvezetőség lehetősége a Tesláknál. Ennek ellenére számtalanszor bizonyította már az Autopilot eredményességét a közlekedésben, nem egy balesetet megelőzve az embereknél jobb reakcióidő miatt.</p>
 
-<h2>Tesla gyárak</h2>
+<h2 style="font-weight: bold;">Tesla gyárak</h2>
 
 <h3>Tesla Factory</h3>
 
 <p>2010-ben a Tesla 42 millió dollár értékben vásárolt részvényeket a New United Motor Manufacturing Inc. (NUMMI) vállalatból, ami a General Motors és a Toyota közös vállalkozása volt 1984 óta a kaliforniai Fremontban, de a 2008-as gazdasági világválság idején 2010-re csődbe jutott. Eredetileg az új-mexikói Albuquerque is szóba került a lehetséges Tesla-gyár helyszíneként, mert korábban úgy gondolták, túlságosan költséges lenne a NUMMI megvásárlása, azonban mégis a már <a href="https://alapjarat.hu/aktualis/majdnem-tesla-szalon">kiépített infrastruktúra</a> mellett tették le a voksukat. A NUUMI ugyanis nagy gyártási volumenre volt berendezkedve.</p>
 
-<p>1997-ben 357 809 GM/Toyota autó gördült le a futószalagjaikról, így hosszabb távon jobban megérte egy már meglévő gyárat megvenni és azt csupán gyártóeszközökkel feltölteni. 2010májusban jelentette be a Tesla és a Toyota a partnerségüket, melynek keretében kifejezték, hogy közösen dolgoznak az elektromos járművek, alkatrészek, termelési eszközök és mérnöki támogatás fejlesztésén, ennek keretében került sor a Tesla 42 millió dolláros bevásárlására a NUMMI-ba. Mivel a Toyota elszállította a gyárból a termelési eszközöket a többi egyesült államokbeli gyárába, ezért a Teslának 50 millió dollár értékben kellett vásárolnia gyári eszközöket.</p>
+<p>1997-ben 357 809 GM/Toyota autó gördült le a futószalagjaikról, így hosszabb távon jobban megérte egy már meglévő gyárat megvenni és azt csupán gyártóeszközökkel feltölteni. 2010 májusban jelentette be a Tesla és a Toyota a partnerségüket, melynek keretében kifejezték, hogy közösen dolgoznak az elektromos járművek, alkatrészek, termelési eszközök és mérnöki támogatás fejlesztésén, ennek keretében került sor a Tesla 42 millió dolláros bevásárlására a NUMMI-ba. Mivel a Toyota elszállította a gyárból a termelési eszközöket a többi egyesült államokbeli gyárába, ezért a Teslának 50 millió dollár értékben kellett vásárolnia gyári eszközöket.</p>
 
 <p>A terület eredetileg 10-szer akkora volt, mint amekkorára a Teslának alapvetően szüksége lett volna, de azért esett a 2 millió négyzetméteres gyárra a cég választása, mert már a legelején nagyon expanzív stratégiában gondolkodtak. 2013-ra másfél millió négyzetméter mellett félmillió négyzetméter kihasznált terület állt a Tesla rendelkezésére.</p>
 
@@ -143,13 +164,13 @@ Az autók tudnának többet is, de annak egyelőre jogi akadályai vannak</p>
 
 <p>A Tesla Factoryban 2011-ben történt meg az átmenet, mikoris 20 darab, még kézzel épített alfa-verziójú Model S után már gyártásra alkalmas 50 darab béta-verziót készítettek el. Ezeket a darabokat aztán a gyárban lévő folyamatok optimalizálásra, mérnöki tesztekre és szövetségi töréstesztekre használták.</p>
 
-<p>2013 utolsó negyedévére a Tesla már 6 892 darab autót szállított le, valamint decemberben Kalifornia szövetségi államtól kapott egy 34,7 millió dollár értékű adókedvezményt annak érdekében, hogy éves szinten elérhessék a 35 ezres legyártott autót. 2015-re heti ezerautót ér el a gyártás, ezek legtöbbje előrendelés alapján készült. Ugyanebben az évben csatlakozott a modelpalettához a Model X, amelyet egy 2014 júliusában történt gyártásoptimalizálás előzött meg. 2016 májusában gördültek le először a gyártósorról olyan Model X-ek, amelyeket nem kellett utólag módosítani.</p>
+<p>2013 utolsó negyedévére a Tesla már 6 892 darab autót szállított le, valamint decemberben Kalifornia szövetségi államtól kapott egy 34,7 millió dollár értékű adókedvezményt annak érdekében, hogy éves szinten elérhessék a 35 ezres legyártott autót. 2015-re heti ezer autót ér el a gyártás, ezek legtöbbje előrendelés alapján készült. Ugyanebben az évben csatlakozott a modell palettához a Model X, amelyet egy 2014 júliusában történt gyártásoptimalizálás előzött meg. 2016 májusában gördültek le először a gyártósorról olyan Model X-ek, amelyeket nem kellett utólag módosítani.</p>
 
 <p>Szintén 2016 májusában 1,46 milliárd dollár értékben bocsátott ki részvényeket a Tesla, amiből 1,26 milliárd dollárt a Model 3 gyártási előkészületeihez használt fel. Ugyanis korábban a Model S és a Model X esetén még nem alkalmaztak olyan technológiát, ami a Model 3 esetében várt igen masszív sorozatgyártást tette volna lehetővé. Ennek érdekében a pénzből felvásárolták a Grohmann Automation vállalatot, amely autók gyártásával foglalkozott. 2015 -ben nyitotta meg Tilburgban a holland üzemét a Tesla, ahol végső összeszerelést végeznek, ennek gépesítését úgy oldották meg, hogy a gépeket a Tesla Factoryból szállították hozzá.</p>
 
 <h3>Tesla Gigafactory 1</h3>
 
-<p>Ahhoz, hogy a Tesla elérje a célját és évente legalább 500 ezerautót tudjon előállítani a világ teljes jelenlegi lítium-ion akkumulátor gyártó kapacitására szüksége lenne. A Nevada államban épülő Gigafactory 1 elsődleges célja tehát kiszolgálni a vállalat hatalmas akkumulátor-igényét. A gyár jelenleg körülbelül 30%-os készültségben van, de úgy tervezték, hogy az elkészült részegységekben megkezdődhessen a termelés. Ennek köszönhetően 2018 közepére a világ legnagyobb akkumulátorgyárává nőtte ki magát az éves 20 GWh-ás gyártói kapacitásával.</p>
+<p>Ahhoz, hogy a Tesla elérje a célját és évente legalább 500 ezer autót tudjon előállítani a világ teljes jelenlegi lítium-ion akkumulátor gyártó kapacitására szüksége lenne. A Nevada államban épülő Gigafactory 1 elsődleges célja tehát kiszolgálni a vállalat hatalmas akkumulátor-igényét. A gyár jelenleg körülbelül 30%-os készültségben van, de úgy tervezték, hogy az elkészült részegységekben megkezdődhessen a termelés. Ennek köszönhetően 2018 közepére a világ legnagyobb akkumulátorgyárává nőtte ki magát az éves 20 GWh-ás gyártói kapacitásával.</p>
 
 <blockquote>
 <p>A Gigafactory 1 építését 2014-ben kezdték meg. Amikor elkészül.<br />
@@ -162,13 +183,13 @@ Mérete impozáns 930 ezer m<sup>2</sup> lesz, amivel a világ második legnagyo
 
 <p>A Tesla nem kizárólag autókat és autókhoz való akkumulátorokat gyárt, hanem háztartási illetve ipari felhasználásra is készít akkumulátor telepeket (Powerwall) és napelemeket. A vállalat elkötelezett híve a tiszta energiának, melyet az autóiparon kívül is képviselni szándékozik. A New York-i üzemük 2017-ben nyitotta meg kapuit és idén a gyártás kiegészült a gyorstöltők előállításával.</p>
 
-<h2>Tesla modellek</h2>
+<h2 style="font-weight: bold;">Tesla modellek</h2>
 
 <h3>Tesla Roadster</h3>
 
 <p>A Roadster a legelső Tesla modell volt a palettán, a vállalatstratégiának megfelelően nem is tömeggyártásra tervezték, sokkal inkább berobbanni akartak vele a piacra, a tehetősebb vásárlókat megcélozva. A teljesen elektromos sportautó karosszériáját a Lotus Elise adta. A Tesla Roadster volt az első legális, autópályán is közlekedő teljesen elektromos, nem egyedi építésű autó, amelyik lítium-ion akkumulátort használt és egyetlen töltéssel több mint 320 km-t tudott megtenni. Valamint a legelső sorozatgyártású autó, amelyet az űrbe küldtek, amire 2018. február 6-án került sor, Elon Musk másik cégének, a SpaceX Falcon Heavy rakétájának tesztelésekor.</p>
 
-<p>A típus 2008 és 2012 között volt gyártásban, alig 2 450 darab készült, ami megmosolyogtató már a masszív tömeggyártásra berendezkedett mai Teslához képest is, de ekkoriban még nem állt rendelkezésre a Tesla Factory sem. Emiatt az Egyesült Államokban, a kaliforniai Menlo Parkban és az angliaiHethelben (a Lotus főhadiszállásán) folyt a termelés. Amennyiben az amerikai piacra kellett az autó, a karosszériát és a körülbelül 6% alkatrészt, amiben a Roadster és az Elise egyezett, leszállították a britek az Egyesült Államokba, míg az európai és a világ többi részére szánt Roadsterek esetében a hajtásláncot és egyéb komponenseket küldték Nagy-Britanniába.</p>
+<p>A típus 2008 és 2012 között volt gyártásban, alig 2 450 darab készült, ami megmosolyogtató már a masszív tömeggyártásra berendezkedett mai Teslához képest is, de ekkoriban még nem állt rendelkezésre a Tesla Factory sem. Emiatt az Egyesült Államokban, a kaliforniai Menlo Parkban és az angliai Hethelben (a Lotus főhadiszállásán) folyt a termelés. Amennyiben az amerikai piacra kellett az autó, a karosszériát és a körülbelül 6% alkatrészt, amiben a Roadster és az Elise egyezett, leszállították a britek az Egyesült Államokba, míg az európai és a világ többi részére szánt Roadsterek esetében a hajtásláncot és egyéb komponenseket küldték Nagy-Britanniába.</p>
 
 <blockquote>
 <p>A Roadster alapozta meg a Tesla hírnevét és hitette el a világgal, <br />hogy az elektromos autóké lehet a jövő.</p>
@@ -176,7 +197,7 @@ Mérete impozáns 930 ezer m<sup>2</sup> lesz, amivel a világ második legnagyo
 
 <p>Az elkészült Roadsterek legnagyobb része Európába és Ázsiába került, jelentős részük 2012 utolsó negyedévében, pont a gyártás leállítása előtt. A Roadster meghajtásáról egy 3-fázisú, 4-pólusú elektromos motor gondoskodott, 248 lóerős teljesítménnyel, valamint 270 Nm-es nyomatékkal. Elektromos motor jellegéből fakadóan a nyomaték viszont azonnal rendelkezésre állt, ami az egyik legnagyobb különbséget jelenti a motor karakterisztikájában a belsőégésű motorokhoz képest.</p>
 
-<p>Az elektromos motorok hűtéséhez ráadásul nincs szükség vízhűtésre, mint a belsőégésűek esetében, bőven elegendő a léghűtés, további alkatrészeket, ezáltal súlyt és későbbi lehetséges problémaforrást előzve meg ezzel. Korábban több gyártóval tárgyaltak, hogy megtalálják az ideális váltót a Roadsterhez (Magna, Xtrack), azonban végül a Borg Warner egysebességes váltó melletttették le a voksukat, ami mechanikus kenőpumpával rendelkezett. Az első Roadsterek azonban még kétsebességes Magna-váltókat használtak, amivel viszont nem tudták tartani a beígért 4 másodperces 0-100 km/h-s gyorsulást, mert ezzel a váltóval 5,7 másodpercre volt szüksége ugyanehhez.</p>
+<p>Az elektromos motorok hűtéséhez ráadásul nincs szükség vízhűtésre, mint a belsőégésűek esetében, bőven elegendő a léghűtés, további alkatrészeket, ezáltal súlyt és későbbi lehetséges problémaforrást előzve meg ezzel. Korábban több gyártóval tárgyaltak, hogy megtalálják az ideális váltót a Roadsterhez (Magna, Xtrack), azonban végül a Borg Warner egysebességes váltó mellett tették le a voksukat, ami mechanikus kenőpumpával rendelkezett. Az első Roadsterek azonban még kétsebességes Magna-váltókat használtak, amivel viszont nem tudták tartani a beígért 4 másodperces 0-100 km/h-s gyorsulást, mert ezzel a váltóval 5,7 másodpercre volt szüksége ugyanehhez.</p>
 
 <p>Azonban 2008. január 30-án bejelentette a Tesla az addigi Roadster-tulajdonosoknak, hogy garanciálisan kicserélik a korábban használt Magna-váltókat a 8.27:1 váltási aránnyal rendelkező Borg Warnerre, amivel nemcsak a gyorsulási értéket tudják az ígértre fejleszteni, de a végsebesség is megnőtt 201 km/h-ra 14 ezres fordulatszám mellett.</p>
 
@@ -186,7 +207,7 @@ Mérete impozáns 930 ezer m<sup>2</sup> lesz, amivel a világ második legnagyo
 
 <p>Az autó először 2008-ban került bemutatásra. Kevesen tudják, de eleinte olyan tervek is felmerültek, hogy a nagyobb hatótáv – így a jobb fogadtatás – reményében kap az autó egy benzinmotort is. Szerencsére ezt korán elvetették és Elon Musk kijelentette, hogy csak elektromos autókat fog gyártani a Tesla. A gyártást eredetileg Új-Mexikóban szerették volna megkezdeni, de ez az elképzelés nem valósult meg. Ahogy az sem, hogy a kaliforniai San Josében gyártsák a típust.</p>
 
-<p>Végül a ma Tesla Factory néven ismert üzemben kezdődött meg a termelés. Az autó nem csak a vásárlók elismerését nyerte el, hanem szakmai körökben is sorra aratta a babérokat: 2013-ban az Év Zöld Autójának, majd különböző autós magazinok is az Év Autójának választották. A Consumer Report’s tartóstesztjén maximális pontszámot kapotta Modell S. 2015-ben aztán a Car and Driver magazin egyenesen az Évszázad Autójának titulálta a típust.</p>
+<p>Végül a ma Tesla Factory néven ismert üzemben kezdődött meg a termelés. Az autó nem csak a vásárlók elismerését nyerte el, hanem szakmai körökben is sorra aratta a babérokat: 2013-ban az Év Zöld Autójának, majd különböző autós magazinok is az Év Autójának választották. A Consumer Report’s tartós tesztjén maximális pontszámot kapott a Modell S. 2015-ben aztán a Car and Driver magazin egyenesen az Évszázad Autójának titulálta a típust.</p>
 
 <p class="rtecenter"><img alt="Tesla Model S " src="/resources/img/tesla-model-s-szurke.jpg"></p>
 
@@ -231,7 +252,7 @@ Mérete impozáns 930 ezer m<sup>2</sup> lesz, amivel a világ második legnagyo
 <p>A Model 3 bemutatása egyedülálló a 100 éves tömeges autógyártás történetében.</p>
 </blockquote>
 
-<p>Ehhez hasonlót szerintük csak a Citroën DS produkált, miután 1955-ben bemutatták azt a Párizsi Autószalonon, de ott is „csak” 80 ezer előrendelés történt meg 10 nap alatt. A gazdasági osztály 2-2,5 milliárd dollárt tervezetta Model 3 gyártásához szükséges fejlesztésekre költeni, a gyártás végül 2017 júliusában kezdődött el. Az első 30 Model 3-at július 28-án adták át egy rendezvényen, amiből 6 darabot maga Elon Musk adott át a vevőknek. 2017-ben a várakozásokkal ellentétben alig 1 764 darabot adtak át belőlük, ugyanis gyártási nehézségekkel küszködtek. A termelést 2018 júniusra is csak alig heti 5 ezerdarabra tudták felemelni.</p>
+<p>Ehhez hasonlót szerintük csak a Citroën DS produkált, miután 1955-ben bemutatták azt a Párizsi Autószalonon, de ott is „csak” 80 ezer előrendelés történt meg 10 nap alatt. A gazdasági osztály 2-2,5 milliárd dollárt tervezett a Model 3 gyártásához szükséges fejlesztésekre költeni, a gyártás végül 2017 júliusában kezdődött el. Az első 30 Model 3-at július 28-án adták át egy rendezvényen, amiből 6 darabot maga Elon Musk adott át a vevőknek. 2017-ben a várakozásokkal ellentétben alig 1 764 darabot adtak át belőlük, ugyanis gyártási nehézségekkel küszködtek. A termelést 2018 júniusra is csak alig heti 5 ezer darabra tudták felemelni.</p>
 
 <p class="rtecenter"><img alt="Tesla Model 3" src="/resources/img/tesla-model-3-markatortenet.jpg" title="Elon Musk eredetileg Model E-nek szerette volna elkeresztelni, hogy a kínált típusok kiadják a S-E-X szót, de végül egy jogi vita miatt Model 3 lett a neve"></p>
 
@@ -260,14 +281,14 @@ Mérete impozáns 930 ezer m<sup>2</sup> lesz, amivel a világ második legnagyo
 
 <p>Ahogy az a Teslánál a Performance-változatoknál már megszokható, a Model 3 esetében is lehet kérni felárért a Ludicrous-módot, amivel az autó 2,9 másodperc alatt teljesíti a 0-100 km/h-s gyorsulást.</p>
 
-<h2>Már bemutatott, de még nem gyártott modellek</h2>
+<h2 style="font-weight: bold;">Már bemutatott, de még nem gyártott modellek</h2>
 
 <h3>Tesla Model Y</h3>
 
 <p>2020-ban érkezhet a Tesla következő autója, egy <a href="https://www.mahzrt.hu//bmw">BMW</a> X3 méretű szabadidő-autó. A Los Angelesben bemutatott autó technológiailag és külsőre is tökéletesen igazodik a márka jelenlegi arculatába. A típus zömében a Model 3 alkatrészeiből építkezik, de annál lényegesen nagyobb és akár 7 üléses kivitelben is elérhető lesz. A cég szerint az autó a SUV-k által kínált kényelmet és praktikumot ötvözi majd a sportautókra jellemző dinamikával.</p>
 
 <blockquote>
-<p>A szabaidő-autók piacán szeretné megvetni a lábát a Model Y.</p>
+<p>A szabadidő-autók piacán szeretné megvetni a lábát a Model Y.</p>
 </blockquote>
 
 <p>A forgalmazás Észak-Amerikában 2020 őszében kezdődhet meg, de Európába várhatóan csak két évvel később érkezik meg a típus. A legolcsóbb verziót a Standard Range jelenti majd a 39 ezer dolláros árával, míg a legerősebb Performance kivitelért 60 000 dollárt fognak kérni. A kettő között a Long Range (45 ezer dollár) és a Dual Motor (51 ezer dollár) helyezkednek el. A menetteljesítmények alakulása így fog kinézni:</p>
@@ -293,9 +314,9 @@ Mérete impozáns 930 ezer m<sup>2</sup> lesz, amivel a világ második legnagyo
 
 <p dir="ltr">Ez lesz az első olyan elektromos autó, aminek hatótávja el fogja érni az 1 000 km-t, 200 kWh-s akkumulátorcsomaggal lesz felszerelve. Valamint elképesztő gyorsulással fog rendelkezni, álló helyzetből 100 km/h-ra gyorsítani alig 1,9 másodpercet vesz majd igénybe, a végsebessége 400 km/h-ra lesz. Az autóban 3 elektromos motor fog dolgozni, összkerékhajtással. Ha a sorozatgyártású autó is hozni fogja ezeket a számokat, akkor az autó joggal pályázhat majd a világ leggyorsabb sorozatgyártású autója címre.</p>
 
-<p dir="ltr">Ára 200-250 ezer dollár lesz a megjelenésekor, ha valaki meg akarja vásárolni, akkor 50 ezer dollár előleget kell fizetnie jelenleg. Azok, akik a bemutatásakor kifizették az előleget, ki is próbáhatták a bemutatott prototípust is.</p>
+<p dir="ltr">Ára 200-250 ezer dollár lesz a megjelenésekor, ha valaki meg akarja vásárolni, akkor 50 ezer dollár előleget kell fizetnie jelenleg. Azok, akik a bemutatásakor kifizették az előleget, ki is próbálhatták a bemutatott prototípust is.</p>
 
-<h2 dir="ltr">Tesla Semi</h2>
+<h2 dir="ltr" style="font-weight: bold;">Tesla Semi</h2>
 
 <p dir="ltr">Nemcsak a személyautók, de a <a href="https://insideevs.com/news/364925/tesla-pickup-truck-price-specs-more/">teherautók</a> piacára is be akar törni a Tesla, amit a Tesla Semivel szándékszik majd megtenni. Az új Roadsterrel egy időpontban, 2017. novbember 16-án mutattak be 2 prototípust a forradalmi újításnak szánt Semiből. A Semiben felhasznált motorok ugyanazok lesznek, mint amiket a Model 3-ban is használnak, de abból 4-et szerelnek bele. Ami ráadásul szokatlan egy teherautótól, az a gyorsulása, a versenytársak dízelüzemű átlagos 15 másodperces 0-100-as gyorsulásával szemben a Seminek alig 5 másodpercre lesz szüksége ugyanerre. A hatótávja várhatóan 800 km lesz, miközben a biztonságos önvezető közlekedés érdekében több szenzort kap, hogy minél jobban érzékelje a környezetét. A Tesla célja kimondottan arra irányul, hogy előbb-utóbb megteremtse a feltételeit a sofőr nélküli autózásnak.</p>
 
@@ -303,7 +324,7 @@ Mérete impozáns 930 ezer m<sup>2</sup> lesz, amivel a világ második legnagyo
 <p dir="ltr">A Tesla elképzelése szerint önvezető és tisztaüzemi kamionok fognak gondoskodni <br />az áruk szállításáról a közeljövőben.</p>
 </blockquote>
 
-<h2 dir="ltr">Tesla ár</h2>
+<h2 dir="ltr" style="font-weight: bold;">Tesla ár</h2>
 
 <h3 dir="ltr">Újkori ár</h3>
 
@@ -317,7 +338,7 @@ Mérete impozáns 930 ezer m<sup>2</sup> lesz, amivel a világ második legnagyo
 
 <p dir="ltr">Az elektromos autók esetében egyelőre az akkumulátor a szűk keresztmetszet. Annak magas ára befolyásolja leginkább az autók vételárát. Amíg nem sikerül lejjebb tornászni azok előállítási költségét a villanyhajtású járművek sem tudnak olcsóbbak lenni. A Tesla ennek megfelelően azon dolgozik, hogy minél olcsóbban és hatékonyabban tudjon előállítani az autói számára akkumulátorcsomagokat. A Model 3 gyártásának beindulásakor például a gyár leszállította mindkét másik modelljének az árát körülbelül 3 millió forinttal.</p>
 
-<h2 dir="ltr">Tesla értékének amortizációja</h2>
+<h2 dir="ltr" style="font-weight: bold;">Tesla értékének amortizációja</h2>
 
 <p dir="ltr">Az elmúlt évek tapasztalatai alapján általánosságban kijelenthető, hogy a Teslák sokkal jobban <a href="https://alapjarat.blog.hu/2019/05/14/tesla_rendeles_magyarorszagon_video">tartják az értéküket</a>, mint a konkurencia hagyományos, belsőégésű motorral szerelt modelljei. Ugyan a friss Model 3-asnak nem érdemes még az amortizációjával foglalkozni, a Model S és a Model X is jobban tartja az árát, mint a vetélytársaik. Ennek elsődleges oka, hogy egy autó teljes életútjára vonatkozó összes költséget vizsgálva (vételár, adókedvezmények, üzemanyag, biztosítás, javítás, stb) bizony az elektromos modellek jóval olcsóbban üzemeltethetőek jelenleg, mint a benzines vagy dízel társaik.</p>
 
@@ -331,7 +352,7 @@ Mérete impozáns 930 ezer m<sup>2</sup> lesz, amivel a világ második legnagyo
 
 <hr>
 
-<h4 dir="ltr">A Magyar Autókereskedőház Zrt. gondozásában lévő MAH-EV.hu-n keresztül könnyedén és egyszerűen rendelheti meg álmai autóját. A modell kiválasztása után a <a href="https://www.tesla.hu/tesla/tesla-model-3#third-row-wrapper">konfigurátor</a> segítségével személyre szabhatja a járművet. Amennyiben kérdése merülne fel a rendeléssel vagy a szállítással kapcsolatban, forduljon bizalommal Mudri Dániel vezető értékesítőhöz a<a href="tel:+36203663447">+36203663447</a>telefonszámon.</h4>
+<h4 dir="ltr">A Magyar Autókereskedőház Zrt. gondozásában lévő MAH-EV.hu-n keresztül könnyedén és egyszerűen rendelheti meg álmai autóját. A modell kiválasztása után a <a href="http://mah-ev.hu/tesla/tesla-model-3#configurator">konfigurátor</a> segítségével személyre szabhatja a járművet. Amennyiben kérdése merülne fel a rendeléssel vagy a szállítással kapcsolatban, forduljon bizalommal Mudri Dániel vezető értékesítőhöz a <a href="tel:+36203663447">+36203663447</a> telefonszámon.</h4>
 
 
 <h4 dir="ltr"><strong>Források:</strong></h4>

@@ -5,7 +5,7 @@
     <script src="resources/js/offer.js"></script>
   </head>
   
-  <body class="debug-screens bg-white form-offer"> 
+  <body class="bg-white form-offer"> 
     
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>
@@ -32,7 +32,7 @@
           <div class="text-gray-500 lead my-16 md:my-12">
                         <h2 class="text-2xl md:text-3xl leading-snug">Köszönjük érdeklődését!</h2><br />
 
-                        <p>Köszönjük, hogy érdeklődésével megtisztelte cégünket a Magyar Autókereskedőház Zrt.-t. Kollégánk hamarosan felveszi Önnel a kapcsolatot, hogy minden felmerülő kérdésére választ tudjunk adni.</p>
+                        <p>Köszönjük, hogy érdeklődésével megtisztelte cégünket a Magyar Autókereskedőház Zrt-t. Kollégánk hamarosan felveszi Önnel a kapcsolatot, hogy minden felmerülő kérdésére választ tudjunk adni.</p>
 
                         <div class="cta col-span-full text-center mt-8"><a href="/" class=" bg-emerald-500  hover:bg-emerald-600  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out" data-ajax="false">Vissza a címlapra</a></div>
 

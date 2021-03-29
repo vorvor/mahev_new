@@ -33,7 +33,7 @@ $(function(){
 			$('.offer .facility-price').html(price);
 
 			// Save value.
-			setCookie('mahev_facility=', text);
+			setCookie('mahev_facility', text);
 
 			//Other tabs option changes.
 			if (text.toLowerCase().includes('long range')) {
@@ -44,6 +44,9 @@ $(function(){
 						$(this).removeClass('hidden');
 					}
 				})
+
+				text = $('#conf-tab-4 ._radio-extras:nth-child(1) .text-sm').html();
+				price = $('#conf-tab-4 ._radio-extras:nth-child(1) .price div').html();
 			}
 
 			if (text.toLowerCase().includes('plaid')) {
@@ -54,7 +57,13 @@ $(function(){
 						$(this).addClass('hidden');
 					}
 				})
+
+				text = $('#conf-tab-4 ._radio-extras:nth-child(4) .text-sm').html();
+				price = $('#conf-tab-4 ._radio-extras:nth-child(4) .price div').html();
 			}
+
+			$('.offer .block.interior').html(text);
+			$('.offer .interior-price').html(price);
 
 			// Under 3D rotate data.
 			var regex = /[+-]?\d+(\.\d+)?/g;
@@ -218,8 +227,11 @@ $(function(){
 	function calcOfferPrice() {
 		price = 0;
 		$('.offer .price').not('.hidden').each(function() {
-			console.log($(this));
-			price += parseInt($(this).html().replace(/\s+/g, ''));
+			pprice = $(this).html().replace(/\s+/g, '');
+			if (pprice == '') {
+				pprice = 0;
+			}
+			price += parseInt(pprice);
 		})
 		
 

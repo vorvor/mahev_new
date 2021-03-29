@@ -2,8 +2,28 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
+
+    <title>Tesla járművek honosítása, együttműködve a bécsi Tesla szalonnal, 2016 óta. | mah-ev.hu</title>
+    <meta name="description" content="Új és használt Teslák értékesítése, a finanszírozástól kezdve a forgalomba helyezési eljárásig, beszállítással." />
+    <meta property="fb:app_id" content="1192951680871368" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Új és használt Teslák értékesítése, a finanszírozástól kezdve a forgalomba helyezési eljárásig, beszállítással. | mah-ev.hu" />
+    <meta property="og:url" content="https://mah-ev.hu/tesla/rolunk" />
+    <meta property="og:title" content="Tesla járművek honosítása, együttműködve a bécsi Tesla szalonnal, 2016 óta. | mah-ev.hu" />
+    <meta property="og:determiner" content="auto" />
+    <meta property="og:description" content="Új és használt Teslák értékesítése, a finanszírozástól kezdve a forgalomba helyezési eljárásig, beszállítással." />
+    <meta property="og:image" content="https://mah-ev.hu/resources/img/about-us.jpg" />
+    <meta property="og:image:url" content="https://mah-ev.hu/resources/img/about-us.jpg" />
+    <meta property="og:image:secure_url" content="https://mah-ev.hu/resources/img/about-us.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://mah-ev.hu/tesla/rolunk" />
+    <meta name="twitter:title" content="Tesla járművek honosítása, együttműködve a bécsi Tesla szalonnal, 2016 óta. | mah-ev.hu" />
+    <meta name="dcterms.title" content="Tesla járművek honosítása, együttműködve a bécsi Tesla szalonnal, 2016 óta. | mah-ev.hu" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
+    <meta name="dcterms.format" content="text/html" />
   </head>
-  <body class="debug-screens bg-white services-page"> 
+  <body class="bg-white services-page"> 
 
 
     
@@ -98,7 +118,7 @@
         Cégvezető</div>
     <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
     </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36203663447">+36203663447</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36203663447">+36 20 366 3447</a></div>
     <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:daniel.mudri@mahzrt.hu">daniel.mudri@mahzrt.hu</a></div>
     <div class="text-gray-500 text-sm tracking-wider">Dániel 2012 óta foglalkozik aktívan autóértékesítéssel, kereskedelemmel. Szakmai tapasztalata életkora ellenére igen magas, járműismerete több prémium termékben is kiváló. Pályafutását használt autó értékesítőként kezdte, majd Budapesten a Pannonhandel Zrt.-nél folytatta tevékenységét. A Magyar Autókereskedőháznál a kezdetek óta jelen van értékesítőként, sikereink többek között neki is köszönhetőek.
 </div>
@@ -116,26 +136,10 @@
         Értékesítő</div>
     <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
     </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36203576428">+36203576428</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36203576428">+36 20 357 6428</a></div>
     <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:adam.kral@mahzrt.hu">adam.kral@mahzrt.hu</a></div>
     <div class="text-gray-500 text-sm tracking-wider">Ádám több éves értékesítői tapasztalattal került
 csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A MAH Zrt.-hez való csatlakozását nagyban befolyásolta a terület vonzalma. Szakmai felkészültsége igen magas a területen, tudását a MAH Zrt.-nél kamatoztatja a jövőben.</div>
-</div>
-
-<div class="_card-person-short text-center flex flex-col flex-wrap max-w-xs mx-auto">
-    <div class="img rounded-full w-40 h-40 border-2 border-emerald-500 overflow-hidden flex items-center mx-auto">
-        <img class="_image-scale block w-full h-full object-cover object-center"
-             src="/resources/img/colleague-bachman-gergely-res.jpg" alt="">
-    </div>
-    <div class="text-gray-500 font-semibold tracking-wide w-full uppercase mb-3 mt-6 leading-snug">
-        Bachman Gergely</div>
-    <div class="text-gray-500 w-full leading-snug text-sm tracking-wider">
-        Értékesítő</div>
-    <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
-    </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:"></a></div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:gergely.bachman@mahzrt.hu">gergely.bachman@mahzrt.hu</a></div>
-    <div class="text-gray-500">Gergely finanszírozói területről érkezett hozzánk. Korábban foglalkozott már gépjárművekkel, ezt a tudását fogja a MAH Zrt.-nél hasznosítani. Alaposságával és szakmai ismereteivel a közeljövőben csapatunkat erősíti.</div>
 </div>
 
 <div class="_card-person text-center flex flex-col flex-wrap max-w-xs mx-auto">
@@ -150,7 +154,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
         Vezérigazgató</div>
     <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
     </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202578998">+36202578998</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202578998">+36 20 257 8998</a></div>
     <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:balazs.borka@mahzrt.hu">balazs.borka@mahzrt.hu</a></div>
     <div class="text-gray-500 text-sm tracking-wider">Balázs közel 10 évet töltött el gépjármű finanszírozással foglalkozó intézetek kockázatkezelési osztályán. Pályafutását 2001-ben kezdte a szektorban, majd az ott eltöltött évek múlva 2011-ben részt vett a Pannonhandel Zrt. megalapításában, ahol a vállalkozás szakmai vezetését végezte. Jelenleg a Magyar Autókereskedőház vezetőjeként tevékenykedik, mellette a Magyar Gépjárműkereskedők Országos Egyesületének kommunikációs igazgatója és a Magyar Autós Szakmai Szövetség felügyelőbizottságának tagja.</div>
 </div>
@@ -167,7 +171,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
         Irodavezető</div>
     <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
     </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202334390">+36202334390</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202334390">+36 20 233 4390</a></div>
     <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:zsuzsanna.bigda@mahzrt.hu">zsuzsanna.bigda@mahzrt.hu</a></div>
     <div class="text-gray-500 text-sm tracking-wider">Zsuzsanna az adminisztratív munka területén szerzett több éves tapasztalattal csatlakozott a Magyar Autókereskedőház csapatához, ahol egy új területtel megismerkedve járul hozzá ahhoz, hogy a cég napi ügyei zökkenőmentesen haladjanak.</div>
 </div>
@@ -187,7 +191,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
         Irodavezető helyettes</div>
     <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
     </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202314095">+36202314095</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202314095">+36 20 231 4095</a></div>
     <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:reka.sofalvi@mahzrt.hu">reka.sofalvi@mahzrt.hu</a></div>
     <div class="text-gray-500 text-sm tracking-wider">Réka 2020-ban csatlakozott csapatunkhoz. Fiatal kora ellenére precíz és pontos tudásanyaggal rendelkezik, melynek köszönhetően elősegíti cégünk fejlődését.</div>
 </div>
@@ -208,7 +212,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
         Hirdetéskezelő, értékesítés támogató</div>
     <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
     </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36209244439">+36209244439</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36209244439">+36 20 924 4439</a></div>
     <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:daniel.szabo@mahzrt.hu">daniel.szabo@mahzrt.hu</a></div>
     <div class="text-gray-500 text-sm tracking-wider">Dániel korábban is járművekkel foglalkozott, Magyarország egyik legnagyobb új gépjárművekkel foglalkozó vállalkozásának a telephelyén. Jelenleg tudásával és szakmai felkészültségével a MAH Zrt. hirdetéskezelését és online marketing jelenlétét tervezi meg és hajtja végre az ezzel kapcsolatos feladatokat, kiváló eredménnyel.</div>
 </div>
@@ -228,7 +232,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
         Pénzügyi asszisztens</div>
     <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
     </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202314095">+36202314095</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36202314095">+36 20 231 4095</a></div>
     <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:orsolya.selinger@mahzrt.hu">orsolya.selinger@mahzrt.hu</a></div>
     <div class="text-gray-500 text-sm tracking-wider">Orsi több éves szakmai tapasztalattal rendelkezik a pénzügy területén, mely tudásával és pontosságával segíti folyamataink gördülékeny menetét.</div>
 </div>
@@ -247,7 +251,7 @@ csapatunkhoz, már korábban is foglalkozott járművek értékesítésével. A 
         Folyamatszervezési asszisztens</div>
     <div class="border-b-2 border-emerald-500 w-6 h-1 my-4 mx-auto leading-none">
     </div>
-    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36203805593">+36203805593</a></div>
+    <div class="text-gray-500 text-sm tracking-wider mb-4">Tel.: <a class="font-semibold" href="tel:+36203805593">+36 20 380 5593</a></div>
     <div class="text-gray-500 text-sm tracking-wider mb-4">Email: <a class="font-semibold" href="mailto:zsanett.pataki@mahzrt.hu">zsanett.pataki@mahzrt.hu</a></div>
     <div class="text-gray-500 text-sm tracking-wider">Zsanett cégünknél az adminisztratív területet erősíti tudásával. Korábban hasonló irodai területen szerzett tapasztalatával járul hozzá a napi feladatok, ügymenetek elvégzéséhez.</div>
 </div>

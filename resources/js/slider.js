@@ -79,7 +79,7 @@ $(document).ready(function() {
 			return;
 		}
 
-		if (prop == 'intColor') {
+		if (prop == 'intColor' && model != 'MS' && model !== 'MX') {
 			setInnerPic();
 			return true;
 		}
@@ -135,7 +135,26 @@ $(document).ready(function() {
 			project += '_' + hook;
 		}
 
-		setCookie('mahev_configpic', project);
+		configpic = project;
+
+		if (model == 'MS') {
+			if (facility == 'LR') {
+				configpic = model + '_' + facility + '_' + extColor +'_IntBkEb_' + rim;
+			}
+			if (facility == 'PL') {
+				configpic = model + '_' + facility + '_' + extColor +'_IntBkCarb_' + rim;
+			}
+		}
+
+		if (model == 'MX') {
+			configpic = model + '_' + facility + '_' + extColor +'_IntBk_' + rim;
+			if (hook !== undefined && hook !== '') {
+				configpic += '_' + hook;
+			}
+		}
+		
+
+		setCookie('mahev_configpic', configpic);
 		return project;
 	}
 
@@ -160,7 +179,7 @@ $(document).ready(function() {
 			clearAnim();
 			$('#configurator .' + project + '-' + picnumstring).removeClass('hidden');
 		}
-		console.log(project + '-' + picnumstring);
+		
 	}
 
 	function setInnerPic() {	
@@ -198,7 +217,7 @@ $(document).ready(function() {
 			var image = new Image();
 			image.className = 'hidden sequence-image ' + project + '-' + picnumstring;
 			image.src = picstring;
-			console.log(picstring + ' - loaded');
+
 			if (dir == 'start') {
 				image.onload = function() {
 					setPic();
@@ -232,7 +251,7 @@ $(document).ready(function() {
 	}
 
 	// Start default project images init.
-	loadImages(192, 'start', project);
+	loadImages(80, 'start', project);
 	loadedProjects.push(currentProject());
 	//setPic();
 
@@ -288,8 +307,6 @@ $(document).ready(function() {
 			animTimer = setTimeout(function(){ playZoomIn(i + 1) }, 50);
 		} else {
 			setInnerPic();
-			console.log('INNER SET AUTO');
-			console.log(innerProject);
 			animTimer = null;
 		}
 	}
@@ -330,7 +347,7 @@ $(document).ready(function() {
 			// Maybe inner clicked which combination not loaded yet on the outer anim.
 			project = currentProject();
 			picnum = 48;
-			picnumstring = ('00000' + i).slice(-5);
+			picnumstring = ('00000' + picnum).slice(-5);
 			// Load images to the project if it's a new choice and images not loaded before.
 			if ($('#configurator .' + project + '-' + picnumstring).length == 0) {
 				loadImages(picnum, 'start', project);
@@ -343,38 +360,42 @@ $(document).ready(function() {
 
 	// Belső clicked.
 	$('._tab-nav a:nth-child(4)').click(function() {
-		checkProject = currentProject();
-		if (checkProject == 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb') {
-			checkProject = 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb_Spr';
-		}
-
-		if (whichAnim == 'outer' && animTimer == null) {
-			if ($('.inner-' + checkProject + '-00001').length == 0) {
-				loadZoomInImages(0);
+		if (model != 'MS' && model != 'MX') {
+			checkProject = currentProject();
+			if (checkProject == 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb') {
+				checkProject = 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb_Spr';
 			}
-			playInit(60);
-			whichAnim = 'inner';
-			$('#slide').addClass('hidden');
+
+			if (whichAnim == 'outer' && animTimer == null) {
+				if ($('.inner-' + checkProject + '-00001').length == 0) {
+					loadZoomInImages(0);
+				}
+				playInit(60);
+				whichAnim = 'inner';
+				$('#slide').addClass('hidden');
+			}
 		}
 	})	
 
 	// Other than belső clicked.
 	$('._tab-nav a:nth-child(-n+3)').click(function() {
-		checkProject = currentProject();
-		if (checkProject == 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb') {
-			checkProject = 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb_Spr';
-		}
-
-		if (whichAnim == 'inner' && animTimer == null) {
-			if ($('.outer-' + checkProject + '-00001').length == 0) {
-				loadZoomOutImages(0);
+		if (model != 'MS' && model != 'MX') {
+			checkProject = currentProject();
+			if (checkProject == 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb') {
+				checkProject = 'MY_PE_ExWh_IntBk_21cUturb/MY_PE_ExWh_IntBk_21cUturb_Spr';
 			}
-			setTimeout(function() {
-				playZoomOut(0);	
-			}, 1000);
-			
-			whichAnim = 'outer';
-			$('#slide').removeClass('hidden');
+
+			if (whichAnim == 'inner' && animTimer == null) {
+				if ($('.outer-' + checkProject + '-00001').length == 0) {
+					loadZoomOutImages(0);
+				}
+				setTimeout(function() {
+					playZoomOut(0);	
+				}, 1000);
+				
+				whichAnim = 'outer';
+				$('#slide').removeClass('hidden');
+			}
 		}
 	});
 

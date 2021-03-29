@@ -5,7 +5,7 @@
     <script src="resources/js/offer.js"></script>
   </head>
   
-  <body class="debug-screens bg-white form-offer"> 
+  <body class="bg-white form-offer"> 
     
     <div id="sitewrapper">
       <?php include('./gen_svg.php'); ?>

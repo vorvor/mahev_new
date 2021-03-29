@@ -39,10 +39,10 @@ if (isset($_POST['submit']) && $_POST['lastname'] == '') {
     try {
       
       $mail->isMail();
+      $mail->CharSet = 'UTF-8';
       //Recipients
-      $mail->setFrom('info@mahzrt.hu', 'MAH Zrt.');
+      $mail->setFrom('noreply@mah-ev.hu', 'MAH Zrt.');
       $mail->addBcc('vorosborisz@gmail.com', 'Vörös Borisz');
-      $mail->addAddress('mudri.daniel21@gmail.com', 'Mudri Daniel');
       $mail->addAddress('info@mahzrt.hu', 'MAH Zrt.');
       $mail->addReplyTo('info@mahzrt.hu', 'MAH Zrt.');
 

@@ -6,6 +6,7 @@
     <meta name="HandheldFriendly" content="true">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <title>Tesla Model 3 ár konfigurátor | mah-ev.hu</title>
     <meta name="description" content="Tervezze meg Tesla Model 3 elektromos autóját a MAH ZRT. Tesla konfigurátorával. Rendelje meg és kapja kézhez a Tesla Model 3-at Magyarországon egyedülállóan rövid, 2 hónapos határidővel." />
     <meta property="fb:app_id" content="1192951680871368" />
     <meta property="og:type" content="website" />
@@ -25,12 +26,12 @@
     <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
     <meta name="dcterms.format" content="text/html" />
     
-    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css?v=<?php print rand(1,100000); ?>">
-    <script src="/resources/js/config-m3.js?v=<?php print rand(1,100000); ?>"></script>
-    <script src="/resources/js/config-init-m3.js?v=<?php print rand(1,100000); ?>"></script> 
-    <script src="/resources/js/slider.js?v=<?php print rand(1,100000); ?>"></script>
+    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
+    <script src="/resources/js/config-m3.min.js?v=4"></script>
+    <script src="/resources/js/config-init-m3.js"></script> 
+    <script src="/resources/js/slider.min.js?v=4"></script>
   </head>
-  <body class="debug-screens bg-white model"> 
+  <body class="bg-white model"> 
 
 
     
@@ -103,7 +104,7 @@
             </ul>
         </div>
         <!--innerwrapper-->
-        <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+        <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
             <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
             <picture>
                 <source media="(max-width: 799px)" srcset="/resources/img/model3-city-mobile.jpg">
@@ -323,7 +324,7 @@
     
         <h3 class="font-semibold">Tesla Model 3</h3>
     
-    <h2 class="text-2xl md:text-3xl leading-snug">Konfigurator</h2>
+    <h2 class="text-2xl md:text-3xl leading-snug">Konfigurátor</h2>
     <div class="w-16 border-t-2 border-emerald-500 mx-auto md:ml-0 my-4 md:my-8"></div>
 </div>
         <div class="bg-white rounded-full text-emerald-500 w-16 h-16 z-10 OFFabsolute left-0 top-0 hidden md:block md:ml-auto xl:ml-0">
@@ -585,7 +586,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">18' aero könnyűfém felni</span>
+                <span class="w-full block text-sm font-semibold">18' Aero könnyűfém felni</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -613,7 +614,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">19' sport könnyűfém felni</span>
+                <span class="w-full block text-sm font-semibold">19' Sport könnyűfém felni</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -641,7 +642,7 @@
     </svg></div>
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">20' performance szürke könnyűfém felni</span>
+                <span class="w-full block text-sm font-semibold">20' Performance szürke könnyűfém felni</span>
                 
                     <span class="hidden sm:inline w-full block text-xs"></span>
                 
@@ -849,7 +850,7 @@
            
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">18' aero könnyűfém felni</span>
+                <span class="w-full block text-sm font-semibold">18" kerekek Pirelli téli gumiabroncsokkal szerelve</span>
                 <span class="hidden sm:inline w-full block text-xs"></span>
             </div>
         </span>
@@ -871,7 +872,7 @@
            
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">19' sport könnyűfém felni</span>
+                <span class="w-full block text-sm font-semibold">19" kerekek Pirelli téli gumiabroncsokkal szerelve</span>
                 <span class="hidden sm:inline w-full block text-xs"></span>
             </div>
         </span>
@@ -893,7 +894,7 @@
            
             
             <div class="flex-shrink">
-                <span class="w-full block text-sm font-semibold">20' performance könnyűfém felni</span>
+                <span class="w-full block text-sm font-semibold">20" kerekek Pirelli téli gumiabroncsokkal szerelt</span>
                 <span class="hidden sm:inline w-full block text-xs"></span>
             </div>
         </span>
@@ -927,7 +928,7 @@
                 <!-- <img class="inset-0 absolute border-b-2 border-gray-100" src="/resources/img/3dplaceholder.jpg" alt=""> -->
                 <div id="slide">
                     <form>
-                        <input type="range" name="slider" id="slider" class="slider" min="0" max="101" value="48">
+                        <input type="range" name="slider" id="slider" class="slider" min="0" max="101" value="20">
                     </form>
                 </div>
             </div>
@@ -1239,17 +1240,17 @@
 <li>12-irányban állítható első elektromos ülések</li>
 <li>Ülésfűtés elől és hátul (Long Range, Performance)</li>
 <li>Indukciós okostelefon töltés 2 telefon számára</li>
-<li>Prémium Connect (1-évig): Műholdas térképek és valós idejű forgalmi információk kijelzése, Internetes zene streaming, gyakori frissítések mobilhálozaton keresztűl, internet böngésző</li>
+<li>Prémium Connect (1-évig): Műholdas térképek és valós idejű forgalmi információk kijelzése, Internetes zene streaming, gyakori frissítések mobilhálózaton keresztül, internet böngésző</li>
 <li>LED-Ködlámpák (Long Range , Performance)</li>
 <li>USB-C port </li>
 <li>Színezett UV védett panoráma napfénytető</li>
-<li>Zene és média Bluetoothon keresztűl</li>
+<li>Zene és média Bluetoothon keresztül</li>
 <li>Egyéni vezetési profilok beállítása</li>
 <li>Performance fékek, Carbon hátsó légterelő, Chrome pedálok (Performance)</li>
 <li>Track mód(Performance)</li>
 <li>Full Selft Driving lehetősége</li>
 <li>LED-fényszórók</li>
-<li>12db Külső ultrahangos érzélő</li>
+<li>12db Külső ultrahangos érzékelő</li>
 <li>Állófűtés és hűtés</li>
 <li>360° kamera rendszer</li>
 <li>15" érintés érzékeny kijelző</li>

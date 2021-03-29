@@ -6,6 +6,7 @@
     <meta name="HandheldFriendly" content="true">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <title>Tesla Model S ár konfigurátor | mah-ev.hu</title>
     <meta name="description" content="Tervezze meg Tesla Model S elektromos autóját a MAH ZRT. Tesla konfigurátorával. Rendelje meg és kapja kézhez a Tesla Model S-t Magyarországon egyedülállóan rövid időn belül." />
     <meta property="fb:app_id" content="1192951680871368" />
     <meta property="og:type" content="website" />
@@ -26,11 +27,11 @@
     <meta name="dcterms.format" content="text/html" />
 
     <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
-    <script src="/resources/js/config-ms.js?v=<?php print rand(1,100000); ?>"></script>
-    <script src="/resources/js/config-init-ms.js?v=<?php print rand(1,100000); ?>"></script>
-    <script src="/resources/js/slider.js?v=<?php print rand(1,100000); ?>"></script>
+    <script src="/resources/js/config-ms.js?v=11"></script>
+    <script src="/resources/js/config-init-ms.js"></script>
+    <script src="/resources/js/slider.min.js?v=4"></script>
   </head>
-  <body class="debug-screens bg-white model model-s"> 
+  <body class="bg-white model model-s"> 
 
 
     
@@ -103,7 +104,7 @@
             </ul>
         </div>
         <!--innerwrapper-->
-        <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+        <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
             <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
             <picture>
                 <source media="(max-width: 799px)" srcset="/resources/img/modelS-mountain-mobile.jpg">
@@ -331,7 +332,7 @@
     
         <h3 class="font-semibold">Tesla Model S</h3>
     
-    <h2 class="text-2xl md:text-3xl leading-snug">Konfigurator</h2>
+    <h2 class="text-2xl md:text-3xl leading-snug">Konfigurátor</h2>
     <div class="w-16 border-t-2 border-emerald-500 mx-auto md:ml-0 my-4 md:my-8"></div>
 </div>
         <div class="bg-white rounded-full text-emerald-500 w-16 h-16 z-10 OFFabsolute left-0 top-0 hidden md:block md:ml-auto xl:ml-0">
@@ -419,7 +420,7 @@
         </span>
     </div>
     <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
-        <div>153 890 €</div>
+        <div>164 550 €</div>
     </div>
 </div>
             
@@ -894,14 +895,13 @@
     <div class="product min-h-16 lg:col-span-2">
         <div class="_configurator-3d">
             <div class="absolute inset-0">
-                <!-- <img class="inset-0 absolute border-b-2 border-gray-100" src="/resources/img/3dplaceholder.jpg" alt=""> -->
                 <div id="slide">
                     <form>
-                        <input type="range" name="slider" id="slider" class="slider" min="0" max="101" value="48">
+                        <input type="range" name="slider" id="slider" class="slider" min="0" max="101" value="20">
                     </form>
                 </div>
             </div>
-            <div class="coming-soon">Hamarosan frissítve...</div>
+            <!-- <div class="coming-soon">Hamarosan frissítve...</div> -->
             
         </div>
 
@@ -1221,7 +1221,7 @@
 <li>USB-C port</li>
 <li>Home Link - integrált garázskapu nyitó</li>
 <li>Elektromosan nyitható és zárható csomagtérajtó</li>
-<li>Prémium Connect (3-évig): Műholdas térképek és valós idejű forgalmi információk kijelzése, Internetes zene streaming, gyakori frissítések mobilhálozaton keresztűl, internet böngésző                       </li>
+<li>Prémium Connect (3-évig): Műholdas térképek és valós idejű forgalmi információk kijelzése, Internetes zene streaming, gyakori frissítések mobilhálózaton keresztül, internet böngésző                       </li>
 <li>Full Self Driving - Teljes önevezető funkció lehetősége</li>
 <li>12 ultrahangos szenzor</li>
 <li>360° kamera rendszer</li>

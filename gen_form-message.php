@@ -2,8 +2,29 @@
 <html lang="en">
   <head>
     <?php include('./gen_header.php'); ?>
+
+    <title>Tesla autókkal kapcsolatos bármilyen kérdés esetén vegye fel velünk a kapcsolatot!</title>
+
+    <meta name="description" content="Érdeklődik a Tesla modellek árával, Tesla megrendelési folyamattal kapcsolatban? Szívesen segítünk!" />
+    <meta property="fb:app_id" content="1192951680871368" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tesla hírek az autógyártásról, a Tesla cég egyéb termékeiről, szolgáltatásairól és kutatásairól. | mah-ev.hu" />
+    <meta property="og:url" content="<?php print (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
+    <meta property="og:title" content="Tesla autókkal kapcsolatos bármilyen kérdés esetén vegye fel velünk a kapcsolatot!" />
+    <meta property="og:determiner" content="auto" />
+    <meta property="og:description" content="Érdeklődik a Tesla modellek árával, Tesla megrendelési folyamattal kapcsolatban? Szívesen segítünk!" />
+    <meta property="og:image" content="https://mah-ev.hu/resources/img/model3-city.jpg" />
+    <meta property="og:image:url" content="https://mah-ev.hu/resources/img/model3-city.jpg" />
+    <meta property="og:image:secure_url" content="https://mah-ev.hu/resources/img/model3-city.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://www.mah-ev.hu/" />
+    <meta name="twitter:title" content="Tesla autókkal kapcsolatos bármilyen kérdés esetén vegye fel velünk a kapcsolatot!" />
+    <meta name="dcterms.title" content="Tesla autókkal kapcsolatos bármilyen kérdés esetén vegye fel velünk a kapcsolatot!" />
+    <meta name="dcterms.type" content="Text" />
+    <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
+    <meta name="dcterms.format" content="text/html" />
   </head>
-  <body class="debug-screens bg-white form-message"> 
+  <body class="bg-white form-message"> 
 
     <?php include('./gen_form-message-send.php'); ?>
     
@@ -32,7 +53,7 @@
                     Név / Cégnév*
                 </label>
                 <div class="mt-1 rounded-none shadow-sm">
-                  <input id="name" name="firstname" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5">
+                  <input id="name" name="firstname" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5" REQUIRED>
                 </div>
               </div><!--text input-->
             <div class="sm:col-span-3  lastname">
@@ -64,7 +85,7 @@
                   Email*
                 </label>
                 <div class="mt-1 rounded-none shadow-sm">
-                  <input id="email" name="email" type="email" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5">
+                  <input id="email" name="email" type="email" class="form-input block w-full transition duration-150 ease-in-out sm:text-sm sm:leading-5" REQUIRED>
                 </div>
             </div><!--email input-->
             <div class="sm:col-span-6">

@@ -2,7 +2,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-    <title>MAH-EV</title>
     <link rel="apple-touch-icon" sizes="57x57" href="/resources/favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/resources/favicons/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/resources/favicons/apple-icon-72x72.png">
@@ -16,18 +15,21 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/resources/favicons/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/resources/css/style.css">
     <link rel="stylesheet" href="/resources/css/rangeslider.css">
-    <link rel="stylesheet" href="/resources/css/custom.css?v=<?php print rand(1,100000); ?>">
+    <link rel="stylesheet" href="/resources/css/custom.css?v=12">
     <script src="/resources/js/all.js"></script>
-    <script src="/resources/js/base.js?v=<?php print rand(1,100000); ?>"></script>
+    <script src="/resources/js/base.min.js"></script>
     <script src="/resources/js/init-offer.js"></script>
-    
-    <?php header("Cache-Control: public, max-age=604800, immutable"); ?>
-    
-  
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P48J9C6GVS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-P48J9C6GVS');
+    </script>

@@ -6,6 +6,7 @@
     <meta name="HandheldFriendly" content="true">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <title>Tesla Model Y ár konfigurátor | mah-ev.hu</title>
     <meta name="description" content="Tervezze meg Tesla Model Y elektromos autóját a MAH ZRT. Tesla konfigurátorával. Rendelje meg és kapja kézhez a Tesla Model Y-t Magyarországon egyedülállóan rövid időn belül." />
 
     <meta property="fb:app_id" content="1192951680871368" />
@@ -26,12 +27,12 @@
     <meta name="dcterms.identifier" content="https://www.mah-ev.hu/" />
     <meta name="dcterms.format" content="text/html" />
 
-    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css?v=<?php print rand(1,100000); ?>">
-    <script src="/resources/js/config-my.js?v=<?php print rand(1,100000); ?>"></script>
-    <script src="/resources/js/config-init-my.js?v=<?php print rand(1,100000); ?>"></script>
-    <script src="/resources/js/slider.js?v=<?php print rand(1,100000); ?>"></script>
+    <link rel="stylesheet" href="/resources/css/custom-mobile-slider.css">
+    <script src="/resources/js/config-my.min.js?v=7"></script>
+    <script src="/resources/js/config-init-my.js"></script>
+    <script src="/resources/js/slider.min.js?v=2"></script>
   </head>
-  <body class="debug-screens bg-white model"> 
+  <body class="bg-white model"> 
 
 
     
@@ -104,7 +105,7 @@
             </ul>
         </div>
         <!--innerwrapper-->
-        <div class="img absolute inset-0 z-negative mx-auto gradient-overlay">
+        <div class="img absolute inset-0 z-negative mx-auto gradient-overlay-5">
             <!-- <img id="parallax-hero" class="block object-cover object-center w-full h-full" src="/resources/img/product_2400x1600_proba_3.jpg" alt=""> -->
             <picture>
                 <source media="(max-width: 799px)" srcset="/resources/img/home__model-y-mobile.jpg">
@@ -307,7 +308,7 @@
     
         <h3 class="font-semibold">Tesla Model Y</h3>
     
-    <h2 class="text-2xl md:text-3xl leading-snug">Konfigurator</h2>
+    <h2 class="text-2xl md:text-3xl leading-snug">Konfigurátor</h2>
     <div class="w-16 border-t-2 border-emerald-500 mx-auto md:ml-0 my-4 md:my-8"></div>
 </div>
         <div class="bg-white rounded-full text-emerald-500 w-16 h-16 z-10 OFFabsolute left-0 top-0 hidden md:block md:ml-auto xl:ml-0">
@@ -708,11 +709,12 @@
     </div>
 </div>
 
+
+<!--
 <div role="radio" tabindex="0" aria-checked="false" aria-labelledby="_radio-extras toggle-label10" class="_radio-extras border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pb-2 sm:pt-4">
 
     <div class="flex items-center space-x-3 col-span-2">
         <span class="radio bg-white relative inline-flex flex-shrink-0 h-6 w-6 border-2 border-gray-200 rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
-            <!-- On: "scale-100", Off: "scale-0" -->
             <span aria-hidden="true" class="inline-block h-3 w-3 m-auto rounded-full bg-emerald-500 shadow transform transition ease-in-out duration-200"></span>
         </span>
         <span id="toggle-label10" class="leading-5 flex">
@@ -729,7 +731,7 @@
         <div>3 310 €</div>
     </div>
 </div>
-
+-->
 
 
  </div>
@@ -752,7 +754,7 @@
                 
                 <div class="flex-shrink">
                     <span class="w-full block text-sm font-semibold">Autopilot</span>
-                    <span class="hidden sm:inline w-full block text-xs"></span>
+                    <span class="hidden sm:inline w-full block text-xs">Lehetővé teszi az automatikus kormányzást, gyorsulást és fékezést, figyelembe véve járműveket és gyalogosokat</span>
                 </div>
             </span>
         </div>
@@ -775,7 +777,7 @@
                 <div class="flex-shrink">
                     <span class="w-full block text-sm font-semibold">Full self driving</span>
                     
-                        <span class="hidden sm:inline w-full block text-xs"></span>
+                        <span class="hidden sm:inline w-full block text-xs">Magában foglalja az alap Autopilot és Továbbfejlesztett Autopilot összes funkcióját | Automatikusan felismeri és reagál  a közlekedési lámpákra és jelzőtáblákra | Közeljövőben : Automatikus vezetés városban</span>
                     
                 </div>
             </span>
@@ -805,8 +807,30 @@
         <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
             <div>650 €</div>
         </div>
+    </div>
+
+    <div role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="_toggle-extras toggle-label1" class="_toggle-extras towing-hook border-b-2 border-gray-50 cursor-pointer focus:border-emerald-200 focus:outline-none gap-4 grid grid-cols-3 off pb-2 pt-2 select-none sm:gap-8 sm:pt-4">
+        <div class="flex items-center space-x-3 col-span-2">
+            <!-- On: "bg-indigo-600", Off: "bg-gray-200" -->
+            <span class="switch bg-gray-200 relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full transition-colors ease-in-out duration-200 focus:outline-none focus:shadow-outline">
+                <!-- On: "translate-x-5", Off: "translate-x-0" -->
+                <span aria-hidden="true" class="translate-x-0 inline-block h-5 w-5 rounded-full bg-white shadow transform transition ease-in-out duration-200"></span>
+            </span>
+            <span id="toggle-label1" class="leading-5">
+                <span class="w-full block text-sm font-semibold">Vonóhorog</span>
+                
+                    <span class="hidden sm:inline w-full block text-xs"></span>
+                
+            </span>
+        </div>
+        <div class="price text-sm leading-4 font-semibold text-right flex items-center justify-end">
+            <div>1 450 €</div>
+        </div>
     </div> 
-</div>
+        
+    </div>
+
+
 
 
     </div>
@@ -817,7 +841,7 @@
                 <!-- <img class="inset-0 absolute border-b-2 border-gray-100" src="/resources/img/3dplaceholder.jpg" alt=""> -->
                 <div id="slide">
                     <form>
-                        <input type="range" name="slider" id="slider" class="slider" min="0" max="101" value="48">
+                        <input type="range" name="slider" id="slider" class="slider" min="0" max="101" value="20">
                     </form>
                 </div>
             </div>
@@ -962,7 +986,7 @@
                 <a href= "" class= "text-white border-white border-2 bg-  font-semibold inline-block leading-5 px-6 py-3 rounded-sm text-sm text-center text-white tracking-wider uppercase duration-150 ease-in-out">ajánlatot kérek</a>
             </div>
             <div class="text-gray-500 font-semibold text-sm pt-2">
-                bruttó vételár <span class="text-white">65 310 €</span>
+                bruttó vételár <span class="text-white sum-price">65 310 €</span>
             </div>
         </div>
     </div><!--offer bar-->
@@ -1118,7 +1142,6 @@
         </ul>
     </div><!--Technikai adatok-->
 
-                <!--
                 <div class="col2 bg-gray-50 p-4">
                     <div class=" _section-title2 _io col-span-full xl:w-full text-gray-500 leading-loose text-center mx-auto md:text-left md:mx-0 max-w-md">
     
@@ -1127,11 +1150,33 @@
     <h2 class="text-2xl md:text-3xl leading-snug">Felszereltség</h2>
     <div class="w-16 border-t-2 border-emerald-500 mx-auto md:ml-0 my-4 md:my-8"></div>
 </div>
-             <ul class="font-bold text-gray-500 text-sm uppercase">
+                    <ul class="font-bold text-gray-500 text-sm uppercase">
 
-                
-
-            </ul>
+                        <li>12db utlrahangos érzékelő</li>
+<li>360° kamera rendszer</li>
+<li>15" érintésérzékeny kijelző</li>
+<li>FSD - Full Selft Driving lehetősége</li>
+<li>UV Védett panoráma napfénytető</li>
+<li>Prémium Audio rendszer : (14 hangszóró, 1 mélynyomó, 2 erősítő)</li>
+<li>12-irányban állítható első elektromos ülések</li>
+<li>Ülésfűtés elől és hátul (Long Range, Performance)</li>
+<li>Indukciós okostelefon töltés 2 telefon számára</li>
+<li>Prémium Connect (1-évig): Műholdas térképek és valós idejű forgalmi információk kijelzése, Internetes zene streaming, gyakori frissítések mobilhálózaton keresztül, internet böngésző</li>
+<li>LED-Ködlámpák (Long Range, Performance)</li>
+<li>USB-C port</li>
+<li>Zene és média Bluetoothon keresztül</li>
+<li>Egyéni vezetési profilok beállítása</li>
+<li>Performance fékek, Carbon hátsó légterelő, Chrome pedálok (Performance)</li>
+<li>Track mód(Performance)</li>
+<li>LED-fényszórók</li>
+<li>12db Külső ultrahangos érzékelő</li>
+<li>Állófűtés és -hűtés</li>
+<li>Elektromosan nyitható és zárható csomagtérajtó</li>
+<li>Dupla üvegezés</li>
+<li>Memória funkció (Ülések, kormány,tükrök)</li>
+<li>Hőszivattyús fűtési- és hűtési rendszer</li>
+<li>Home Link - Integrált Garázskapu nyitó</li>
+                    </ul>
                 </div><!--Felszereltség-->
             
             </div>
